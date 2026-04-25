@@ -1,4 +1,24 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU_1|1.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: rZgu2lJcC2yrYnx66znee-Z75mW6m4TRfWt7_neoEVI
+    short-id: '!!str caa0a516476ad539'
+  server: ru-selectel-01.com
+  servername: sni.ru-selectel-01.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 727d147c-9e95-4d3f-9121-c05853603503
+  xudp: true
 - name: RU_speednode_0118
   network: ws
   password: '!!str 1234567890'

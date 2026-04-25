@@ -1,52 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-  ws-headers:
-    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-  ws-headers:
-    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
+- client-fingerprint: chrome
   name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: a95a83d7-b9cf-43ad-8c74-4df64f608422
-  ws-headers:
-    Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
+  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
+  port: 443
+  server: cloudflare-ip.mofashi.ltd
+  sni: aa.beijng.dpdns.org
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
-    path: /
-  ws-path: /
+      Host: aa.beijng.dpdns.org
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 'B - 🇯🇵 JP 06 TG: @nodpai'
@@ -55,17 +20,29 @@ proxies:
   server: planb.mojcn.com
   type: vmess
   udp: true
-  uuid: a95a83d7-b9cf-43ad-8c74-4df64f608422
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
   ws-headers:
-    Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
+    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  type: vmess
+  uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
+  ws-opts:
+    headers:
+      Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 18 TG: @nodpai'
   network: ws
   port: 16617
   server: m.cnmjin.net
@@ -79,36 +56,42 @@ proxies:
       Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
     path: /
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 16 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 'C - 🇯🇵 JP 21 TG: @nodpai'
   network: ws
-  port: 16617
-  server: m.cnmjin.net
-  type: vmess
-  udp: true
-  uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0
-  ws-headers:
-    Host: f623ed67b551aedf776492df3bf507f4.mobgslb.tbcache.com
+  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
+  port: 443
+  server: cdn.2020111.xyz
+  sni: aa.beijng.dpdns.org
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: f623ed67b551aedf776492df3bf507f4.mobgslb.tbcache.com
-    path: /
-  ws-path: /
+      Host: aa.beijng.dpdns.org
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 'C - 🇯🇵 JP 19 TG: @nodpai'
-  network: http
+  name: 'C - 🇯🇵 JP 23 TG: @nodpai'
+  network: h2
   port: 54291
   server: 103.127.243.66
+  tls: true
   type: vmess
   uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
+- client-fingerprint: chrome
+  name: 'C - 🇯🇵 JP 25 TG: @nodpai'
+  network: ws
+  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
+  port: 443
+  server: xn--b6gac.eu.org
+  sni: aa.beijng.dpdns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aa.beijng.dpdns.org
+    path: /?ed=2048
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -133,3 +116,17 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_5|1.9MB/s
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    tls: true
+  port: 2083
+  server: 54.199.22.197
+  type: ss
+  udp: true

@@ -1,72 +1,54 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
+  port: 443
+  security: tls
+  server: tokyo1.ap221.com
+  servername: tokyo.ap221.com
+  tls: true
+  type: vless
+  uuid: afee9d32-7699-46cc-875d-454dfb95557b
+- name: 🇯🇵JP_2|1.8MB/s|3.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-002.fastervpn.world
+  type: hysteria2
   udp: true
-  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-  ws-headers:
-    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-jp-005.fastervpn.world
   skip-cert-verify: true
   sni: vpn-jp-005.fastervpn.world
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-  ws-headers:
-    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  password: a1102edc-f382-4720-99f5-ecc0a74507af
-  port: 60000
-  server: 212.192.221.153
+- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-011.fastervpn.world
   skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
+  sni: vpn-jp-011.fastervpn.world
+  type: hysteria2
   udp: true
-  udp-relay-mode: native
-  uuid: a1102edc-f382-4720-99f5-ecc0a74507af
-- alterId: 0
-  cipher: auto
+- client-fingerprint: chrome
   name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: a95a83d7-b9cf-43ad-8c74-4df64f608422
-  ws-headers:
-    Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
+  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
+  port: 443
+  server: cloudflare-ip.mofashi.ltd
+  sni: aa.beijng.dpdns.org
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
-    path: /
-  ws-path: /
+      Host: aa.beijng.dpdns.org
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 'B - 🇯🇵 JP 06 TG: @nodpai'
@@ -75,24 +57,119 @@ proxies:
   server: planb.mojcn.com
   type: vmess
   udp: true
-  uuid: a95a83d7-b9cf-43ad-8c74-4df64f608422
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
   ws-headers:
-    Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
+    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: ba81e2cd4af365e9a83fe38cc3223a19.mobgslb.tbcache.com
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: 🇯🇵JP_1|1.2MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
   port: 443
-  server: vpn-jp-001.fastervpn.world
+  server: cj04.71edgeiqiyi.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 日本1
+    flag: 🇯🇵
+    multiplier: 1
+    originalName: 日本1
+    region: 日本
+    tags: []
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  network: ws
+  port: 31772
+  server: 8.211.174.145
+  servername: eiti60o44la.bsld.de5.net
+  sni: eiti60o44la.bsld.de5.net
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: eiti60o44la.bsld.de5.net
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 韩国2
+    flag: 🇰🇷
+    multiplier: 1
+    originalName: 韩国2
+    region: 韩国
+    tags: []
+  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  network: ws
+  port: 28318
+  server: 218.152.147.61
+  servername: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
+  sni: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  type: vmess
+  uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
+  ws-opts:
+    headers:
+      Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 韩国3
+    flag: 🇰🇷
+    multiplier: 1
+    originalName: 韩国3
+    region: 韩国
+    tags: []
+  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  network: ws
+  port: 30032
+  server: 59.24.2.248
+  servername: eiti60o44la.bsld.de5.net
+  sni: eiti60o44la.bsld.de5.net
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: eiti60o44la.bsld.de5.net
+    path: /@Marisa_kristi
+- name: 'B - 🇯🇵 JP 16 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 7443
+  server: jc7U654714155239.asia.steamliveonline.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 'C - 🇯🇵 JP 17 TG: @nodpai'
+  password: 9d9519a0-7df0-42a4-a765-29512ab65f5c
+  port: 55000
+  server: 151.241.130.90
   skip-cert-verify: true
-  sni: vpn-jp-001.fastervpn.world
+  sni: www.bing.com
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 18 TG: @nodpai'
   network: ws
   port: 16617
   server: m.cnmjin.net
@@ -106,65 +183,121 @@ proxies:
       Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: 'B - 🇯🇵 JP 14 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 443
-  server: cj04.71edgeiqiyi.com
-  tls: true
-  type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 16 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: m.cnmjin.net
-  type: vmess
-  udp: true
-  uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0
-  ws-headers:
-    Host: f623ed67b551aedf776492df3bf507f4.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: f623ed67b551aedf776492df3bf507f4.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- name: 'B - 🇯🇵 JP 18 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 443
-  server: jc8U654714155239871.j8cdn.cdnxiaohongshu.com
-  tls: true
-  type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 'C - 🇯🇵 JP 19 TG: @nodpai'
-  network: http
-  port: 54291
-  server: 103.127.243.66
-  type: vmess
-  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 'C - 🇯🇵 JP 20 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 19 TG: @nodpai'
   network: tcp
   port: 52006
   security: tls
   server: cluster-other-1.firstvideocdn.ru
   servername: cluster-other-1.firstvideocdn.ru
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 75807638-6f19-0190-ae08-38492ee85c88
+- encryption: none
+  name: 'C - 🇯🇵 JP 20 TG: @nodpai'
+  network: ws
+  port: 80
+  server: cloudflare.182682.xyz
+  type: vless
+  uuid: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
+  ws-opts:
+    headers:
+      Host: aa.beijng.dpdns.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 'C - 🇯🇵 JP 21 TG: @nodpai'
+  network: ws
+  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
+  port: 443
+  server: cdn.2020111.xyz
+  sni: aa.beijng.dpdns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aa.beijng.dpdns.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 韩国2
+    flag: 🇰🇷
+    multiplier: 1
+    originalName: 韩国2
+    region: 韩国
+    tags: []
+  name: 'C - 🇯🇵 JP 22 TG: @nodpai'
+  network: ws
+  port: 32312
+  server: 210.103.67.11
+  servername: eiti60o44la.bsld.de5.net
+  sni: eiti60o44la.bsld.de5.net
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: eiti60o44la.bsld.de5.net
+    path: /@Marisa_kristi
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'C - 🇯🇵 JP 23 TG: @nodpai'
+  network: h2
+  port: 54291
+  server: 103.127.243.66
+  tls: true
+  type: vmess
+  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
 - client-fingerprint: chrome
   host: navi.bankrate.com
-  name: 'C - 🇯🇵 JP 21 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 24 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '!!str 2da72ce6'
+  security: reality
+  server: 176.97.73.155
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
+  uuid: b9b0af00-8fca-4fb2-9e83-17d7a972a282
+- client-fingerprint: chrome
+  name: 'C - 🇯🇵 JP 25 TG: @nodpai'
+  network: ws
+  password: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
+  port: 443
+  server: xn--b6gac.eu.org
+  sni: aa.beijng.dpdns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aa.beijng.dpdns.org
+    path: /?ed=2048
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇯🇵 JP 26 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI
+    short-id: '!!str ea9f32c58bd74201'
+  security: reality
+  server: jp.plus-hit.ru
+  servername: jp.plus-hit.ru
+  tls: true
+  type: vless
+  uuid: ab27403b-7de0-4fe3-8b57-7ab3cb583c32
+- client-fingerprint: chrome
+  encryption: none
+  host: navi.bankrate.com
+  name: 'C - 🇯🇵 JP 27 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -177,8 +310,9 @@ proxies:
   type: vless
   uuid: 9e9c5c92-91a7-45fc-b24c-10980e297a40
 - client-fingerprint: chrome
+  encryption: none
   host: navi.bankrate.com
-  name: 'C - 🇯🇵 JP 23 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 28 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -192,7 +326,7 @@ proxies:
   uuid: 986f03af-2f96-4c53-b9d2-be7667313ee4
 - client-fingerprint: chrome
   host: navi.bankrate.com
-  name: 'D - 🇯🇵 JP 24 TG: @nodpai'
+  name: 'D - 🇯🇵 JP 29 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -203,35 +337,7 @@ proxies:
   servername: navi.bankrate.com
   tls: true
   type: vless
-  uuid: 5bd2e197-30a5-4684-9778-5bdb9ec764fe
-- client-fingerprint: chrome
-  host: navi.bankrate.com
-  name: 'D - 🇯🇵 JP 25 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  security: reality
-  server: 176.97.73.155
-  servername: navi.bankrate.com
-  tls: true
-  type: vless
-  uuid: 3ac45231-8f9f-4688-9b81-a3be2874ef84
-- client-fingerprint: chrome
-  host: navi.bankrate.com
-  name: 'D - 🇯🇵 JP 26 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: '!!str 2da72ce6'
-  security: reality
-  server: 176.97.73.155
-  servername: navi.bankrate.com
-  tls: true
-  type: vless
-  uuid: a04eb661-100e-4c92-8821-9a58cb4578d5
+  uuid: 04b88b33-d39b-4e0f-a193-7f95b14bd2af
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -256,16 +362,16 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_2|1.8MB/s
+- name: 🇯🇵JP_1|1.3MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-jp-002.fastervpn.world
+  server: vpn-jp-001.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-jp-002.fastervpn.world
+  sni: vpn-jp-001.fastervpn.world
   type: hysteria2
 - down: ''
   fingerprint: ''
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  name: 🇯🇵JP_2|1.4MB/s
   obfs: ''
   obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -275,3 +381,48 @@ proxies:
   sni: vpn-jp-004.fastervpn.world
   type: hysteria2
   up: ''
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 🇯🇵JP_3|3.5MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-003.fastervpn.world
+  type: hysteria2
+  udp: true
+- name: 🇯🇵JP_4|2.6MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-018.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-018.fastervpn.world
+  type: hysteria2
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_5|1.9MB/s
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    tls: true
+  port: 2083
+  server: 54.199.22.197
+  type: ss
+  udp: true
+- name: 🇯🇵JP_6|1.1MB/s
+  network: ws
+  port: 8606
+  server: 31.57.172.25
+  servername: snippet.gfw.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.qzz.io
+    path: /danfeng
+  xudp: true

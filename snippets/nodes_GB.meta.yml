@@ -1,12 +1,11 @@
 proxies:
-- name: 🇬🇧GB_1|1.4MB/s
-  obfs: salamander
-  obfs-password: cry_me_a_r1ver_2026
-  password: strong-secret-pass-777
-  port: 444
-  server: 45.140.167.209
+- name: 🇬🇧 英国-FF75EC41|2.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-uk-002.fastervpn.world
   skip-cert-verify: true
-  sni: www.microsoft.com
+  sni: vpn-uk-002.fastervpn.world
+  tfo: false
   type: hysteria2
 - name: GB_speednode_0079
   network: ws
