@@ -1,10 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'C - 🇯🇵 JP 14 TG: @nodpai'
+  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
+  network: ws
+  port: 22013
+  server: 76c3.earthdraft.onezz.top
+  type: vmess
+  uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
+  ws-opts:
+    headers:
+      Host: ithome.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇯🇵 JP 07 TG: @nodpai'
   network: ws
   port: 16617
-  server: planb.mojcn.com
+  server: t.cnmjcn.cyou
   type: vmess
   uuid: 302457f5-6848-4e2b-be16-193131ab6374
   ws-opts:
@@ -13,11 +25,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇯🇵 JP 15 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
   network: ws
   port: 16617
   server: planb.mojcn.com
   type: vmess
+  udp: true
   uuid: 881da2de-238e-425e-a7e7-389f4842e545
   ws-opts:
     headers:
@@ -25,51 +38,62 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇯🇵 JP 16 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: 7927975e-9616-412b-b508-983ab960377d
-  ws-opts:
-    headers:
-      Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   http-opts:
-    headers: {}
+    method: GET
     path:
     - /ABCDE
-  name: 'C - 🇯🇵 JP 18 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 17 TG: @nodpai'
   network: http
+  port: 58051
+  server: 103.127.243.55
+  tls: false
+  type: vmess
+  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+- alterId: 0
+  cipher: auto
+  delay: 2030
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 'C - 🇯🇵 JP 21 TG: @nodpai'
+  network: http
+  port: 53224
+  server: 103.127.243.49
+  type: vmess
+  uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 24 TG: @nodpai'
+  network: h2
   port: 55386
   server: 103.127.243.60
-  tls: false
+  tls: true
   type: vmess
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 13.231.195.214
+  port: 3122
+  server: 18.183.73.62
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 4380
-  server: 13.231.195.214
+  port: 2001
+  server: 18.183.73.62
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 4380
-  server: 160.16.132.38
+  port: 9201
+  server: 18.183.73.62
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
