@@ -1,11 +1,16 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  port: 30806
-  server: v6.hdacd.com
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
