@@ -1,38 +1,119 @@
 proxies:
-- name: SE_speednode_0092
+- client-fingerprint: chrome
+  name: 🇩🇪DE_1|1.5MB/s
   network: ws
   password: '!!str 1234567890'
-  port: 443
-  server: 194.87.77.91
+  port: '443'
+  server: 144.31.98.216
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: SE_speednode_0094
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 🇩🇪DE_2|1.0MB/s
   network: ws
   password: '!!str 1234567890'
-  port: 443
-  server: 194.87.77.2
+  port: '443'
+  server: 91.107.220.103
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 🇩🇪DE_4|2.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-de-002.fastervpn.world
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 🇩🇪DE_3|1.3MB/s
+  network: ws
+  password: '!!str 1234567890'
+  port: '443'
+  server: 152.53.236.205
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- encryption: none
+  name: 🇩🇪DE_4|1.0MB/s
+  network: ws
+  port: '80'
+  server: 104.20.5.134
+  type: vless
+  udp: true
+  uuid: fc53bae5-92f5-4572-9ce8-9e56901479f1
+  ws-opts:
+    headers:
+      Host: 尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞3亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /amo-mohammad
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_5|3.0MB/s
+  network: ws
+  port: '8443'
+  server: 104.20.6.134
+  servername: a11.bioritalin.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6c9d5223-fec2-4eb0-9293-007dead02b77
+  ws-opts:
+    headers:
+      Host: a11.bioritalin.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇩🇪DE_6|1.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4
+    short-id: '!!str fbbffd72f5121b83'
+  server: 161.104.105.157
+  servername: cdn1.ozone.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d9de5ad-4ce8-4d1e-870d-59fb859f5fa4
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_7|1.9MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: '2096'
+  server: 104.20.6.134
   skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
-  tfo: false
-  type: hysteria2
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /tr
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: DE_speednode_0035

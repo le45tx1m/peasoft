@@ -1,8 +1,46 @@
 proxies:
-- client-fingerprint: chrome
-  ech: cloudflare-ech.com https://dns.alidns.com/dns-query
-  encryption: none
+- encryption: none
+  flow: xtls-rprx-vision
   name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  port: 443
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  tls: true
+  type: vless
+  uuid: 9b1ec8dd-9c94-484a-b01f-a2946d18ce36
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
+  port: 443
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  tls: true
+  type: vless
+  uuid: c71ab922-2c35-4f6e-abfe-4950658f7bce
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+  port: 12507
+  server: gtmaws.zfym.online
+  servername: live.bilibili.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 344caaec-e3ce-4113-ab72-db2b59f9b5c4
+- name: 'A - 🇹🇼 TW 04 TG: @nodpai'
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-tw-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-tw-001.fastervpn.world
+  type: hysteria2
+  udp: true
+- name: 'B - 🇹🇼 TW 05 TG: @nodpai'
   network: ws
   port: 13579
   security: tls
@@ -14,45 +52,34 @@ proxies:
   ws-opts:
     headers:
       Host: tptpss.pages.dev
-    path: /https://203.69.23.34:443
-- name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+    path: /https://203.69.23.34:443fp=chrome
+- name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   obfs: ''
   obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-tw-001.fastervpn.world
+  password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
+  port: 13005
+  server: seednet-2.388898.xyz
   skip-cert-verify: true
-  sni: vpn-tw-001.fastervpn.world
+  sni: www.bing.com
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
-  port: 12507
-  server: gtmaws.zfym.online
-  servername: live.bilibili.com
+- name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
+  port: 13003
+  server: seednet-2.388898.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 344caaec-e3ce-4113-ab72-db2b59f9b5c4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
-  port: 11788
-  server: gtmaws.zfym.online
-  servername: live.bilibili.com
+  sni: www.bing.com
+  type: hysteria2
+- name: 'C - 🇹🇼 TW 08 TG: @nodpai'
+  password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
+  port: 13001
+  server: seednet-2.388898.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 344caaec-e3ce-4113-ab72-db2b59f9b5c4
+  sni: www.bing.com
+  type: hysteria2
 - alpn:
   - http/1.1
-  cert-sha: EF087A3208B641D6309A4A5F576B906DF335B841535E5E9A10517CBF2CF3E6CB
-  client-fingerprint: chrome
-  encryption: none
-  name: 'C - 🇹🇼 TW 05 TG: @nodpai'
+  name: 'C - 🇹🇼 TW 09 TG: @nodpai'
   network: ws
   port: 6235
   security: tls
@@ -65,10 +92,10 @@ proxies:
   ws-opts:
     headers:
       Host: baidu.com
-    path: /xxxxhttp
+    path: /xxxxhttpfp=chrome
 - client-fingerprint: chrome
   encryption: none
-  name: 'C - 🇹🇼 TW 06 TG: @nodpai'
+  name: 'C - 🇹🇼 TW 10 TG: @nodpai'
   network: ws
   port: 6235
   security: tls
@@ -84,10 +111,7 @@ proxies:
     path: /xxxxhttp
 - alpn:
   - http/1.1
-  cert-sha: EF087A3208B641D6309A4A5F576B906DF335B841535E5E9A10517CBF2CF3E6CB
-  client-fingerprint: chrome
-  encryption: none
-  name: 'C - 🇹🇼 TW 07 TG: @nodpai'
+  name: 'C - 🇹🇼 TW 11 TG: @nodpai'
   network: ws
   port: 6235
   security: tls
@@ -100,25 +124,8 @@ proxies:
   ws-opts:
     headers:
       Host: baidu.com
-    path: /xxxxhttp
-- name: 'C - 🇹🇼 TW 08 TG: @nodpai'
-  password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
-  port: 13001
-  server: seednet-2.388898.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 'C - 🇹🇼 TW 09 TG: @nodpai'
-  obfs: ''
-  obfs-password: ''
-  password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
-  port: 13003
-  server: seednet-2.388898.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 'C - 🇹🇼 TW 11 TG: @nodpai'
+    path: /xxxxhttpfp=chrome
+- name: 'C - 🇹🇼 TW 14 TG: @nodpai'
   password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
   port: 13006
   server: seednet-2.388898.xyz

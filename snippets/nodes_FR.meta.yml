@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- down: ''
+  fingerprint: ''
+  name: 🇫🇷FR_1|1.9MB/s|2.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: vpn-fr-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-fr-002.fastervpn.world
+  type: hysteria2
+  up: ''

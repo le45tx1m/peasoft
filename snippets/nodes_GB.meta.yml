@@ -1,13 +1,4 @@
 proxies:
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇬🇧 英国 | GBR 5|2.0MB/s|1.4MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-001.fastervpn.world
-  type: hysteria2
-  udp: true
 - name: GB_speednode_0052
   network: ws
   password: '!!str 1234567890'
