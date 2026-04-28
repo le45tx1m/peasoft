@@ -7,7 +7,7 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
   network: http
   port: 54291
   server: 103.127.243.66
@@ -20,7 +20,7 @@ proxies:
     headers: {}
     path:
     - /ABCDE
-  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
   network: http
   port: 55386
   server: 103.127.243.60
@@ -51,3 +51,15 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_1|1.5MB/s
+  network: tcp
+  port: '8693'
+  server: 212.50.246.20
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c8562251-cf57-44c1-ad2f-b2c69d9bd675
+  xudp: true

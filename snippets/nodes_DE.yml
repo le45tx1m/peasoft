@@ -1,133 +1,141 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_2|1.2MB/s
-  network: ws
-  password: mSzFVhUczD
-  port: '443'
-  server: 104.20.5.134
-  skip-cert-verify: false
-  sni: abest.api-tel.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /
-- name: 🇩🇪DE_3|1009KB/s
+- client-fingerprint: chrome
+  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 104.20.5.134
+  port: 5700
+  server: 43.135.30.215
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- name: DE_speednode_0036
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
   network: ws
-  password: '!!str 1234567890'
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 193.23.218.192
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
+  server: 43.154.4.49
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /
-- name: DE_speednode_0037
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'A - 🇩🇪 DE 03 TG: @nodpai'
   network: ws
-  password: '!!str 1234567890'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 28812
+  server: 185.106.176.150
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 193.23.218.192
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
+  server: 47.76.218.163
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: DE_speednode_0038
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
   network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 185.219.84.221
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
+  password: 8r<[9'l6hAO#8ZQi
+  port: 39792
+  server: 38.55.125.175
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: DE_speednode_0039
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'A - 🇩🇪 DE 07 TG: @nodpai'
   network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 202.61.195.167
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
+  password: 8r<[9'l6hAO#8ZQi
+  port: 52122
+  server: 116.206.178.205
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: DE_speednode_0040
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'A - 🇩🇪 DE 08 TG: @nodpai'
   network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 202.61.195.167
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
+  password: 8r<[9'l6hAO#8ZQi
+  port: 58879
+  server: 103.244.88.189
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /
-- name: DE_speednode_0041
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'B - 🇩🇪 DE 09 TG: @nodpai'
   network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 194.164.198.156
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
+  password: 8r<[9'l6hAO#8ZQi
+  port: 28551
+  server: 116.206.178.228
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: DE_speednode_0042
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'B - 🇩🇪 DE 10 TG: @nodpai'
   network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 185.219.84.221
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
+  password: 8r<[9'l6hAO#8ZQi
+  port: 20082
+  server: 102.134.55.53
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /
-- name: DE_speednode_0043
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'B - 🇩🇪 DE 11 TG: @nodpai'
   network: ws
-  password: '!!str 1234567890'
-  port: 2053
-  server: 202.61.226.121
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
+  password: 8r<[9'l6hAO#8ZQi
+  port: 30019
+  server: 210.99.119.3
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2

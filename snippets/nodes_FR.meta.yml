@@ -1,30 +1,25 @@
 proxies:
-- name: 🇫🇷FR_1|1.8MB/s
+- name: 'A - 🇫🇷 FR 01 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-fr-001.fastervpn.world
   skip-cert-verify: true
   sni: vpn-fr-001.fastervpn.world
-  tfo: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_2|1.2MB/s
-  network: ws
-  port: '2053'
-  server: 104.20.6.134
-  servername: h1.multiroxynet.com
-  tls: true
-  type: vless
+- auth: dongtaiwang.com
+  name: 'B - 🇫🇷 FR 02 TG: @nodpai'
+  password: dongtaiwang.com
+  port: 41283
+  ports: 40022,41000-42000
+  server: 163.172.113.118
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
   udp: true
-  uuid: d80e6151-1f3b-49dd-b24c-332621246506
-  ws-opts:
-    headers:
-      Host: h1.multiroxynet.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: ''
-  xudp: true
+- name: 'B - 🇫🇷 FR 03 TG: @nodpai'
+  password: dongtaiwang.com
+  port: 40022
+  server: 163.172.113.118
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2

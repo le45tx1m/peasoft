@@ -1,40 +1,34 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
   name: 'A - 🇸🇬 SG 01 TG: @nodpai'
-  network: tcp
-  port: 10000
-  reality-opts:
-    public-key: WgE2knNm8nW2W28B2JlX8ouIuWf3gRYkBRAoTksq3zQ
-    short-id: '!!str 8f3887'
-  server: nodesjp.nodejiajia.online
-  servername: www.microsoft.com
-  skip-cert-verify: false
+  network: ws
+  port: 56602
+  security: tls
+  server: 43.247.133.22
+  servername: snippet.gfw.qzz.io
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.qzz.io
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 02 TG: @nodpai'
+  network: ws
+  port: 8443
+  server: cf3.danfeng.eu.org
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 74484df2-6208-424a-a3f2-1561937b2f36
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
-  network: tcp
-  port: 10000
-  reality-opts:
-    public-key: xY27NSVUwpWjk7fQMrshxVuNSa5OcdxZFsnUbnPFWQw
-    short-id: '!!str b871b39c5622'
-  server: sjp02.nodejiajia.online
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 74484df2-6208-424a-a3f2-1561937b2f36
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: mug.support.gfw.hidns.co
+    path: /danfeng?ed=2560
 - name: 'B - 🇸🇬 SG 03 TG: @nodpai'
   obfs: salamander
   obfs-password: OrT7yQQIMqcvKdet
@@ -44,114 +38,38 @@ proxies:
   skip-cert-verify: true
   sni: hy2-sg.onetaplink.app
   type: hysteria2
-- name: 'B - 🇸🇬 SG 04 TG: @nodpai'
+- encryption: none
+  name: 'C - 🇸🇬 SG 04 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 140.245.43.3
+  server: 45.40.153.42
+  servername: snippet.danfeng.rr.kg
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: snzeys.edge-node-a1.fgfw.qzz.io
+      Host: snippet.danfeng.rr.kg
     path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🇰🇷KR_2|1.2MB/s
+- encryption: none
+  name: 'C - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
-  port: 15993
+  port: 36364
   security: tls
-  server: 119.205.128.200
-  servername: mug.support.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: mug.support.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
-  network: ws
-  port: 2083
-  security: tls
-  server: 125.227.233.197
-  servername: 1-aym.pages.dev
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 1-aym.pages.dev
-    path: /
-- name: 'B - 🇸🇬 SG 07 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 142.93.111.174
+  server: 158.179.174.225
+  servername: snippet.danfeng.rr.kg
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: mug.support.gfw.hidns.co
+      Host: snippet.danfeng.rr.kg
     path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
-  network: ws
-  port: 18979
-  security: tls
-  server: 221.156.27.142
-  servername: mug.support.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: mug.support.gfw.hidns.co
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
-  network: ws
-  port: 39738
-  server: 38.22.236.54
-  servername: mug.support.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: mug.support.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
-  password: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
-  port: 443
-  server: 0be3581e-te9j40-tfpmx4-1mqag.sg.oshuawei.com
-  tls: true
-  type: http
-  username: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'C - 🇸🇬 SG 11 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 06 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -165,23 +83,38 @@ proxies:
   type: vless
   uuid: c603d9a2-a89a-4b62-ac96-346d3b52620c
 - client-fingerprint: chrome
-  name: 'C - 🇸🇬 SG 12 TG: @nodpai'
+  encryption: none
+  name: 'C - 🇸🇬 SG 07 TG: @nodpai'
   network: ws
-  port: 2096
+  port: 2083
   security: tls
-  server: 167.172.183.195
-  servername: mug.support.gfw.hidns.co
+  server: 125.227.233.197
+  servername: 1-aym.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 1-aym.pages.dev
+    path: /
+- encryption: none
+  name: 'C - 🇸🇬 SG 08 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 50.62.175.42
+  servername: snippet.danfeng.rr.kg
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: mug.support.gfw.hidns.co
+      Host: snippet.danfeng.rr.kg
     path: /danfeng
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'C - 🇸🇬 SG 13 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 09 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -194,24 +127,77 @@ proxies:
   tls: true
   type: vless
   uuid: f189684b-6213-4c0d-a2e3-cb8860f5d4c5
-- name: 'C - 🇸🇬 SG 14 TG: @nodpai'
+- name: 'C - 🇸🇬 SG 10 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 206.189.16.130
+  server: 50.62.173.42
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: mug.support.gfw.hidns.co
+      Host: snippet.danfeng.rr.kg
     path: /danfeng
+- encryption: none
+  name: 'C - 🇸🇬 SG 11 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 72.167.230.42
+  servername: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng
+- encryption: none
+  name: 'C - 🇸🇬 SG 12 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 152.42.232.41
+  servername: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng
+- name: 'C - 🇸🇬 SG 13 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 140.245.43.3
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snzeys.edge-node-a1.fgfw.qzz.io
+    path: /danfeng
+- encryption: none
+  name: 'C - 🇸🇬 SG 14 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 144.172.88.117
+  servername: 1-aym.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 1-aym.pages.dev
 - encryption: none
   name: 'C - 🇸🇬 SG 15 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 160.153.138.42
+  server: 165.245.144.113
   servername: snippet.danfeng.rr.kg
   tls: true
   type: vless
@@ -220,36 +206,20 @@ proxies:
     headers:
       Host: snippet.danfeng.rr.kg
     path: /danfeng
-- encryption: none
-  name: 'C - 🇸🇬 SG 16 TG: @nodpai'
+- name: 'C - 🇸🇬 SG 16 TG: @nodpai'
   network: ws
-  port: 443
-  security: tls
-  server: 198.71.188.42
-  servername: snippet.danfeng.rr.kg
-  tls: true
+  port: 80
+  server: partner.zoom.us
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
   ws-opts:
     headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 749
-  h2-opts: {}
-  http-opts: {}
-  name: 'C - 🇸🇬 SG 17 TG: @nodpai'
-  port: 47034
-  server: 47.79.236.9
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6f2879e2-7595-4fc2-ca7e-3c163dbe0d4b
+      Host: free-server.techsonic.ggff.net
+    path: /@Tech_Sonic
 - client-fingerprint: chrome
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
-  name: 'C - 🇸🇬 SG 18 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 17 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -262,133 +232,13 @@ proxies:
     headers:
       Host: 1-aym.pages.dev
     path: /
-- encryption: none
-  name: 'C - 🇸🇬 SG 19 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 178.128.90.108
-  servername: snippet.danfeng.rr.kg
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
-- encryption: none
-  name: 'C - 🇸🇬 SG 20 TG: @nodpai'
-  network: ws
-  port: 36814
-  security: tls
-  server: 220.77.18.195
-  servername: snzeys.edge-node-a1.fgfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snzeys.edge-node-a1.fgfw.qzz.io
-    path: /danfeng
-- encryption: none
-  name: 'C - 🇸🇬 SG 21 TG: @nodpai'
-  network: ws
-  port: 50940
-  security: tls
-  server: 152.69.220.136
-  servername: snippet.danfeng.rr.kg
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
-- name: 'C - 🇸🇬 SG 22 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 194.87.10.241
-  servername: sn1.skylee5.cloudns.ch
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      host: sn1.skylee5.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 'D - 🇸🇬 SG 23 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 156.154.245.83
-  servername: mug.support.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: mug.support.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 'D - 🇸🇬 SG 24 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 89.110.74.27
-  servername: mug.support.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: mug.support.gfw.hidns.co
-    path: /danfeng?ed=2560
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  ech: encryptedsni.com+https://doh.443888.xyz/danfeng
-  encryption: none
-  name: 'D - 🇸🇬 SG 25 TG: @nodpai'
-  network: ws
-  port: 10035
-  security: tls
-  server: 121.154.163.105
-  servername: e43zyc.cdn-edge-jp.fgfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: e43zyc.cdn-edge-jp.fgfw.qzz.io
-    path: /danfeng?ed=2560
-- name: 'D - 🇸🇬 SG 26 TG: @nodpai'
-  network: ws
-  password: '!!str 162534'
-  port: 8443
-  server: 139.180.143.248
-  skip-cert-verify: true
-  sni: cchh2.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 18 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
@@ -413,3 +263,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇸🇬SG_1|2.5MB/s
+  network: ws
+  port: 443
+  server: 54.151.146.21
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng

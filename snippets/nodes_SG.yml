@@ -1,29 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 749
-  h2-opts: {}
-  http-opts: {}
-  name: 'C - 🇸🇬 SG 17 TG: @nodpai'
-  port: 47034
-  server: 47.79.236.9
-  skip-cert-verify: true
+  name: 'C - 🇸🇬 SG 18 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
   type: vmess
-  uuid: 6f2879e2-7595-4fc2-ca7e-3c163dbe0d4b
-- name: 'D - 🇸🇬 SG 26 TG: @nodpai'
-  network: ws
-  password: '!!str 162534'
-  port: 8443
-  server: 139.180.143.248
-  skip-cert-verify: true
-  sni: cchh2.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72

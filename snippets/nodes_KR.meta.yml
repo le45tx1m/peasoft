@@ -1,12 +1,20 @@
 proxies:
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 🇰🇷KR_1|1.6MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-kr-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-003.fastervpn.world
+  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 🇰🇷KR_1|1.0MB/s
+  name: 🇰🇷KR_2|1016KB/s
   network: ws
-  port: 14430
-  server: 112.173.209.206
+  port: 10162
+  server: 14.43.187.155
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -20,150 +28,24 @@ proxies:
       Host: mug.support.gfw.hidns.co
     max-early-data: 2560
     path: /danfeng
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇰🇷KR_3|2.5MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-kr-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-kr-003.fastervpn.world
-  type: hysteria2
-- name: KR_speednode_0073
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_3|1.3MB/s
+  network: ws
+  port: 34567
+  server: 59.27.228.160
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
-- name: KR_speednode_0074
-  network: ws
-  password: '!!str 1234567890'
-  port: 25448
-  server: 118.41.26.148
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: KR_speednode_0075
-  network: ws
-  password: '!!str 1234567890'
-  port: 11965
-  server: 14.45.224.171
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: KR_speednode_0076
-  network: ws
-  password: '!!str 1234567890'
-  port: 30303
-  server: 220.76.161.128
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: KR_speednode_0077
-  network: ws
-  password: '!!str 1234567890'
-  port: 19530
-  server: 222.116.195.135
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: KR_speednode_0078
-  network: ws
-  password: '!!str 1234567890'
-  port: 10035
-  server: 175.197.105.20
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: KR_speednode_0079
-  network: ws
-  password: '!!str 1234567890'
-  port: 30017
-  server: 220.122.102.26
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: KR_speednode_0080
-  network: ws
-  password: '!!str 1234567890'
-  port: 13486
-  server: 220.122.15.78
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: KR_speednode_0081
-  network: ws
-  password: '!!str 1234567890'
-  port: 50001
-  server: 220.127.68.28
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: KR_speednode_0082
-  network: ws
-  password: '!!str 1234567890'
-  port: 23424
-  server: 220.125.240.77
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: KR_speednode_0083
-  network: ws
-  password: '!!str 1234567890'
-  port: 28017
-  server: 49.142.200.31
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng

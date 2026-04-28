@@ -1,66 +1,23 @@
 proxies:
+- name: 'B - 🇹🇼 TW 01 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-tw-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-tw-001.fastervpn.world
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 'C - 🇹🇼 TW 03 TG: @nodpai'
+  encryption: none
+  name: 'C - 🇹🇼 TW 02 TG: @nodpai'
   network: ws
-  port: 6235
-  server: 125.227.219.98
-  servername: baidu.com
+  port: 443
+  security: tls
+  server: 8.6.112.0
+  servername: 2026.hhhhh.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d147
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /xxxxhttp
-- name: 'C - 🇹🇼 TW 04 TG: @nodpai'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 3252
-  server: a9324017-tea5c0-telzv3-4550.twdc1.cdnbytescm.com
-  tls: true
-  type: http
-  username: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- client-fingerprint: chrome
-  name: 🇹🇼TW_1|1.3MB/s
-  network: ws
-  port: '443'
-  server: 167.253.153.253
-  servername: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
-  ws-opts:
-    headers:
-      Host: a.c.e.m.n.o.r.s.u.v.w.x.a.c.trevely.de5.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /?ed=2560fp=random
-  xudp: true
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
-  encryption: none
-  fp: chrome
-  host: snippet.gfw.qzz.io
-  insecure: '0'
-  name: 🇹🇼TW_2|2.8MB/s
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 43.213.148.173
-  servername: snippet.gfw.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.gfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
+      Host: 2026.hhhhh.eu.org

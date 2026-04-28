@@ -1,19 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   name: 'B - 🇭🇰 HK 01 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  security: reality
-  server: 8.218.59.128
-  servername: assets.adobedtm.com
-  tls: true
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -25,7 +12,7 @@ proxies:
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
 - client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
   port: 443
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
@@ -37,67 +24,20 @@ proxies:
   type: vless
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 8443
-  server: 8510e7a9-tea5c0-tfnl0i-au6.hkmpro.wkuaishou.com
-  tls: true
-  type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
-  password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 8443
-  server: dd701cd1-te8ao0-tfn5eh-24c4.hkmpro.wkuaishou.com
-  tls: true
-  type: http
-  username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  network: ws
-  port: 17820
-  security: tls
-  server: s5.db-link.in
-  servername: 48afa0c5c9.shopify.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
-  ws-opts:
-    headers:
-      Host: 48afa0c5c9.shopify.com
-    path: /db102448afa0c5c9fp=chrome
-- name: 'C - 🇭🇰 HK 07 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 104.238.70.253
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'C - 🇭🇰 HK 08 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 109.176.239.253
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'C - 🇭🇰 HK 09 TG: @nodpai'
+- encryption: none
+  name: 'D - 🇭🇰 HK 03 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 193.123.233.168
-  servername: joss.jak.biz.id
+  server: 172.67.75.144
+  servername: dabaius2.sylu.net
   tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 3f9c8463-8610-3ed8-86c8-a26713067825
   ws-opts:
     headers:
-      Host: joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
+      Host: dabaius2.sylu.net
+    path: /db10240eb751d6ab
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -141,3 +81,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇭🇰HK_1|2.6MB/s
+  network: ws
+  port: 443
+  server: 43.154.4.49
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
