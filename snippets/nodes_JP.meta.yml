@@ -1,46 +1,47 @@
 proxies:
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇯🇵JP_3|1.7MB/s
+- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-jp-016.fastervpn.world
   skip-cert-verify: true
   sni: vpn-jp-016.fastervpn.world
   type: hysteria2
-- client-fingerprint: chrome
-  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
   network: ws
-  port: 49058
-  server: 45.93.29.223
-  servername: 1n9fo0l9hl.gike.dpdns.org
+  port: 8082
+  security: tls
+  server: 103.117.102.220
+  servername: kt58ndxywnrrgg.majusti.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 1n9fo0l9hl.gike.dpdns.org
-    path: /@Marisa_kristi
-- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  network: ws
-  port: 8998
-  security: tls
-  server: 45.93.31.193
-  servername: mbstxp9l73tpeylv.ymj.xx.kg
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mbstxp9l73tpeylv.ymj.xx.kg
+      Host: kt58ndxywnrrgg.majusti.dpdns.org
     path: /@Marisa_kristifp=chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+  port: 29025
+  server: 103.100.158.18
+  type: vmess
+  uuid: c45ab62e-5d25-486a-f91e-807fe4b9c23f
+- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  obfs: salamander
+  obfs-password: CF7WJGiw6r1c8imX
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  port: 5443
+  server: jp-hy2.onetaplink.app
+  sni: hy2-jp.onetaplink.app
+  type: hysteria2
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   encryption: none
   flow: ''
-  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
   port: 28318
   server: 218.152.147.61
@@ -59,7 +60,7 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: ''
-  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
   network: ws
   port: 12153
   server: 210.96.92.11
@@ -80,13 +81,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 7443
-  server: jc7U654714155239.asia.steamliveonline.com
-  tls: true
-  type: http
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
 - client-fingerprint: chrome
   encryption: none
@@ -123,22 +117,13 @@ proxies:
     headers:
       Host: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
     path: /@Marisa_kristi
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
-  network: ws
-  port: 37173
-  security: tls
-  server: 14.35.236.28
-  servername: 8a005khup3.mesa.ip-ddns.com
-  skip-cert-verify: true
+- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 7443
+  server: jc7U654714155239.asia.steamliveonline.com
   tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 8a005khup3.mesa.ip-ddns.com
-    path: /@Marisa_kristi
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
 - name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   network: ws
   port: 30032
@@ -152,7 +137,36 @@ proxies:
     headers:
       Host: eiti60o44la.bsld.de5.net
     path: /@Marisa_kristifp=chrome
-- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  network: ws
+  port: 37173
+  security: tls
+  server: 14.35.236.28
+  servername: 8a005khup3.mesa.ip-ddns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 8a005khup3.mesa.ip-ddns.com
+    path: /@Marisa_kristi
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+  network: ws
+  port: 6143
+  security: tls
+  server: 152.69.225.118
+  servername: kt58ndxywnrrgg.majusti.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: kt58ndxywnrrgg.majusti.dpdns.org
+    path: /@Marisa_kristifp=chrome
+- name: 'B - 🇯🇵 JP 14 TG: @nodpai'
   network: ws
   port: 32312
   security: tls
@@ -170,7 +184,7 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: ''
-  name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 15 TG: @nodpai'
   network: ws
   port: 443
   server: store.ubi.com
@@ -189,7 +203,7 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: ''
-  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 16 TG: @nodpai'
   network: ws
   port: 443
   server: staticdelivery.nexusmods.com
@@ -203,46 +217,37 @@ proxies:
     headers:
       Host: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
     path: /@Marisa_kristi
-- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 17 TG: @nodpai'
   network: ws
-  port: 6143
+  port: 37284
   security: tls
-  server: 152.69.225.118
-  servername: kt58ndxywnrrgg.majusti.dpdns.org
+  server: 166.108.226.33
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: kt58ndxywnrrgg.majusti.dpdns.org
-    path: /@Marisa_kristifp=chrome
+      Host: mhgzqzcnxpjginc5hkdk.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇯🇵JP_4|2.2MB/s
-  network: tcp
-  port: '39975'
+  name: 'C - 🇯🇵 JP 18 TG: @nodpai'
+  port: 39975
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    short-id: '!!str '
   security: reality
   server: 116.80.58.239
   servername: cloudcircus.jp
   tls: true
   type: vless
-  udp: true
   uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
-  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   encryption: none
   flow: ''
-  name: 'C - 🇯🇵 JP 17 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 19 TG: @nodpai'
   network: ws
   port: 12195
   server: 115.22.218.151
@@ -255,26 +260,6 @@ proxies:
   ws-opts:
     headers:
       Host: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
-    path: /@Marisa_kristi
-- name: 'C - 🇯🇵 JP 18 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 443
-  server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
-  tls: true
-  type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- name: 'C - 🇯🇵 JP 19 TG: @nodpai'
-  network: ws
-  port: 30016
-  security: tls
-  server: 110.35.234.200
-  servername: rcv3tz9brscasef8i.sate.qzz.io
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rcv3tz9brscasef8i.sate.qzz.io
     path: /@Marisa_kristi
 - alterId: 0
   cipher: auto
@@ -304,10 +289,41 @@ proxies:
   tls: true
   type: http
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 'C - 🇯🇵 JP 24 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-002.fastervpn.world
+  type: hysteria2
+- encryption: none
+  name: 'C - 🇯🇵 JP 25 TG: @nodpai'
+  network: ws
+  port: 80
+  server: aa.beijng.dpdns.org
+  type: vless
+  uuid: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
+  ws-opts:
+    headers:
+      Host: aa.beijng.dpdns.org
+    path: /?ed=2048
+- name: 'C - 🇯🇵 JP 26 TG: @nodpai'
+  network: ws
+  port: 30016
+  security: tls
+  server: 110.35.234.200
+  servername: rcv3tz9brscasef8i.sate.qzz.io
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rcv3tz9brscasef8i.sate.qzz.io
+    path: /@Marisa_kristi
 - client-fingerprint: chrome
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
-  name: 'C - 🇯🇵 JP 24 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 27 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -321,18 +337,7 @@ proxies:
       Host: 1-aym.pages.dev
     path: /
 - encryption: none
-  name: 'C - 🇯🇵 JP 25 TG: @nodpai'
-  network: ws
-  port: 80
-  server: aa.beijng.dpdns.org
-  type: vless
-  uuid: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
-  ws-opts:
-    headers:
-      Host: aa.beijng.dpdns.org
-    path: /?ed=2048
-- encryption: none
-  name: 'C - 🇯🇵 JP 26 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 28 TG: @nodpai'
   network: ws
   port: 80
   server: cloudflare.182682.xyz
@@ -342,6 +347,31 @@ proxies:
     headers:
       Host: aa.beijng.dpdns.org
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 'D - 🇯🇵 JP 29 TG: @nodpai'
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+  ws-opts:
+    headers:
+      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
+    path: /
+- name: 'D - 🇯🇵 JP 30 TG: @nodpai'
+  network: ws
+  password: '!!str 162534'
+  port: 8443
+  server: 158.101.132.216
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cchh2.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -366,29 +396,58 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|3.3MB/s
+- client-fingerprint: ios
+  encryption: none
+  name: 🇯🇵JP_1|1.3MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 17081
-  server: 176.119.148.212
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: 36008
+  server: 147.79.20.221
+  servername: v-twb3pri554n5bp5vfep.mikuru.ip-ddns.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
+      Host: v-twb3pri554n5bp5vfep.mikuru.ip-ddns.com
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_2|1.7MB/s
+  network: ws
+  port: 8082
+  server: 103.117.102.220
+  servername: kt58ndxywnrrgg.majusti.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: kt58ndxywnrrgg.majusti.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- name: 🇯🇵JP_3|2.3MB/s
+  password: f8af73ed-363a-4dfb-b99f-65bd8ad1a329
+  port: 6533
+  server: jpaws.ccwink.photos
+  skip-cert-verify: true
+  sni: jpdigital.ccwink.cc
+  tfo: false
+  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 🇯🇵JP_2|1.0MB/s
+  name: 🇯🇵JP_4|1.7MB/s
   network: ws
-  port: 19597
-  server: 185.239.224.106
+  port: 443
+  server: 38.47.126.48
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false

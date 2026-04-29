@@ -1,13 +1,53 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  type: vmess
+  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+  ws-opts:
+    headers:
+      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 02 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  type: vmess
+  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+  ws-opts:
+    headers:
+      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
+    path: /
 - alterId: 2
   cipher: auto
-  name: 'B - 🇸🇬 SG 01 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 03 TG: @nodpai'
   port: 30845
   server: v45.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 04 TG: @nodpai'
+  network: ws
+  port: 443
+  server: sg-2za3n.knotic.space
+  servername: sg-2za3n.knotic.space
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7b7c28e4-f570-4b4e-ba33-fe271d3e6828
+  ws-opts:
+    headers:
+      Host: sg-2za3n.knotic.space
+    path: /download
 - encryption: none
-  name: 'C - 🇸🇬 SG 02 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -23,23 +63,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'C - 🇸🇬 SG 03 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 9WnuH4KUb9-cCqbApq4bVLDhrqhPbpnd5eTn14bGciA
-    short-id: '!!str 1dc69d21a7077443'
-  security: reality
-  server: lol-sgp-0001.api.neuralrelay.stream
-  servername: hls-svod.itunes.apple.com
-  spider-x: /
-  tls: true
-  type: vless
-  uuid: f189684b-6213-4c0d-a2e3-cb8860f5d4c5
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇸🇬 SG 04 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 06 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -52,9 +76,52 @@ proxies:
   tls: true
   type: vless
   uuid: c603d9a2-a89a-4b62-ac96-346d3b52620c
+- encryption: none
+  name: 'C - 🇸🇬 SG 07 TG: @nodpai'
+  network: ws
+  port: 36364
+  security: tls
+  server: 158.179.174.225
+  servername: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng
 - client-fingerprint: chrome
   encryption: none
-  name: 'C - 🇸🇬 SG 05 TG: @nodpai'
+  flow: xtls-rprx-vision
+  name: 'C - 🇸🇬 SG 08 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 9WnuH4KUb9-cCqbApq4bVLDhrqhPbpnd5eTn14bGciA
+    short-id: '!!str 1dc69d21a7077443'
+  security: reality
+  server: lol-sgp-0001.api.neuralrelay.stream
+  servername: hls-svod.itunes.apple.com
+  spider-x: /
+  tls: true
+  type: vless
+  uuid: f189684b-6213-4c0d-a2e3-cb8860f5d4c5
+- name: 'C - 🇸🇬 SG 09 TG: @nodpai'
+  network: ws
+  port: 10003
+  security: tls
+  server: 183.102.55.197
+  servername: mug.support.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: mug.support.gfw.hidns.co
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇸🇬 SG 10 TG: @nodpai'
   network: ws
   port: 2083
   security: tls
@@ -67,16 +134,107 @@ proxies:
     headers:
       Host: 1-aym.pages.dev
     path: /
+- encryption: none
+  name: 'C - 🇸🇬 SG 11 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 198.71.232.42
+  servername: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 'C - 🇸🇬 SG 12 TG: @nodpai'
+  network: ws
+  port: 29999
+  security: tls
+  server: 183.102.55.197
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng
+- name: 'C - 🇸🇬 SG 13 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 50.62.173.42
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng
+- encryption: none
+  name: 'C - 🇸🇬 SG 14 TG: @nodpai'
+  network: ws
+  port: 50940
+  security: tls
+  server: 152.69.220.136
+  servername: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: /danfeng
+- name: 'C - 🇸🇬 SG 15 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 140.245.43.3
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snzeys.edge-node-a1.fgfw.qzz.io
+    path: /danfeng
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 06 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 16 TG: @nodpai'
   port: 51556
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 'D - 🇸🇬 SG 17 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 219.76.13.169
+  servername: edt2-lgy.pages.dev
+  tls: true
+  type: vless
+  uuid: 8007e155-622e-4c9d-8a6e-67f49b4678f4
+  ws-opts:
+    headers:
+      Host: edt2-lgy.pages.dev
+    path: /flow=-udp443
+- alterId: 0
+  cipher: auto
+  name: 'D - 🇸🇬 SG 18 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+  ws-opts:
+    headers:
+      Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
+    path: /
 - client-fingerprint: chrome
   encryption: none
-  name: 'D - 🇸🇬 SG 07 TG: @nodpai'
+  name: 'D - 🇸🇬 SG 19 TG: @nodpai'
   network: ws
   port: 2096
   security: tls
@@ -114,3 +272,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 🇸🇬SG_1|1.2MB/s
+  password: f8af73ed-363a-4dfb-b99f-65bd8ad1a329
+  port: 52348
+  server: hkaws.ccwink.photos
+  skip-cert-verify: true
+  sni: sgdigital.ccwink.cc
+  tfo: false
+  type: hysteria2
+- name: 🇸🇬SG_2|1.2MB/s
+  password: f8af73ed-363a-4dfb-b99f-65bd8ad1a329
+  port: 52348
+  server: jpaws.ccwink.photos
+  skip-cert-verify: true
+  sni: sgdigital.ccwink.cc
+  tfo: false
+  type: hysteria2

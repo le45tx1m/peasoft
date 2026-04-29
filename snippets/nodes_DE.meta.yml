@@ -1,32 +1,115 @@
 proxies:
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇩🇪DE_1|1.8MB/s
+- down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_1|1.2MB/s
+  obfs: ''
+  obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-de-001.fastervpn.world
+  port: '443'
+  server: vpn-de-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-de-001.fastervpn.world
+  sni: vpn-de-002.fastervpn.world
   type: hysteria2
+  up: ''
 - alpn:
-  - h3
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_2|1.1MB/s
+  - http/1.1
+  name: 🇩🇪DE_2|1.0MB/s
   network: ws
-  port: '2083'
+  password: mSzFVhUczD
+  port: '443'
+  server: 104.20.5.134
+  skip-cert-verify: false
+  sni: abest.api-tel.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /
+- name: 🇩🇪DE_3|1.9MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
   server: 104.20.6.134
-  servername: xn-de.shakhle.ir.
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- name: 🇩🇪DE_4|1.1MB/s
+  network: ws
+  port: 2053
+  server: skillsbuild.org
+  servername: qyi.fqjd663.ggff.net
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b24484be-a335-472c-8dff-060ccd2b8f3b
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
   ws-opts:
     headers:
-      Host: xn-de.shakhle.ir.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: ''
+      Host: qyi.fqjd663.ggff.net
+    path: /
+  xudp: true
+- name: 🇩🇪DE_5|1.1MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 29900
+  server: 178.18.147.66
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+- client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|1.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
+    short-id: '!!str 68abb912e89c95bd'
+  server: de-bex-1.bexum.fun
+  servername: de-bex-1.bexum.fun
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
+  xudp: true
+- name: 🇩🇪DE_7|2.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 65.21.179.149
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇩🇪DE_8|1.1MB/s
+  network: tcp
+  port: '8080'
+  reality-opts:
+    public-key: EIRQAl_YVql2xraSE3iu9jFyBoHqSclirTxIDQKIFhE
+    short-id: '!!str fa38'
+  server: vk.tokervpn.ru
+  servername: tokermod.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c22fbdee-854b-4ac6-a185-6d07bf017a07
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
