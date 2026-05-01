@@ -1,11 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇯🇵 JP 01 TG: @nodpai'
-  port: 30806
-  server: v6.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -13,7 +6,7 @@ proxies:
     headers: {}
     path:
     - /ABCDE
-  name: 'C - 🇯🇵 JP 03 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 12 TG: @nodpai'
   network: http
   port: 55386
   server: 103.127.243.60

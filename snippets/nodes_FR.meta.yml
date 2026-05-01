@@ -1,45 +1,26 @@
 proxies:
-- auth: dongtaiwang.com
-  name: 🇫🇷FR_2|1.1MB/s
+- name: 'B - 🇫🇷 FR 01 TG: @nodpai'
   password: dongtaiwang.com
-  port: 41283
-  ports: 41283,40022,41000-42000
+  port: 40022
+  server: 163.172.113.118
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+- name: 🇫🇷FR_1|1.8MB/s
+  password: dongtaiwang.com
+  port: 41273
+  ports: 41947,41283,41283,40022,41000-42000
   server: 163.172.113.118
   skip-cert-verify: true
   sni: www.microsoft.com
   tfo: false
   type: hysteria2
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇫🇷FR_1|1.5MB/s
-  obfs: ''
-  obfs-password: ''
+- name: 🇫🇷FR_2|1.3MB/s
   password: dongtaiwang.com
-  port: '40022'
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  up: ''
-- name: 'B - 🇫🇷 FR 03 TG: @nodpai'
-  password: dongtaiwang.com
-  port: 41211
-  ports: 41283,40022,41000-42000
+  port: 41947
+  ports: 41283,41283,40022,41000-42000
   server: 163.172.113.118
   skip-cert-verify: true
   sni: www.microsoft.com
   tfo: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 'B - 🇫🇷 FR 04 TG: @nodpai|1.8MB...'
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: '443'
-  server: vpn-fr-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-fr-002.fastervpn.world
-  type: hysteria2
-  up: ''

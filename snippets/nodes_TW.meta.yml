@@ -1,55 +1,35 @@
 proxies:
-- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 'C - 🇹🇼 TW 04 TG: @nodpai'
-  network: ws
-  port: 6235
-  server: 125.227.219.98
-  servername: baidu.com
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇹🇼TW_2|1.4MB/s
+  network: tcp
+  port: '35000'
+  reality-opts:
+    public-key: PNLQpvgDvd7WV1OKgNSBWGJHj9i0RuzodFmdhkwxQ3g
+    short-id: '!!str cef493ec'
+  security: reality
+  server: hinet2.nekohub.xyz
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
-  ws-opts:
-    headers:
-      host: baidu.com
-    path: /xxxxhttp
-- allowInsecure: '0'
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ech: crypto.cloudflare.com+https://dns.alidns.com/dns-query
+  uuid: a8d37bf8-ff5b-4de8-8796-2de9c4072b41
+  xudp: true
+- client-fingerprint: chrome
   encryption: none
-  fp: chrome
-  host: b.8.q.1.z.7.c.5.y.k.2.v.x.0.a.m.6.n.d.h.3.h.u.9.danfeng.rr.kg
-  insecure: '0'
-  name: 🇹🇼TW_1|3.0MB/s
-  network: ws
-  path: /danfeng?ed=2560
-  port: 443
-  security: tls
-  server: 35.229.245.133
-  servername: b.8.q.1.z.7.c.5.y.k.2.v.x.0.a.m.6.n.d.h.3.h.u.9.danfeng.rr.kg
-  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  name: 🇹🇼TW_1|1.1MB/s
+  network: tcp
+  port: '35001'
+  reality-opts:
+    public-key: EbSeTGtl3dQEEP7QU3bYEbdebf2aBjDsgfbkkCFCDXM
+    short-id: '!!str f27fed45'
+  security: reality
+  server: hinet2.nekohub.xyz
+  servername: dl.google.com
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: b.8.q.1.z.7.c.5.y.k.2.v.x.0.a.m.6.n.d.h.3.h.u.9.danfeng.rr.kg
-    max-early-data: 2560
-    path: /danfeng
+  udp: true
+  uuid: a8d37bf8-ff5b-4de8-8796-2de9c4072b41
+  xudp: true
