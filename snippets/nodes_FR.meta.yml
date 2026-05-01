@@ -1,21 +1,4 @@
 proxies:
-- auth: dongtaiwang.com
-  name: 'B - 🇫🇷 FR 01 TG: @nodpai'
-  password: dongtaiwang.com
-  port: 41283
-  ports: 40022,41000-42000
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- name: 'B - 🇫🇷 FR 02 TG: @nodpai'
-  password: dongtaiwang.com
-  port: 40022
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
 - name: 🇫🇷FR_1|1.4MB/s
   password: dongtaiwang.com
   port: 41581

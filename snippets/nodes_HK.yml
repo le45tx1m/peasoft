@@ -1,6 +1,20 @@
 proxies:
 - alterId: 2
   cipher: auto
+  name: 'C - 🇭🇰 HK 14 TG: @nodpai'
+  port: 30809
+  server: v9.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 64
+  cipher: auto
+  name: 'D - 🇭🇰 HK 17 TG: @nodpai'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com

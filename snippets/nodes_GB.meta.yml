@@ -1,11 +1,4 @@
 proxies:
-- name: 'B - 🇬🇧 GB 01 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-001.fastervpn.world
-  type: hysteria2
 - name: 🇬🇧GB_1|1.7MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi

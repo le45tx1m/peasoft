@@ -1,32 +1,71 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
+- name: 'A - 🇭🇰 HK 01 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: cdn.091224.xyz
-  servername: hk666.6807251.xyz
+  server: 172.64.154.67
   tls: true
   type: vless
-  uuid: b5fb6b8c-f6f8-458d-ad75-fd36f5527474
+  uuid: fe5a22e1-961f-4b4e-b1ae-2a0415ebd777
   ws-opts:
     headers:
-      Host: hk666.6807251.xyz
-    path: /
+      Host: www.livecuts.de
+    path: /video_clip
+- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  network: ws
+  port: 17820
+  security: tls
+  server: s5.db-link.in
+  servername: 48afa0c5c9.shopify.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
+  ws-opts:
+    headers:
+      Host: 48afa0c5c9.shopify.com
+    path: /db102448afa0c5c9fp=chrome
 - client-fingerprint: chrome
-  encryption: none
-  name: 'C - 🇭🇰 HK 09 TG: @nodpai'
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    public-key: lIXzhYg3mhR9wY_qQG4H6O7nffkq4A3gUa8LWO6DkTo
+    short-id: '!!str f977afd3'
   security: reality
-  server: 8.218.199.24
-  servername: cdn-dynmedia-1.microsoft.com
+  server: 5.102.124.89
+  servername: www.apple.com.cn
   tls: true
   type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  uuid: d82595e5-e41f-4f92-a5be-06173d7e8052
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  host: s299.okgg.top
+  name: 'C - 🇭🇰 HK 12 TG: @nodpai'
+  network: tcp
+  port: 443
+  security: tls
+  server: s299.okgg.top
+  servername: u710947u15c5s299.okgg.top
+  tls: true
+  type: vless
+  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇭🇰 HK 14 TG: @nodpai'
+  port: 30809
+  server: v9.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 64
+  cipher: auto
+  name: 'D - 🇭🇰 HK 17 TG: @nodpai'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -62,20 +101,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇭🇰HK_2|1.2MB/s
-  network: ws
-  port: 52731
-  server: 149.104.25.115
-  servername: sni.111000.dns.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dns.army
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-  xudp: true

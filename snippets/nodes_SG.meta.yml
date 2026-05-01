@@ -31,77 +31,53 @@ proxies:
   type: http
   username: 6286105c-fb6d-11ef-be96-f23c93136cb3
 - name: 'B - 🇸🇬 SG 04 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  type: hysteria2
-- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 3233
   server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
   tls: true
   type: http
   username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
   password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 3233
   server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
   tls: true
   type: http
   username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- encryption: none
-  name: 'C - 🇸🇬 SG 07 TG: @nodpai'
-  network: ws
+- name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
-  security: tls
-  server: 185.176.24.42
-  servername: snippet.danfeng.rr.kg
+  server: 7dfcb847-te9j40-tir0zk-1hpo0.sg3.oshuawei.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
-- encryption: none
-  name: 'C - 🇸🇬 SG 08 TG: @nodpai'
-  network: ws
-  port: 56047
-  security: tls
-  server: 188.209.141.114
-  servername: snippet.gfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.gfw.qzz.io
-    path: /danfeng
-- name: 'C - 🇸🇬 SG 09 TG: @nodpai'
-  network: ws
-  port: 12300
-  security: tls
-  server: 222.106.183.207
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfengfp=chrome
-- name: 'C - 🇸🇬 SG 10 TG: @nodpai'
+  type: http
+  username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+- name: 'C - 🇸🇬 SG 07 TG: @nodpai'
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: 3cb3f594-te9j40-tfo5nb-yjq0.sg3.oshuawei.com
   tls: true
   type: http
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- alpn:
+  - 'http/1.1
+
+    '
+  name: 'C - 🇸🇬 SG 08 TG: @nodpai'
+  network: ws
+  port: 20000
+  security: tls
+  server: 211.228.69.243
+  servername: yvl5fy.data-cache.chinam.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: yvl5fy.data-cache.chinam.indevs.in
+    path: /danfeng?ed=2560fp=chrome
 - client-fingerprint: chrome
   encryption: none
-  name: 'D - 🇸🇬 SG 11 TG: @nodpai'
+  name: 'D - 🇸🇬 SG 09 TG: @nodpai'
   network: ws
   port: 2096
   security: tls
@@ -115,23 +91,6 @@ proxies:
     headers:
       Host: tristandeng.cc.cd
     path: /
-- alpn:
-  - 'http/1.1
-
-    '
-  name: 'D - 🇸🇬 SG 12 TG: @nodpai'
-  network: ws
-  port: 20000
-  security: tls
-  server: 211.228.69.243
-  servername: yvl5fy.data-cache.chinam.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: yvl5fy.data-cache.chinam.indevs.in
-    path: /danfeng?ed=2560fp=chrome
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72

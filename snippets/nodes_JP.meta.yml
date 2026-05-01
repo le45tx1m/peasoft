@@ -1,19 +1,26 @@
 proxies:
-- name: 'B - 🇯🇵 JP 01 TG: @nodpai'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 3235
-  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 'B - 🇯🇵 JP 02 TG: @nodpai'
+- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 0178d9b3-te9j40-tir0zk-1hpo0.jp.oshuawei.com
   tls: true
   type: http
   username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- name: 'B - 🇯🇵 JP 03 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 02 TG: @nodpai'
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 3235
+  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+  tls: true
+  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: ea4b51c1-te5ts0-tir0zk-1hpo0.jp.oshuawei.com
+  tls: true
+  type: http
+  username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
   port: 443
   server: 75575881-t9zts0-tarsld-1gevg.jp.oshuawei.com
@@ -21,6 +28,13 @@ proxies:
   tls: true
   type: http
   username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -29,13 +43,20 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: 'C - 🇯🇵 JP 04 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   network: http
   port: 54291
   server: 103.127.243.66
   type: vmess
   uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
-- name: 'C - 🇯🇵 JP 05 TG: @nodpai'
+- name: 'C - 🇯🇵 JP 08 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 443
+  server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 'C - 🇯🇵 JP 09 TG: @nodpai'
   password: f8eca8df-a1a5-4918-a194-d34112a3673f
   port: 443
   server: jc8U654714155239871.j8cdn.cdnxiaohongshu.com
@@ -45,7 +66,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'C - 🇯🇵 JP 06 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 10 TG: @nodpai'
   network: tcp
   port: 52006
   security: tls
@@ -54,13 +75,6 @@ proxies:
   tls: true
   type: vless
   uuid: 75807638-6f19-0190-ae08-38492ee85c88
-- name: 'C - 🇯🇵 JP 07 TG: @nodpai'
-  password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 3443
-  server: a8619c3e-te8ao0-tfn5eh-24c4.tky02.east.189ti.com
-  tls: true
-  type: http
-  username: 0b869f32-657e-11ee-a90c-f23c9313b177
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -68,19 +82,13 @@ proxies:
     headers: {}
     path:
     - /ABCDE
-  name: 'C - 🇯🇵 JP 08 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 11 TG: @nodpai'
   network: http
   port: 55386
   server: 103.127.243.60
   tls: false
   type: vmess
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- name: 'C - 🇯🇵 JP 09 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-003.fastervpn.world
-  skip-cert-verify: true
-  type: hysteria2
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
