@@ -175,14 +175,14 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 32 TG: @nodpai'
+  name: 'B - 🇺🇸 US 31 TG: @nodpai'
   port: 180
   server: 82.198.246.9
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 34 TG: @nodpai'
+  name: 'B - 🇺🇸 US 33 TG: @nodpai'
   port: 180
   server: 82.198.246.97
   type: vmess
@@ -198,12 +198,12 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 42 TG: @nodpai'
+  name: 'B - 🇺🇸 US 41 TG: @nodpai'
   port: 180
   server: 82.198.246.214
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 'B - 🇺🇸 US 53 TG: @nodpai'
+- name: 'B - 🇺🇸 US 52 TG: @nodpai'
   network: ws
   password: Aimer
   port: 2053
@@ -215,7 +215,7 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: /?ed
-- name: 'B - 🇺🇸 US 55 TG: @nodpai'
+- name: 'B - 🇺🇸 US 54 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -228,11 +228,24 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 59 TG: @nodpai'
+- name: 'B - 🇺🇸 US 58 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 89.167.100.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 59 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 45.12.70.200
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -256,7 +269,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 67 TG: @nodpai'
+  name: 'C - 🇺🇸 US 68 TG: @nodpai'
   port: 30808
   server: v8.hdacd.com
   type: vmess
