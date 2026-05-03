@@ -281,6 +281,9 @@ rules:
   - DOMAIN-SUFFIX,douban.com,⛔ 广告拦截
   - DOMAIN-SUFFIX,doubanio.com,⛔ 广告拦截
   - DOMAIN-SUFFIX,luogu.com,🚀 选择代理
+  - DOMAIN-SUFFIX,download.microsoft.com,🐟 漏网之鱼
+  - DOMAIN-SUFFIX,blob.core.windows.net,🐟 漏网之鱼
+  - DOMAIN-SUFFIX,gradle.org,🚀 选择代理
 
 
   # 国内网站（优先，避免 google.cn 走代理）
