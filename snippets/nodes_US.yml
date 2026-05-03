@@ -1,32 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'A - 🇺🇸 US 09 TG: @nodpai'
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: 🇺🇸 美国5|@ripaojiedian
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 31 TG: @nodpai'
-  port: 180
-  server: 82.198.246.9
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 33 TG: @nodpai'
-  port: 180
-  server: 82.198.246.97
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
@@ -38,43 +17,55 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 41 TG: @nodpai'
-  port: 180
-  server: 82.198.246.214
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 'B - 🇺🇸 US 52 TG: @nodpai'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  sni: epge.muarua.filegear-sg.me
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed
-- name: 'B - 🇺🇸 US 54 TG: @nodpai'
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 45.40.148.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 104.18.16.56
+  servername: wcc.teamv.ir
+  tls: true
+  type: vmess
+  uuid: b1ec4769-f5e9-46f1-8a03-ed90286a10a0
+  ws-opts:
+    headers:
+      Host: wcc.teamv.ir
+    path: /JMMRkgrUTZejLBUAP7Pp
+    v2ray-http-upgrade: true
+- name: 'C - 🇺🇸 US 22 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 4196
+  server: 185.184.223.138
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 58 TG: @nodpai'
+- name: 'C - 🇺🇸 US 24 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 89.167.100.106
+  server: 43.160.207.33
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -83,59 +74,30 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 59 TG: @nodpai'
+- name: 'D - 🇺🇸 US 39 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.12.70.200
-  skip-cert-verify: true
+  port: 2053
+  server: 178.255.222.103
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 61 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 95.164.55.80
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇺🇸 US 68 TG: @nodpai'
-  port: 30808
-  server: v8.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇺🇸 US 71 TG: @nodpai'
-  port: 30804
-  server: v4.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    path: /trTelegram🇨🇳+@WangCai2
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 3057
-  server: 95.40.115.145
+  password: ba62c023f9bce796ae334fecb20ef7cc
+  port: 4019
+  server: 54.250.182.223
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38692
-  server: 95.40.19.36
+  port: 23255
+  server: 43.199.67.7
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

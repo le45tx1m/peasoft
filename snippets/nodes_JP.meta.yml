@@ -1,139 +1,256 @@
 proxies:
-- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 0178d9b3-te9j40-tir0zk-1hpo0.jp.oshuawei.com
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 韩国3
+    flag: 🇰🇷
+    multiplier: 1
+    originalName: 韩国3
+    region: 韩国
+    tags: []
+  name: 'B - 🇯🇵 JP 01 TG: @nodpai'
+  network: ws
+  port: 11144
+  server: 59.6.239.208
+  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  sni: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  tfo: false
   tls: true
-  type: http
-  username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 3235
-  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 75575881-t9zts0-tarsld-1gevg.jp.oshuawei.com
-  tls: true
-  type: http
-  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 7443
-  server: jc7U654714155239.asia.steamliveonline.com
-  tls: true
-  type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+    path: /@Marisa_kristi
 - alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 02 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
-  network: ws
+- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
   port: 443
-  server: node3.jjjjjj.eu.cc
-  servername: jp2.jjjjjj.eu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df230a7c-a9ba-4efc-8f9f-ee03bffc4303
-  ws-opts:
-    headers:
-      Host: jp2.jjjjjj.eu.cc
-    path: /jige
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 443
-  server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
+  server: 5ecaa46c-tegxs0-tw2fdz-1s824.jp.oshuawei.com
+  sni: 5ecaa46c-tegxs0-tw2fdz-1s824.jp.oshuawei.com
   tls: true
   type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: h2
-  port: 54291
-  server: 103.127.243.66
-  tls: true
-  type: vmess
-  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'C - 🇯🇵 JP 09 TG: @nodpai'
-  port: 52006
-  server: cl-oth-1.edgeflux.ru
-  servername: cl-oth-1.edgeflux.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75807638-6f19-0190-ae08-38492ee85c88
-- name: 'C - 🇯🇵 JP 10 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  password: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
   port: 443
-  server: vpn-jp-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-003.fastervpn.world
-  type: hysteria2
-- name: 'C - 🇯🇵 JP 11 TG: @nodpai'
-  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: ea4b51c1-te5ts0-tir0zk-1hpo0.jp.oshuawei.com
+  server: 8a8bebd2-tegxs0-tn57fp-5ifr.jp.oshuawei.com
+  sni: 8a8bebd2-tegxs0-tn57fp-5ifr.jp.oshuawei.com
   tls: true
   type: http
-  username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇯🇵 JP 12 TG: @nodpai'
-  network: h2
-  port: 55386
-  server: 103.127.243.60
-  tls: true
-  type: vmess
-  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- name: 'D - 🇯🇵 JP 13 TG: @nodpai'
+  username: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+- alpn:
+  - h3
+  client-fingerprint: randomized
+  name: 'C - 🇯🇵 JP 06 TG: @nodpai'
   network: ws
-  password: '!!str 162534'
+  password: bpb-trojan
   port: 443
-  server: 161.33.197.118
-  skip-cert-verify: true
-  sni: cchh2.pages.dev
-  tls: true
+  server: russia.com
+  sni: bpb.wdgg1979.nyc.mn
   type: trojan
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+      Host: bpb.wdgg1979.nyc.mn
+    max-early-data: 2560
+    path: /tr
+- name: 'C - 🇯🇵 JP 07 TG: @nodpai'
+  password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 13f4082b-tegxs0-thpx3l-141tv.jp.oshuawei.com
+  sni: 13f4082b-tegxs0-thpx3l-141tv.jp.oshuawei.com
+  tls: true
+  type: http
+  username: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇯🇵 JP 08 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: nDq00UeDI5TKKFipI6rgdVCqiTO98ncHKn90Qp3EsBE
+    short-id: '!!str f2b78452f9233f26'
+  security: reality
+  server: 91.243.82.130
+  servername: s3.yandexcloud.net
+  tls: true
+  type: vless
+  uuid: 1d1522f7-33c2-41ef-a5e2-4e6f77a8b56d
+- name: 'C - 🇯🇵 JP 09 TG: @nodpai'
+  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+  port: 443
+  server: 81f12ddd-tegxs0-ttx5yr-1j0y6.jp.oshuawei.com
+  sni: 81f12ddd-tegxs0-ttx5yr-1j0y6.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 日本5
+    flag: 🇯🇵
+    multiplier: 1
+    originalName: 日本5
+    region: 日本
+    tags: []
+  name: 'D - 🇯🇵 JP 10 TG: @nodpai'
+  network: ws
+  port: 39085
+  server: 142.248.151.249
+  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  sni: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- name: 'D - 🇯🇵 JP 11 TG: @nodpai'
+  password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 8046e0c8-tegxs0-tk5ls1-z7a1.jp.oshuawei.com
+  sni: 8046e0c8-tegxs0-tk5ls1-z7a1.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 美国4
+    flag: 🇺🇸
+    multiplier: 1
+    originalName: 美国4
+    region: 美国
+    tags: []
+  name: 'D - 🇯🇵 JP 12 TG: @nodpai'
+  network: ws
+  port: 40092
+  server: 192.204.110.193
+  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  sni: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- name: 'D - 🇯🇵 JP 13 TG: @nodpai'
+  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+  port: 443
+  server: b8c47f5c-tegxs0-trhks8-1c9em.jp.oshuawei.com
+  sni: b8c47f5c-tegxs0-trhks8-1c9em.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- name: 'D - 🇯🇵 JP 14 TG: @nodpai'
+  password: de629d50-1711-11ed-bd7c-f23c913c8d2b
+  port: 443
+  server: 483e462a-tegxs0-tlpfci-1jdha.jp.oshuawei.com
+  sni: 483e462a-tegxs0-tlpfci-1jdha.jp.oshuawei.com
+  tls: true
+  type: http
+  username: de629d50-1711-11ed-bd7c-f23c913c8d2b
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 英国3
+    flag: 🇬🇧
+    multiplier: 1
+    originalName: 英国3
+    region: 英国
+    tags: []
+  name: 'D - 🇯🇵 JP 15 TG: @nodpai'
+  network: ws
+  port: 12306
+  server: 178.62.81.144
+  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  sni: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  name: 'D - 🇯🇵 JP 16 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 109.61.109.205
+  servername: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
+    path: /
+- name: 'D - 🇯🇵 JP 17 TG: @nodpai'
+  network: ws
+  port: 19421
+  security: tls
+  server: 141.11.138.48
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: cu1k94yk8bvlx0rql-8c2ze.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- name: 'D - 🇯🇵 JP 18 TG: @nodpai'
+  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+  port: 443
+  server: 94e9f26a-tegxs0-twnp5a-ahsb.jp.oshuawei.com
+  sni: 94e9f26a-tegxs0-twnp5a-ahsb.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+- name: 'D - 🇯🇵 JP 19 TG: @nodpai'
+  password: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+  port: 443
+  server: 188f491e-tegxs0-tgurfh-n09f.jp.oshuawei.com
+  sni: 188f491e-tegxs0-tgurfh-n09f.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+- name: 'D - 🇯🇵 JP 20 TG: @nodpai'
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  port: 443
+  server: 0e457337-tegxs0-tes6jx-1o8ak.jp.oshuawei.com
+  sni: 0e457337-tegxs0-tes6jx-1o8ak.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 116.80.61.224
+  server: 116.80.80.121
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 53018
-  server: 95.40.115.145
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 9201
-  server: 3.112.1.63
-  skip-cert-verify: false
+  password: ba62c023f9bce796ae334fecb20ef7cc
+  port: 11541
+  server: 52.194.186.225
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome

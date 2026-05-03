@@ -91,79 +91,41 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
-  name: 'C - 🇭🇰 HK 10 TG: @nodpai'
-  port: 30809
-  server: v9.hdacd.com
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港|@ripaojiedian
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 64
-  cipher: auto
-  name: 'D - 🇭🇰 HK 14 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 02 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: h2
-  port: 54291
-  server: 103.127.243.66
-  tls: true
-  type: vmess
-  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇯🇵 JP 12 TG: @nodpai'
-  network: h2
-  port: 55386
-  server: 103.127.243.60
-  tls: true
-  type: vmess
-  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- name: 'D - 🇯🇵 JP 13 TG: @nodpai'
+- alpn:
+  - h3
+  client-fingerprint: randomized
+  name: 'C - 🇯🇵 JP 06 TG: @nodpai'
   network: ws
-  password: '162534'
+  password: bpb-trojan
   port: 443
-  server: 161.33.197.118
-  skip-cert-verify: true
-  sni: cchh2.pages.dev
-  tls: true
+  server: russia.com
+  sni: bpb.wdgg1979.nyc.mn
   type: trojan
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- alterId: 0
+      Host: bpb.wdgg1979.nyc.mn
+    max-early-data: 2560
+    path: /tr
+- alterId: 2
   cipher: auto
-  name: 'C - 🇸🇬 SG 15 TG: @nodpai'
-  port: 51556
-  server: 103.181.164.145
+  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  port: 30845
+  server: v45.hdacd.com
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇺🇸 US 09 TG: @nodpai'
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国5|@ripaojiedian
@@ -175,20 +137,6 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 31 TG: @nodpai'
-  port: 180
-  server: 82.198.246.9
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 33 TG: @nodpai'
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: 🇺🇸 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.250
@@ -196,43 +144,54 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 41 TG: @nodpai'
-  port: 180
-  server: 82.198.246.214
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 'B - 🇺🇸 US 52 TG: @nodpai'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  sni: epge.muarua.filegear-sg.me
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed
-- name: 'B - 🇺🇸 US 54 TG: @nodpai'
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 45.40.148.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 104.18.16.56
+  servername: wcc.teamv.ir
+  tls: true
+  type: vmess
+  uuid: b1ec4769-f5e9-46f1-8a03-ed90286a10a0
+  ws-opts:
+    headers:
+      Host: wcc.teamv.ir
+    path: /JMMRkgrUTZejLBUAP7Pp
+    v2ray-http-upgrade: true
+- name: 'C - 🇺🇸 US 22 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 4196
+  server: 185.184.223.138
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 58 TG: @nodpai'
+- name: 'C - 🇺🇸 US 24 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 89.167.100.106
+  server: 43.160.207.33
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -241,65 +200,45 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 59 TG: @nodpai'
+- name: 'D - 🇺🇸 US 39 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.12.70.200
-  skip-cert-verify: true
+  port: 2053
+  server: 178.255.222.103
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 61 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 95.164.55.80
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇺🇸 US 68 TG: @nodpai'
-  port: 30808
-  server: v8.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇺🇸 US 71 TG: @nodpai'
-  port: 30804
-  server: v4.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    path: /trTelegram🇨🇳+@WangCai2
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港|@ripaojiedian
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港3|@ripaojiedian
   network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
+  password: ba62c023f9bce796ae334fecb20ef7cc
   port: 2008
-  server: 95.40.115.145
+  server: 54.250.182.223
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3685
-  server: 52.198.36.96
+  port: 5383
+  server: 43.199.41.19
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -307,63 +246,47 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 116.80.61.224
+  server: 116.80.80.121
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 53018
-  server: 95.40.115.145
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 9201
-  server: 3.112.1.63
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 新加坡|@ripaojiedian
-  network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 3057
-  server: 160.16.106.99
-  skip-cert-verify: false
+  password: ba62c023f9bce796ae334fecb20ef7cc
+  port: 11541
+  server: 52.194.186.225
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 32876
-  server: 160.16.132.38
-  skip-cert-verify: false
+  password: ba62c023f9bce796ae334fecb20ef7cc
+  port: 49559
+  server: 54.46.53.46
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1275
-  server: 43.198.82.20
+  port: 4203
+  server: 43.199.41.19
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 3057
-  server: 95.40.115.145
+  password: ba62c023f9bce796ae334fecb20ef7cc
+  port: 4019
+  server: 54.250.182.223
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38692
-  server: 95.40.19.36
+  port: 23255
+  server: 43.199.67.7
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

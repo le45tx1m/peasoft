@@ -1,63 +1,40 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 02 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: h2
-  port: 54291
-  server: 103.127.243.66
-  tls: true
-  type: vmess
-  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇯🇵 JP 12 TG: @nodpai'
-  network: h2
-  port: 55386
-  server: 103.127.243.60
-  tls: true
-  type: vmess
-  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- name: 'D - 🇯🇵 JP 13 TG: @nodpai'
+- alpn:
+  - h3
+  client-fingerprint: randomized
+  name: 'C - 🇯🇵 JP 06 TG: @nodpai'
   network: ws
-  password: '!!str 162534'
+  password: bpb-trojan
   port: 443
-  server: 161.33.197.118
-  skip-cert-verify: true
-  sni: cchh2.pages.dev
-  tls: true
+  server: russia.com
+  sni: bpb.wdgg1979.nyc.mn
   type: trojan
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+      Host: bpb.wdgg1979.nyc.mn
+    max-early-data: 2560
+    path: /tr
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 116.80.61.224
+  server: 116.80.80.121
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 53018
-  server: 95.40.115.145
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
-  password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 9201
-  server: 3.112.1.63
-  skip-cert-verify: false
+  password: ba62c023f9bce796ae334fecb20ef7cc
+  port: 11541
+  server: 52.194.186.225
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
