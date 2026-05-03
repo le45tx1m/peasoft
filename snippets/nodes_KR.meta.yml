@@ -3,27 +3,6 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 🇰🇷KR_1|1.5MB/s
-  network: ws
-  port: 14929
-  server: 121.175.77.73
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
   name: 🇰🇷KR_2|1.4MB/s
   network: ws
   port: 23791
@@ -81,27 +60,6 @@ proxies:
   network: ws
   port: 12300
   server: 221.167.233.79
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🇰🇷KR_6|1.1MB/s
-  network: ws
-  port: 15714
-  server: 183.104.92.31
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false

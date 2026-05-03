@@ -1,8 +1,28 @@
 proxies:
-- name: 'B - 🇸🇬 SG 17 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 25 TG: @nodpai'
+  network: ws
+  password: '!!str 162534'
+  port: 8443
+  server: 158.178.230.113
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cchh2.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'C - 🇸🇬 SG 28 TG: @nodpai'
+  password: t5x8f9w2k4m6n1p0
+  port: 443
+  server: 43.160.247.81
+  sni: vpn5.rnmcnm.com
+  tls: true
+  type: trojan
+- name: 'D - 🇸🇬 SG 36 TG: @nodpai'
   password: '!!str 162534'
   port: 443
-  server: 134.209.103.4
+  server: 139.59.127.117
   sni: cchh2.pages.dev
   tls: true
   type: trojan

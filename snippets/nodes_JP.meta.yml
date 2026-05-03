@@ -81,25 +81,24 @@ proxies:
   tls: true
   type: vless
   uuid: ab2f5b91-9cfd-4989-af25-353d4d69372c
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+  port: 443
+  server: 2c3bbf65-teisg0-tg8syu-1nyy5.jp5.hyhuawei.com
+  sni: 2c3bbf65-teisg0-tg8syu-1nyy5.jp5.hyhuawei.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
 - alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 104.19.61.160
-  tls: true
-  type: vless
-  uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
-  ws-opts:
-    headers:
-      Host: tristandeng.cc.cd
-    path: /proxyip=23.249.17.25,151.241.130.76,212.135.211.58,161.33.190.243,8.216.5.125,47.79.94.192,101.36.105.226,155.248.181.189
 - client-fingerprint: chrome
   name: 'B - 🇯🇵 JP 12 TG: @nodpai'
   network: ws
@@ -127,9 +126,23 @@ proxies:
     headers:
       Host: jp1-jp1.aiopen.sbs
     path: /kbjc/jp1fp=chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /ABCDE
+  name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  tls: false
+  type: vmess
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
 - client-fingerprint: chrome
   encryption: none
-  name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 16 TG: @nodpai'
   network: ws
   port: 8443
   security: tls
@@ -142,32 +155,10 @@ proxies:
     headers:
       Host: kalami-eew.pages.dev
     path: /
-- flow: xtls-rprx-vision
-  name: 'C - 🇯🇵 JP 16 TG: @nodpai'
-  port: 52006
-  security: tls
-  server: cl-oth-1.edgeflux.ru
-  servername: cl-oth-1.edgeflux.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 75807638-6f19-0190-ae08-38492ee85c88
-- name: 'C - 🇯🇵 JP 17 TG: @nodpai'
-  network: ws
-  port: 41493
-  security: tls
-  server: 158.178.225.153
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
-    path: /%40Marisa_kristi
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 'C - 🇯🇵 JP 18 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 17 TG: @nodpai'
   password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
   port: 443
   server: de0bc027-teisg0-thtg7i-1lkt0.jp5.hyhuawei.com
@@ -176,7 +167,7 @@ proxies:
   uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
 - client-fingerprint: chrome
   encryption: none
-  name: 'C - 🇯🇵 JP 19 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 18 TG: @nodpai'
   network: ws
   port: 8443
   security: tls
@@ -191,7 +182,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   encryption: none
-  name: 'C - 🇯🇵 JP 20 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 19 TG: @nodpai'
   network: ws
   port: 2053
   security: tls
@@ -204,7 +195,7 @@ proxies:
     headers:
       Host: kalami-eew.pages.dev
     path: /
-- name: 'C - 🇯🇵 JP 21 TG: @nodpai'
+- name: 'C - 🇯🇵 JP 20 TG: @nodpai'
   network: ws
   password: '!!str 162534'
   port: 443
@@ -217,7 +208,7 @@ proxies:
     headers:
       Host: cchh2.pages.dev
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'D - 🇯🇵 JP 22 TG: @nodpai'
+- name: 'D - 🇯🇵 JP 21 TG: @nodpai'
   network: ws
   password: '!!str 162534'
   port: 443
@@ -230,7 +221,7 @@ proxies:
     headers:
       Host: cchh2.pages.dev
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'D - 🇯🇵 JP 23 TG: @nodpai'
+- name: 'D - 🇯🇵 JP 22 TG: @nodpai'
   network: ws
   password: '!!str 162534'
   port: 42841
@@ -243,11 +234,24 @@ proxies:
     headers:
       Host: cchh2.pages.dev
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'D - 🇯🇵 JP 24 TG: @nodpai'
+- name: 'D - 🇯🇵 JP 23 TG: @nodpai'
   network: ws
   password: '!!str 162534'
   port: 443
   server: 142.91.108.54
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cchh2.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'D - 🇯🇵 JP 24 TG: @nodpai'
+  network: ws
+  password: '!!str 162534'
+  port: 443
+  server: 64.176.42.143
   skip-cert-verify: true
   sni: cchh2.pages.dev
   tls: true
@@ -275,19 +279,6 @@ proxies:
     headers:
       Host: 020g5uxcxmqlndg.luyuju.dpdns.org
     path: /@Marisa_kristi
-- name: 'D - 🇯🇵 JP 27 TG: @nodpai'
-  network: ws
-  password: '!!str 162534'
-  port: 443
-  server: 64.176.42.143
-  skip-cert-verify: true
-  sni: cchh2.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

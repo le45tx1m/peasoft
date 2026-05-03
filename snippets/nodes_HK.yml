@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'C - 🇭🇰 HK 28 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 26 TG: @nodpai'
   port: 30809
   server: v9.hdacd.com
   type: vmess

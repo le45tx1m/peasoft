@@ -1,12 +1,26 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'C - 🇯🇵 JP 21 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /ABCDE
+  name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  tls: false
+  type: vmess
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- name: 'C - 🇯🇵 JP 20 TG: @nodpai'
   network: ws
   password: '!!str 162534'
   port: 443
@@ -19,7 +33,7 @@ proxies:
     headers:
       Host: cchh2.pages.dev
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'D - 🇯🇵 JP 22 TG: @nodpai'
+- name: 'D - 🇯🇵 JP 21 TG: @nodpai'
   network: ws
   password: '!!str 162534'
   port: 443
@@ -32,7 +46,7 @@ proxies:
     headers:
       Host: cchh2.pages.dev
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'D - 🇯🇵 JP 23 TG: @nodpai'
+- name: 'D - 🇯🇵 JP 22 TG: @nodpai'
   network: ws
   password: '!!str 162534'
   port: 42841
@@ -45,11 +59,24 @@ proxies:
     headers:
       Host: cchh2.pages.dev
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'D - 🇯🇵 JP 24 TG: @nodpai'
+- name: 'D - 🇯🇵 JP 23 TG: @nodpai'
   network: ws
   password: '!!str 162534'
   port: 443
   server: 142.91.108.54
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cchh2.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'D - 🇯🇵 JP 24 TG: @nodpai'
+  network: ws
+  password: '!!str 162534'
+  port: 443
+  server: 64.176.42.143
   skip-cert-verify: true
   sni: cchh2.pages.dev
   tls: true
@@ -65,19 +92,6 @@ proxies:
   sni: cchh2.pages.dev
   tls: true
   type: trojan
-- name: 'D - 🇯🇵 JP 27 TG: @nodpai'
-  network: ws
-  password: '!!str 162534'
-  port: 443
-  server: 64.176.42.143
-  skip-cert-verify: true
-  sni: cchh2.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

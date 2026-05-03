@@ -31,7 +31,24 @@ proxies:
     headers:
       Host: azure.microsoft.com
     path: /static/js/main.js
-- name: 'A - 🇭🇰 HK 04 TG: @nodpai'
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: 🇭🇰HK_2|4.4MB/s
+  network: grpc
+  port: 10128
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk3-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
+  xudp: true
+- name: 'A - 🇭🇰 HK 05 TG: @nodpai'
   network: tcp
   port: 41105
   security: tls
@@ -39,6 +56,18 @@ proxies:
   tls: true
   type: vless
   uuid: 421cf851-ccfa-4450-b4e7-aa226b3d6fb2
+- client-fingerprint: chrome
+  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  security: reality
+  server: 8.218.97.158
+  servername: cdn-dynmedia-1.microsoft.com
+  tls: true
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -57,7 +86,7 @@ proxies:
   udp: true
   uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
   xudp: true
-- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 08 TG: @nodpai'
   password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
   port: 5228
   server: b66d91ca-t9zts0-tfi5fd-1imi4.cm4.oshuawei.com
@@ -67,7 +96,7 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
   password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
   port: 443
   server: d1bf317e-tegxs0-tf25f7-1phla.hk1.hyhuawei.com
@@ -75,28 +104,14 @@ proxies:
   type: tuic
   udp-relay-mode: native
   uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
-- client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: '!!str '
-  server: 8.218.98.33
-  servername: get.adobe.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+- name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  password: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
   port: 5228
-  server: 1a01e7ec-t9zts0-to8xn3-l4nv.cm4.oshuawei.com
-  sni: 1a01e7ec-t9zts0-to8xn3-l4nv.cm4.oshuawei.com
+  server: f2057cfa-ta1og0-tnqudu-1mim2.cm4.oshuawei.com
   tls: true
   type: http
-  username: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-- name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  username: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
+- name: 'B - 🇭🇰 HK 11 TG: @nodpai'
   password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
   port: 5228
   server: d44bb887-t9zts0-tgl02u-1jr1u.cm4.oshuawei.com
@@ -119,20 +134,19 @@ proxies:
   type: http
   username: 3437f34e-1b77-11eb-8684-f23c913c8d2b
 - name: 'B - 🇭🇰 HK 15 TG: @nodpai'
-  password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-  port: 5228
-  server: 07be56a8-ta1og0-tac59v-i8ie.cm4.oshuawei.com
-  sni: 07be56a8-ta1og0-tac59v-i8ie.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-- name: 'B - 🇭🇰 HK 16 TG: @nodpai'
   password: c11ff50c-f582-11ee-94df-f23c9164ca5d
   port: 5228
   server: 0936cb9d-t9zts0-tl09la-1q91p.cm4.oshuawei.com
   tls: true
   type: http
   username: c11ff50c-f582-11ee-94df-f23c9164ca5d
+- name: 'B - 🇭🇰 HK 17 TG: @nodpai'
+  password: 22308988-8548-11ea-a22e-f23c91cfbbc9
+  port: 5228
+  server: b21cad55-t9zts0-tiaexf-ufc0.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 22308988-8548-11ea-a22e-f23c91cfbbc9
 - name: 'B - 🇭🇰 HK 19 TG: @nodpai'
   password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
   port: 5228
@@ -147,14 +161,19 @@ proxies:
   tls: true
   type: http
   username: 225d1cca-d744-11ef-b790-f23c91cfbbc9
-- name: 'B - 🇭🇰 HK 21 TG: @nodpai'
-  password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-  port: 5228
-  server: e1e8f760-ta1og0-th9kx9-1os43.cm4.oshuawei.com
+- client-fingerprint: chrome
+  name: 'B - 🇭🇰 HK 21 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  security: reality
+  server: 8.210.67.227
+  servername: commerce.adobe.com
   tls: true
-  type: http
-  username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-- name: 'B - 🇭🇰 HK 23 TG: @nodpai'
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: 'B - 🇭🇰 HK 24 TG: @nodpai'
   password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 5228
   server: 69fbd04b-ta1og0-ta5i1s-1j61y.cm4.oshuawei.com
@@ -162,28 +181,29 @@ proxies:
   tls: true
   type: http
   username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-- name: 'B - 🇭🇰 HK 24 TG: @nodpai'
-  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-  port: 5228
-  server: 1fba79d6-t9zts0-td95qh-1isea.cm4.oshuawei.com
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: 'C - 🇭🇰 HK 25 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: cf.wdqgn.eu.org
   tls: true
-  type: http
-  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-- name: 'C - 🇭🇰 HK 26 TG: @nodpai'
-  password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-  port: 5228
-  server: e63dc03b-t9zts0-tg8syu-1nyy5.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+  type: vless
+  uuid: a06404ff-bc31-47ae-be6f-d56575f947f1
+  ws-opts:
+    headers:
+      Host: ready.bnm.uw.to
+    path: /a06404ff-bc31-47ae-be6f-d56575f947f1-vlflow=xtls-rprx-vision-udp443
 - alterId: 2
   cipher: auto
-  name: 'C - 🇭🇰 HK 28 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 26 TG: @nodpai'
   port: 30809
   server: v9.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'C - 🇭🇰 HK 29 TG: @nodpai'
+- name: 'C - 🇭🇰 HK 27 TG: @nodpai'
   network: ws
   port: 80
   server: 104.17.150.99
@@ -228,20 +248,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: movie
-  name: 🇭🇰HK_2|4.4MB/s
-  network: grpc
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
-  xudp: true
