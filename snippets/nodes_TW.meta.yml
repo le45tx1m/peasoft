@@ -1,60 +1,148 @@
 proxies:
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
+- alterId: 0
+  cipher: auto
   name: 'A - 🇹🇼 TW 01 TG: @nodpai'
   network: ws
-  port: 10443
-  server: 114.34.106.124
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
+  port: 30032
+  server: pineapple04.cylink.bond
+  type: vmess
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b
   ws-opts:
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
+      Host: www.microsoft.com
+    path: /aiwawan
+- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 114.33.57.170
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1588
-  name: 'B - 🇹🇼 TW 09 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 16443
-  server: 114.32.9.249
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: 10053
+  server: cyw-33.cy2511.world
+  type: vmess
   udp: true
+  uuid: 50d42e95-3f75-4bf4-8036-c74c5578e55b
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: www.bing.com
+    path: /HK2025
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇹🇼 TW 11 TG: @nodpai'
+  network: ws
+  port: 18852
+  security: tls
+  server: 112.165.123.197
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 12 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'C - 🇹🇼 TW 11 TG: @nodpai'
+- name: 'B - 🇹🇼 TW 13 TG: @nodpai'
+  obfs: ''
+  obfs-password: ''
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  port: 30102
+  server: tw.ccwink.cc
+  skip-cert-verify: true
+  sni: tw.ccwink.cc
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇹🇼 TW 14 TG: @nodpai'
+  network: ws
+  port: 7438
+  security: tls
+  server: 38.47.104.140
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443
+- name: 'B - 🇹🇼 TW 15 TG: @nodpai'
+  password: 50d42e95-3f75-4bf4-8036-c74c5578e55b
+  port: 30033
+  server: pineapple03.cylink.bond
+  skip-cert-verify: true
+  sni: bing.com
+  type: trojan
+  udp: true
+- encryption: none
+  name: 'B - 🇹🇼 TW 16 TG: @nodpai'
+  network: ws
+  port: 10002
+  security: tls
+  server: 211.199.27.72
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443fp=chrome
+- name: 'B - 🇹🇼 TW 17 TG: @nodpai'
+  password: 50d42e95-3f75-4bf4-8036-c74c5578e55b
+  port: 10052
+  server: pineapple02.cylink.bond
+  skip-cert-verify: true
+  sni: bing.com
+  type: trojan
+  udp: true
+- encryption: none
+  name: 'B - 🇹🇼 TW 19 TG: @nodpai'
+  network: ws
+  port: 26517
+  security: tls
+  server: 91.200.242.118
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  name: 'C - 🇹🇼 TW 20 TG: @nodpai'
+  network: ws
+  port: 16396
+  security: tls
+  server: 38.207.160.213
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443
+- name: 'C - 🇹🇼 TW 21 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -67,27 +155,27 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇹🇼 TW 12 TG: @nodpai'
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  name: 'C - 🇹🇼 TW 22 TG: @nodpai'
   network: ws
-  port: 16616
-  server: m.cnmjin.net
-  type: vmess
-  uuid: d6cad560-2573-4bbe-ac89-a4c4ff8709cb
+  port: 12025
+  security: tls
+  server: 38.55.110.29
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: 1c67f0f9a8a5dfc3dc21086be6f49765.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇹🇼 TW 13 TG: @nodpai'
-  network: ws
-  port: 16616
-  server: planb.mojcn.com
-  type: vmess
-  uuid: d6cad560-2573-4bbe-ac89-a4c4ff8709cb
-  ws-opts:
-    headers:
-      Host: 1c67f0f9a8a5dfc3dc21086be6f49765.mobgslb.tbcache.com
-    path: /
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443
+- name: 'C - 🇹🇼 TW 23 TG: @nodpai'
+  password: 50d42e95-3f75-4bf4-8036-c74c5578e55b
+  port: 10051
+  server: pineapple01.cylink.bond
+  skip-cert-verify: true
+  sni: bing.com
+  type: trojan
+  udp: true

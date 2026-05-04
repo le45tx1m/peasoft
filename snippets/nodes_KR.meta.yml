@@ -1,9 +1,9 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇰🇷KR_1|1.2MB/s|1.1MB/s
+  name: 🇰🇷KR_1|1.4MB/s
   network: ws
-  port: '27015'
-  server: 59.29.161.191
+  port: '10001'
+  server: 121.179.212.16
   servername: xfxl35a.node-edge.gfw.hidns.co
   tls: true
   type: vless
@@ -12,7 +12,110 @@ proxies:
   ws-opts:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /danfeng?ed=2560fp=chrome
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /danfeng?ed=2560fp=chromefp=chrome
   xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: chrome
+  encryption: none
+  name: v2go | 🇰🇷 KR | VLESS | 1492|1....
+  network: ws
+  port: '10443'
+  server: 20.196.152.253
+  servername: cgcbbo.media-cache-01.chinav.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: cgcbbo.media-cache-01.chinav.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /danfeng?ed=2560
+  xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷KR_2|1.0MB/s
+  network: ws
+  port: '12345'
+  server: 222.108.243.194
+  servername: yvl5fy.data-cache.chinam.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: yvl5fy.data-cache.chinam.indevs.in
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /danfeng?ed=2560
+  xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷KR_3|1.2MB/s
+  network: ws
+  port: '23791'
+  server: 112.172.91.18
+  servername: xw0d9r.cdn-edge-sg.chinam.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xw0d9r.cdn-edge-sg.chinam.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /danfeng?ed=2560
+  xudp: true
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷KR_4|1.1MB/s
+  network: ws
+  port: '14534'
+  server: 58.151.107.230
+  servername: xjv.node-proxy.chinam.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xjv.node-proxy.chinam.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /danfeng?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇰🇷KR_5|1.4MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: '18810'
+  server: 221.147.196.150
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /trTelegram🇨🇳+@WangCai2

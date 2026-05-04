@@ -1,15 +1,4 @@
 proxies:
-- encryption: none
-  grpc-opts:
-    grpc-service-name: gprc
-  name: 🇨🇭CH_1|1.2MB/s
-  network: grpc
-  port: '30086'
-  server: 138.124.6.159
-  type: vless
-  udp: true
-  uuid: 8f59feef-aab9-4e0b-924c-2a31bb8f446f
-  xudp: true
 - name: CH_speednode_0001
   network: ws
   port: 30047

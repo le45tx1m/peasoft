@@ -1,21 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇷🇺RU_1|1.7MB/s
+- flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.1MB/s
   network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: cUMmNjFNTsCyhcxWNOfBgYBCM_Ywgzt2HlWv85VMYFE
-    short-id: '!!str 05f480cb6c69df22'
-  server: 2.59.43.64
-  servername: max.ru
+  port: 52006
+  server: 178.72.182.18
+  servername: cl-ru-1.edgeflux.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 4e8d48bb-3c03-4e02-b15f-a76737cca9e7
+  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
   xudp: true
