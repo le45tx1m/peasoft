@@ -1,49 +1,31 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
-  type: vmess
-  uuid: d6cad560-2573-4bbe-ac89-a4c4ff8709cb
-  ws-opts:
-    headers:
-      Host: 1c67f0f9a8a5dfc3dc21086be6f49765.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  host: fae49480e092.bangchenou.top
-  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
-  network: tcp
-  port: 41101
-  security: tls
-  server: fae49480e092.bangchenou.top
-  servername: upos-tf-all-tx.bilivideo.com
-  tls: true
-  type: vless
-  uuid: 421cf851-ccfa-4450-b4e7-aa226b3d6fb2
-- name: 'A - 🇭🇰 HK 03 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 154.38.116.8
+- down: 2000
+  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  port: 88
+  server: hkaws.ccwink.photos
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'A - 🇭🇰 HK 04 TG: @nodpai'
-  password: 22308988-8548-11ea-a22e-f23c91cfbbc9
+  sni: hkak.ccwink.cc
+  type: hysteria2
+  up: 2000
+- delay: 585
+  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
+  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
   port: 5228
-  server: b21cad55-t9zts0-tiaexf-ufc0.cm4.oshuawei.com
+  server: faf8a2df-ta1og0-tlm64c-xm0q.cm4.oshuawei.com
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 22308988-8548-11ea-a22e-f23c91cfbbc9
+  udp: true
+  username: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  password: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  port: 5228
+  server: 1d603f3e-t9zts0-tc9wl2-py5w.cm4.oshuawei.com
+  sni: 1d603f3e-t9zts0-tc9wl2-py5w.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: ae5338ae-9a70-58c9-3d47-7d54a5675715
 - name: 'B - 🇭🇰 HK 05 TG: @nodpai'
   password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
   port: 5228
@@ -52,16 +34,13 @@ proxies:
   type: http
   username: 47e91fb6-25b8-df52-bc18-3cdc8548192f
 - name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  password: c357a728-1211-11f0-9a65-f23c9164ca5d
+  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
   port: 5228
-  server: fdf2a75c-t9zts0-td5oia-1m49t.cm4.oshuawei.com
-  sni: fdf2a75c-t9zts0-td5oia-1m49t.cm4.oshuawei.com
+  server: df142108-t9zts0-tee612-2r82.cm4.oshuawei.com
   tls: true
   type: http
-  username: c357a728-1211-11f0-9a65-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+  username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- client-fingerprint: chrome
   encryption: none
   flow: ''
   grpc-opts:
@@ -72,30 +51,69 @@ proxies:
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
+  security: tls
   server: hk2-r.link-t7.com
   servername: s0.awsstatic.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
   xudp: true
-- name: 'B - 🇭🇰 HK 08 TG: @nodpai'
-  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- delay: 601
+  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
   port: 5228
-  server: df142108-t9zts0-tee612-2r82.cm4.oshuawei.com
+  server: 515931c2-t9zts0-tkka1f-1k25p.cm4.oshuawei.com
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  udp: true
+  username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
 - name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  port: 5228
+  server: 0ba2b8fa-t9zts0-tb016b-1m7l4.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
+- delay: 2132
+  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  password: d70a9508-5477-11ef-bf61-f23c913c8d2b
+  port: 5228
+  server: 87e4e7b2-t9zts0-tcj3xn-1o20w.cm4.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: d70a9508-5477-11ef-bf61-f23c913c8d2b
+- name: 'B - 🇭🇰 HK 11 TG: @nodpai'
+  password: 1ec223c0-1ed9-11ec-a8bf-f23c91cfbbc9
+  port: 5228
+  server: a18418b5-t9zts0-tsjk4v-1atkp.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 1ec223c0-1ed9-11ec-a8bf-f23c91cfbbc9
+- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 156.225.72.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: '/tr | 免费机场TG@proxyshareCN | '
+- name: 'B - 🇭🇰 HK 13 TG: @nodpai'
   password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
   port: 5228
   server: e63dc03b-t9zts0-tg8syu-1nyy5.cm4.oshuawei.com
   tls: true
   type: http
   username: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-- client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 14 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -110,26 +128,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
-  type: vmess
-  uuid: d6cad560-2573-4bbe-ac89-a4c4ff8709cb
-  ws-opts:
-    headers:
-      Host: 1c67f0f9a8a5dfc3dc21086be6f49765.mobgslb.tbcache.com
-    path: /
-- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
-  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-  port: 5228
-  server: b3c62336-t9zts0-tm23vf-1jk6u.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 13 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 15 TG: @nodpai'
   network: ws
   port: 16622
   server: t.cnmjcn.cyou
@@ -139,75 +138,39 @@ proxies:
     headers:
       Host: 1c67f0f9a8a5dfc3dc21086be6f49765.mobgslb.tbcache.com
     path: /
-- name: 'B - 🇭🇰 HK 14 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 156.225.72.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: '/tr | 免费机场TG@proxyshareCN | '
-- name: 'B - 🇭🇰 HK 15 TG: @nodpai'
-  password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+- name: 'B - 🇭🇰 HK 16 TG: @nodpai'
+  password: 759bf004-6137-11ec-bd7c-f23c913c8d2b
   port: 5228
-  server: e194379d-t9zts0-tq9o8d-1d3bw.cm4.oshuawei.com
-  sni: e194379d-t9zts0-tq9o8d-1d3bw.cm4.oshuawei.com
+  server: 7d4f7060-ta1og0-thiwul-1gcq2.cm4.oshuawei.com
   tls: true
   type: http
-  username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-- name: 'B - 🇭🇰 HK 17 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YmGRdMZ74sEC91FN
-  password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
-  port: 20003
-  server: zz.66jc.xyz
-  skip-cert-verify: true
-  sni: hkzz.66jc.xyz
-  type: hysteria2
-  udp: true
+  username: 759bf004-6137-11ec-bd7c-f23c913c8d2b
 - name: 'B - 🇭🇰 HK 18 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8388
-  server: 129.226.163.56
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 19 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 23.175.201.2
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 20 TG: @nodpai'
   password: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9
   port: 5228
   server: ac45b418-t9zts0-tpn98f-1rcxl.cm4.oshuawei.com
   tls: true
   type: http
   username: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9
-- name: 'B - 🇭🇰 HK 21 TG: @nodpai'
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇭🇰 HK 19 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0fmJjwdM2vOOTVeQcNtNaTjxpYeIj9NsVT-ddLKwnic
+    short-id: '!!str 2531'
+  security: reality
+  server: 216.57.109.204
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: afd7a25e-f2b8-45a4-b735-54518fc9caaf
+- name: 'B - 🇭🇰 HK 20 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 217.60.38.113
+  server: 213.176.92.138
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -216,11 +179,18 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇭🇰 HK 21 TG: @nodpai'
+  password: d70a9508-5477-11ef-bf61-f23c913c8d2b
+  port: 5228
+  server: 5fe53277-tbdts0-tcj3xn-1o20w.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: d70a9508-5477-11ef-bf61-f23c913c8d2b
 - name: 'B - 🇭🇰 HK 22 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 143.20.204.5
+  port: 2053
+  server: 217.60.248.3
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -229,18 +199,24 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'C - 🇭🇰 HK 23 TG: @nodpai'
-  password: ae5338ae-9a70-58c9-3d47-7d54a5675715
-  port: 5228
-  server: 54df60fd-tekn40-tv7dx2-py5w.cm4.oshuawei.com
+- name: 'B - 🇭🇰 HK 23 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 217.60.248.94
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: http
-  username: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'C - 🇭🇰 HK 24 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 212.192.15.182
+  port: 2053
+  server: 2.56.91.49
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -249,27 +225,25 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'C - 🇭🇰 HK 25 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 104.17.150.99
-  type: vless
-  uuid: 5aa7d17e-7dc2-46dd-9acf-c3c97440259b
-  ws-opts:
-    headers:
-      Host: sss.yaml7.ggff.net
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 26 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 25 TG: @nodpai'
   network: tcp
-  port: 11966
-  server: board-02.ddnskunlun.com
-  servername: board-02.ddnskunlun.com
+  port: 11918
+  server: board-01.ddnskunlun.com
+  servername: board-01.ddnskunlun.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
+  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 26 TG: @nodpai'
+  port: 11966
+  server: board-02.ddnskunlun.com
+  servername: board-02.ddnskunlun.com
+  type: vmess
   uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
 - alterId: 2
   cipher: auto
