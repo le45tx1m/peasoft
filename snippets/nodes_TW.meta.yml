@@ -1,22 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
-  port: 27120
-  server: 1096.rabbitpro-in-5.com
-  type: vmess
-  udp: true
-  uuid: b9027e08-cb6f-3391-8bd0-0a4f31e6c140
 - alterId: 2
   cipher: auto
-  name: 'A - 🇹🇼 TW 03 TG: @nodpai'
-  network: tcp
+  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
-  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'C - 🇹🇼 TW 07 TG: @nodpai'
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   network: ws
   port: 6235
   security: tls
@@ -25,23 +17,8 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
+  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d150
   ws-opts:
     headers:
       Host: baidu.com
-    path: /xxxxhttpfp=chrome
-- name: 'C - 🇹🇼 TW 08 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 23.188.72.153
-  servername: 177-e06.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 177-e06.pages.dev
-    path: /
-  xudp: true
+    path: /xxxxhttp
