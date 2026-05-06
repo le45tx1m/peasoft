@@ -1,14 +1,20 @@
 proxies:
-- name: 🇸🇪SE_1|1.8MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.130.46.81
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇸🇪SE_1|1.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: '!!str 2d6d073dc88f22a8'
+  server: se-cdn.ru
+  servername: se-cdn.ru
   tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+  type: vless
+  udp: true
+  uuid: e9ebf8c2-dbe9-4220-9234-6a47be3e9dea
+  xudp: true

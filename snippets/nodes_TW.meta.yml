@@ -1,23 +1,57 @@
 proxies:
-- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 114.33.57.170
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
+  udp: true
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 2
-  cipher: auto
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  port: 443
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  port: 443
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  tls: true
+  type: vless
+  uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
+- alpn:
+  - http/1.1
+  cert-sha: EF087A3208B641D6309A4A5F576B906DF335B841535E5E9A10517CBF2CF3E6CB
+  client-fingerprint: chrome
+  encryption: none
   name: 'B - 🇹🇼 TW 07 TG: @nodpai'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇹🇼 TW 15 TG: @nodpai'
+  network: ws
+  port: 6235
+  security: tls
+  server: 125.227.219.98
+  servername: baidu.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d147
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /xxxxhttp
+- name: 'B - 🇹🇼 TW 12 TG: @nodpai'
   password: 9e0f72bb-7ad6-4383-994a-497569a94d74
   port: 30102
   server: tw.ccwink.cc
