@@ -1,17 +1,17 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|3.2MB/s
-  port: 443
-  reality-opts:
-    public-key: RsG53RnTZKpPwbKt0mnj3963DinwNFHpk3eWaHH6oG4
-    short-id: '!!str 653253254366'
-  server: 217.18.61.215
-  servername: mydogcollections.com
+  name: 🇷🇺RU_1|2.1MB/s
+  network: tcp
+  port: 52006
+  server: 178.72.181.34
+  servername: cluster-europe-1.firstvideocdn.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: d428091c-e6eb-48f9-9a07-b44eb886ac90
+  uuid: 75807638-6f19-1f40-ae08-38492ee85c88
+  xudp: true
 - name: RU_speednode_0023
   network: ws
   port: 443

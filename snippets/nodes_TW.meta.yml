@@ -1,11 +1,14 @@
 proxies:
-- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision-udp443-udp443
+  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
   port: 443
-  server: 114.33.57.170
-  sni: Koma-YT.PAGeS.Dev
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
   tls: true
-  type: trojan
+  type: vless
+  uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0043
@@ -19,21 +22,9 @@ proxies:
   udp: true
   uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision-udp443
-  name: 'B - 🇹🇼 TW 12 TG: @nodpai'
-  network: tcp
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
-- client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
   name: US_speednode_0044
+  network: tcp
   port: 443
   security: tls
   server: taipei1.ap221.com
