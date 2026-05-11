@@ -1,21 +1,26 @@
 proxies:
+- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 1.161.50.87
+  servername: gogo5.kmj.qzz.io
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo5.kmj.qzz.io
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  port: 30813
-  server: v13.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
   network: ws
   port: 16616
   server: m.cnmjin.net
@@ -27,7 +32,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 11 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
   network: ws
   port: 16616
   server: t.cnmjcn.cyou
@@ -39,7 +44,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 13 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
   network: ws
   port: 16616
   server: planb.mojcn.com
@@ -48,33 +53,4 @@ proxies:
   ws-opts:
     headers:
       Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- encryption: none
-  name: 'B - 🇹🇼 TW 14 TG: @nodpai'
-  network: ws
-  port: 2087
-  security: tls
-  server: 172.67.76.40
-  servername: mybloh.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: mybloh.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 'C - 🇹🇼 TW 16 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 114.33.57.170
-  servername: 1-aym.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 1-aym.pages.dev
     path: /

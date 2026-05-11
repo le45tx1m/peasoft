@@ -1,21 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  port: 30813
-  server: v13.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
   network: ws
   port: 16616
   server: m.cnmjin.net
@@ -27,7 +20,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 11 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
   network: ws
   port: 16616
   server: t.cnmjcn.cyou
@@ -39,7 +32,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 13 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
   network: ws
   port: 16616
   server: planb.mojcn.com
