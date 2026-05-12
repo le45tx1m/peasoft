@@ -1,7 +1,24 @@
 proxies:
 - client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 125.228.236.138
+  servername: gogo.onetap.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo.onetap.qzz.io
+    path: /
+- client-fingerprint: chrome
   encryption: none
-  name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
   network: ws
   port: 43
   security: tls
@@ -14,23 +31,39 @@ proxies:
     headers:
       Host: pagescm.freen6.cc.cd
     path: /tags/details
+- name: 'A - 🇹🇼 TW 05 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16443
+  server: 114.32.9.249
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 'C - 🇹🇼 TW 05 TG: @nodpai'
+  encryption: none
+  name: 'B - 🇹🇼 TW 09 TG: @nodpai'
   network: ws
   port: 443
-  server: 114.33.57.170
-  servername: 3-abf.pages.dev
-  skip-cert-verify: false
+  security: tls
+  server: 1.161.48.13
+  servername: gogo2.kmj.qzz.io
   tls: true
   type: vless
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: 3-abf.pages.dev
+      Host: gogo2.kmj.qzz.io
     path: /
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 🇹🇼TW_1|4.4MB/s
@@ -43,3 +76,17 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
+- encryption: none
+  name: 'B - 🇹🇼 TW 14 TG: @nodpai'
+  network: ws
+  port: 16396
+  security: tls
+  server: 38.207.160.213
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443fp=chrome
