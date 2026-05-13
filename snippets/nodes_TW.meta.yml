@@ -1,8 +1,1 @@
-proxies:
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 01 TG: @nodpai'
-  port: 30813
-  server: v13.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+proxies: []
