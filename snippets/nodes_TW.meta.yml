@@ -1,40 +1,15 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  network: tcp
-  port: 30813
-  server: v13.zgtfqs.click
-  skip-cert-verify: true
-  tls: false
+  name: 'B - 🇹🇼 TW 01 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
-  network: ws
-  port: 26517
-  security: tls
-  server: 91.200.242.118
-  servername: tptpss.pages.dev
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: tptpss.pages.dev
-    path: /https://203.69.23.34:443fp=chrome
-- encryption: none
-  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 104.26.8.111
-  servername: mybloh.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: mybloh.ccwu.cc
-    path: /
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  port: 30811
+  server: 218.173.204.101
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
