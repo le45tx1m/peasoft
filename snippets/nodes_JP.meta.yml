@@ -2,16 +2,10 @@ proxies:
 - name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   password: 917bb394-8d91-4eee-956d-b81aba3aed70
   port: 8080
-  server: jp06.476579.xyz
-  sni: jp06.476579.xyz
-  type: hysteria2
-- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  port: 8080
   server: hyfnjp03.352343.cc
   sni: hyfnjp03.352343.cc
   type: hysteria2
-- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 02 TG: @nodpai'
   obfs: salamander
   obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
   password: 917bb394-8d91-4eee-956d-b81aba3aed70
@@ -19,158 +13,41 @@ proxies:
   server: hyfnjp01.156786.xyz
   sni: hyfnjp01.156786.xyz
   type: hysteria2
-- flow: xtls-rprx-vision-udp443
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  port: 12575
-  security: tls
-  server: jpvless.yydzx.xyz
-  servername: jpvless.yydzx.xyz
-  tls: true
-  type: vless
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.207.197.79
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 03 TG: @nodpai'
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  port: 8081
+  server: 1jp003.156786.xyz
+  sni: 1jp003.156786.xyz
+  type: hysteria2
+- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 17222
   server: 212.50.248.248
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  port: 30806
-  server: v6.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 11307
-  server: 47.79.85.210
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 185.130.46.81
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 44004
-  server: 45.11.1.118
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 18122
-  server: 155.248.168.35
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.83.50.165
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.176.36.61
-  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 🇯🇵JP_1|1.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-003.fastervpn.world
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 15 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 50888
-  server: 103.150.8.160
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 16 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 16957
-  server: 150.230.214.172
+  port: 8443
+  server: 176.97.70.51
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -179,23 +56,18 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 17 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 64.110.104.30
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 18 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -208,13 +80,38 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 19 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 176.97.70.51
+  port: 443
+  server: 168.138.46.67
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 50888
+  server: 103.150.8.160
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 155.248.181.189
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
     headers:
@@ -222,7 +119,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 20 TG: @nodpai'
+  name: 🇯🇵JP_3|1.2MB/s
   network: ws
   port: 16617
   server: m.cnmjin.net
@@ -256,56 +153,68 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_2|1.0MB/s
+- name: 🇯🇵JP_2|1.9MB/s
   network: ws
-  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 172.64.53.190
+  server: 43.207.197.79
   skip-cert-verify: true
-  sni: snll667.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snll667.pages.dev
-    path: //
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🇯🇵JP_3|1.8MB/s
-  network: ws
-  port: 443
-  server: 96.126.130.101
-  servername: wybfkrp6.gateway-edge.danfeng.cyou
-  skip-cert-verify: false
-  tfo: false
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: wybfkrp6.gateway-edge.danfeng.cyou
-    max-early-data: 2560
-    path: /danfeng
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 🇯🇵JP_4|2.2MB/s
+  name: 🇯🇵JP_4|1.9MB/s
   network: xhttp
-  port: 1004
+  port: 1005
   reality-opts:
     _spider-x: /
-    public-key: k_ma7UZk0S-2BACEHGCs59PY62Gz9WP2qIAqD7QxilM
-    short-id: '!!str f9a0b1c2'
+    public-key: 7wB1ByHxwYsqX83WOY43ezH4xbvpkJCW1buZVOqhoBg
+    short-id: '!!str 3d4e5f6a'
   server: 45.192.241.49
-  servername: endfield.gryphline.com
+  servername: lolesports.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7e1cbf5d-8ab6-4332-9e41-8810866e6dcb
+  uuid: fc05466a-5142-4c89-b196-8571bc5d9719
   xhttp-opts:
     mode: auto
     path: /
   xudp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_5|2.1MB/s
+  network: xhttp
+  port: 1001
+  reality-opts:
+    _spider-x: /
+    public-key: 15j0YeKJyH2c6bsgDc10HuounWbxSVyJPHa36uS5mSE
+    short-id: '!!str 6f7a8b9c'
+  server: 45.192.241.49
+  servername: valorant.secure.dyn.riotcdn.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65a9dd63-ccd2-4a64-8bec-7caa648a9ee0
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: JP_speednode_0017
+  port: 443
+  reality-opts:
+    public-key: rwZxMeKJhN-LkKkP-u6qXYFzSlbuyqxYzloqaOpFLUM
+    short-id: '!!str e98e89a0'
+  server: 188.253.17.104
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f26629-a4a4-4550-bffc-afabb3b5b3c3

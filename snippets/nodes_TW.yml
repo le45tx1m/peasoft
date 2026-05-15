@@ -1,8 +1,7 @@
 proxies:
-- client-fingerprint: safari
-  grpc-opts:
+- grpc-opts:
     grpc-service-name: db
-  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 01 TG: @nodpai'
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
@@ -11,12 +10,13 @@ proxies:
   sni: TG.freecodes
   tls: true
   type: trojan
-- client-fingerprint: qq
+- alpn:
+  - h2
   grpc-opts:
     grpc-service-name: db
   name: 'B - 🇹🇼 TW 04 TG: @nodpai'
   network: grpc
-  password: 3f5bc61547b1f0d9
+  password: 0a9f1f5a397bd427
   port: 443
   server: 125.227.86.46
   skip-cert-verify: true
@@ -27,20 +27,7 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.47
-  skip-cert-verify: true
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   network: grpc
   password: 0a9f1f5a397bd427
   port: 443
@@ -51,7 +38,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 09 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
   network: ws
   port: 16616
   server: planb.mojcn.com
@@ -63,7 +50,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇹🇼 TW 10 TG: @nodpai'
+  name: 'C - 🇹🇼 TW 08 TG: @nodpai'
   network: ws
   port: 16616
   server: m.cnmjin.net

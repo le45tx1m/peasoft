@@ -1,89 +1,33 @@
 proxies:
-- name: 🇩🇪DE_2|1.1MB/s
+- encryption: none
+  name: 🇩🇪DE_1|2.1MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 62.60.216.82
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: '80'
+  server: 172.64.146.211
+  type: vless
+  udp: true
+  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 🇩🇪DE_3|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 93.185.156.107
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 🇩🇪DE_4|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 178.104.93.49
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 🇩🇪DE_5|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 152.53.153.158
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 🇩🇪DE_6|1.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 147.45.69.230
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
+      Host: tt.andishehparenting.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_7|1.2MB/s
+  name: 🇩🇪DE_2|1.1MB/s
   network: tcp
-  port: 57942
+  port: 59403
   reality-opts:
     _spider-x: /
-    public-key: Sfq7XvYQcbDod2_WbncXkps0GCc3smquLk8Rtudx_h4
-    short-id: '!!str 4f4e67ca'
-  server: 3.70.72.166
+    public-key: R87O7j_VmzDlIMXOd7Z6MOpp2wxxw4VZFxOmTAmugVQ
+    short-id: '!!str 55a20409400e71'
+  server: 3.75.194.19
   servername: yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 443be09e-896a-4257-b60e-143c68f713f9
-  xudp: true
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_8|1.1MB/s
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: nMZty6MwsYsHk180yJ5PiKaHdY40bpdD9yUIycZYmCc
-    short-id: '!!str ea9158334ab2'
-  server: de.skysafe.online
-  servername: de.skysafe.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0e3a9376-1bf0-4b9e-a328-f28083bf6c34
+  uuid: acb005a9-29af-437f-ba56-411a8dc9eb56
   xudp: true
