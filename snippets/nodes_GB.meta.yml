@@ -1,4 +1,45 @@
 proxies:
+- down: ''
+  fingerprint: ''
+  name: 🇬🇧GB_1|2.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: vpn-uk-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-uk-002.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: 🇬🇧GB_2|1.7MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 185.73.38.41
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|1.0MB/s
+  network: tcp
+  port: 26029
+  reality-opts:
+    _spider-x: /
+    public-key: YoeZDg8aH2mkltXBbP9OfDS94rbgSwg8RiidBWAtTTA
+    short-id: '!!str f92081e9834a'
+  server: 18.130.112.27
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e99c68ee-c766-4f20-b1c7-5c8dde417fee
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0009

@@ -1,91 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  name: KR_speednode_0032
-  network: ws
-  port: 22335
-  server: 222.121.232.215
-  servername: sni.111000.dns.army
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dns.army
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: KR_speednode_0035
-  network: ws
-  port: 10443
-  server: 220.93.102.220
-  servername: sni.111000.dns.army
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dns.army
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: KR_speednode_0037
-  network: ws
-  port: 12300
-  server: 220.124.181.251
-  servername: sni.111000.dns.army
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dns.army
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 🇰🇷KR_4|1.4MB/s
-  network: ws
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_1|3.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 203.227.191.189
-  servername: gogo.wknm.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.wknm.dpdns.org
-    path: /
-- client-fingerprint: chrome
-  name: 🇰🇷KR_5|1.2MB/s
-  network: ws
-  port: 60004
-  server: 220.118.83.101
-  servername: sni.111000.dns.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dns.army
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-  xudp: true
-- name: 🇰🇷KR_6|1.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 7778
-  server: 146.56.113.221
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
+  server: vpn-kr-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-003.fastervpn.world
+  type: hysteria2
+  up: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: KR_speednode_0027
@@ -161,6 +86,21 @@ proxies:
       Host: sni.111000.dns.army
     path: /?ed=2560
 - client-fingerprint: chrome
+  name: KR_speednode_0032
+  network: ws
+  port: 22335
+  server: 222.121.232.215
+  servername: sni.111000.dns.army
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
+    path: /?ed=2560
+- client-fingerprint: chrome
   name: KR_speednode_0033
   network: ws
   port: 11371
@@ -180,6 +120,51 @@ proxies:
   network: ws
   port: 10035
   server: 14.32.205.160
+  servername: sni.111000.dns.army
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: KR_speednode_0035
+  network: ws
+  port: 10443
+  server: 220.93.102.220
+  servername: sni.111000.dns.army
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: KR_speednode_0036
+  network: ws
+  port: 32603
+  server: 220.86.228.109
+  servername: sni.111000.dns.army
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: KR_speednode_0037
+  network: ws
+  port: 12300
+  server: 220.124.181.251
   servername: sni.111000.dns.army
   skip-cert-verify: false
   tls: true
