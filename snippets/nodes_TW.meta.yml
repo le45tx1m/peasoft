@@ -1,56 +1,11 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.46
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
-  port: 443
-  security: tls
-  server: kbgs.hinet.tw1.yydjc.top
-  servername: gopro.com
-  tls: true
-  type: vless
-  uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
-- name: 'B - 🇹🇼 TW 07 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 16443
-  server: 114.32.9.249
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇹🇼 TW 08 TG: @nodpai'
-  network: ws
-  port: 16616
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: c894656d-c0dc-410a-b5ce-8637e28598c2
-  ws-opts:
-    headers:
-      Host: 93832a081b053c3c103a09cc973bde7f.mobgslb.tbcache.com
-    path: /
 - name: TW_speednode_0034
   network: ws
   port: 17820
