@@ -3,21 +3,31 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 'B - 🇹🇼 TW 14 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.47
+  skip-cert-verify: true
+  sni: TG.freecodes
+  tls: true
+  type: trojan
+- name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  password: 60207953-ef79-4f8f-8062-63c281f34c6b
+  port: 8080
+  server: tw4.453521.xyz
+  sni: tw4.453521.xyz
+  tls: true
+  type: trojan
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 'B - 🇹🇼 TW 12 TG: @nodpai'
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
   server: 125.227.86.48
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-- grpc-opts:
-    grpc-service-name: db
-  name: 'B - 🇹🇼 TW 15 TG: @nodpai'
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.47
   skip-cert-verify: true
   sni: TG.freecodes
   tls: true
@@ -30,9 +40,10 @@ proxies:
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
-  server: 125.227.86.46
+  server: 125.227.86.47
   skip-cert-verify: true
   sni: TG.freecodes
+  tls: true
   type: trojan
 - alpn:
   - h2
@@ -40,9 +51,10 @@ proxies:
     grpc-service-name: db
   name: 'B - 🇹🇼 TW 20 TG: @nodpai'
   network: grpc
-  password: 0a9f1f5a397bd427
+  password: 3f5bc61547b1f0d9
   port: 443
-  server: 125.227.86.45
+  server: 125.227.86.46
   skip-cert-verify: true
   sni: TG.freecodes
+  tls: true
   type: trojan
