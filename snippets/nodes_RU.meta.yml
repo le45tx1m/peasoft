@@ -1,21 +1,4 @@
 proxies:
-- client-fingerprint: randomized
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    _spider-x: /ad/8611949
-    public-key: 2IAFC23dkBm2ZRPTcxSWZ5YkpVxJufIIZn3-aSPRH10
-  server: 194.87.161.198
-  servername: ads.x5.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c81c716-4fd5-11f1-8a2c-525400a7149e
-  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: qq

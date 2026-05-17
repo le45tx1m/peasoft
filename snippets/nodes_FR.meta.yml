@@ -1,52 +1,17 @@
 proxies:
-- name: 🇫🇷FR_1|1.0MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 45.77.62.142
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 🇫🇷FR_2|1.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 217.60.39.42
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 🇫🇷FR_3|1.8MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 51.75.27.174
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇫🇷FR_4|1.8MB/s
+  name: 🇫🇷FR_1|1.3MB/s
   network: tcp
-  port: 44520
+  port: '20567'
   reality-opts:
-    _spider-x: /
-    public-key: MrLRcU_2S2CpUc7VT3ajIavX5NYUiQdP6J5QTDFNGFU
-    short-id: '!!str 8897c56a495b26cc'
-  server: 51.44.25.250
-  servername: yahoo.com
-  skip-cert-verify: false
+    public-key: 1WOtQYIQ-3sJtbrhSA1LW6gAnO-wG0Z5aCnlL_zoiXQ
+    short-id: '!!str b82d7208fe23'
+  server: fr.gryaz-vpn.com
+  servername: cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: acd726d3-0128-44d8-a575-21013ff7740a
+  uuid: 40bf709c-4353-4552-ba26-406d2bf7821d
   xudp: true

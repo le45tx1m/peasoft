@@ -3,10 +3,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 🇰🇷KR_1|1.0MB/s
+  name: 🇰🇷KR_1|1.1MB/s
   network: ws
-  port: 12300
-  server: 121.140.34.163
+  port: 11371
+  server: 221.168.105.228
   servername: klng2.stream-cdn.sh21.eu.org
   skip-cert-verify: false
   tfo: false

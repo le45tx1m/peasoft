@@ -1,12 +1,24 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇬🇧GB
-  delay: 804
-  name: 🇬🇧GB_1|2.2MB/s
-  password: amazonskr05
+- name: 🇬🇧GB_1|1.1MB/s
+  network: ws
   port: 443
-  server: 3.9.114.224
-  type: ss
+  server: s28233.cdn.ngenix.net
+  servername: s28233.cdn.ngenix.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: c3f112fc-1041-Fade-b85c-5ed478daeeb9
+  ws-opts:
+    headers:
+      Host: s28233.cdn.ngenix.net
+    path: /
+- name: 🇬🇧GB_2|1.6MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-uk-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-uk-001.fastervpn.world
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0013

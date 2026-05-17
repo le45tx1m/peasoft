@@ -1,12 +1,17 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇹🇼 TW 12 TG: @nodpai'
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.47
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
+- name: 'B - 🇹🇼 TW 09 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 16443
@@ -17,16 +22,9 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇹🇼 TW 14 TG: @nodpai'
-  password: 60207953-ef79-4f8f-8062-63c281f34c6b
-  port: 8080
-  server: tw4.453521.xyz
-  sni: tw4.453521.xyz
-  tls: true
-  type: trojan
 - grpc-opts:
     grpc-service-name: db
-  name: 'B - 🇹🇼 TW 15 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
@@ -35,46 +33,22 @@ proxies:
   sni: TG.freecodes
   tls: true
   type: trojan
-- name: 'B - 🇹🇼 TW 16 TG: @nodpai'
-  password: 68077ffe-3368-4755-98d0-9367aa1ad6f2
-  port: 8080
-  server: tw4.453521.xyz
-  sni: tw4.453521.xyz
-  tls: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_2|3.3MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: '50099'
+  server: r3mrcg007117fb8.cybervena.com
+  type: ss
+  udp: true
 - alpn:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 'B - 🇹🇼 TW 17 TG: @nodpai'
+  name: 🇹🇼TW_3|2.0MB/s
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
   server: 125.227.86.46
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 'B - 🇹🇼 TW 18 TG: @nodpai'
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.48
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 'B - 🇹🇼 TW 19 TG: @nodpai'
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.45
   skip-cert-verify: true
   sni: TG.freecodes
   type: trojan

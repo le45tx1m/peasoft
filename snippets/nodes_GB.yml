@@ -1,9 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  country: 🇬🇧GB
-  delay: 804
-  name: 🇬🇧GB_1|2.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.9.114.224
-  type: ss
+proxies: []
