@@ -1,38 +1,31 @@
 proxies:
-- name: 🇰🇷KR_1|1.8MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+- name: 🇰🇷KR_6|2.4MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-kr-002.fastervpn.world
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: test
-- name: 🇰🇷KR_2|1000KB/s
+  sni: vpn-kr-002.fastervpn.world
+  type: hysteria2
+- client-fingerprint: firefox
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_7|1001KB/s
   network: ws
-  port: 18080
-  server: 183.105.184.203
-  servername: urg0.edge-node-us.danfeng.bond
+  port: 12312
+  server: 14.52.210.173
+  servername: juzi8186.qea.ccwu.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
   ws-opts:
     headers:
-      Host: urg0.edge-node-us.danfeng.bond
-    path: /danfeng?ed
+      Host: juzi8186.qea.ccwu.cc
+    path: /
   xudp: true
-- name: 🇰🇷KR_3|1.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 7778
-  server: 146.56.113.221
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
 - name: KR_speednode_0018
   port: 1090
   server: 121.169.46.116

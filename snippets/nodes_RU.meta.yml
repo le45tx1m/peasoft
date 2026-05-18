@@ -1,19 +1,5 @@
 proxies:
 - alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_1|1.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  port: 443
-  server: 193.53.126.108
-  skip-cert-verify: false
-  sni: s463.okgfwbackxyz.xyz
-  type: hysteria2
-  up: ''
-- alpn:
   - http/1.1
   client-fingerprint: qq
   flow: xtls-rprx-vision
