@@ -1,31 +1,11 @@
 proxies:
-- name: 🇰🇷KR_6|2.4MB/s
+- name: 🇰🇷KR_1|1.4MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-kr-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-kr-002.fastervpn.world
   type: hysteria2
-- client-fingerprint: firefox
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🇰🇷KR_7|1001KB/s
-  network: ws
-  port: 12312
-  server: 14.52.210.173
-  servername: juzi8186.qea.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  ws-opts:
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-    path: /
-  xudp: true
 - name: KR_speednode_0018
   port: 1090
   server: 121.169.46.116

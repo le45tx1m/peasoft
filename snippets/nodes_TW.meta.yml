@@ -1,11 +1,11 @@
 proxies:
 - name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  network: tcp
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
   server: tvhinet.lajichang.xyz
   skip-cert-verify: true
   sni: bing.com
+  tls: true
   type: trojan
 - name: 'B - 🇹🇼 TW 02 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp

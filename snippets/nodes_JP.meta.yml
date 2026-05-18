@@ -1,76 +1,37 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 02 TG: @nodpai'
   network: ws
-  port: 52675
-  security: tls
-  server: 142.248.151.249
-  servername: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
-  skip-cert-verify: false
-  sni: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  password: 8r<[9'l6hAO#8ZQi
+  port: 20770
+  server: 219.103.68.164
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
-    path: /@Marisa_kristi
-- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  network: ws
-  port: 10891
-  security: tls
-  server: 165.246.171.218
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-    path: /@Marisa_kristifp=chrome
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 03 TG: @nodpai'
   network: h2
   port: 58051
   server: 103.127.243.55
   tls: true
   type: vmess
   uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
   password: 8r%3C%5B9%27l6hAO%238ZQi
   port: 443
-  server: 154.197.88.253
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: '%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2'
-- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 140.238.50.134
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 154.197.108.253
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 18122
-  server: 155.248.168.35
+  server: 154.197.80.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -79,7 +40,50 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 138.2.59.112
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 31.57.172.187
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.110.104.30
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳
 - name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.176.36.61
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳
+- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 10563
@@ -89,55 +93,16 @@ proxies:
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 44004
-  server: 45.11.1.118
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
+    path: /trTelegram🇨🇳
 - name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.32.51.200
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
-  network: ws
-  port: 8445
-  security: tls
-  server: 152.53.178.240
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-    path: /@Marisa_kristifp=chrome
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 13 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
   server: 103.125.216.22
-  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - name: 日本|@ripaojiedian
   network: tcp
@@ -163,47 +128,6 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: random
-  name: 🇯🇵JP_1|1.7MB/s
-  network: ws
-  port: 443
-  server: dx.mmhh.eu.cc
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
-- client-fingerprint: random
-  name: 🇯🇵JP_2|1.0MB/s
-  network: ws
-  port: 443
-  server: yd.mmhh.eu.cc
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
-- name: 🇯🇵JP_3|1.5MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.207.197.79
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: JP_speednode_0017

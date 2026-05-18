@@ -1,4 +1,16 @@
 proxies:
+- down: ''
+  fingerprint: ''
+  name: 🇷🇺RU_1|3.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  port: '443'
+  server: 195.133.53.33
+  skip-cert-verify: false
+  sni: s516.okgfw.top
+  type: hysteria2
+  up: ''
 - alpn:
   - http/1.1
   client-fingerprint: qq
