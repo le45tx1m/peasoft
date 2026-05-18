@@ -5,8 +5,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 'A - 🇸🇬 SG 01 TG: @nodpai'
   network: ws
-  port: 10443
-  server: 112.170.171.170
+  port: 32771
+  server: 118.37.125.204
   servername: jbp7i.data-edge.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -24,8 +24,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 'A - 🇸🇬 SG 02 TG: @nodpai'
   network: ws
-  port: 20332
-  server: 115.40.49.24
+  port: 10001
+  server: 103.122.244.22
   servername: jbp7i.data-edge.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -37,45 +37,7 @@ proxies:
     headers:
       Host: jbp7i.data-edge.chinav.indevs.in
     path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 'A - 🇸🇬 SG 03 TG: @nodpai'
-  network: ws
-  port: 11235
-  server: 112.162.109.141
-  servername: jbp7i.data-edge.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: jbp7i.data-edge.chinav.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 64.186.238.194
-  servername: jbp7i.data-edge.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: jbp7i.data-edge.chinav.indevs.in
-    path: /danfeng?ed=2560
-- name: 'A - 🇸🇬 SG 05 TG: @nodpai'
+- name: 'A - 🇸🇬 SG 03 TG: @nodpai'
   network: ws
   port: 8443
   security: tls
@@ -88,6 +50,44 @@ proxies:
     headers:
       Host: shkiau5c.api-node-a1.chinam.indevs.in
     path: /danfeng?ed=2560fp=firefox
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
+  network: ws
+  port: 1443
+  server: 161.33.212.44
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'A - 🇸🇬 SG 05 TG: @nodpai'
+  network: ws
+  port: 39738
+  server: 154.44.17.63
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
 - name: 'A - 🇸🇬 SG 06 TG: @nodpai'
   network: ws
   port: 8443
@@ -101,11 +101,43 @@ proxies:
     headers:
       Host: yn80.api-backend.fgfw.qzz.io
     path: /danfeng?ed=2560fp=firefox
+- name: 'B - 🇸🇬 SG 07 TG: @nodpai'
+  network: ws
+  port: 8443
+  security: tls
+  server: cf8.danfeng.eu.org
+  servername: shkiau5c.api-node-a1.chinam.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: shkiau5c.api-node-a1.chinam.indevs.in
+    path: /danfeng?ed=2560fp=firefox
 - client-fingerprint: firefox
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+  network: ws
+  port: 39738
+  server: 38.244.5.157
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
   network: ws
   port: 2053
   server: 38.180.194.222
@@ -120,7 +152,7 @@ proxies:
     headers:
       Host: jbp7i.data-edge.chinav.indevs.in
     path: /danfeng?ed=2560
-- name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -137,7 +169,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 11 TG: @nodpai'
   network: ws
   port: 443
   server: 83.147.253.187
@@ -152,7 +184,7 @@ proxies:
     headers:
       Host: jbp7i.data-edge.chinav.indevs.in
     path: /danfeng?ed=2560
-- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 12 TG: @nodpai'
   network: ws
   port: 29015
   security: tls
@@ -165,7 +197,7 @@ proxies:
     headers:
       Host: iuh1.auth-proxy.chinat.indevs.in
     path: /danfeng?ed=2560
-- name: 'B - 🇸🇬 SG 11 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 13 TG: @nodpai'
   network: ws
   port: 8443
   security: tls
@@ -178,21 +210,26 @@ proxies:
     headers:
       Host: igvdi.edge-node-sg.fgfw.indevs.in
     path: /danfeng?ed=2560fp=firefox
-- client-fingerprint: chrome
-  name: 'B - 🇸🇬 SG 12 TG: @nodpai'
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 14 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 27.50.48.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  server: 95.85.27.49
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 13 TG: @nodpai'
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
+- name: 'B - 🇸🇬 SG 15 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -205,22 +242,9 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 14 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 92.243.75.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - alpn:
   - http/1.1
-  name: 'B - 🇸🇬 SG 15 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
   network: ws
   port: 443
   server: 80.253.251.30
@@ -231,7 +255,7 @@ proxies:
     headers:
       Host: zto7d05.api-relay.sh21.eu.org
     path: /danfeng?ed=2560fp=chromesecurity=tls
-- name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 17 TG: @nodpai'
   network: ws
   port: 32237
   security: tls
@@ -244,7 +268,24 @@ proxies:
     headers:
       Host: dcsrzh.ccwu.cc
     path: /?ed=2560fp=chrome
-- name: 'B - 🇸🇬 SG 17 TG: @nodpai'
+- alpn:
+  - 'http/1.1
+
+    '
+  name: 'B - 🇸🇬 SG 18 TG: @nodpai'
+  network: ws
+  port: 11300
+  security: tls
+  server: 118.36.233.194
+  servername: pl4oj.mirror.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pl4oj.mirror.fgfw.indevs.in
+    path: /danfeng?ed=2560fp=firefox
+- name: 'B - 🇸🇬 SG 19 TG: @nodpai'
   network: ws
   port: 8443
   security: tls
@@ -257,52 +298,44 @@ proxies:
     headers:
       Host: yn80.api-backend.fgfw.qzz.io
     path: /danfengfp=firefox
-- name: 'B - 🇸🇬 SG 18 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 27.50.49.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- encryption: none
-  name: 'B - 🇸🇬 SG 19 TG: @nodpai'
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 20 TG: @nodpai'
   network: ws
   port: 443
-  security: tls
-  server: 162.159.13.206
-  servername: juzi.qea.ccwu.cc
-  skip-cert-verify: true
+  server: 185.28.119.26
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: juzi.qea.ccwu.cc
-    path: /
-- name: 'B - 🇸🇬 SG 20 TG: @nodpai'
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 21 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 14706
-  server: 8.222.195.24
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 21 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 209.97.163.209
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  server: 104.253.175.136
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
 - name: 'B - 🇸🇬 SG 22 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -316,19 +349,25 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 23 TG: @nodpai'
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 23 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 172.236.154.50
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  port: 4433
+  server: 185.156.72.199
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
 - name: 'B - 🇸🇬 SG 24 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -346,7 +385,7 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 159.89.205.195
+  server: 159.89.207.154
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -356,17 +395,7 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 47.82.178.58
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳
-- name: 'B - 🇸🇬 SG 27 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 194.233.67.84
+  server: 157.245.56.32
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -374,17 +403,37 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
-- name: 'B - 🇸🇬 SG 28 TG: @nodpai'
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇸🇬 SG 27 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 152.42.169.132
+  server: 159.223.79.119
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'C - 🇸🇬 SG 28 TG: @nodpai'
+  network: ws
+  port: 2053
+  server: 173.232.146.99
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: jbp7i.data-edge.chinav.indevs.in
+    path: /danfeng?ed=2560
 - name: 'C - 🇸🇬 SG 29 TG: @nodpai'
   network: ws
   port: 2053
@@ -397,6 +446,23 @@ proxies:
     headers:
       Host: g4y4886.mail-relay.chinam.indevs.in
     path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇸🇬 SG 30 TG: @nodpai'
+  network: ws
+  port: 11965
+  security: tls
+  server: 151.242.164.46
+  servername: pchlzn.cdn-a.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pchlzn.cdn-a.gfw.hidns.co
+    path: /danfeng?ed=2560
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
