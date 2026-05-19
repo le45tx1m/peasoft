@@ -1,6 +1,19 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|1.1MB/s
+  port: 443
+  reality-opts:
+    public-key: KUD5RiuqMRrhOoN6X2FcXpYZfoN_7z8BcviSBlyxOBw
+    short-id: '!!str cbd8f4'
+  server: 185.184.70.120
+  servername: time.is
+  tls: true
+  type: vless
+  udp: true
+  uuid: 145adeb9-279d-4c1d-a97c-93fe28ca071e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: GB_speednode_0013
   port: 443
   reality-opts:

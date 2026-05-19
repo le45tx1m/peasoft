@@ -1,4 +1,47 @@
 proxies:
+- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  password: e5c22f63-e473-496a-beff-fdc5655008c1
+  port: 2096
+  server: tvhinet.lajichang.xyz
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: trojan
+- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 160.187.100.109
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'C - 🇹🇼 TW 09 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: B6r6wvfBmxpAz4lqw8Q6_riWhbCCtAuXmoNgS-sOelU
+    short-id: '!!str a13b96ad'
+  server: 1.161.50.107
+  servername: www.canon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 54407de7-ef98-4849-b1fb-837a5092d368
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'C - 🇹🇼 TW 10 TG: @nodpai'
+  network: tcp
+  port: 55309
+  reality-opts:
+    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+    short-id: '!!str 4bcbc85d'
+  server: 216.23.108.4
+  servername: download.windowsupdate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
 - name: TW_speednode_0034
   network: ws
   port: 17820

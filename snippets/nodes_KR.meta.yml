@@ -1,11 +1,85 @@
 proxies:
-- name: 🇰🇷KR_1|1.4MB/s
+- name: 🇰🇷KR_1|1.3MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-kr-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-kr-002.fastervpn.world
   type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_3|1.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-kr-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-001.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: 🇰🇷KR_4|1018KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 18790
+  server: 169.212.176.182
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 🇰🇷KR_5|1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 19150
+  server: 121.161.114.201
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇰🇷KR_6|1.7MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 10332
+  server: 221.159.99.35
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_8|1.1MB/s
+  network: ws
+  port: 20332
+  server: 115.40.49.24
+  servername: jbp7i.data-edge.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jbp7i.data-edge.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
 - name: KR_speednode_0018
   port: 1090
   server: 121.169.46.116
