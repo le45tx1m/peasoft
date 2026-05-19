@@ -1,11 +1,15 @@
 proxies:
 - name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16443
+  server: 114.32.9.249
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'A - 🇹🇼 TW 02 TG: @nodpai'
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
@@ -13,14 +17,28 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
   server: tvhinet.lajichang.xyz
   skip-cert-verify: true
-  sni: bing.com
+  sni: tvhinet.lajichang.xyz
   tls: true
   type: trojan
+- name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  password: b02b9065-defa-495a-bef1-cd55c67dbdf6
+  port: 20183
+  server: tw.sevenka.top
+  skip-cert-verify: true
+  sni: usahy2.maocf1.top
+  type: hysteria2
 - name: 🇨🇳TW_@WangCai_8
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -30,19 +48,28 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  flow: xtls-rprx-vision-udp443
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
   port: 55309
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: '!!str 4bcbc85d'
+  security: tls
   server: 216.23.108.4
   servername: download.windowsupdate.com
-  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
   uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+- name: 'B - 🇹🇼 TW 09 TG: @nodpai'
+  network: ws
+  port: 16396
+  security: tls
+  server: 38.207.160.213
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443fp=chrome
 - name: TW_speednode_0034
   network: ws
   port: 17820

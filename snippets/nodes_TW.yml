@@ -1,9 +1,20 @@
 proxies:
-- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16443
+  server: 114.32.9.249
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
   server: tvhinet.lajichang.xyz
   skip-cert-verify: true
-  sni: bing.com
+  sni: tvhinet.lajichang.xyz
   tls: true
   type: trojan
