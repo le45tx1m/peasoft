@@ -1,47 +1,11 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 01 TG: @nodpai'
   port: 30811
   server: 61.227.251.122
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇹🇼 TW 03 TG: @nodpai'
-  network: ws
-  port: 16616
-  server: planb.mojcn.com
-  type: vmess
-  uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
-  ws-opts:
-    headers:
-      Host: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇹🇼 TW 04 TG: @nodpai'
-  network: ws
-  port: 16616
-  server: m.cnmjin.net
-  type: vmess
-  uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
-  ws-opts:
-    headers:
-      Host: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇹🇼 TW 05 TG: @nodpai'
-  network: ws
-  port: 16616
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
-  ws-opts:
-    headers:
-      Host: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
-    path: /
 - name: TW_speednode_0028
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
