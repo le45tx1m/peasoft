@@ -1,17 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|2.5MB/s
-  network: tcp
-  port: '2443'
-  reality-opts:
-    public-key: Pyn-CZrKJEIoM7mcj__Eosc4F03CpqvwRZEqlJzqOnQ
-    short-id: '!!str e6df8954df22'
-  server: 193.168.197.76
-  servername: www.ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b198c7e4-b6a5-4309-ac0e-0783cf8b129c
-  xudp: true
+proxies: []
