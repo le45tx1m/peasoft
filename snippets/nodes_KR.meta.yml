@@ -1,21 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇰🇷KR_1|1.3MB/s
-  network: ws
-  port: '20005'
-  server: 27.100.182.157
-  servername: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /danfeng?ed=2560fp=firefox
-  xudp: true
 - name: KR_speednode_0019
   port: 1090
   server: 121.169.46.116
