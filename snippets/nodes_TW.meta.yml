@@ -10,6 +10,13 @@ proxies:
   cipher: auto
   name: 'B - 🇹🇼 TW 02 TG: @nodpai'
   port: 30811
+  server: 218.173.203.169
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
