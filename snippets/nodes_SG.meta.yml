@@ -1,44 +1,38 @@
 proxies:
-- name: 'A - 🇸🇬 SG 01 TG: @nodpai'
-  network: ws
-  port: 20005
-  security: tls
-  server: 119.195.235.198
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
-- name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+- encryption: none
+  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 8.219.232.55
-  servername: sni.skylee4.cloudns.ch
+  server: 104.25.242.55
+  servername: juzi.qea.ccwu.cc
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   ws-opts:
     headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
-- name: 'A - 🇸🇬 SG 03 TG: @nodpai'
+      Host: juzi.qea.ccwu.cc
+    path: /
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
   network: ws
-  port: 13666
+  port: 10001
   security: tls
-  server: 59.19.252.218
+  server: 59.30.189.250
   servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  sni: vfa9.cdn-stream.fgfw.indevs.in
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
-- name: 'A - 🇸🇬 SG 04 TG: @nodpai'
+    path: /danfeng?ed=2560
+- name: 'A - 🇸🇬 SG 03 TG: @nodpai'
   network: ws
   port: 16030
   security: tls
@@ -51,29 +45,33 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560fp=firefox
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+- name: 'A - 🇸🇬 SG 04 TG: @nodpai'
   network: ws
   port: 443
-  security: tls
-  server: 64.23.249.248
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
-  sni: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
+  server: 69.40.207.156
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560
-- name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+    path: /danfengsecurity=tls
+- name: 'A - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
-  port: 14265
+  port: 20205
+  server: 169.150.210.158
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    path: /danfeng?ed=2560fp=firefoxsecurity=tls
+- encryption: none
+  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+  network: ws
+  port: 34237
   security: tls
-  server: 180.182.110.151
+  server: 146.56.101.164
   servername: vfa9.cdn-stream.fgfw.indevs.in
   tls: true
   type: vless
@@ -89,7 +87,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 162.243.196.78
+  server: 164.90.144.191
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
   sni: vfa9.cdn-stream.fgfw.indevs.in
@@ -100,23 +98,10 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
-- name: 'B - 🇸🇬 SG 08 TG: @nodpai'
-  network: ws
-  port: 34237
-  security: tls
-  server: 146.56.110.135
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
   network: ws
   port: 2053
   security: tls
@@ -131,91 +116,55 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
+- name: 'B - 🇸🇬 SG 09 TG: @nodpai'
+  network: ws
+  port: 2083
+  security: tls
+  server: 209.38.104.134
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    path: /danfeng?ed=2560fp=firefox
 - name: 'B - 🇸🇬 SG 10 TG: @nodpai'
   network: ws
   port: 8443
-  security: tls
   server: 164.92.219.230
   servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
+    path: /danfeng?ed=2560fp=firefoxsecurity=tls
 - name: 'B - 🇸🇬 SG 11 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.160.195.223
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 'B - 🇸🇬 SG 12 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: liantong.19931101.xyz
-  servername: xy430.albertabobbi.ndjp.net
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: xy430.albertabobbi.ndjp.net
-    path: /
-- name: 'B - 🇸🇬 SG 13 TG: @nodpai'
-  network: ws
-  port: 23023
-  security: tls
-  server: 221.165.124.107
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
-- name: 'B - 🇸🇬 SG 14 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 27.50.49.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
-  name: 'B - 🇸🇬 SG 15 TG: @nodpai'
-  port: 10000
-  security: tls
-  server: sgxi.959555.xyz
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: af6904c1-4349-4448-8e99-0024824a0c33
-- name: 'B - 🇸🇬 SG 16 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 92.243.74.253
+  server: 27.50.48.253
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
     path: /trTelegram
+- name: 'B - 🇸🇬 SG 12 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 47.84.54.115
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
 - client-fingerprint: firefox
   encryption: none
-  fp: firefox
-  name: 'B - 🇸🇬 SG 17 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 13 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 38.207.130.196
+  server: 162.243.196.78
   servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
-  sni: vfa9.cdn-stream.fgfw.indevs.in
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -223,23 +172,71 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
+- name: 'B - 🇸🇬 SG 14 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 22000
+  server: 47.79.237.236
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇸🇬 SG 15 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 207.148.125.245
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 47.82.155.79
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇸🇬 SG 17 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 27.50.49.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇸🇬 SG 18 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 92.243.75.253
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇸🇬 SG 21 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 188.166.230.196
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳
+- name: 'B - 🇸🇬 SG 22 TG: @nodpai'
   network: ws
   port: 8443
-  security: tls
   server: 160.16.116.222
   servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
+    path: /danfeng?ed=2560fp=firefoxsecurity=tls
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 'B - 🇸🇬 SG 19 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 23 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -257,11 +254,11 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 'B - 🇸🇬 SG 20 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 24 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 64.120.94.97
+  server: 154.205.159.78
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
   sni: vfa9.cdn-stream.fgfw.indevs.in
@@ -272,74 +269,47 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
-- name: 'B - 🇸🇬 SG 22 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.151.146.73
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: 'B - 🇸🇬 SG 24 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 141.11.43.124
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
 - name: 'B - 🇸🇬 SG 25 TG: @nodpai'
-  network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 188.166.230.196
-  skip-cert-verify: true
+  server: 178.128.90.108
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳
 - name: 'B - 🇸🇬 SG 26 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
+  password: 8r%3C%5B9%27l6hAO%238ZQi
   port: 443
-  server: 47.82.178.58
+  server: 159.65.143.223
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇸🇬 SG 27 TG: @nodpai'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan
-- name: 'B - 🇸🇬 SG 28 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 178.128.97.53
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: 'B - 🇸🇬 SG 29 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 209.97.170.177
+  server: 146.190.102.51
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 30 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 28 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 188.166.247.45
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳
+- name: 'B - 🇸🇬 SG 29 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 57606
@@ -350,28 +320,23 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳
+- name: 'B - 🇸🇬 SG 30 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.223.50.79
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
   name: 'C - 🇸🇬 SG 31 TG: @nodpai'
-  network: ws
-  port: 2443
-  security: tls
-  server: 141.11.91.165
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
-  sni: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'C - 🇸🇬 SG 32 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -410,34 +375,8 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇸🇬SG_1|1.4MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 188.164.248.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🇸🇬SG_2|1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 108.162.192.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-128-gcm
-  name: 🇸🇬SG_3|3.5MB/s
+  name: 🇸🇬SG_1|1.2MB/s
   password: '!!str 666'
   plugin: v2ray-plugin
   plugin-opts:

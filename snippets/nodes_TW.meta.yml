@@ -1,4 +1,13 @@
 proxies:
+- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 50000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  sni: tw.9966690.xyz
+  type: hysteria2
 - name: TW_speednode_0035
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
@@ -17,28 +26,8 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 2
   cipher: auto
-  country: 🇹🇼 TW
-  delay: 467
-  http-opts: {}
-  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  network: tcp
-  port: 30811
-  server: v11.zgtfqs.click
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
   port: 30811
   server: 61.227.198.218
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇹🇼TW_1|3.3MB/s
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 23445
-  server: t3cache.71edgeiqiyi.com
-  tls: true
-  type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f

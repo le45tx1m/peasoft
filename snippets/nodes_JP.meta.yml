@@ -1,20 +1,13 @@
 proxies:
-- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 103.201.130.164
-  servername: vfa9.cdn-stream.fgfw.indevs.in
+- name: 'B - 🇯🇵 JP 01 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 11307
+  server: 47.79.85.210
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
+  type: trojan
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
   name: 'B - 🇯🇵 JP 02 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
@@ -22,8 +15,8 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 'B - 🇯🇵 JP 03 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.83.50.165
+  port: 18122
+  server: 155.248.168.35
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -45,12 +38,31 @@ proxies:
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 154.197.80.253
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 140.83.50.165
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 21044
+  server: 138.2.23.80
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -60,27 +72,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  network: ws
-  port: 20770
-  server: 219.103.68.164
-  servername: sni.111000.v6.army
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: /?ed=2560security=tls
-- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 161.248.254.27
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -107,7 +98,8 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram
-- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+- encryption: none
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   network: ws
   port: 16090
   security: tls
@@ -120,25 +112,24 @@ proxies:
     headers:
       Host: dcsrzh.ccwu.cc
     path: /
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇯🇵 JP 12 TG: @nodpai'
-  port: 30806
-  server: 103.182.97.25
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'C - 🇯🇵 JP 13 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 160.251.209.140
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
   network: ws
-  password: GKHWMe2R4qwNcNxu6l3KMkdd
-  port: 20770
-  server: 219.103.68.164
-  sni: vpn1.rnmcnm.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 42841
+  server: 43.165.190.11
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: vpn1.rnmcnm.com
-    path: /trj-ws
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -163,26 +154,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-gcm
-  name: 🇯🇵JP_1|4.9MB/s
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 12885
-  server: ss.031.node-for-bigairport.win
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_2|3.4MB/s
-  network: ws
-  port: 35311
-  server: 212.50.233.25
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristi

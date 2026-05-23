@@ -1,47 +1,15 @@
 proxies:
-- name: 🇫🇷FR_1|1.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 146.19.168.188
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_2|2.0MB/s
+  name: 🇫🇷FR_1|1.1MB/s
   network: tcp
-  port: 7443
+  port: '443'
   reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '!!str be0ce047'
-  server: fr.oneok.name
-  servername: chat.deepseek.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 030f6019-b8ce-4de8-911f-35b0ee11c33c
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_3|2.5MB/s
-  network: tcp
-  port: 31413
-  reality-opts:
-    _spider-x: /
-    public-key: nMlxwhP34_5wFPscbso_hOfRDmsj9DonMpDSXUrnJR8
-    short-id: '!!str ead3d6f82a9d'
-  server: 51.44.16.107
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: '!!str b8aa'
+  server: 194.226.169.36
   servername: yahoo.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5454343b-541b-4c96-8c2a-52e81079d124
+  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
   xudp: true
