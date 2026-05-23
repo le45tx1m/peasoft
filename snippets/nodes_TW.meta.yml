@@ -1,25 +1,55 @@
 proxies:
 - name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  type: hysteria2
+- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
+- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 'A - 🇹🇼 TW 04 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 50000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
   port: 30811
   server: 61.227.198.218
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'B - 🇹🇼 TW 09 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 23445
+  server: t3cache.71edgeiqiyi.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
 - name: TW_speednode_0028
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
