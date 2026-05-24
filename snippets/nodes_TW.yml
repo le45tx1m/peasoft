@@ -1,15 +1,15 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  port: 35034
+  server: 165.154.195.38
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 12 TG: @nodpai'
   port: 30811
   server: 61.227.198.218
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan

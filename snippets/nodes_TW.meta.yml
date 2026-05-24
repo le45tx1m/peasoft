@@ -1,53 +1,31 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
-  port: 30811
-  server: 61.227.198.218
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 30000
-  server: tw.9966690.xyz
-  skip-cert-verify: true
-  type: hysteria2
-- name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
-  network: ws
-  port: 17009
-  server: 166.0.198.35
-  servername: qznql.node-proxy.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
+- flow: xtls-rprx-vision
+  name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+  port: 443
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
   tls: true
   type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    path: /danfeng?ed=2560
-- name: TW_speednode_0034
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
+  uuid: d0e1f202-3791-4cf5-b689-e5833375d343
+- flow: xtls-rprx-vision
+  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
+  port: 443
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
   tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: vless
+  uuid: e74de85f-61a2-413a-a18b-1be496dd2cf6
+- flow: xtls-rprx-vision
+  name: 'A - 🇹🇼 TW 05 TG: @nodpai'
+  port: 443
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  tls: true
+  type: vless
+  uuid: 0599bfbb-64c9-47dd-abf2-9cca1e87109c
 - name: TW_speednode_0035
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
@@ -56,3 +34,100 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  port: 35034
+  server: 165.154.195.38
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- name: TW_speednode_0034
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 12 TG: @nodpai'
+  port: 30811
+  server: 61.227.198.218
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇹🇼 TW 22 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
+    short-id: '!!str c3eda72ab57f'
+  security: reality
+  server: download.riferoser.icu
+  servername: www.hollywoodreporter.com
+  tls: true
+  type: vless
+  uuid: db88683a-b4d2-482c-8925-70c4d4927172
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇹🇼 TW 23 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
+    short-id: '!!str bff6a88f0127'
+  security: reality
+  server: download.riferoser.icu
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: b6c0c044-7329-4b40-b342-133d047bf1e2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇹🇼 TW 24 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
+    short-id: '!!str 37e6f3e4339e'
+  security: reality
+  server: 46.249.109.128
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 9f1b677f-aeea-43a9-9927-12188cdc1249
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇹🇼 TW 25 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
+    short-id: '!!str 37e6f3e4339e'
+  security: reality
+  server: download.riferoser.icu
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 9f1b677f-aeea-43a9-9927-12188cdc1249
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇹🇼 TW 26 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
+    short-id: '!!str 481808327870'
+  security: reality
+  server: download.riferoser.icu
+  servername: www.hollywoodreporter.com
+  tls: true
+  type: vless
+  uuid: bec0c23e-cb95-41bf-95b4-f8819b86601a
