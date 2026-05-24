@@ -17,24 +17,15 @@ proxies:
   tls: true
   type: vless
   uuid: 4f85f6b8-7b35-4c1e-bf46-2b68acc99230
-- flow: xtls-rprx-vision-udp443
-  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  port: 443
-  security: tls
-  server: tokyo1.ap221.com
-  servername: tokyo.ap221.com
-  tls: true
-  type: vless
-  uuid: 5c0aeda1-c9b7-4e3f-9fc9-8067f4867ede
 - alterId: 2
   cipher: auto
-  name: 'A - 🇯🇵 JP 05 TG: @nodpai'
+  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
   port: 30806
   server: 103.182.97.12
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - flow: xtls-rprx-vision-udp443
-  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
   port: 443
   security: tls
   server: tokyo1.ap221.com
@@ -43,7 +34,7 @@ proxies:
   type: vless
   uuid: 8ded7f1f-6858-4502-b224-0c45df1d52df
 - flow: xtls-rprx-vision-udp443-udp443
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   port: 443
   security: tls
   server: tokyo1.ap221.com
@@ -52,7 +43,7 @@ proxies:
   type: vless
   uuid: e74de85f-61a2-413a-a18b-1be496dd2cf6
 - flow: xtls-rprx-vision-udp443
-  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
   port: 443
   security: tls
   server: tokyo1.ap221.com
@@ -62,7 +53,7 @@ proxies:
   uuid: 0599bfbb-64c9-47dd-abf2-9cca1e87109c
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
   network: ws
   port: 80
   server: 168.138.43.75
@@ -74,12 +65,12 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 140.83.50.165

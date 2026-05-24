@@ -1,14 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'A - 🇯🇵 JP 05 TG: @nodpai'
+  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
   port: 30806
   server: 103.182.97.12
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
   network: ws
   port: 80
   server: 168.138.43.75
@@ -20,12 +20,12 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 140.83.50.165

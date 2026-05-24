@@ -55,6 +55,23 @@ proxies:
     path: /danfeng?ed=2560fp=firefox
   xudp: true
 - client-fingerprint: chrome
+  name: 🇰🇷KR_4|2.0MB/s
+  network: ws
+  port: '11371'
+  server: 112.72.253.34
+  servername: qznql.node-proxy.chinat.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /danfeng?ed=2560fp=firefox
+  xudp: true
+- client-fingerprint: chrome
   name: 🇰🇷KR_5|1.3MB/s
   network: ws
   port: '18889'
