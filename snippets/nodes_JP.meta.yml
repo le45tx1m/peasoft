@@ -30,7 +30,19 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
+- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 154.197.88.253
@@ -38,7 +50,7 @@ proxies:
   tls: true
   type: trojan
 - client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -51,7 +63,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -76,8 +88,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -92,7 +103,21 @@ proxies:
         AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
         Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 18122
+  server: 155.248.168.35
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 2083
   server: 64.176.38.23
@@ -101,26 +126,26 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 16 TG: @nodpai'
   port: 30806
   server: 103.182.97.12
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇯🇵 JP 16 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 17 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 41607
   server: 45.159.48.37
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇯🇵 JP 17 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 18 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 168.138.46.67
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇯🇵 JP 18 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 19 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -133,27 +158,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 19 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 172.111.146.64
-  type: vless
-  uuid: 904f8ffa-4652-4076-8f2f-e586807840ec
-  ws-opts:
-    path: /vless/
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 20 TG: @nodpai'
-  network: ws
-  port: 80
-  server: jp01.a0a.xyz
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
-- name: 'C - 🇯🇵 JP 21 TG: @nodpai'
+- name: 'C - 🇯🇵 JP 20 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 42841
@@ -168,13 +173,13 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: 'C - 🇯🇵 JP 22 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 21 TG: @nodpai'
   port: 30806
   server: 103.182.97.25
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - encryption: none
-  name: 'C - 🇯🇵 JP 23 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 22 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -186,7 +191,7 @@ proxies:
   ws-opts:
     path: /proxy
 - encryption: none
-  name: 'C - 🇯🇵 JP 24 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 23 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -197,6 +202,19 @@ proxies:
   uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
   ws-opts:
     path: /proxy
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'C - 🇯🇵 JP 25 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 172.111.146.64
+  tls: false
+  type: vmess
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  ws-opts:
+    headers: {}
+    path: /vmess/
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
