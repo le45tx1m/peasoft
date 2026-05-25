@@ -1,4 +1,16 @@
 proxies:
+- down: ''
+  fingerprint: ''
+  name: 🇫🇷FR_1|1.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 65bc8227-48db-4993-9e9d-68394de672a1
+  port: '443'
+  server: 45.92.218.150
+  skip-cert-verify: false
+  sni: holz3.api3-max.ru
+  type: hysteria2
+  up: ''
 - name: 🇫🇷FR_2|1.1MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi

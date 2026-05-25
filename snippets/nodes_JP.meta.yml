@@ -1,7 +1,28 @@
 proxies:
+- alpn:
+  - http%2F1.1%0A
+  client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 13.158.177.96
+  servername: c1mxc.api-gateway.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c1mxc.api-gateway.fgfw.qzz.io
+    path: /danfeng-2cm3?ed=2560
 - client-fingerprint: chrome
   encryption: none
-  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
   network: ws
   port: 2096
   security: tls
@@ -14,58 +35,22 @@ proxies:
     headers:
       Host: jp.aniua.qzz.io
     path: //?ed=2095
-- client-fingerprint: chrome
-  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 03 TG: @nodpai'
   network: ws
-  port: 634
-  server: 158.180.81.137
-  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.110.104.30
   skip-cert-verify: true
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 03 TG: @nodpai'
-  network: ws
-  port: 16443
-  server: 107.149.239.177
-  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  skip-cert-verify: true
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
-  network: ws
-  port: 8998
-  server: 45.93.31.193
-  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  skip-cert-verify: true
-  sni: qi4rysu2u-e8j2zzhk.bsld.de5.net
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
-    path: /@Marisa_kristi
-- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -78,27 +63,18 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
-  port: 74
-  server: 172.105.194.182
-  servername: dcsrzh.ccwu.cc
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 140.83.50.165
   skip-cert-verify: true
-  type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   ws-opts:
-    headers:
-      Host: dcsrzh.ccwu.cc
-    path: /?ed=2560security=tls
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60017
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  type: hysteria2
-- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -108,27 +84,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 103.125.216.22
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60019
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  sni: zf.9966690.xyz
-  type: hysteria2
-- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443

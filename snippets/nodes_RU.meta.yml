@@ -1,14 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: RU_speednode_0030
-  port: 26424
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-    short-id: '!!str 23103e1e'
-  server: 45.12.75.242
-  servername: ya.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+proxies: []

@@ -1,19 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
-  network: http
-  port: 58051
-  server: 103.127.243.55
-  tls: false
-  type: vmess
-  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
-- name: 'B - 🇭🇰 HK 03 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 01 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -26,54 +12,95 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60010
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  type: hysteria2
-- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60008
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  sni: zf.9966690.xyz
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers: {}
-    path:
-    - /ABCDE
-  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  network: http
-  port: 55386
-  server: 103.127.243.60
-  tls: false
-  type: vmess
-  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
+- encryption: none
+  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
+  network: ws
   port: 443
-  server: 219.76.13.177
-  sni: Koma-YT.PAGeS.Dev
+  security: tls
+  server: 47.243.254.47
+  servername: sni.111000.v6.rocks
   tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'B - 🇭🇰 HK 03 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 46639
-  server: 192.131.142.161
+  port: 443
+  server: 8.223.63.150
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  network: ws
+  port: 443
+  server: cdn.31514926.xyz
+  servername: admit-statute-live-undertaken.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 48d5eb0f-fd55-4357-baec-a68fa39a4b1b
+  ws-opts:
+    headers:
+      Host: admit-statute-live-undertaken.trycloudflare.com
+    path: /48d5eb0f-fd55-4357-baec-a68fa39a4b1b-vm
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 'B - 🇭🇰 HK 05 TG: @nodpai'
+  network: http
+  port: 58051
+  server: 103.127.243.55
+  tls: false
+  type: vmess
+  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6NCa8hdmqu3ZpYSQkODtsExGL1M0wR0GI4XZbb3Kdxo
+    short-id: '!!str ce1b'
+  security: reality
+  server: 216.57.108.24
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 61bf6a18-727e-4492-ab5f-01dea4aa2df9
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  network: tcp
+  port: 10011
+  reality-opts:
+    public-key: 82bbZIdU-0s8fydncIhp9_sNDYQQH9ZY_7RVI5apXnk
+    short-id: '!!str 447f3a05ace2b748'
+  security: reality
+  server: 103.123.162.50
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 13 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -117,17 +144,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: HK_speednode_0020
-  network: ws
-  port: 32237
-  server: 83.229.126.127
-  servername: dcsrzh.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: dcsrzh.ccwu.cc
-    path: /fp=chromefp=chrome
