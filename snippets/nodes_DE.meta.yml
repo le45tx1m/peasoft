@@ -1,72 +1,17 @@
 proxies:
-- name: 🇩🇪DE_1|1.7MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 91.220.8.170
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|1.8MB/s
-  network: raw
-  port: '9443'
-  reality-opts:
-    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-    short-id: '!!str 2344766a270a6298'
-  server: 159.195.82.187
-  servername: yahoo.com
-  tls: true
-  type: vless
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_1|2.4MB/s
+  password: RexnBgU7EV5ADxG
+  port: '7001'
+  server: 213.202.208.199
+  type: ss
   udp: true
-  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|1.0MB/s
+- encryption: none
+  name: 🇩🇪DE_2|1.2MB/s
   network: tcp
-  port: '8444'
-  reality-opts:
-    public-key: Hp6K5hsiPY4_zATgAtef9YTxNGpSkhAHTTo9MUO7fik
-    short-id: '!!str 77e934f68f02ab4c'
-  server: 85.208.139.98
-  servername: cdnjs.com
-  tls: true
+  port: '777'
+  server: 93.123.84.128
   type: vless
   udp: true
-  uuid: c931f737-cafe-4e4f-998a-a65517941256
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|2.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: RuJ1lpOsGekCBHkDdJ-ZeaeHQ4biiMj3ioU2eqSyfQM
-    short-id: '!!str '
-  server: de-1.shadowhub.cc
-  servername: static.gcore.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3da803c-9c04-4ffb-a0f2-32cda93dd868
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE_5|2.5MB/s
-  network: raw
-  port: '10097'
-  server: 45.144.54.183
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d5b36432-e168-4bc9-85cb-f68c9c22054a
+  uuid: c9424b66-67dd-4dbf-ddbc-752514cc04a5
   xudp: true

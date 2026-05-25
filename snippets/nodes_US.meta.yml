@@ -1,200 +1,181 @@
 proxies:
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 03 TG: @nodpai'
+  network: tcp
+  port: 22231
+  server: 85.234.114.30
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alterId: 0
   cipher: auto
-  name: 'A - 🇺🇸 US 01 TG: @nodpai'
-  network: none
-  port: 13581
-  server: 104.233.214.176
-  tls: false
+  name: 'B - 🇺🇸 US 04 TG: @nodpai'
+  port: 180
+  server: 82.198.246.37
   type: vmess
-  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇺🇸 US 03 TG: @nodpai'
-  port: 22324
-  server: 216.106.185.141
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 'B - 🇺🇸 US 04 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 06 TG: @nodpai'
+  network: tcp
   port: 443
-  server: 104.31.16.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- allowInsecure: '1'
-  fp: chrome
-  name: 'B - 🇺🇸 US 05 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  security: tls
-  server: 141.101.120.25
-  servername: Koma-YT.PAGeS.Dev
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 06 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 172.64.147.106
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- alterId: 2
-  cipher: auto
+  reality-opts:
+    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
+    short-id: '!!str 122218f4c1f172e4'
+  security: reality
+  server: fr.c2horizon.app
+  servername: fr.c2horizon.app
+  tls: true
+  type: vless
+  uuid: 24e407fb-8d2c-47c7-a589-13fa4edcac38
+- client-fingerprint: chrome
   name: 'B - 🇺🇸 US 07 TG: @nodpai'
-  port: 30808
-  server: 103.182.97.12
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇺🇸 US 08 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 92.118.126.170
+  port: 443
+  server: 103.21.244.253
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 09 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 31.58.50.143
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 'B - 🇺🇸 US 10 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 199.68.156.253
+  port: 8443
+  server: 157.245.215.195
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
+- name: 'B - 🇺🇸 US 11 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 31.58.50.143
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: RU_speednode_0029
+  network: tcp
+  port: 22231
+  security: tls
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 104.129.166.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 14 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 31.57.63.63
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 11 TG: @nodpai'
-  network: tcp
-  port: 4443
-  reality-opts:
-    public-key: WdIX2dBCU2C9IgHXeIpJqckDAKBx1D9E4Sa4oL3uYA4
-  security: reality
-  server: sp.alexanderoff.ru
-  servername: sp.frostmotiveseed.net
-  tls: true
-  type: vless
-  uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
-- name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 198.71.188.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 13 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 198.62.62.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 14 TG: @nodpai'
+  name: 'B - 🇺🇸 US 15 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
-    public-key: Imip0dcpOj1K4NCB3XLN-DVkWDBp8d76rdwtZCM9wxo
-    short-id: '!!str 8406270b2d804856'
+    public-key: rSL9RX3anDN8Un4ImlYVa94n9wDdUmHdubxoMKnaXgE
+    short-id: '!!str 5a55'
   security: reality
-  server: 77.110.109.51
-  servername: ads.x5.ru
+  server: 193.233.202.7
+  servername: yahoo.com
+  spider-x: /
   tls: true
   type: vless
-  uuid: c61982c1-db50-49ca-98c7-0caf3c565a80
-- insecure: '1'
-  name: 'B - 🇺🇸 US 15 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60044
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  sni: zf.9966690.xyz
-  type: hysteria2
+  uuid: 6e76f92f-5005-42d8-8c66-ea7ffde3168a
 - name: 'B - 🇺🇸 US 16 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 104.167.196.91
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 'B - 🇺🇸 US 17 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 31.58.50.114
+  port: 443
+  server: 128.14.196.46
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 18 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 162.245.191.118
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
 - name: 'B - 🇺🇸 US 19 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 38.248.249.62
+  port: 443
+  server: 192.241.207.118
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇺🇸 US 20 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 94.183.184.239
+  port: 443
+  server: 104.223.50.78
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -206,10 +187,11 @@ proxies:
 - name: 'B - 🇺🇸 US 21 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 150.136.243.175
+  port: 8443
+  server: 64.188.89.147
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
     headers:
@@ -217,128 +199,140 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇺🇸 US 22 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
+  port: 80
+  server: 104.21.61.73
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    headers:
+      Host: vip.yaml7.ggff.net
+    path: /
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 23 TG: @nodpai'
+  network: ws
   port: 443
-  server: 72.56.72.94
+  server: 172.64.229.83
+  servername: pagescm.freen34.cc.cd
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 23 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 95.182.101.74
-  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇺🇸US_4|1.2MB/s
+      Host: pagescm.freen34.cc.cd
+    path: /contact/pages
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇺🇸 US 25 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2083
-  server: 31.172.79.138
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: 443
+  server: dustyvless-sin-0a46fa.fly.dev
+  servername: dustyvless-sin-0a46fa.fly.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 346a022c-5dc1-5886-b6f0-28e33fb15c0b
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
+      Host: dustyvless-sin-0a46fa.fly.dev
+    path: /uXYVnYROQd_w
+  xudp: true
 - name: 'B - 🇺🇸 US 26 TG: @nodpai'
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 44.217.235.114
+  port: 8443
+  server: 72.56.102.34
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
 - name: 'B - 🇺🇸 US 27 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 72.56.110.233
+  server: 72.56.106.103
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  name: 'B - 🇺🇸 US 29 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 83.147.255.3
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: 'B - 🇺🇸 US 30 TG: @nodpai'
+  name: 'B - 🇺🇸 US 28 TG: @nodpai'
   port: 30804
-  server: 103.182.97.245
+  server: 103.182.97.25
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: 'C - 🇺🇸 US 31 TG: @nodpai'
+- encryption: none
+  name: 'C - 🇺🇸 US 29 TG: @nodpai'
   network: ws
-  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
   port: 443
-  server: 104.16.80.73
-  skip-cert-verify: true
-  sni: sni.111000.dynv6.net
+  security: tls
+  server: 172.64.32.83
+  servername: pagescm.freen34.cc.cd
   tls: true
-  type: trojan
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen34.cc.cd
+    path: /contact/pages
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'C - 🇺🇸 US 30 TG: @nodpai'
+  port: 17440
+  security: tls
+  server: usvless.yydzx.xyz
+  servername: usvless.yydzx.xyz
+  tls: true
+  type: vless
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: 'C - 🇺🇸 US 31 TG: @nodpai'
+  network: ws
+  port: 8443
+  server: 188.114.98.0
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.dynv6.net
-    path: /
+    path: /?Telegram🇨🇳 @WangCai2
 - name: 美国|@ripaojiedian
   network: tcp
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
-  port: 5224
-  server: 18.181.205.14
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 2663
+  server: 18.183.203.240
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: 635340b47bddf8f41c123dc6f2b5f7ce
-  port: 2663
-  server: 43.206.93.224
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 6604
+  server: 13.113.236.116
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 8359
-  server: 13.114.188.23
+  port: 17801
+  server: 54.250.202.23
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国5|@ripaojiedian
@@ -358,30 +352,13 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 美国5|@ripaojiedian
+  name: 🇺🇸US_9|2.6MB/s
   network: tcp
   port: '180'
   server: 82.198.246.233
   servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|2.0MB/s
-  password: dongtaiwang.com
-  port: 28866
-  server: 45.221.98.11
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_2|1.3MB/s
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -390,7 +367,7 @@ proxies:
   xudp: true
 - down: ''
   fingerprint: ''
-  name: 🇺🇸US_3|1.5MB/s
+  name: 🇺🇸US_1|2.5MB/s
   obfs: ''
   obfs-password: ''
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
@@ -400,163 +377,57 @@ proxies:
   sni: hy2.123266.xyz
   type: hysteria2
   up: ''
-- cipher: aes-256-gcm
-  name: 🇺🇸US_5|1.2MB/s
-  password: uwmRUOVM5ljNAtPj
-  port: 443
-  server: 154.53.57.143
-  skip-cert-verify: false
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|3.9MB/s
+  password: amazonskr05
+  port: '443'
+  server: 100.26.47.172
   type: ss
-  udp: false
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸US_3|2.6MB/s
+  password: shadowsocks
+  port: '443'
+  server: 37.19.198.244
+  type: ss
+  udp: true
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US_6|1022KB/s
+  name: 🇺🇸US_4|1.3MB/s
   network: tcp
-  port: 8443
+  port: '23576'
   reality-opts:
-    public-key: PLXxLvvGJ9t0QOkMF_C8Ss44wN8EDBxBDyD5t95U23s
-    short-id: '!!str 41'
-  server: us-62s.dataload-cdn.ru
-  servername: www.vk.ru
-  skip-cert-verify: false
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '!!str 01'
+  server: 15.204.97.206
+  servername: fuck.rkn
   tls: true
   type: vless
   udp: true
-  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_7|1.3MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: '2053'
-  server: 199.119.137.77
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_8|2.7MB/s
-  network: tcp
+- cipher: aes-128-gcm
+  name: 🇺🇸US_6|3.4MB/s
+  password: shadowsocks
   port: '443'
-  reality-opts:
-    public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
-    short-id: '!!str '
-  server: 47.253.226.114
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
+  server: 156.146.38.167
+  type: ss
   udp: true
-  uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_9|1.6MB/s
-  network: tcp
+- cipher: aes-256-cfb
+  name: 🇺🇸US_7|2.7MB/s
+  password: amazonskr05
   port: '443'
-  reality-opts:
-    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
-    short-id: '!!str 5629431325884ff0'
-  server: sha1.o4ka-internet.com
-  servername: sha1.o4ka-internet.com
-  tls: true
-  type: vless
+  server: 54.234.5.174
+  type: ss
   udp: true
-  uuid: 42ba03da-78cf-413e-9e79-1128ee6ddb30
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_10|1.3MB/s
-  network: ws
+- cipher: aes-128-gcm
+  name: 🇺🇸US_8|3.1MB/s
+  password: shadowsocks
   port: '443'
-  server: vless-node-zvphrlyh.fly.dev
-  servername: vless-node-zvphrlyh.fly.dev
-  tls: true
-  type: vless
+  server: 156.146.38.170
+  type: ss
   udp: true
-  uuid: 54ff9029-d159-5c6f-a606-7c3328dcb735
-  ws-opts:
-    headers:
-      Host: vless-node-zvphrlyh.fly.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /cEb10rMo_99q
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_11|2.2MB/s
-  network: ws
-  port: '443'
-  server: vless-node-usclstvf.fly.dev
-  servername: vless-node-usclstvf.fly.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab14dd9b-2816-4851-a0f8-7e60c270a11f
-  ws-opts:
-    headers:
-      Host: vless-node-usclstvf.fly.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /Et6z8Nvg1JQ
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_12|1.4MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: JbxZQuL2t4eews1QuA8O4jpsU_NXPMpmzKwlxSQj5Sk
-    short-id: '!!str f690c1046814dc9d'
-  server: 144.31.50.134
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: dc540911-cd1d-41e9-9301-ecb5a507b788
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_13|2.5MB/s
-  network: ws
-  port: '443'
-  server: cf.scpnb.top
-  servername: explicit-freeware-animation-greg.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a4e7e55-9f07-4c54-abdd-72b9820f4cb3
-  ws-opts:
-    headers:
-      Host: explicit-freeware-animation-greg.trycloudflare.com
-    path: /6a4e7e55-9f07-4c54-abdd-72b9820f4cb3-vm
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_14|2.5MB/s
-  network: ws
-  port: '8222'
-  server: 104.168.1.102
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0d9bd1bc-6d14-44f2-8bfa-dd6210d1b14f
-  ws-opts:
-    headers: {}
-    path: /
-  xudp: true
 - client-fingerprint: randomized
   name: US_speednode_0036
   network: ws

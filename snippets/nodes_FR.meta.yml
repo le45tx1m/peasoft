@@ -1,17 +1,16 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|3.2MB/s
+  name: 🇫🇷FR_1|2.1MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: DHsthrDRMCGcOyJd4xTce_4CCSAJZGwxCdfNrkB_Pgs
-    short-id: '!!str 479826bdfc3eb86e'
-  server: 54.37.75.187
-  servername: www.speedtest.net
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: '!!str b8aa'
+  server: 194.226.169.36
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: a0b067ac-162d-4237-956d-10b8b471d3f5
+  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
   xudp: true

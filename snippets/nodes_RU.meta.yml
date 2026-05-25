@@ -1,31 +1,4 @@
 proxies:
-- client-fingerprint: randomized
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-  server: 185.139.214.151
-  servername: cloudcdn-m9-15.cdn.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea35c030-5628-11f1-9df5-54db13ea7d40
-  xudp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0029
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
   name: RU_speednode_0030
   port: 26424

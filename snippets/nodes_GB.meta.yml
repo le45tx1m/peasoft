@@ -1,5 +1,28 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|1.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: soIvKRHAcDWgye_rZ3zAPUo74ul9yzGImjb1-ykHxh0
+    short-id: '!!str e66bdb1999097cc4'
+  server: nl1.noesissite.ru
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e74089d6-5ab5-4cfb-b53c-df3ead4a8baa
+  xudp: true
+- cipher: rc4-md5
+  name: 🇬🇧GB_2|2.4MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: '8080'
+  server: 146.70.61.37
+  type: ss
+  udp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0014
   port: 443
