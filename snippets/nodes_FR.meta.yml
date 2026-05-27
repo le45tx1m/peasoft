@@ -1,4 +1,16 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇫🇷 FR 01 TG: @nodpai'
+  network: tcp
+  port: 60396
+  server: gzrefad01.odxxplay.com
+  servername: fr1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - alpn:
   - h2
   name: FR_speednode_0017

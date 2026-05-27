@@ -2,20 +2,38 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  port: 9002
-  server: world.t.51guangtaobao.com
+  port: 11101
+  server: dotu-hkv1.kunlun03dns.com
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  port: 11102
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 03 TG: @nodpai'
+  port: 11103
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
   name: 'A - 🇭🇰 HK 04 TG: @nodpai'
-  port: 6012
-  server: world.t.51guangtaobao.com
+  port: 11105
+  server: dotu-hkv1.kunlun03dns.com
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 'A - 🇭🇰 HK 05 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 08 TG: @nodpai'
   network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -25,8 +43,23 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
-  port: 54022
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 12 TG: @nodpai'
+  port: 51556
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

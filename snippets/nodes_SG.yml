@@ -1,7 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 03 TG: @nodpai'
+  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  port: 11137
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+  port: 11138
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 03 TG: @nodpai'
+  port: 11136
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
+  port: 11135
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 05 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -9,13 +41,13 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
-  port: 2504
-  server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: 211.76.176.98
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae

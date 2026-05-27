@@ -3,6 +3,20 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
+  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+  network: tcp
+  port: 11122
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
   name: 'A - 🇯🇵 JP 03 TG: @nodpai'
   network: tcp
   port: 11120
@@ -17,21 +31,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  network: tcp
-  port: 11122
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: tcp
   port: 11119
   server: dotu-jpv1.kunlun03dns.com
@@ -41,11 +41,18 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   network: tcp
   port: 11121
   server: dotu-jpv1.kunlun03dns.com
@@ -55,13 +62,6 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
-  port: 2505
-  server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

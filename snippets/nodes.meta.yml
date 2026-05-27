@@ -92,12 +92,58 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  port: 9002
-  server: world.t.51guangtaobao.com
+  port: 11101
+  server: dotu-hkv1.kunlun03dns.com
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- flow: xtls-rprx-vision
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
   name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  port: 11102
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 03 TG: @nodpai'
+  port: 11103
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 04 TG: @nodpai'
+  port: 11105
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- flow: xtls-rprx-vision
+  name: 'A - 🇭🇰 HK 05 TG: @nodpai'
+  network: tcp
+  port: 24933
+  reality-opts:
+    public-key: NpO9NRIfYTch16Z2yUyroHUaQanV1w0OKM_vEV-6p0I
+    short-id: '5e4a9abd'
+  server: gbp6.tbk2.agdb.a.rros.cc
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- name: 'A - 🇭🇰 HK 06 TG: @nodpai'
+  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
+  port: 10085
+  server: hk02.jgpy.help
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- flow: xtls-rprx-vision
+  name: 'A - 🇭🇰 HK 07 TG: @nodpai'
   network: tcp
   port: 54503
   reality-opts:
@@ -110,23 +156,9 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- name: 'A - 🇭🇰 HK 03 TG: @nodpai'
-  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
-  port: 10085
-  server: hk02.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 'A - 🇭🇰 HK 04 TG: @nodpai'
-  port: 6012
-  server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 05 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 08 TG: @nodpai'
   network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -134,48 +166,53 @@ proxies:
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  password: 71e75cc1-d625-4be2-b3e4-ea2b197abf25
-  port: 20000
-  server: hkt03ddns.poke-mon.xyz
-  servername: www.bing.com
+- flow: xtls-rprx-vision
+  name: 'A - 🇭🇰 HK 09 TG: @nodpai'
+  network: tcp
+  port: 16210
+  reality-opts:
+    public-key: DOGHciMvy3CcShNwgR16D6KpLf4oejTQPFMrD6234DY
+    short-id: '76de7fea'
+  server: 2zht.cbq4.zcvh.a.rros.cc
+  servername: www.yahoo.com
   skip-cert-verify: true
-  sni: www.bing.com
   tfo: false
-  type: hysteria2
-  udp: true
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 45.221.112.81
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- encryption: none
-  name: 'C - 🇭🇰 HK 10 TG: @nodpai'
-  network: ws
-  port: 25100
-  server: 151.242.85.19
-  servername: 151.242.85.19
-  type: vless
-  uuid: 7eaea5bb-9129-42f5-98ca-23a73ebaa989
-  ws-opts:
-    headers:
-      Host: 151.242.85.19
-    path: /ws-bf6bb2499d21
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
-  port: 54022
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1S_IieAYJPhGpT6Uz_OoIswZz_do39PIY1EoncTKj3c
+    short-id: '1b5e067e'
+  server: 209.33.160.105
+  servername: www.lovelive-anime.jp
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 12 TG: @nodpai'
+  port: 51556
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -207,20 +244,27 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 8080
-  server: 5gzdx.769970.xyz
+- flow: xtls-rprx-vision
+  name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+  network: tcp
+  port: 18799
+  reality-opts:
+    public-key: eA8t9JgbosAUr9hIKM8qUKeyQH80zGfzoBJL-61FmUg
+    short-id: '2d53b5dc'
+  server: ecin.xfdv.5gw3.a.vvps.xyz
+  servername: www.amazon.com
   skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  type: hysteria2
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
   network: tcp
-  port: 11114
+  port: 11112
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -242,22 +286,13 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
-  port: 8443
-  security: tls
-  server: tw06.459292.xyz
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: aecd8c25-fd16-42a3-aefb-89c89557828f
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   network: tcp
-  port: 11112
+  port: 11114
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -265,20 +300,20 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
-  network: tcp
-  port: 18799
-  reality-opts:
-    public-key: eA8t9JgbosAUr9hIKM8qUKeyQH80zGfzoBJL-61FmUg
-    short-id: '2d53b5dc'
-  server: ecin.xfdv.5gw3.a.vvps.xyz
-  servername: www.amazon.com
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+  sni: vpn-tw-002.fastervpn.world
+  type: hysteria2
 - flow: xtls-rprx-vision
   name: 'B - 🇹🇼 TW 09 TG: @nodpai'
   network: tcp
@@ -293,24 +328,34 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 60000
-  server: hyfnjp01.769970.xyz
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+  network: tcp
+  port: 11122
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- flow: xtls-rprx-vision
+  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  network: tcp
+  port: 13303
+  reality-opts:
+    public-key: _uyR5c5WNA96lhmIc5r6d9bEXvf589IybOhcAWp91Ac
+    short-id: 'c3766f2f'
+  server: hkbgpnolixx01.odxxplay.com
+  servername: one-piece.com
   skip-cert-verify: true
-  sni: hyfnjp01.769970.xyz
-  type: hysteria2
-- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 60000
-  server: jp03.769970.xyz
-  skip-cert-verify: true
-  sni: jp03.769970.xyz
-  type: hysteria2
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - alpn:
   - ''
   alterId: '0'
@@ -325,71 +370,8 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  network: tcp
-  port: 11122
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
 - flow: xtls-rprx-vision
-  name: 'A - 🇯🇵 JP 05 TG: @nodpai'
-  network: tcp
-  port: 13303
-  reality-opts:
-    public-key: _uyR5c5WNA96lhmIc5r6d9bEXvf589IybOhcAWp91Ac
-    short-id: 'c3766f2f'
-  server: hkbgpnolixx01.odxxplay.com
-  servername: one-piece.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- name: 'A - 🇯🇵 JP 07 TG: @nodpai'
-  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
-  port: 10086
-  server: jp02.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: tcp
-  port: 11119
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  network: tcp
-  port: 11121
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- flow: xtls-rprx-vision
-  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
   network: tcp
   port: 31626
   reality-opts:
@@ -402,45 +384,88 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
-  port: 2505
-  server: world.t.51guangtaobao.com
+  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  network: tcp
+  port: 11119
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
-  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-  port: 443
-  server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
-  sni: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 'A - 🇸🇬 SG 01 TG: @nodpai'
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 8080
-  server: hkt05.769970.xyz
-  skip-cert-verify: true
-  sni: hkt05.769970.xyz
-  type: hysteria2
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  network: tcp
+  port: 11121
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
 - encryption: none
-  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
-  network: ws
-  port: 2087
-  security: tls
-  server: 104.26.2.252
-  servername: pagescm.freen11.cc.cd
+  flow: xtls-rprx-vision
+  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  port: 39975
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  security: reality
+  server: 116.80.58.239
+  servername: cloudcircus.jp
   tls: true
   type: vless
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen11.cc.cd
-    path: /acg/torrent/infofp=chrome
+  uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 03 TG: @nodpai'
+  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  port: 11137
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+  port: 11138
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 03 TG: @nodpai'
+  port: 11136
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
+  port: 11135
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 05 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -448,38 +473,22 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
-  port: 2504
-  server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
-  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
-  port: 10026
-  server: sg02.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-- client-fingerprint: random
-  encryption: none
+- encryption: none
   name: 'B - 🇸🇬 SG 06 TG: @nodpai'
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: 92.243.74.4
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
+  server: store.ubi.com
+  servername: pagescm.freen8.de5.net
   tls: true
   type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   ws-opts:
     headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
+      Host: pagescm.freen8.de5.net
+    path: /products
 - flow: xtls-rprx-vision
-  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -493,325 +502,85 @@ proxies:
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - client-fingerprint: random
-  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+  port: 443
+  reality-opts:
+    public-key: fS59W37_i8457GqkbB9_kdCfLCtWbl14qmVRnm2ty2I
+    short-id: '2da4299da566b7'
+  server: 84.32.22.143
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
+- encryption: none
+  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.17.150.241
+  servername: juzi.qea.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  ws-opts:
+    headers:
+      Host: juzi.qea.ccwu.cc
+    path: /
+- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: 211.76.176.98
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
+- encryption: none
+  name: 'C - 🇸🇬 SG 11 TG: @nodpai'
+  network: ws
+  port: 20378
+  server: sgc.tdz-server.store
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /@TuhinBroh
+- encryption: none
+  name: 'C - 🇸🇬 SG 12 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: net.zjp.cool
+  servername: net.zjp.cool
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7eaea5bb-9129-42f5-98ca-23a73ebaa989
+  ws-opts:
+    headers:
+      Host: net.zjp.cool
+    path: /ws-bf6bb2499d21
+- alterId: 0
+  cipher: auto
   name: 'A - 🇺🇸 US 01 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 47.239.4.246
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 02 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 18.183.224.152
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
+  port: 11128
+  server: dotu-usv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
   name: 'A - 🇺🇸 US 03 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 47.83.14.42
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 04 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 47.76.218.163
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 05 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 149.104.5.247
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 06 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 172.188.241.82
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 07 TG: @nodpai'
-  network: ws
-  port: 2053
-  security: tls
-  server: 123.111.169.70
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 08 TG: @nodpai'
-  network: ws
-  port: 2096
-  security: tls
-  server: 123.111.169.70
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 09 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 65.52.160.128
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 10 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 45.143.233.162
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 11 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 43.200.87.5
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 12 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 129.150.48.17
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 13 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 104.224.159.137
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 14 TG: @nodpai'
-  network: ws
-  port: 4433
-  security: tls
-  server: 45.62.113.95
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 15 TG: @nodpai'
-  network: ws
-  port: 2083
-  security: tls
-  server: 123.111.169.70
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 16 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 123.111.169.70
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 17 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 163.61.74.121
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 18 TG: @nodpai'
-  network: ws
-  port: 7778
-  security: tls
-  server: 45.62.99.218
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 19 TG: @nodpai'
-  network: ws
-  port: 2053
-  security: tls
-  server: 45.136.14.61
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'A - 🇺🇸 US 21 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 132.145.127.203
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
+  network: tcp
+  port: 11129
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
@@ -827,119 +596,13 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇺🇸 US 23 TG: @nodpai'
-  port: 11128
-  server: dotu-usv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 24 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: bestcf.030101.xyz
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 25 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 54.238.157.207
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 26 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 140.238.50.134
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 27 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 103.173.179.55
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- name: 'B - 🇺🇸 US 28 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 172.64.53.241
-  servername: sni.skylee4.cloudns.ch
-  tls: true
-  type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /fp=chrome
-- encryption: none
-  name: 'B - 🇺🇸 US 30 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: www.visa.com.tw
-  servername: pagescm.freen32.cc.cd
-  tls: true
-  type: vless
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen32.cc.cd
-    path: /play/settings
-- name: 'B - 🇺🇸 US 31 TG: @nodpai'
-  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
-  port: 10078
-  server: us02.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇺🇸 US 32 TG: @nodpai'
+  name: 'A - 🇺🇸 US 05 TG: @nodpai'
   network: tcp
-  port: 11129
+  port: 11130
   server: dotu-usv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -947,22 +610,20 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 33 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 123.111.169.70
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇺🇸 US 06 TG: @nodpai'
+  network: tcp
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
@@ -977,284 +638,80 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 35 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 8.223.63.150
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 36 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 138.124.123.201
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'B - 🇺🇸 US 37 TG: @nodpai'
-  network: tcp
-  port: 11130
-  server: dotu-usv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 39 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 50.228.203.26
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 40 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 8.222.185.236
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 41 TG: @nodpai'
-  network: ws
-  port: 2087
-  security: tls
-  server: 123.111.169.70
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- insecure: '1'
-  name: 'B - 🇺🇸 US 42 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60019
-  server: zfusp.9966690.xyz
-  skip-cert-verify: true
-  sni: zfusp.9966690.xyz
-  type: hysteria2
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 43 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 45.77.21.104
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 44 TG: @nodpai'
+  name: 'B - 🇺🇸 US 08 TG: @nodpai'
   port: 180
   server: 82.198.246.214
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 45 TG: @nodpai'
+- name: 'B - 🇺🇸 US 09 TG: @nodpai'
   network: ws
   port: 443
-  security: tls
-  server: 8.223.63.189
-  servername: ioioioi.pages.dev
+  server: 104.19.148.121
+  servername: pagescm.freen33.cc.cd
   skip-cert-verify: true
-  tls: true
   type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   ws-opts:
     headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- name: 'B - 🇺🇸 US 46 TG: @nodpai'
+      Host: pagescm.freen33.cc.cd
+    path: /dlsecurity=tls
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: RU_speednode_0045
   port: 443
-  security: tls
-  server: 193.233.202.1
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: 838e036b-f229-480b-b0ef-86b1dc711add
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'B - 🇺🇸 US 47 TG: @nodpai'
-  network: tcp
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+  server: 185.139.214.151
+  servername: cloudcdn-m9-15.cdn.yandex.net
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  tls: true
+  type: vless
   udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 48 TG: @nodpai'
-  network: ws
+  uuid: 9270ef77-592f-11f1-98cc-54db13ea7d40
+- flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 11 TG: @nodpai'
+  network: tcp
   port: 443
-  security: tls
-  server: 23.141.52.169
-  servername: ioioioi.pages.dev
+  reality-opts:
+    public-key: ZGusf3Ob67uyfCrsxIexCaoNbKkjwuXui3UrQRa6gxo
+    short-id: 'eefa4be6'
+  server: us.hsyun.top
+  servername: www.aboutamazon.com
   skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 50 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 168.138.46.67
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- name: 'B - 🇺🇸 US 51 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60044
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  sni: zf.9966690.xyz
-  type: hysteria2
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 52 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 8.222.193.153
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 53 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 31.59.136.223
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 12 TG: @nodpai'
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - multiplexing: MULTIPLEXING_LOW
-  name: 'B - 🇺🇸 US 54 TG: @nodpai'
+  name: 'B - 🇺🇸 US 13 TG: @nodpai'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 55 TG: @nodpai'
-  network: ws
-  port: 65002
-  security: tls
-  server: 43.130.134.123
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
+- flow: xtls-rprx-vision
+  name: GB_speednode_0021
+  port: 54254
+  reality-opts:
+    public-key: HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4
+    short-id: 'db35ffdc'
+  server: 134.33.73.249
+  servername: apple.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 56 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 45.38.42.245
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
+  udp: true
+  uuid: acba684c-4098-4eca-f519-828b09f96464
 - flow: xtls-rprx-vision
   name: RU_speednode_0042
   port: 22231
@@ -1266,102 +723,51 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 58 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
   network: ws
-  port: 8443
-  security: tls
-  server: 195.245.229.66
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 16010
+  server: 121.154.249.1
+  sni: vpn.rnmcnm.com
   tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
+  type: trojan
   ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 59 TG: @nodpai'
-  network: ws
-  port: 27017
-  security: tls
-  server: 165.154.226.214
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 60 TG: @nodpai'
+    path: /trojan
+- name: 'B - 🇺🇸 US 18 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 138.124.111.84
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
+  server: 104.18.40.152
+  servername: pagescm.freen8.de5.net
   tls: true
   type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   ws-opts:
     headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 61 TG: @nodpai'
+      Host: pagescm.freen8.de5.net
+    path: /productsfp=chrome
+- name: KR_speednode_0030
   network: ws
-  port: 443
-  security: tls
-  server: 156.231.115.191
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 12345
+  server: 59.30.42.194
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 62 TG: @nodpai'
-  network: ws
-  port: 15831
-  security: tls
-  server: 211.196.12.95
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 63 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 104.248.68.179
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
+      Host: vpn.rnmcnm.com
+    path: /trojan
 - name: KR_speednode_0031
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
@@ -1375,138 +781,42 @@ proxies:
     headers:
       Host: vpn.rnmcnm.com
     path: /trojan
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 65 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 64.176.226.26
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
 - encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 66 TG: @nodpai'
-  network: tcp
-  port: 443
+  grpc-opts:
+    grpc-service-name: xyz
+  name: 'B - 🇺🇸 US 22 TG: @nodpai'
+  network: grpc
+  port: 8443
   reality-opts:
-    public-key: bIrLxLw_6AnvwYP153jsCiNoOjVA2Ce9K84oJ0xL4zc
-    short-id: '356c549f'
+    public-key: NDe_UBPG-k6TqnheVYUxNxlXtmgy975eDsdqK35sJhA
+    short-id: '6ba85179e30d4fc2'
   security: reality
-  server: 38.244.24.7
-  servername: apple.com
+  server: 31.58.50.195
+  servername: eh.vk.com
   tls: true
   type: vless
-  uuid: 27d38ffc-89d3-4350-9aab-45cc88a35ea8
-- flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 67 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZGusf3Ob67uyfCrsxIexCaoNbKkjwuXui3UrQRa6gxo
-    short-id: 'eefa4be6'
-  server: us.hsyun.top
-  servername: www.aboutamazon.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 69 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 217.60.38.113
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 70 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 45.38.42.11
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 71 TG: @nodpai'
-  network: ws
-  port: 9002
-  security: tls
-  server: 192.18.136.86
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- name: 'B - 🇺🇸 US 72 TG: @nodpai'
+  uuid: 10e82fcc-94ec-4d09-8855-579bb55b77e4
+- name: 'B - 🇺🇸 US 23 TG: @nodpai'
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 12345
-  server: 59.30.42.194
+  port: 18080
+  server: 175.192.103.88
   sni: vpn.rnmcnm.com
   tls: true
   type: trojan
   ws-opts:
     path: /trojan
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 73 TG: @nodpai'
+- name: 'B - 🇺🇸 US 24 TG: @nodpai'
   network: ws
-  port: 443
-  security: tls
-  server: 156.239.245.134
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 32603
+  server: 220.86.228.109
+  sni: vpn.rnmcnm.com
   tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
+  type: trojan
   ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- name: 'B - 🇺🇸 US 74 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 172.67.195.79
-  servername: cdn.veilvpn.fans
-  tls: true
-  type: vless
-  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
-  ws-opts:
-    headers:
-      Host: cdn.veilvpn.fans
-    path: /vpnhu
-- name: 'B - 🇺🇸 US 75 TG: @nodpai'
+    path: /trojan
+- name: 'B - 🇺🇸 US 25 TG: @nodpai'
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
   port: 12000
@@ -1516,146 +826,63 @@ proxies:
   type: trojan
   ws-opts:
     path: /trojan
-- encryption: none
-  name: 'B - 🇺🇸 US 76 TG: @nodpai'
-  network: ws
-  port: 666
-  security: tls
-  server: 166.88.186.161
-  servername: 166.88.186.161
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
-  ws-opts:
-    headers:
-      Host: 166.88.186.161
-    path: /proxy
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 77 TG: @nodpai'
-  network: ws
-  port: 7000
-  security: tls
-  server: 202.85.53.160
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- name: 'B - 🇺🇸 US 78 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60043
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  sni: zf.9966690.xyz
-  type: hysteria2
-- name: 'B - 🇺🇸 US 79 TG: @nodpai'
-  network: ws
-  port: 2096
-  security: tls
-  server: 104.18.14.201
-  servername: daluan.eu.org
-  tls: true
-  type: vless
-  uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
-  ws-opts:
-    headers:
-      Host: daluan.eu.org
-    path: /
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇺🇸 US 80 TG: @nodpai'
+- name: 'B - 🇺🇸 US 26 TG: @nodpai'
   network: ws
   port: 443
-  security: tls
-  server: saas.sin.fan
-  servername: ioioioi.pages.dev
+  server: cdn.veilvpn.fans
+  servername: cdn.veilvpn.fans
   skip-cert-verify: true
-  tls: true
   type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
   ws-opts:
     headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'C - 🇺🇸 US 81 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 154.83.87.83
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'C - 🇺🇸 US 82 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 143.20.204.5
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- name: 'C - 🇺🇸 US 83 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 172.64.32.41
-  servername: pagescm.freen34.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen34.cc.cd
-    path: /contact/pages
-  xudp: true
-- name: 'C - 🇺🇸 US 84 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4
-    short-id: 'a1b2c3d4'
-  security: reality
-  server: 45.158.127.5
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  uuid: 301d514e-4aa0-47b0-ba44-a0cb891cd52f
+      Host: cdn.veilvpn.fans
+    path: /vpnhufp=chromesecurity=tls
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 85 TG: @nodpai'
+  name: 'C - 🇺🇸 US 27 TG: @nodpai'
+  port: 30824
+  server: v24.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 28 TG: @nodpai'
+  port: 30829
+  server: v29.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 29 TG: @nodpai'
   port: 30804
   server: v4.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- flow: xtls-rprx-vision
+  name: 'B - 🇬🇧 GB 01 TG: @nodpai'
+  network: tcp
+  port: 23765
+  server: gzrefad01.odxxplay.com
+  servername: gb1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+  port: 11145
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+  name: 'A - 🇰🇷 KR 02 TG: @nodpai'
   network: tcp
   port: 11143
   server: dotu-krv1.kunlun03dns.com
@@ -1667,18 +894,471 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 'A - 🇰🇷 KR 02 TG: @nodpai'
+  name: 'A - 🇰🇷 KR 03 TG: @nodpai'
   port: 11144
   server: dotu-krv1.kunlun03dns.com
   type: vmess
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇰🇷 KR 04 TG: @nodpai'
+  port: 11146
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: 'A - 🇰🇷 KR 05 TG: @nodpai'
+  network: ws
+  port: 2087
+  server: mfa.gov.ua
+  servername: fgnix832fx.fx6hsv0.ccwu.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
+    path: /?ed=2560
+- name: KR_speednode_0025
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.17.38.42
+  servername: nginx-f.pages.dev
+  tls: true
+  type: vless
+  uuid: 0905460d-6edc-4a82-8ec8-6b76090b41c8
+  ws-opts:
+    headers:
+      Host: nginx-f.pages.dev
+    path: /?ed=2560
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
+  network: tcp
+  port: 443
+  security: tls
+  server: 87.120.93.243
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 03 TG: @nodpai'
+  network: tcp
+  port: 443
+  security: tls
+  server: 5.178.101.149
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- name: BG_speednode_0002
+  port: 8443
+  reality-opts:
+    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
+    short-id: '478dc6'
+  server: 178.215.238.148
+  servername: eh.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+- name: 'B - 🇩🇪 DE 06 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-de-002.fastervpn.world
+  type: hysteria2
+- flow: xtls-rprx-vision
+  name: 'B - 🇫🇷 FR 01 TG: @nodpai'
+  network: tcp
+  port: 60396
+  server: gzrefad01.odxxplay.com
+  servername: fr1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- flow: xtls-rprx-vision
+  name: 'B - 🇦🇺 AU 01 TG: @nodpai'
+  network: tcp
+  port: 3414
+  server: gzrefad01.odxxplay.com
+  servername: au1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇳🇱 NL 01 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: hikHYegxR1O_sGzFctGkQQEz5G8CZrdXxHSidEqSCh0
+    short-id: 'a8cb02a2dffa'
+  security: reality
+  server: 81.29.156.195
+  servername: www.microsoft.com
+  spider-x: /
+  tls: true
+  type: vless
+  uuid: 731d5e57-4511-4abe-ab01-ec66eb52d6e9
+- encryption: none
+  name: 'B - 🇳🇱 NL 02 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: -5-QemzFc7ddcsXFtVEn1ciZmhkdxjnBPmhnqYPJEzM
+    short-id: '18730e64df45'
+  security: reality
+  server: 144.31.30.131
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: 301a4309-0f4d-42bf-a057-7d60c7a73259
+- flow: xtls-rprx-vision
+  name: 'B - 🇷🇺 RU 02 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tMEkGmuOsuS_cgZYpj2UYBKnni559FZd-poGnH82ck8
+    short-id: 'bfb7cb31'
+  security: reality
+  server: 109.122.198.76
+  servername: www.icloud.com
+  spider-x: /
+  tls: true
+  type: vless
+  uuid: 18afb896-6e4b-403b-b804-714b09b517e5
+- name: 'B - 🇷🇺 RU 03 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: cVCzyZ7hxqDXuv6uf4VDOmI2IOUdVVjoLGiclNiwuRc
+    short-id: 'af0e'
+  security: reality
+  server: 85.193.91.14
+  servername: yahoo.com
+  spider-x: /
+  tls: true
+  type: vless
+  uuid: 3c40e1d2-80d1-4fe2-82e6-064e38bdf7e5
+- flow: xtls-rprx-vision
+  name: 'A - 🇮🇳 IN 01 TG: @nodpai'
+  network: tcp
+  port: 60340
+  server: gzrefad01.odxxplay.com
+  servername: in1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- flow: xtls-rprx-vision
+  name: 'A - 🇹🇷 TR 01 TG: @nodpai'
+  network: tcp
+  port: 16603
+  server: 38.182.116.73
+  servername: tr1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- flow: xtls-rprx-vision
+  name: 'A - 🇹🇭 TH 01 TG: @nodpai'
+  network: tcp
+  port: 57009
+  server: gzrefad01.odxxplay.com
+  servername: th1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- name: 'A - 🇮🇩 ID 01 TG: @nodpai'
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 32233
+  server: f3cce2bd-ta1og0-tatrrz-yjq0.id.oshuawei.com
+  tls: true
+  type: http
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- flow: xtls-rprx-vision
+  name: 'B - 🇻🇳 VN 01 TG: @nodpai'
+  network: tcp
+  port: 52877
+  server: gzrefad01.odxxplay.com
+  servername: vn1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- flow: xtls-rprx-vision
+  name: 'B - 🇵🇱 PL 01 TG: @nodpai'
+  network: tcp
+  port: 16604
+  server: 23.27.24.40
+  servername: pl1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- flow: xtls-rprx-vision
+  name: 'B - 🇸🇪 SE 01 TG: @nodpai'
+  network: tcp
+  port: 16607
+  server: 176.126.84.225
+  servername: se1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇸🇪 SE 02 TG: @nodpai'
+  port: 443
+  reality-opts:
+    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
+    short-id: '5d'
+  security: reality
+  server: 194.238.57.104
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇸🇪 SE 03 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+    short-id: 'bdac121c7debdaba'
+  security: reality
+  server: 148.253.211.237
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
+- encryption: none
+  name: 'B - 🇫🇮 FI 01 TG: @nodpai'
+  network: tcp
+  port: 45029
+  server: downlod.musicribvar.com
+  type: vless
+  uuid: 01ef96b4-e7ec-4218-8ffe-a59e1cdfd836
+- name: 'B - 🇨🇭 CH 01 TG: @nodpai'
+  network: ws
+  port: 2053
+  security: tls
+  server: a.l-itx.info
+  servername: 89300733153383a5.itx-server.digital
+  tls: true
+  type: vless
+  uuid: 5da05cf7-9913-45a9-a7c6-71a41b1cd713
+  ws-opts:
+    headers:
+      Host: itx-server.digital
+    path: /ws
+- flow: xtls-rprx-vision
+  name: 'B - 🇦🇹 AT 01 TG: @nodpai'
+  network: tcp
+  port: 16606
+  server: 45.91.94.121
+  servername: at1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- flow: xtls-rprx-vision
+  name: GB_speednode_0023
+  port: 443
+  reality-opts:
+    public-key: Aak3FEVpJGzxzVz4wWkNpFA9dANDnvQg15X4eYNr_hw
+    short-id: '6ba8f65dee6e'
+  server: cz.krevetkavpn.ru
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 729d3d1e-ee1a-4c42-84bc-2ff331518221
+- name: 'B - 🇷🇴 RO 01 TG: @nodpai'
+  port: 9002
+  server: 193.176.84.21
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 02 TG: @nodpai'
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 03 TG: @nodpai'
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 04 TG: @nodpai'
+  port: 9002
+  server: 193.176.84.30
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 05 TG: @nodpai'
+  port: 9002
+  server: 193.176.84.23
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 06 TG: @nodpai'
+  port: 9002
+  server: 84.239.49.192
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 07 TG: @nodpai'
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 08 TG: @nodpai'
+  port: 9002
+  server: 193.176.84.35
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 09 TG: @nodpai'
+  port: 9002
+  server: 84.239.49.168
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 10 TG: @nodpai'
+  port: 9002
+  server: 193.176.84.20
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 11 TG: @nodpai'
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 12 TG: @nodpai'
+  port: 9002
+  server: 84.239.49.244
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 13 TG: @nodpai'
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 14 TG: @nodpai'
+  port: 9002
+  server: 84.239.49.54
+  tls: true
+  type: http
+- name: 'B - 🇷🇴 RO 15 TG: @nodpai'
+  port: 9002
+  server: 84.239.49.220
+  tls: true
+  type: http
+- multiplexing: MULTIPLEXING_LOW
+  name: 'B - 🇿🇦 ZA 01 TG: @nodpai'
+  password: dongtaiwang.com
+  port: 28866
+  server: 45.221.98.11
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- flow: xtls-rprx-vision
+  name: 'B - 🇪🇪 EE 01 TG: @nodpai'
+  network: tcp
+  port: 16605
+  server: 185.194.53.224
+  servername: ee1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- encryption: none
+  grpc-opts:
+    grpc-service-name: xyz
+  name: 'B - 🇱🇹 LT 01 TG: @nodpai'
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: NDe_UBPG-k6TqnheVYUxNxlXtmgy975eDsdqK35sJhA
+    short-id: '6ba85179e30d4fc2'
+  server: 46.29.234.9
+  servername: eh.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10e82fcc-94ec-4d09-8855-579bb55b77e4
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇱🇻 LV 01 TG: @nodpai'
+  network: tcp
+  port: 50592
+  reality-opts:
+    public-key: kATzSBDyNkm6Ee7p8Ad8iPD5CrJmkJ5n1T-l-LCRmXQ
+    short-id: 'b7ca855a4763a7ac'
+  security: reality
+  server: 193.163.203.76
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  uuid: 439f353b-b52f-4355-93d8-26e0567d5308
 - name: ⛳46@oneclickvpnkeys
   password: 9994536d-4824-45f9-bdc9-ccde0443f3fa
   port: 35561
   server: assgzl.hhwyy.xyz
   skip-cert-verify: true
   sni: assgzl.hhwyy.xyz
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: outline_ir
+  password: auth
+  port: 443
+  server: 49.12.142.89
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - name: 'Telegram : @V2ynpv'
@@ -1715,6 +1395,14 @@ proxies:
   server: 166.88.142.205
   skip-cert-verify: true
   sni: mg6.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 🐏80@oneclickvpnkeys
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -1828,15 +1516,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国5|@ripaojiedian
@@ -2033,18 +1712,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5381a1bb-479a-412a-9d99-08ccbc008828
-- name: BG_speednode_0002
-  port: 8443
-  reality-opts:
-    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
-    short-id: '478dc6'
-  server: 178.215.238.148
-  servername: eh.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
 - flow: xtls-rprx-vision
   name: BH_speednode_0003
   port: 443
@@ -2121,19 +1788,6 @@ proxies:
   type: vless
   udp: true
   uuid: 05e9d254-8ea8-4097-9450-d4aefc44bd7e
-- flow: xtls-rprx-vision
-  name: GB_speednode_0021
-  port: 54254
-  reality-opts:
-    public-key: HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4
-    short-id: 'db35ffdc'
-  server: 134.33.73.249
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: acba684c-4098-4eca-f519-828b09f96464
 - http-opts:
     headers:
       Host:
@@ -2154,28 +1808,6 @@ proxies:
   type: vless
   udp: true
   uuid: 8711e97a-63cc-47f5-b1ab-b9280b82ac2e
-- flow: xtls-rprx-vision
-  name: GB_speednode_0023
-  port: 443
-  reality-opts:
-    public-key: Aak3FEVpJGzxzVz4wWkNpFA9dANDnvQg15X4eYNr_hw
-    short-id: '6ba8f65dee6e'
-  server: cz.krevetkavpn.ru
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 729d3d1e-ee1a-4c42-84bc-2ff331518221
-- name: KR_speednode_0025
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
 - name: KR_speednode_0028
   port: 1090
   server: 121.169.46.116
@@ -2187,19 +1819,6 @@ proxies:
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
   port: 30303
   server: 121.191.33.84
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
-- name: KR_speednode_0030
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 12345
-  server: 59.30.42.194
   skip-cert-verify: false
   sni: vpn.rnmcnm.com
   type: trojan
@@ -2266,19 +1885,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: RU_speednode_0045
-  port: 443
-  reality-opts:
-    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-  server: 185.139.214.151
-  servername: cloudcdn-m9-15.cdn.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9270ef77-592f-11f1-98cc-54db13ea7d40
 - flow: xtls-rprx-vision
   name: RU_speednode_0046
   port: 443

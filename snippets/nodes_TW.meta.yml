@@ -27,20 +27,28 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 8080
-  server: 5gzdx.769970.xyz
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+  network: tcp
+  port: 18799
+  reality-opts:
+    public-key: eA8t9JgbosAUr9hIKM8qUKeyQH80zGfzoBJL-61FmUg
+    short-id: '!!str 2d53b5dc'
+  server: ecin.xfdv.5gw3.a.vvps.xyz
+  servername: www.amazon.com
   skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  type: hysteria2
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
   network: tcp
-  port: 11114
+  port: 11112
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -63,23 +71,13 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
-  port: 8443
-  security: tls
-  server: tw06.459292.xyz
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: aecd8c25-fd16-42a3-aefb-89c89557828f
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   network: tcp
-  port: 11112
+  port: 11114
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -87,21 +85,20 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
-  network: tcp
-  port: 18799
-  reality-opts:
-    public-key: eA8t9JgbosAUr9hIKM8qUKeyQH80zGfzoBJL-61FmUg
-    short-id: '!!str 2d53b5dc'
-  server: ecin.xfdv.5gw3.a.vvps.xyz
-  servername: www.amazon.com
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+  sni: vpn-tw-002.fastervpn.world
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 'B - 🇹🇼 TW 09 TG: @nodpai'

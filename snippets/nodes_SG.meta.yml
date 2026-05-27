@@ -1,29 +1,39 @@
 proxies:
-- name: 'A - 🇸🇬 SG 01 TG: @nodpai'
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 8080
-  server: hkt05.769970.xyz
-  skip-cert-verify: true
-  sni: hkt05.769970.xyz
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
-  network: ws
-  port: 2087
-  security: tls
-  server: 104.26.2.252
-  servername: pagescm.freen11.cc.cd
-  tls: true
-  type: vless
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen11.cc.cd
-    path: /acg/torrent/infofp=chrome
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 03 TG: @nodpai'
+  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  port: 11137
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+  port: 11138
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 03 TG: @nodpai'
+  port: 11136
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
+  port: 11135
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 05 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -31,39 +41,24 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
-  port: 2504
-  server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
-  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
-  port: 10026
-  server: sg02.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-- client-fingerprint: random
+- client-fingerprint: chrome
   encryption: none
   name: 'B - 🇸🇬 SG 06 TG: @nodpai'
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: 92.243.74.4
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
+  server: store.ubi.com
+  servername: pagescm.freen8.de5.net
   tls: true
   type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   ws-opts:
     headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
+      Host: pagescm.freen8.de5.net
+    path: /products
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -76,6 +71,65 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+  port: 443
+  reality-opts:
+    public-key: fS59W37_i8457GqkbB9_kdCfLCtWbl14qmVRnm2ty2I
+    short-id: '!!str 2da4299da566b7'
+  server: 84.32.22.143
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
+- encryption: none
+  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.17.150.241
+  servername: juzi.qea.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  ws-opts:
+    headers:
+      Host: juzi.qea.ccwu.cc
+    path: /
+- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: 211.76.176.98
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
+- encryption: none
+  name: 'C - 🇸🇬 SG 11 TG: @nodpai'
+  network: ws
+  port: 20378
+  server: sgc.tdz-server.store
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /@TuhinBroh
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇸🇬 SG 12 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: net.zjp.cool
+  servername: net.zjp.cool
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7eaea5bb-9129-42f5-98ca-23a73ebaa989
+  ws-opts:
+    headers:
+      Host: net.zjp.cool
+    path: /ws-bf6bb2499d21
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae

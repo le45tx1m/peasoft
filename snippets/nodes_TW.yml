@@ -31,9 +31,9 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
   network: tcp
-  port: 11114
+  port: 11112
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -45,9 +45,9 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   network: tcp
-  port: 11112
+  port: 11114
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -55,3 +55,10 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

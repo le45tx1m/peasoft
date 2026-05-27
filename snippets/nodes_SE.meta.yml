@@ -1,1 +1,42 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇸🇪 SE 01 TG: @nodpai'
+  network: tcp
+  port: 16607
+  server: 176.126.84.225
+  servername: se1.fun88linkvn.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇸🇪 SE 02 TG: @nodpai'
+  port: 443
+  reality-opts:
+    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
+    short-id: '!!str 5d'
+  security: reality
+  server: 194.238.57.104
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇸🇪 SE 03 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+    short-id: '!!str bdac121c7debdaba'
+  security: reality
+  server: 148.253.211.237
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 980231fb-4372-5c81-b696-20aa34d33af0

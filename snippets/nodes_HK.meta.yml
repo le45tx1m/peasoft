@@ -2,13 +2,60 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  port: 9002
-  server: world.t.51guangtaobao.com
+  port: 11101
+  server: dotu-hkv1.kunlun03dns.com
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  port: 11102
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 03 TG: @nodpai'
+  port: 11103
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 04 TG: @nodpai'
+  port: 11105
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 05 TG: @nodpai'
+  network: tcp
+  port: 24933
+  reality-opts:
+    public-key: NpO9NRIfYTch16Z2yUyroHUaQanV1w0OKM_vEV-6p0I
+    short-id: '!!str 5e4a9abd'
+  server: gbp6.tbk2.agdb.a.rros.cc
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- name: 'A - 🇭🇰 HK 06 TG: @nodpai'
+  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
+  port: 10085
+  server: hk02.jgpy.help
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'A - 🇭🇰 HK 07 TG: @nodpai'
   network: tcp
   port: 54503
   reality-opts:
@@ -21,23 +68,9 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- name: 'A - 🇭🇰 HK 03 TG: @nodpai'
-  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
-  port: 10085
-  server: hk02.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 'A - 🇭🇰 HK 04 TG: @nodpai'
-  port: 6012
-  server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 05 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 08 TG: @nodpai'
   network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -45,49 +78,55 @@ proxies:
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  password: 71e75cc1-d625-4be2-b3e4-ea2b197abf25
-  port: 20000
-  server: hkt03ddns.poke-mon.xyz
-  servername: www.bing.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'A - 🇭🇰 HK 09 TG: @nodpai'
+  network: tcp
+  port: 16210
+  reality-opts:
+    public-key: DOGHciMvy3CcShNwgR16D6KpLf4oejTQPFMrD6234DY
+    short-id: '!!str 76de7fea'
+  server: 2zht.cbq4.zcvh.a.rros.cc
+  servername: www.yahoo.com
   skip-cert-verify: true
-  sni: www.bing.com
   tfo: false
-  type: hysteria2
-  udp: true
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 45.221.112.81
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  name: 'C - 🇭🇰 HK 10 TG: @nodpai'
-  network: ws
-  port: 25100
-  server: 151.242.85.19
-  servername: 151.242.85.19
-  type: vless
-  uuid: 7eaea5bb-9129-42f5-98ca-23a73ebaa989
-  ws-opts:
-    headers:
-      Host: 151.242.85.19
-    path: /ws-bf6bb2499d21
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
-  port: 54022
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1S_IieAYJPhGpT6Uz_OoIswZz_do39PIY1EoncTKj3c
+    short-id: '!!str 1b5e067e'
+  server: 209.33.160.105
+  servername: www.lovelive-anime.jp
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 12 TG: @nodpai'
+  port: 51556
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

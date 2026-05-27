@@ -1,4 +1,17 @@
 proxies:
+- name: 'B - 🇨🇭 CH 01 TG: @nodpai'
+  network: ws
+  port: 2053
+  security: tls
+  server: a.l-itx.info
+  servername: 89300733153383a5.itx-server.digital
+  tls: true
+  type: vless
+  uuid: 5da05cf7-9913-45a9-a7c6-71a41b1cd713
+  ws-opts:
+    headers:
+      Host: itx-server.digital
+    path: /ws
 - encryption: none
   http-opts:
     headers: {}
