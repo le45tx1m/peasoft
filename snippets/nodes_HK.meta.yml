@@ -1,22 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  network: tcp
-  port: 30086
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: '!!str 693b25e06841ac7f'
-  security: reality
-  server: cdn.hk2.cocoduck.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
 - alterId: 0
   cipher: auto
-  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
+  port: 9002
+  server: world.t.51guangtaobao.com
+  type: vmess
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|2.0MB/s
   network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -24,135 +16,25 @@ proxies:
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇭🇰 HK 03 TG: @nodpai'
-  network: tcp
-  port: 30394
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: '!!str 693b25e06841ac7f'
-  security: reality
-  server: cdn.hk1.cocoduck.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 'A - 🇭🇰 HK 05 TG: @nodpai'
-  port: 443
-  reality-opts:
-    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
-    short-id: '!!str 4b070735'
-  server: hkt-home.xn--9kqp42aims.top
-  servername: buylite.music.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ceeb8370-d87a-40c7-b8b9-566716210763
-- name: 'B - 🇭🇰 HK 08 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.223.63.150
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 154.92.9.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 11 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60006
-  server: zf.9966690.xyz
+  port: 60010
+  server: zfde.9966690.xyz
   skip-cert-verify: true
   type: hysteria2
-- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 143.20.204.5
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 15 TG: @nodpai'
-  network: ws
-  port: 443
-  server: cf.scpnb.top
-  servername: playstation-schema-collections-equilibrium.trycloudflare.com
-  tls: true
+  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  port: 6012
+  server: world.t.51guangtaobao.com
   type: vmess
-  uuid: 6d28e73a-a184-4b6a-ab5a-efc2980d38fc
-  ws-opts:
-    headers:
-      Host: playstation-schema-collections-equilibrium.trycloudflare.com
-    path: /6d28e73a-a184-4b6a-ab5a-efc2980d38fc-vm
-- client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 17 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: al3Xe0XdaQv7eOMs0oJoP_iDOO1kFJ2P1EjDh_e_8j8
-    short-id: '!!str f24d'
-  security: reality
-  server: 186.246.21.58
-  servername: yahoo.com
-  spider-x: /
-  tls: true
-  type: vless
-  uuid: 19ef5b43-c13f-4d4e-8b95-8431c50c1384
-- name: 'C - 🇭🇰 HK 18 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 212.192.15.182
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: 'C - 🇭🇰 HK 19 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 176.98.181.71
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇭🇰 HK 20 TG: @nodpai'
-  network: tcp
-  port: 30395
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: '!!str 693b25e06841ac7f'
-  security: reality
-  server: cdn.hk5.cocoduck.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 21 TG: @nodpai'
-  port: 54022
+  name: 'C - 🇭🇰 HK 08 TG: @nodpai'
+  port: 51556
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -199,6 +81,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 🇭🇰HK_2|1.0MB/s
+  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+  port: 8300
+  server: ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: ec1c1972-t9lmo0-ta37qp-b4pt.hkt.east.wctype.com
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: HK_speednode_0009

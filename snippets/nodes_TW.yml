@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan

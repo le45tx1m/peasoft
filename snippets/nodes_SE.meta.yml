@@ -1,52 +1,29 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: randomized
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|1.3MB/s
+  name: 'A - 🇸🇪 SE 01 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
-    public-key: LszM5vYxUf7XqS_FRmhhJHcIOnqAMnOKcQ7j-QE0sWQ
-    short-id: '!!str 6ba85279e30d44c2'
-  server: 144.31.230.174
-  servername: queuev4.vk.com
-  skip-cert-verify: false
+    public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
+  security: reality
+  server: 78.40.117.132
+  servername: www.blocket.se
   tls: true
   type: vless
-  udp: true
-  uuid: 84c0e8e7-c497-45c2-9c13-777a2fa9e6f7
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇸🇪SE_2|1.1MB/s
-  network: xhttp
-  port: 9443
-  reality-opts:
-    public-key: BfJeaF35N3m4tBfBbdWC0i-D-Hj8yWZSHec_hpT7CS4
-    short-id: '!!str 18475b3de4eeaed8'
-  server: 185.103.103.213
-  servername: azure.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76ef4299-78d9-49a9-9620-a6b63c5519fd
-  xhttp-opts:
-    path: /api/v1/status
-  xudp: true
+  uuid: 9270ef77-592f-11f1-98cc-54db13ea7d40
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: GB_speednode_0007
-  network: raw
+  name: 'B - 🇸🇪 SE 02 TG: @nodpai'
+  network: tcp
   port: 443
   reality-opts:
-    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
-    short-id: '!!str 5d'
-  server: 194.238.57.104
-  servername: www.icloud.com
-  skip-cert-verify: false
+    public-key: oSSLtvWKXcvUTIeHrxi1algmixXLWc_FB2v-lELMRn0
+  security: reality
+  server: se.endvn.org
+  servername: se.endvn.org
   tls: true
   type: vless
-  udp: true
-  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
-  xudp: true
+  uuid: 8a6b2cf8-b21a-402a-bc3f-7efee320052f

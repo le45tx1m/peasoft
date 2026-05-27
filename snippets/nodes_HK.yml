@@ -1,7 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
+  port: 9002
+  server: world.t.51guangtaobao.com
+  type: vmess
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|2.0MB/s
   network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -9,69 +16,17 @@ proxies:
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'B - 🇭🇰 HK 08 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.223.63.150
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 154.92.9.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 143.20.204.5
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 15 TG: @nodpai'
-  network: ws
-  port: 443
-  server: cf.scpnb.top
-  servername: playstation-schema-collections-equilibrium.trycloudflare.com
-  tls: true
+  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  port: 6012
+  server: world.t.51guangtaobao.com
   type: vmess
-  uuid: 6d28e73a-a184-4b6a-ab5a-efc2980d38fc
-  ws-opts:
-    headers:
-      Host: playstation-schema-collections-equilibrium.trycloudflare.com
-    path: /6d28e73a-a184-4b6a-ab5a-efc2980d38fc-vm
-- name: 'C - 🇭🇰 HK 18 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 212.192.15.182
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: 'C - 🇭🇰 HK 19 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 176.98.181.71
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 21 TG: @nodpai'
-  port: 54022
+  name: 'C - 🇭🇰 HK 08 TG: @nodpai'
+  port: 51556
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

@@ -1,19 +1,40 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇬🇧 GB 01 TG: @nodpai'
+  port: 6009
+  server: world.t.51guangtaobao.com
+  type: vmess
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - client-fingerprint: chrome
-  name: 🇬🇧GB_1|1.7MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: '8443'
-  server: 185.73.38.41
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇬🇧 GB 02 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
+    short-id: '!!str 428ef87fd47a3a32'
+  security: reality
+  server: gb.nodes.rocketnetwork.ru
+  servername: gb.nodes.rocketnetwork.ru
+  tls: true
+  type: vless
+  uuid: bdd008a1-7acb-4847-91b8-a6fc23bc5d4c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0007
+  port: 443
+  reality-opts:
+    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
+    short-id: '!!str 5d'
+  server: 194.238.57.104
+  servername: www.icloud.com
   skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
+  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0008
