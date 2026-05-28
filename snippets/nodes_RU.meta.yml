@@ -1,18 +1,18 @@
 proxies:
-- name: 'B - 🇷🇺 RU 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇷🇺 RU 01 TG: @nodpai'
+  port: 443
+  security: tls
+  server: 213.108.2.130
+  servername: cloudflare.com
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
+  uuid: 5e8ee155-0962-4307-98f2-b65f6bbbd5bb
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇷🇺 RU 03 TG: @nodpai'
+  name: 'B - 🇷🇺 RU 02 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -24,7 +24,7 @@ proxies:
   tls: true
   type: vless
   uuid: e30d8712-00f5-4223-873e-47e31d4fda17
-- client-fingerprint: randomized
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: 'B - 🇷🇺 RU 04 TG: @nodpai'
@@ -34,26 +34,11 @@ proxies:
     public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
     short-id: '!!str c1a7e9b4711d5f60'
   security: reality
-  server: 193.168.46.180
+  server: 193.168.46.180-ia1nrwec.nike77prime.ru
   servername: rruu.persik.host
   tls: true
   type: vless
-  uuid: 717516f9-7416-4751-a4a1-20e63a50f71a
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇷🇺 RU 05 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: c9eCHF41FReFLIdarpg8M5edw4_E133EJBzrvYS02Ck
-    short-id: '!!str cd9a5f0edff48da4'
-  security: reality
-  server: 213.108.2.130
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  uuid: 5e8ee155-0962-4307-98f2-b65f6bbbd5bb
+  uuid: 3d48f115-144a-4275-96bf-8ff67c330ce4
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0046

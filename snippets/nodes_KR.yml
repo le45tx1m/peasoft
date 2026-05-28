@@ -2,11 +2,46 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 'B - 🇰🇷 KR 01 TG: @nodpai'
+  port: 11144
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇰🇷 KR 02 TG: @nodpai'
+  network: ws
+  port: 33204
+  server: yd4.ainivp.com
+  servername: yd4.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd4.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇰🇷 KR 03 TG: @nodpai'
   port: 11146
   server: dotu-krv1.kunlun03dns.com
   type: vmess
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇰🇷 KR 04 TG: @nodpai'
+  network: ws
+  port: 33201
+  server: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
 - name: KR_speednode_0029
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1

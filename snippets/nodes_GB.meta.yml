@@ -11,6 +11,20 @@ proxies:
   udp: true
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
   xudp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: GB_speednode_0019
+  port: 443
+  reality-opts:
+    public-key: MBkIKCORF_f5gqwnugFO7K4HUR8HAKPUuYVIarrQNU0
+    short-id: '!!str bfc5'
+  server: 31.76.120.162
+  servername: www.sony.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05e9d254-8ea8-4097-9450-d4aefc44bd7e
 - client-fingerprint: chrome
   http-opts:
     headers:

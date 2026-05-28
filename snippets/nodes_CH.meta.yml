@@ -1,18 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-authority: colorlib.com
-    grpc-mode: gun
-    grpc-service-name: xyz
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
   name: 'B - 🇨🇭 CH 01 TG: @nodpai'
-  network: grpc
-  port: 7443
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA
+    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+    short-id: '!!str 6d6f13013d3e1d0c'
   security: reality
-  server: a.l-itx.info
-  servername: colorlib.com
+  server: 31.76.104.11
+  servername: g1.steptofreedom.one
   tls: true
   type: vless
-  uuid: 5da05cf7-9913-45a9-a7c6-71a41b1cd713
+  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4

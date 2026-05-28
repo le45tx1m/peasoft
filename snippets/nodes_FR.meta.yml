@@ -6,29 +6,14 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: 4S6qXLdepEjgOeFBIbZmC-4ChOqGgM9l4vEedKw8rVk
-    short-id: '!!str be0ce047'
+    public-key: UJSYKOEr3a3V1P_obd9zNBq4Pr3Vbd_a2nHE7-rstRk
+    short-id: '!!str 6089640857a72237'
   security: reality
-  server: fra.gorhub.ru
-  servername: stackoverflow.com
+  server: 217.179.6.84
+  servername: France1cxc.chickenkiller.com
   tls: true
   type: vless
-  uuid: 9cbd238d-6a56-419a-bdc5-101fdab421ad
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇫🇷 FR 02 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: www.speedtest.net
-  servername: bB2233.XfAn1986.dpDnS.ORG
-  tls: true
-  type: vless
-  uuid: 5629eadf-ae86-4030-ab63-bd349c6c26fc
-  ws-opts:
-    headers:
-      Host: bb2233.xfan1986.dpdns.org
-    path: /6RdosbbFEgXM7ehg/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==
+  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
 - alpn:
   - h2
   - http/1.1
