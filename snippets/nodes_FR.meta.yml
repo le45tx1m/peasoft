@@ -2,22 +2,22 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇫🇷 FR 01 TG: @nodpai'
+  name: 'B - 🇫🇷 FR 02 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
-    public-key: UJSYKOEr3a3V1P_obd9zNBq4Pr3Vbd_a2nHE7-rstRk
-    short-id: '!!str 6089640857a72237'
+    public-key: -kYkVmQw_UifppSlJ-IGNW4jq89GGEdQg3kayk50rxI
+    short-id: '!!str d142243f4a389be9'
   security: reality
-  server: 217.179.6.84
-  servername: France1cxc.chickenkiller.com
+  server: 213.176.73.37
+  servername: ads.x5.ru
   tls: true
   type: vless
-  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
+  uuid: 3f3db75c-e362-4047-9452-1c307351ab02
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇫🇷 FR 02 TG: @nodpai'
+  name: 'B - 🇫🇷 FR 03 TG: @nodpai'
   network: tcp
   port: 23576
   reality-opts:
@@ -29,23 +29,18 @@ proxies:
   tls: true
   type: vless
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_1|1.3MB/s
-  network: xhttp
-  port: 2087
-  server: 165.215.250.14
-  servername: ws.kheybar.store
-  skip-cert-verify: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|2.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: -ZGvjjYToghwA3TZfntrabePL-dWYt-i5C_SO8pSRWY
+    short-id: '!!str '
+  server: fran.ummapeople.online
+  servername: fran.ummapeople.online
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: ws.kheybar.store
-    mode: auto
-    path: /login
+  uuid: ac195240-6005-412b-9829-1e56e5d5c52a
   xudp: true

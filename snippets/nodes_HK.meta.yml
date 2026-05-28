@@ -1,31 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  port: 11104
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
-  port: 11101
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
-  port: 11102
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: true
@@ -33,61 +9,47 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'B - 🇭🇰 HK 05 TG: @nodpai'
-  network: tcp
-  port: 11143
-  server: dotu-krv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27102
-  reduce-rtt: false
-  server: xbns1y.yydzx.xyz
-  sni: xbns1y.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- name: 🇭🇰HK_3|1.1MB/s
-  password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-  port: 5228
-  server: be27ab36-t9zts0-tg010c-1r7od.cm4.oshuawei.com
-  sni: be27ab36-t9zts0-tg010c-1r7od.cm4.oshuawei.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
+  port: 10011
+  reality-opts:
+    public-key: 82bbZIdU-0s8fydncIhp9_sNDYQQH9ZY_7RVI5apXnk
+    short-id: '!!str 447f3a05ace2b748'
+  security: reality
+  server: 103.123.162.50
+  servername: www.microsoft.com
   tls: true
-  type: http
-  username: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  type: vless
+  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
-  network: ws
-  port: 33411
-  server: ct2.ainivp.com
-  servername: ct2.ainivp.com
-  tls: true
+  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
+  port: 11143
+  server: dotu-krv1.kunlun03dns.com
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct2.ainivp.com
-    path: /ray
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 2
   cipher: auto
-  name: 'C - 🇭🇰 HK 09 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 04 TG: @nodpai'
   port: 30809
   server: v9.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 05 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 06 TG: @nodpai'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -133,31 +95,13 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_1|1.9MB/s
-  network: ws
-  port: 33414
-  server: cu7.ainivp.com
+  name: 🇭🇰HK_1|1.7MB/s
+  network: raw
+  port: '6001'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: cu7.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_2|1.3MB/s
-  network: ws
-  port: 33407
-  server: yd3.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  xudp: true

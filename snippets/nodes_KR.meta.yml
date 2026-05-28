@@ -1,38 +1,15 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'A - 🇰🇷 KR 01 TG: @nodpai'
-  network: ws
-  port: 18086
-  security: tls
-  server: 112.160.4.111
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
 - alterId: 0
   cipher: auto
-  name: 'B - 🇰🇷 KR 02 TG: @nodpai'
-  port: 11144
-  server: dotu-krv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇰🇷 KR 03 TG: @nodpai'
+  name: 🇰🇷KR_2|1.1MB/s
   network: ws
   port: 33204
   server: yd4.ainivp.com
   servername: yd4.ainivp.com
+  skip-cert-verify: false
   tls: true
   type: vmess
+  udp: true
   uuid: 9204afcd-026e-781f-1abc-c03efabd1344
   ws-opts:
     headers:

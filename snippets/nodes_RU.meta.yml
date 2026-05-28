@@ -1,51 +1,19 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: randomized
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.7MB/s
+  name: 🇷🇺RU_1|2.5MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: '!!str c1a7e9b4711d5f60'
-  server: 193.168.46.180
-  servername: rruu.persik.host
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+    short-id: '!!str '
+  server: 185.139.214.254
+  servername: cloudcdn-m9-15.cdn.yandex.net
   tls: true
   type: vless
   udp: true
-  uuid: 3d48f115-144a-4275-96bf-8ff67c330ce4
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|1.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: '!!str c1a7e9b4711d5f60'
-  server: 193.168.46.180
-  servername: rruu.persik.host
-  tls: true
-  type: vless
-  udp: true
-  uuid: e30d8712-00f5-4223-873e-47e31d4fda17
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|2.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: '!!str c1a7e9b4711d5f60'
-  server: 193.168.46.180-ia1nrwec.nike77prime.ru
-  servername: rruu.persik.host
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d48f115-144a-4275-96bf-8ff67c330ce4
+  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
   xudp: true
 - client-fingerprint: chrome
   name: RU_speednode_0039
