@@ -1,55 +1,62 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇷🇺 RU 01 TG: @nodpai'
-  port: 443
-  security: tls
-  server: 213.108.2.130
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  uuid: 5e8ee155-0962-4307-98f2-b65f6bbbd5bb
-- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇷🇺 RU 02 TG: @nodpai'
+  name: 🇷🇺RU_1|1.7MB/s
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
     public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
     short-id: '!!str c1a7e9b4711d5f60'
-  security: reality
   server: 193.168.46.180
   servername: rruu.persik.host
   tls: true
   type: vless
-  uuid: e30d8712-00f5-4223-873e-47e31d4fda17
+  udp: true
+  uuid: 3d48f115-144a-4275-96bf-8ff67c330ce4
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇷🇺 RU 04 TG: @nodpai'
+  name: 🇷🇺RU_2|1.4MB/s
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
     public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
     short-id: '!!str c1a7e9b4711d5f60'
-  security: reality
+  server: 193.168.46.180
+  servername: rruu.persik.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: e30d8712-00f5-4223-873e-47e31d4fda17
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_3|2.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: '!!str c1a7e9b4711d5f60'
   server: 193.168.46.180-ia1nrwec.nike77prime.ru
   servername: rruu.persik.host
   tls: true
   type: vless
+  udp: true
   uuid: 3d48f115-144a-4275-96bf-8ff67c330ce4
+  xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0046
+  name: RU_speednode_0039
   port: 443
   reality-opts:
-    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
-    short-id: '!!str d23e8ff546850d04'
-  server: sw.209qu4892fh8934.live
-  servername: godsjgoijoigofsiuh.com
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: '!!str b8aa'
+  server: 194.226.169.36
+  servername: yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bbbdf76b-c952-43bf-aa76-a6dcd10f4ab9
+  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872

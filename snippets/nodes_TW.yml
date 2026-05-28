@@ -1,15 +1,22 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 01 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_1|1.1MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: '50099'
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: tcp
+  port: 11112
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true

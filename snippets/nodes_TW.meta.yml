@@ -1,25 +1,25 @@
 proxies:
-- insecure: '1'
-  mport: 20000-29999
-  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 20000
-  server: tw.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 01 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: tcp
+  port: 11112
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
 - name: 'B - 🇹🇼 TW 03 TG: @nodpai'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -27,10 +27,3 @@ proxies:
   skip-cert-verify: true
   sni: vpn-tw-002.fastervpn.world
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_1|1.1MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: '50099'
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-  udp: true

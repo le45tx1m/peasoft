@@ -1,14 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 08 TG: @nodpai'
-  port: 180
-  server: 82.198.246.214
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  name: 'B - 🇺🇸 US 07 TG: @nodpai'
   port: 11128
   server: dotu-usv1.kunlun03dns.com
   type: vmess
@@ -18,7 +11,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇺🇸 US 12 TG: @nodpai'
+  name: 'B - 🇺🇸 US 08 TG: @nodpai'
   network: tcp
   port: 11130
   server: dotu-usv1.kunlun03dns.com
@@ -28,41 +21,52 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇺🇸 US 15 TG: @nodpai'
+  name: 'B - 🇺🇸 US 09 TG: @nodpai'
   network: tcp
-  port: 11119
-  server: dotu-jpv1.kunlun03dns.com
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇺🇸 US 21 TG: @nodpai'
+- name: 'B - 🇺🇸 US 11 TG: @nodpai'
   network: ws
-  port: 16648
-  server: planb.mojcn.com
-  type: vmess
-  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 30303
+  server: 121.191.33.84
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
   ws-opts:
-    headers:
-      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
-    path: /
+    path: /trojan
+- alpn:
+  - http/1.1
+  name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 104.18.20.213
+  sni: www.app-cloud.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2048
+- name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18080
+  server: 175.192.103.88
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -89,6 +93,15 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: 🇺🇸 美国5|@ripaojiedian
   port: 180
   server: 82.198.246.233
@@ -96,19 +109,16 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 🇺🇸US_4|1.1MB/s
+  name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.250
   servername: ''
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 美国5|@ripaojiedian
@@ -119,15 +129,55 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_2|1.7MB/s
-  network: tcp
-  port: '180'
-  server: 82.198.246.214
+- name: US_speednode_0045
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 104.18.20.213
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: www.app-cloud.ir
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /?ed=2048
+- name: US_speednode_0046
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 14.102.228.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /?ed=2048
+- name: US_speednode_0048
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 14.102.228.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /
+- name: US_speednode_0049
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 104.18.20.213
+  skip-cert-verify: false
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /

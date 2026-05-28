@@ -6,7 +6,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 13.193.213.165
+  server: 52.69.80.161
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -22,9 +22,9 @@ proxies:
   fp: firefox
   name: 'A - 🇸🇬 SG 02 TG: @nodpai'
   network: ws
-  port: 443
+  port: 20201
   security: tls
-  server: 103.100.158.202
+  server: 222.96.225.202
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -40,9 +40,9 @@ proxies:
   fp: firefox
   name: 'A - 🇸🇬 SG 03 TG: @nodpai'
   network: ws
-  port: 443
+  port: 29876
   security: tls
-  server: 45.77.241.64
+  server: 59.15.13.58
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -58,9 +58,9 @@ proxies:
   fp: firefox
   name: 'A - 🇸🇬 SG 04 TG: @nodpai'
   network: ws
-  port: 18086
+  port: 11235
   security: tls
-  server: 112.160.4.111
+  server: 175.193.109.205
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -76,9 +76,9 @@ proxies:
   fp: firefox
   name: 'A - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
-  port: 27017
+  port: 13720
   security: tls
-  server: 124.111.149.10
+  server: 183.108.251.226
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -94,9 +94,9 @@ proxies:
   fp: firefox
   name: 'A - 🇸🇬 SG 06 TG: @nodpai'
   network: ws
-  port: 18246
+  port: 33338
   security: tls
-  server: 61.76.179.211
+  server: 220.79.9.247
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -112,9 +112,9 @@ proxies:
   fp: firefox
   name: 'A - 🇸🇬 SG 07 TG: @nodpai'
   network: ws
-  port: 8443
+  port: 443
   security: tls
-  server: 64.186.237.75
+  server: 185.148.14.174
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -125,27 +125,28 @@ proxies:
     headers:
       Host: i8dxb.media-cdn-us.chinav.indevs.in
     path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- alterId: 0
-  cipher: auto
+- encryption: none
   name: 'B - 🇸🇬 SG 08 TG: @nodpai'
   network: ws
-  port: 33402
-  server: yd3.ainivp.com
+  port: 443
+  security: tls
+  server: 104.19.229.21
+  servername: cyylr.eu.cc
   tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  type: vless
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
   ws-opts:
     headers:
-      Host: yd3.ainivp.com
-    path: /ray
+      Host: cyylr.eu.cc
+    path: /sg-melbi
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
   name: 'B - 🇸🇬 SG 09 TG: @nodpai'
   network: ws
-  port: 39738
+  port: 13579
   security: tls
-  server: 38.244.5.118
+  server: 116.93.196.117
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -166,34 +167,33 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: 'B - 🇸🇬 SG 11 TG: @nodpai'
   network: ws
-  port: 39738
-  security: tls
-  server: 38.244.5.40
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  password: mitivpn
+  port: 443
+  server: 45.130.125.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  type: trojan
   ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- name: 'B - 🇸🇬 SG 12 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 172.67.186.114
-  type: vless
-  uuid: eb295cd7-a389-4cde-9598-ce126b0910bc
-  ws-opts:
-    headers:
-      Host: v2configlab.v2configlab2.workers.dev
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 12 TG: @nodpai'
+  network: ws
+  port: 33402
+  server: yd3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd3.ainivp.com
+    path: /ray
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
@@ -201,7 +201,7 @@ proxies:
   network: ws
   port: 443
   security: tls
-  server: 134.199.234.104
+  server: 138.68.150.145
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -212,110 +212,99 @@ proxies:
     headers:
       Host: i8dxb.media-cdn-us.chinav.indevs.in
     path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
+- alpn:
+  - http/1.1
   name: 'B - 🇸🇬 SG 14 TG: @nodpai'
   network: ws
-  port: 8443
-  security: tls
-  server: 43.247.135.211
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- name: 'B - 🇸🇬 SG 15 TG: @nodpai'
-  network: ws
+  password: mitivpn
   port: 443
-  security: tls
-  server: www.cnae.top
-  servername: gddy.hhlfy.de5.net
-  tls: true
-  type: vless
-  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
-  ws-opts:
-    headers:
-      Host: gddy.hhlfy.de5.net
-    path: /fp=firefox
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
-  network: ws
-  port: 2053
-  security: tls
-  server: 193.23.218.192
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_3|2.5MB/s
-  network: ws
-  password: mitivpn
-  port: '443'
-  server: 104.18.20.213
-  skip-cert-verify: false
-  sni: www.app-cloud.ir
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_5|2.1MB/s
-  network: ws
-  password: mitivpn
-  port: '443'
   server: 14.102.228.76
   skip-cert-verify: true
   sni: www.app-cloud.ir
   tls: true
   type: trojan
-  udp: true
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
     path: /?ed=2048
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_6|3.3MB/s
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 'B - 🇸🇬 SG 15 TG: @nodpai'
   network: ws
-  password: mitivpn
-  port: '443'
-  server: 45.130.125.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
+  port: 443
+  security: tls
+  server: 54.161.135.70
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
   tls: true
-  type: trojan
-  udp: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /?ed=2048
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+  port: 11137
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 'B - 🇸🇬 SG 17 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 91.84.111.217
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 'B - 🇸🇬 SG 18 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 209.97.134.215
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 'B - 🇸🇬 SG 19 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 95.85.28.102
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
@@ -334,154 +323,10 @@ proxies:
     headers:
       Host: i8dxb.media-cdn-us.chinav.indevs.in
     path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- name: 'B - 🇸🇬 SG 21 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 104.21.1.5
-  type: vless
-  uuid: eb295cd7-a389-4cde-9598-ce126b0910bc
-  ws-opts:
-    headers:
-      Host: v2configlab.v2configlab2.workers.dev
-    path: /?ed=2048
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 'B - 🇸🇬 SG 22 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 160.16.91.248
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'B - 🇸🇬 SG 23 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 184.72.235.33
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'B - 🇸🇬 SG 24 TG: @nodpai'
-  network: ws
-  port: 2087
-  security: tls
-  server: 188.166.69.138
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'B - 🇸🇬 SG 25 TG: @nodpai'
-  network: ws
-  port: 20202
-  security: tls
-  server: 146.185.149.123
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'B - 🇸🇬 SG 26 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 188.226.144.59
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 27 TG: @nodpai'
-  port: 11137
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'B - 🇸🇬 SG 28 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 95.85.28.102
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'B - 🇸🇬 SG 29 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 134.209.183.227
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'B - 🇸🇬 SG 30 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 21 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -499,41 +344,11 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 'B - 🇸🇬 SG 31 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 22 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 46.8.226.15
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  skip-cert-verify: false
-  sni: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 'B - 🇸🇬 SG 32 TG: @nodpai'
-  port: 443
-  reality-opts:
-    public-key: fS59W37_i8457GqkbB9_kdCfLCtWbl14qmVRnm2ty2I
-    short-id: '!!str 2da4299da566b7'
-  server: 84.32.22.143
-  servername: maps.apple.com
-  tls: true
-  type: vless
-  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 'B - 🇸🇬 SG 33 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 54.161.135.70
+  server: 184.72.235.33
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -547,11 +362,96 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: 'B - 🇸🇬 SG 34 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 23 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 209.97.134.215
+  server: 188.226.144.59
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 'B - 🇸🇬 SG 24 TG: @nodpai'
+  network: ws
+  port: 8443
+  security: tls
+  server: 160.16.91.248
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 'B - 🇸🇬 SG 25 TG: @nodpai'
+  network: ws
+  port: 2053
+  security: tls
+  server: 142.248.218.229
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- name: 'B - 🇸🇬 SG 26 TG: @nodpai'
+  network: ws
+  password: trojan
+  port: 12596
+  server: 213.35.108.135
+  skip-cert-verify: true
+  sni: store.timimi.dpdns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: /?ed=2560&telegram🇨🇳 @wangcai2
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 'B - 🇸🇬 SG 27 TG: @nodpai'
+  network: ws
+  port: 30011
+  security: tls
+  server: 202.81.229.40
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 'C - 🇸🇬 SG 28 TG: @nodpai'
+  network: ws
+  port: 2053
+  security: tls
+  server: 138.68.131.25
   servername: i8dxb.media-cdn-us.chinav.indevs.in
   skip-cert-verify: false
   sni: i8dxb.media-cdn-us.chinav.indevs.in
@@ -586,79 +486,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- encryption: none
-  name: 🇸🇬SG_1|3.9MB/s
-  network: ws
-  port: '8880'
-  server: 188.164.248.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?https://t.me/YouTube@小青科学网🇨🇳
-  xudp: true
-- encryption: none
-  name: 🇸🇬SG_2|2.7MB/s
-  network: ws
-  port: 80
-  server: cf.090227.xyz
-  type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-    path: /?ed=2048
-- encryption: none
-  name: 🇸🇬SG_3|2.9MB/s
-  network: ws
-  port: 80
-  server: freeyx.cloudflare88.eu.org
-  type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-    path: /?ed=2048
-- encryption: none
-  name: 🇸🇬SG_4|1.6MB/s
-  network: ws
-  port: 80
-  server: cdn.2020111.xyz
-  type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-    path: /?ed=2048
-- encryption: none
-  name: 🇸🇬SG_5|2.6MB/s
-  network: ws
-  port: 80
-  server: cloudflare.182682.xyz
-  type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 🇸🇬SG_6|2.3MB/s
-  network: ws
-  port: '20988'
-  server: 158.178.240.208
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /@Marisa_kristifp=chrome
-  xudp: true

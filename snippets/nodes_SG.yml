@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
-  network: ws
-  port: 33402
-  server: yd3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
   name: 'B - 🇸🇬 SG 10 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -25,66 +12,64 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸US_3|2.5MB/s
+  name: 'B - 🇸🇬 SG 11 TG: @nodpai'
   network: ws
   password: mitivpn
-  port: '443'
-  server: 104.18.20.213
-  skip-cert-verify: false
-  sni: www.app-cloud.ir
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_5|2.1MB/s
-  network: ws
-  password: mitivpn
-  port: '443'
-  server: 14.102.228.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_6|3.3MB/s
-  network: ws
-  password: mitivpn
-  port: '443'
+  port: 443
   server: 45.130.125.76
   skip-cert-verify: true
   sni: www.app-cloud.ir
   tls: true
   type: trojan
-  udp: true
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 27 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 12 TG: @nodpai'
+  network: ws
+  port: 33402
+  server: yd3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd3.ainivp.com
+    path: /ray
+- alpn:
+  - http/1.1
+  name: 'B - 🇸🇬 SG 14 TG: @nodpai'
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 14.102.228.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
   port: 11137
   server: dotu-sgv1.kunlun03dns.com
   type: vmess
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: 'B - 🇸🇬 SG 26 TG: @nodpai'
+  network: ws
+  password: trojan
+  port: 12596
+  server: 213.35.108.135
+  skip-cert-verify: true
+  sni: store.timimi.dpdns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: /?ed=2560&telegram🇨🇳 @wangcai2
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae

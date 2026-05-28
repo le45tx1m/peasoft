@@ -2,7 +2,21 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇸🇪 SE 01 TG: @nodpai'
+  name: 'B - 🇸🇪 SE 02 TG: @nodpai'
+  network: tcp
+  port: 592
+  reality-opts:
+    public-key: MJsIaoeYt-qnokhHqSKjLQri0cddD7lKXQAGV34v3TI
+  security: reality
+  server: pipe-1692.atlanta-games.com
+  servername: pipe-1692.atlanta-games.com
+  tls: true
+  type: vless
+  uuid: d27a8beb-d940-4503-af2c-0e8e5d8ab7fa
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇸🇪 SE 03 TG: @nodpai'
   port: 443
   reality-opts:
     public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
