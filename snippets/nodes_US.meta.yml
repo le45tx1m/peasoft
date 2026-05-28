@@ -1,8 +1,39 @@
 proxies:
-- client-fingerprint: chrome
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: 'A - 🇺🇸 US 01 TG: @nodpai'
+  network: tcp
+  port: 22231
+  security: tls
+  server: 72.56.59.177
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'A - 🇺🇸 US 02 TG: @nodpai'
+  port: 13405
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    short-id: '!!str a1b2c3d4'
+  security: reality
+  server: zzus5.ainivp.com
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 03 TG: @nodpai'
   port: 13403
   reality-opts:
     public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
@@ -13,10 +44,19 @@ proxies:
   tls: true
   type: vless
   uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 04 TG: @nodpai'
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: RU_speednode_0036
   port: 443
+  security: tls
   server: 85.234.114.53
   servername: r1.mizulina.top
   skip-cert-verify: false
@@ -24,10 +64,50 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 07 TG: @nodpai'
+  port: 180
+  server: 82.198.246.214
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0038
+  port: 22231
+  security: tls
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: 'B - 🇺🇸 US 09 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: www.visakorea.com
+  servername: pagescm.freen4.cc.cd
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen4.cc.cd
+    path: /moviefp=chrome
+- multiplexing: MULTIPLEXING_LOW
+  name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 03 TG: @nodpai'
+  name: 'B - 🇺🇸 US 11 TG: @nodpai'
   network: tcp
   port: 64394
   reality-opts:
@@ -38,23 +118,24 @@ proxies:
   tls: true
   type: vless
   uuid: 2ca2f309-1ba9-4d23-a1d4-9645dfc4a882
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: RU_speednode_0038
-  network: tcp
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
+  name: US_speednode_0044
+  port: 54495
+  reality-opts:
+    public-key: 50IjQtR9zJG_3pXrbQDalYy_D4c7C_A8EEwVx0EfOjM
+    short-id: '!!str 5e8c37215982'
+  security: tls
+  server: 89.117.94.111
+  servername: yahoo.com
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 2042c7c4-f0c8-48ec-926b-65112b064e2c
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 05 TG: @nodpai'
+  name: 'B - 🇺🇸 US 13 TG: @nodpai'
   network: tcp
   port: 29114
   reality-opts:
@@ -67,104 +148,11 @@ proxies:
   uuid: 036f593f-98ea-4534-96b6-9e810982b9d2
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 06 TG: @nodpai'
-  port: 180
-  server: 82.198.246.214
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- multiplexing: MULTIPLEXING_LOW
-  name: 'B - 🇺🇸 US 07 TG: @nodpai'
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 09 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: RCp37oAO4E30SKBraaFaeUXeqvLGS7yH40VHl5a_6RE
-    short-id: '!!str 87ab'
-  security: reality
-  server: 193.233.202.1
-  servername: yahoo.com
-  spider-x: /
-  tls: true
-  type: vless
-  uuid: 838e036b-f229-480b-b0ef-86b1dc711add
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0044
-  port: 54495
-  reality-opts:
-    public-key: 50IjQtR9zJG_3pXrbQDalYy_D4c7C_A8EEwVx0EfOjM
-    short-id: '!!str 5e8c37215982'
-  server: 89.117.94.111
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2042c7c4-f0c8-48ec-926b-65112b064e2c
-- auth: 5bd0aef8-00b2-42c2-b3af-15fe0a07e6ed
-  name: 'B - 🇺🇸 US 11 TG: @nodpai'
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: 5bd0aef8-00b2-42c2-b3af-15fe0a07e6ed
-  port: 443
-  server: vn2.yuntong.click
-  skip-cert-verify: false
-  sni: vn2.yuntong.click
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  name: 'B - 🇺🇸 US 14 TG: @nodpai'
   port: 11128
   server: dotu-usv1.kunlun03dns.com
   type: vmess
-  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: RU_speednode_0037
-  network: raw
-  port: 22231
-  security: tls
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  xudp: true
-- name: 'B - 🇺🇸 US 15 TG: @nodpai'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 30303
-  server: 121.191.33.84
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -184,49 +172,23 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 17 TG: @nodpai'
-  port: 11120
-  server: dotu-jpv1.kunlun03dns.com
+  name: 'B - 🇺🇸 US 16 TG: @nodpai'
+  port: 11130
+  server: dotu-usv1.kunlun03dns.com
   type: vmess
-  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 18 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: up2-df6.pages.dev
-  servername: up2-df6.pages.dev
-  tls: true
-  type: vless
-  uuid: ce69190e-935a-4394-9e5e-2ab2872ba242
-  ws-opts:
-    headers:
-      Host: up2-df6.pages.dev
-    path: /uTZSXPBI2IfoxF86
-- client-fingerprint: chrome
-  name: 'C - 🇺🇸 US 20 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 104.16.213.194
-  servername: SaIWaI6.Pages.dEv
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: saiWAi6.Pages.dev
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇺🇸 US 21 TG: @nodpai'
-  port: 30829
-  server: v29.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'C - 🇺🇸 US 22 TG: @nodpai'
+  name: 🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 18 TG: @nodpai'
   network: ws
   port: 16648
   server: planb.mojcn.com
@@ -236,11 +198,124 @@ proxies:
     headers:
       Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
     path: /
-- name: 'C - 🇺🇸 US 23 TG: @nodpai'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: RU_speednode_0037
+  network: raw
+  port: 22231
+  security: tls
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: farsnews.ir.mizanonline.com.eghtesadonline.com.tasnimnews.com.irdiplomacy.ir.sharghdaily.com.donya-e-eqtesad.com
+  name: 'B - 🇺🇸 US 21 TG: @nodpai'
+  network: grpc
+  port: 2096
+  security: tls
+  server: 104.18.32.47
+  servername: FAt-CORNEr1twsv3GlGF.WIndleR.Co.UK
+  tls: true
+  type: vless
+  uuid: 44036b76-ecd4-488b-83ce-108d94583cf3
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: alalamtv.net.entekhab.ir.donya-e-eqtesad.com.hamshahrionline.ir.alalamtv.net.irdiplomacy.ir.snn.ir
+  name: 'B - 🇺🇸 US 23 TG: @nodpai'
+  network: grpc
+  port: 2096
+  security: tls
+  server: 104.18.32.47
+  servername: MOOdY-facE1ob4n437nt.caRBonbLacKBMw.Ir
+  tls: true
+  type: vless
+  uuid: da703b27-62f2-451a-993f-99224c53f12b
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: khabaronline.ir.isna.ir.en.mehrnews.com.khabaronline.ir.en.mehrnews.com.asriran.com.jamejamonline.ir
+  name: 'B - 🇺🇸 US 25 TG: @nodpai'
+  network: grpc
+  port: 2096
+  security: tls
+  server: 104.18.32.47
+  servername: ImportAnt-CUPi24nv9Tm3Y.WInDLeR.CO.Uk
+  tls: true
+  type: vless
+  uuid: 99d38f43-0a5d-462a-8459-d6ab36dd7a64
+- name: 'B - 🇺🇸 US 26 TG: @nodpai'
+  network: ws
+  port: 443
+  server: cdn.veilvpn.fans
+  servername: cdn.veilvpn.fans
+  skip-cert-verify: true
+  type: vless
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  ws-opts:
+    headers:
+      Host: cdn.veilvpn.fans
+    path: /vpnhufp=chromesecurity=tls
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇺🇸 US 27 TG: @nodpai'
+  port: 30824
+  server: 70.153.148.135
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'C - 🇺🇸 US 28 TG: @nodpai'
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 32603
+  server: 220.86.228.109
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+- encryption: none
+  name: 'C - 🇺🇸 US 29 TG: @nodpai'
+  network: tcp
   port: 47518
   server: de-on-demand.not-a-projects.xyz
   type: vless
   uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 30 TG: @nodpai'
+  port: 30829
+  server: v29.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 31 TG: @nodpai'
+  port: 30804
+  server: v4.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -265,15 +340,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国5|@ripaojiedian
@@ -371,6 +437,19 @@ proxies:
   port: 443
   server: 14.102.228.76
   skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /
+- name: US_speednode_0049
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 104.18.20.213
+  skip-cert-verify: false
   sni: www.app-cloud.ir
   type: trojan
   udp: true

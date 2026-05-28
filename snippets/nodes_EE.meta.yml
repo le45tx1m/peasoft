@@ -1,15 +1,11 @@
 proxies:
 - client-fingerprint: chrome
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: vless
   name: 'B - 🇪🇪 EE 01 TG: @nodpai'
   network: grpc
   port: 443
-  reality-opts:
-    public-key: QobAF8R0o6yO2clMtVMNzji7PG2VZ418T4HvjNy4Mk0
-    short-id: '!!str abcdef123456'
-  security: reality
+  security: tls
   server: 194.156.101.115
   servername: 0w7ymj.spectrum.vu
   tls: true

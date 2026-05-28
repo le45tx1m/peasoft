@@ -1,60 +1,45 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 06 TG: @nodpai'
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 04 TG: @nodpai'
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 07 TG: @nodpai'
   port: 180
   server: 82.198.246.214
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  name: 'B - 🇺🇸 US 14 TG: @nodpai'
   port: 11128
   server: dotu-usv1.kunlun03dns.com
   type: vmess
-  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: 'B - 🇺🇸 US 15 TG: @nodpai'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 30303
-  server: 121.191.33.84
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 16 TG: @nodpai'
+  port: 11130
+  server: dotu-usv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
   skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 17 TG: @nodpai'
-  port: 11120
-  server: dotu-jpv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇺🇸 US 21 TG: @nodpai'
-  port: 30829
-  server: v29.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇺🇸 US 22 TG: @nodpai'
+  name: 'B - 🇺🇸 US 18 TG: @nodpai'
   network: ws
   port: 16648
   server: planb.mojcn.com
@@ -64,6 +49,42 @@ proxies:
     headers:
       Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇺🇸 US 27 TG: @nodpai'
+  port: 30824
+  server: 70.153.148.135
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'C - 🇺🇸 US 28 TG: @nodpai'
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 32603
+  server: 220.86.228.109
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 30 TG: @nodpai'
+  port: 30829
+  server: v29.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 31 TG: @nodpai'
+  port: 30804
+  server: v4.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -88,15 +109,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国5|@ripaojiedian
@@ -158,6 +170,19 @@ proxies:
   port: 443
   server: 14.102.228.76
   skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /
+- name: US_speednode_0049
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 104.18.20.213
+  skip-cert-verify: false
   sni: www.app-cloud.ir
   type: trojan
   udp: true

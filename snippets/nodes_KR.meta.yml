@@ -1,6 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 'B - 🇰🇷 KR 01 TG: @nodpai'
+  port: 11144
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'B - 🇰🇷 KR 02 TG: @nodpai'
+  port: 11143
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
   name: 🇰🇷KR_2|1.1MB/s
   network: ws
   port: 33204

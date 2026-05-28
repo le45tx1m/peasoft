@@ -1,15 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇸🇪 SE 02 TG: @nodpai'
-  port: 443
-  reality-opts:
-    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
-    short-id: '!!str 5d'
-  security: reality
-  server: 194.238.57.104
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
+proxies: []

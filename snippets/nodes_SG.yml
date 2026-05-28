@@ -1,43 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 13 TG: @nodpai'
+  name: 'A - 🇸🇬 SG 21 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: false
-  tls: false
   type: vmess
-  udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: US_speednode_0049
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 104.18.20.213
-  skip-cert-verify: false
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /
-- name: SC_speednode_0041
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 45.130.125.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 27 TG: @nodpai'
   network: ws
   port: 33402
   server: yd3.ainivp.com
@@ -50,11 +21,30 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 22 TG: @nodpai'
+  client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 35 TG: @nodpai'
+  port: 11135
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 37 TG: @nodpai'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 39 TG: @nodpai'
   port: 11137
   server: dotu-sgv1.kunlun03dns.com
   type: vmess
-  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - name: 新加坡|@ripaojiedian
   network: tcp

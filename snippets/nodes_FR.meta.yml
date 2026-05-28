@@ -1,35 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇫🇷 FR 02 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -kYkVmQw_UifppSlJ-IGNW4jq89GGEdQg3kayk50rxI
-    short-id: '!!str d142243f4a389be9'
-  security: reality
-  server: 213.176.73.37
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  uuid: 3f3db75c-e362-4047-9452-1c307351ab02
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇫🇷 FR 03 TG: @nodpai'
-  network: tcp
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '!!str 01'
-  security: reality
-  server: 62.210.91.2
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇫🇷FR_1|2.1MB/s
   network: tcp

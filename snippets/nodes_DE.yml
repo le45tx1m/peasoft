@@ -1,4 +1,11 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
+  port: 42444
+  server: s2.projectv.bond
+  type: vmess
+  uuid: 8521095b-5512-4589-9688-18750f3aa6b4
 - cipher: aes-256-cfb
   name: 🇩🇪DE_10|4.1MB/s
   password: amazonskr05
