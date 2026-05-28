@@ -1,81 +1,9 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  network: tcp
-  port: 18799
-  reality-opts:
-    public-key: eA8t9JgbosAUr9hIKM8qUKeyQH80zGfzoBJL-61FmUg
-    short-id: '!!str 2d53b5dc'
-  server: ecin.xfdv.5gw3.a.vvps.xyz
-  servername: www.amazon.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
-  network: tcp
-  port: 11114
-  server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 03 TG: @nodpai'
-  network: tcp
-  port: 10511
-  reality-opts:
-    public-key: Zptij4sd0uv7SrCLVz-m9q0oxciINMSy3PEPSIUKUGI
-    short-id: '!!str 3439f357'
-  server: gzrefad01.odxxplay.com
-  servername: www.amazon.jobs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
-  network: tcp
-  port: 11113
-  server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'A - 🇹🇼 TW 05 TG: @nodpai'
-  network: tcp
-  port: 11111
-  server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
   network: tcp
   port: 11112
   server: dotu-twv1.kunlun03dns.com
@@ -85,32 +13,31 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  network: tcp
+  port: 11114
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- name: 'B - 🇹🇼 TW 05 TG: @nodpai'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-tw-002.fastervpn.world
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 09 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qrCEIJSAfZ_tpEwY7gLYmkX_jljyiW9QY41iShTH8XA
-    short-id: '!!str b4ac97c0'
-  server: tw.hsyun.top
-  servername: soncnaura.si
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- name: 'B - 🇹🇼 TW 10 TG: @nodpai'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_1|1.1MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: '50099'
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+  udp: true

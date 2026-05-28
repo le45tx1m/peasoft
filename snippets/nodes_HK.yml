@@ -2,6 +2,22 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 'A - 🇭🇰 HK 01 TG: @nodpai'
+  port: 11105
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  port: 11104
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 05 TG: @nodpai'
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: true
@@ -9,16 +25,60 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
-  port: 30809
-  server: v9.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 12 TG: @nodpai'
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  port: 11103
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  network: tcp
+  port: 11111
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  network: tcp
+  port: 11143
+  server: dotu-krv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 13 TG: @nodpai'
   port: 51556
   server: 103.181.164.145
   type: vmess
@@ -66,27 +126,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_1|1021KB/s
-  network: raw
-  port: '6012'
-  server: world.t.51guangtaobao.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_2|1.3MB/s
-  network: raw
-  port: '9002'
-  server: world.t.51guangtaobao.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-  xudp: true

@@ -1,51 +1,16 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'B - 🇬🇧 GB 01 TG: @nodpai'
+  name: 🇬🇧GB_1|1.1MB/s
   network: tcp
-  port: 23765
+  port: '23765'
   server: gzrefad01.odxxplay.com
   servername: gb1.fun88linkvn.com
-  skip-cert-verify: true
-  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇬🇧 GB 02 TG: @nodpai'
-  port: 30836
-  server: 103.182.97.244
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: GB_speednode_0019
-  port: 443
-  reality-opts:
-    public-key: MBkIKCORF_f5gqwnugFO7K4HUR8HAKPUuYVIarrQNU0
-    short-id: '!!str bfc5'
-  server: 31.76.120.162
-  servername: www.sony.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05e9d254-8ea8-4097-9450-d4aefc44bd7e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0021
-  port: 54254
-  reality-opts:
-    public-key: HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4
-    short-id: '!!str db35ffdc'
-  server: 134.33.73.249
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: acba684c-4098-4eca-f519-828b09f96464
+  xudp: true
 - client-fingerprint: chrome
   http-opts:
     headers:
@@ -67,17 +32,3 @@ proxies:
   type: vless
   udp: true
   uuid: 8711e97a-63cc-47f5-b1ab-b9280b82ac2e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0023
-  port: 443
-  reality-opts:
-    public-key: Aak3FEVpJGzxzVz4wWkNpFA9dANDnvQg15X4eYNr_hw
-    short-id: '!!str 6ba8f65dee6e'
-  server: cz.krevetkavpn.ru
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 729d3d1e-ee1a-4c42-84bc-2ff331518221

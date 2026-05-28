@@ -1,55 +1,59 @@
 proxies:
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+- name: 'B - 🇷🇺 RU 02 TG: @nodpai'
   network: ws
   port: 8880
-  server: 31.12.75.50
+  server: 45.67.215.30
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: vms.lifetime21.workers.dev
-    path: /?ed=2560
-- encryption: none
-  name: 'A - 🇷🇺 RU 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 176.124.223.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'A - 🇷🇺 RU 03 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: tMEkGmuOsuS_cgZYpj2UYBKnni559FZd-poGnH82ck8
-    short-id: '!!str bfb7cb31'
-  security: reality
-  server: 109.122.198.76
-  servername: www.icloud.com
-  spider-x: /
-  tls: true
-  type: vless
-  uuid: 18afb896-6e4b-403b-b804-714b09b517e5
+      Host: vms.lifetime48.workers.dev
+    path: /
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.6MB/s
+  name: 'B - 🇷🇺 RU 03 TG: @nodpai'
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: RpM3WEYiP4xbmvoe1sfnGBmtW9ZIaKARcf5JJvqSsxQ
-    short-id: '!!str 8a5fa3d7e3de8557'
-  server: ru4.easyserf.top
-  servername: ru4.easyserf.top
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: '!!str c1a7e9b4711d5f60'
+  security: reality
+  server: 193.168.46.180
+  servername: rruu.persik.host
   tls: true
   type: vless
-  udp: true
-  uuid: 79f063dd-77bd-4a40-854a-67870be42175
-  xudp: true
+  uuid: e30d8712-00f5-4223-873e-47e31d4fda17
+- client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇷🇺 RU 04 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: '!!str c1a7e9b4711d5f60'
+  security: reality
+  server: 193.168.46.180
+  servername: rruu.persik.host
+  tls: true
+  type: vless
+  uuid: 717516f9-7416-4751-a4a1-20e63a50f71a
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇷🇺 RU 05 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: c9eCHF41FReFLIdarpg8M5edw4_E133EJBzrvYS02Ck
+    short-id: '!!str cd9a5f0edff48da4'
+  security: reality
+  server: 213.108.2.130
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  uuid: 5e8ee155-0962-4307-98f2-b65f6bbbd5bb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0046

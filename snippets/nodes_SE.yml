@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- name: 'B - 🇸🇪 SE 01 TG: @nodpai'
+  network: ws
+  password: 0YQjdidwRZf8WDcxYVpp
+  port: 2083
+  server: bb2233.xfan1986.dpdns.org
+  sni: Bb2233.xFAN1986.DPDns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bb2233.xfan1986.dpdns.org
+    path: /trb8nzT9dwVvc8L4ww/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==

@@ -1,8 +1,1 @@
-proxies:
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇬🇧 GB 02 TG: @nodpai'
-  port: 30836
-  server: 103.182.97.244
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+proxies: []

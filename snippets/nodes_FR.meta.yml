@@ -1,16 +1,53 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   name: 'B - 🇫🇷 FR 01 TG: @nodpai'
   network: tcp
-  port: 60396
-  server: gzrefad01.odxxplay.com
-  servername: fr1.fun88linkvn.com
-  skip-cert-verify: true
-  tfo: false
+  port: 443
+  reality-opts:
+    public-key: 4S6qXLdepEjgOeFBIbZmC-4ChOqGgM9l4vEedKw8rVk
+    short-id: '!!str be0ce047'
+  security: reality
+  server: fra.gorhub.ru
+  servername: stackoverflow.com
   tls: true
   type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+  uuid: 9cbd238d-6a56-419a-bdc5-101fdab421ad
+- client-fingerprint: random
+  encryption: none
+  name: 'B - 🇫🇷 FR 02 TG: @nodpai'
+  network: ws
+  port: 8443
+  security: tls
+  server: www.speedtest.net
+  servername: bB2233.XfAn1986.dpDnS.ORG
+  tls: true
+  type: vless
+  uuid: 5629eadf-ae86-4030-ab63-bd349c6c26fc
+  ws-opts:
+    headers:
+      Host: bb2233.xfan1986.dpdns.org
+    path: /6RdosbbFEgXM7ehg/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_1|2.6MB/s
+  network: xhttp
+  port: '2087'
+  server: 130.250.137.171
+  servername: ws.kheybar.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: ws.kheybar.store
+    mode: auto
+    path: /login
+  xudp: true
 - alpn:
   - h2
   name: FR_speednode_0017

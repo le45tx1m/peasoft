@@ -2,6 +2,38 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 'A - 🇭🇰 HK 01 TG: @nodpai'
+  port: 11105
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  port: 11104
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: 'A - 🇭🇰 HK 03 TG: @nodpai'
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  port: 8443
+  server: fb473ba2-te7og0-tfmrui-duku.hkt.cdnhuawei.com
+  sni: fb473ba2-te7og0-tfmrui-duku.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+- name: 'A - 🇭🇰 HK 04 TG: @nodpai'
+  password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  port: 5228
+  server: be27ab36-t9zts0-tg010c-1r7od.cm4.oshuawei.com
+  sni: be27ab36-t9zts0-tg010c-1r7od.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 05 TG: @nodpai'
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: true
@@ -9,135 +41,73 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- encryption: none
-  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
-  network: ws
-  port: 80
-  server: cf.877771.xyz
-  type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-    path: /?ed=2048
-- name: 'A - 🇭🇰 HK 03 TG: @nodpai'
-  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
-  port: 10085
-  server: hk02.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-- encryption: none
-  name: 'A - 🇭🇰 HK 04 TG: @nodpai'
-  network: ws
-  port: 80
-  server: cloudflare-ip.mofashi.ltd
-  type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-    path: /?ed=2048
-- client-fingerprint: randomized
-  encryption: none
-  name: 'A - 🇭🇰 HK 05 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 104.17.138.107
-  servername: zyzzzoao.xn--fiqv8j.eu.org
-  tls: true
-  type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  network: tcp
-  port: 16210
-  reality-opts:
-    public-key: DOGHciMvy3CcShNwgR16D6KpLf4oejTQPFMrD6234DY
-    short-id: '!!str 76de7fea'
-  server: 2zht.cbq4.zcvh.a.rros.cc
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  network: tcp
-  port: 54503
-  reality-opts:
-    public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4
-    short-id: '!!str 089bdc8f'
-  server: hkbgpnolixx01.odxxplay.com
-  servername: www.hkhs.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
-  network: tcp
-  port: 24933
-  reality-opts:
-    public-key: NpO9NRIfYTch16Z2yUyroHUaQanV1w0OKM_vEV-6p0I
-    short-id: '!!str 5e4a9abd'
-  server: gbp6.tbk2.agdb.a.rros.cc
-  servername: www.amazon.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1S_IieAYJPhGpT6Uz_OoIswZz_do39PIY1EoncTKj3c
-    short-id: '!!str 1b5e067e'
-  server: 209.33.160.105
-  servername: www.lovelive-anime.jp
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- client-fingerprint: randomized
-  encryption: none
-  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: cloudflare-ip.mofashi.ltd
-  servername: zyzzzoao.xn--fiqv8j.eu.org
-  tls: true
-  type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-    path: /?ed=2048
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
-  port: 30809
-  server: v9.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 12 TG: @nodpai'
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  port: 11103
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  network: tcp
+  port: 11111
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  network: tcp
+  port: 11143
+  server: dotu-krv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  port: 10011
+  reality-opts:
+    public-key: 82bbZIdU-0s8fydncIhp9_sNDYQQH9ZY_7RVI5apXnk
+    short-id: '!!str 447f3a05ace2b748'
+  security: reality
+  server: 103.123.162.50
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 13 TG: @nodpai'
   port: 51556
   server: 103.181.164.145
   type: vmess
@@ -185,27 +155,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_1|1021KB/s
-  network: raw
-  port: '6012'
-  server: world.t.51guangtaobao.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- encryption: none
+  name: 🇭🇰HK_1|4.7MB/s
+  network: tcp
+  port: '47683'
+  server: 47.242.43.198
+  type: vless
   udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  uuid: 3825a504-7b6c-4f34-bf4d-a5b86f4650dd
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_2|1.3MB/s
-  network: raw
-  port: '9002'
-  server: world.t.51guangtaobao.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰HK_2|1.8MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
+  port: '10085'
+  server: hk02.jgpy.help
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+  up: ''

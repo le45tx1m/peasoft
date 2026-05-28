@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_14|2.5MB/s
+  network: ws
+  password: shabrangvpn
+  port: '443'
+  server: 8.6.112.51
+  skip-cert-verify: false
+  sni: shabrangvpn.anarcloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /?ed=2048

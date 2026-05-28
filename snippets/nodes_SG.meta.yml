@@ -1,76 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
+- alterId: 0
+  cipher: auto
   name: 'A - 🇸🇬 SG 01 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: orange.seeck.cn
-  servername: workjoey.freen3.cc.cd
-  tls: true
-  type: vless
-  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
-  ws-opts:
-    headers:
-      Host: workjoey.freen3.cc.cd
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
-  port: 11137
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 03 TG: @nodpai'
-  port: 11135
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
-  port: 11138
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- encryption: none
-  name: 'A - 🇸🇬 SG 05 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 172.64.50.224
-  type: vless
-  uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
-  ws-opts:
-    headers:
-      Host: purnet.gmijcp.workers.dev
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
-  port: 11136
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- encryption: none
-  name: 'A - 🇸🇬 SG 07 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 104.19.47.96
-  type: vless
-  uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
-  ws-opts:
-    headers:
-      Host: purnet.gmijcp.workers.dev
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 08 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -78,24 +9,103 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_3|2.5MB/s
+  network: ws
+  password: mitivpn
+  port: '443'
+  server: 104.18.20.213
+  skip-cert-verify: false
+  sni: www.app-cloud.ir
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed=2048
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
-  network: tcp
+  encryption: none
+  name: 'B - 🇸🇬 SG 03 TG: @nodpai'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 4RZb56SmePtMZSY0T_PJlaDx0Yh3QT9-qSiMFac0TzI
-    short-id: '!!str a0845462'
-  server: sg.hsyun.top
-  servername: www.propertyguru.com.sg
-  skip-cert-verify: true
-  tfo: false
+  security: tls
+  server: www.visakorea.com
+  servername: pagescm.freen4.cc.cd
   tls: true
   type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen4.cc.cd
+    path: /movie
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
+  port: 11138
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  port: 11137
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_6|3.3MB/s
+  network: ws
+  password: mitivpn
+  port: '443'
+  server: 45.130.125.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_5|2.1MB/s
+  network: ws
+  password: mitivpn
+  port: '443'
+  server: 14.102.228.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+  port: 11135
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 'B - 🇸🇬 SG 10 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
   port: 443
   reality-opts:
     public-key: fS59W37_i8457GqkbB9_kdCfLCtWbl14qmVRnm2ty2I
@@ -105,39 +115,6 @@ proxies:
   tls: true
   type: vless
   uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
-- name: 'B - 🇸🇬 SG 11 TG: @nodpai'
-  password: d30ab83dbde4480082048fb315bedebd
-  port: 443
-  server: 5.180.78.22
-  skip-cert-verify: true
-  sni: 5.180.78.22
-  tls: true
-  type: trojan
-- encryption: none
-  name: 'C - 🇸🇬 SG 12 TG: @nodpai'
-  network: ws
-  port: 20378
-  server: sgc.tdz-server.store
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /@TuhinBroh
-- client-fingerprint: chrome
-  encryption: none
-  name: 'C - 🇸🇬 SG 13 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: net.zjp.cool
-  servername: net.zjp.cool
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 7eaea5bb-9129-42f5-98ca-23a73ebaa989
-  ws-opts:
-    headers:
-      Host: net.zjp.cool
-    path: /ws-bf6bb2499d21
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -162,17 +139,79 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: aes-128-gcm
-  name: 🇸🇬SG_1|3.6MB/s
-  password: '!!str 666'
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: edcloudwasm.nellewizaijn.workers.dev
-    mode: websocket
-    mux: false
-    skip-cert-verify: false
+- encryption: none
+  name: 🇸🇬SG_1|3.9MB/s
+  network: ws
+  port: '8880'
+  server: 188.164.248.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime26.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?https://t.me/YouTube@小青科学网🇨🇳
+  xudp: true
+- encryption: none
+  name: 🇸🇬SG_2|2.7MB/s
+  network: ws
   port: 80
-  server: youxuan.cf.090227.xyz
-  skip-cert-verify: false
-  type: ss
-  udp: false
+  server: cf.090227.xyz
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /?ed=2048
+- encryption: none
+  name: 🇸🇬SG_3|2.9MB/s
+  network: ws
+  port: 80
+  server: freeyx.cloudflare88.eu.org
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /?ed=2048
+- encryption: none
+  name: 🇸🇬SG_4|1.6MB/s
+  network: ws
+  port: 80
+  server: cdn.2020111.xyz
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /?ed=2048
+- encryption: none
+  name: 🇸🇬SG_5|2.6MB/s
+  network: ws
+  port: 80
+  server: cloudflare.182682.xyz
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 🇸🇬SG_6|2.3MB/s
+  network: ws
+  port: '20988'
+  server: 158.178.240.208
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true

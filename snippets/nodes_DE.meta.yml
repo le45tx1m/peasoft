@@ -1,45 +1,154 @@
 proxies:
-- encryption: none
-  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
-  network: ws
-  port: 80
-  server: cloudflare.182682.xyz
-  type: vless
-  uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
-  ws-opts:
-    headers:
-      Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
-    path: /?ed=2048
-- client-fingerprint: qq
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   name: 'A - 🇩🇪 DE 02 TG: @nodpai'
   network: tcp
   port: 443
   security: tls
-  server: 87.120.93.131
+  server: 87.120.93.242
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- client-fingerprint: random
+  encryption: none
+  name: 'B - 🇩🇪 DE 03 TG: @nodpai'
+  network: ws
+  port: 2087
+  security: tls
+  server: 104.21.80.85
+  servername: bb2233.XFAn1986.dPdNs.ORg
+  tls: true
+  type: vless
+  uuid: 5629eadf-ae86-4030-ab63-bd349c6c26fc
+  ws-opts:
+    headers:
+      Host: bb2233.xfan1986.dpdns.org
+    path: /nmw9vzQOOB8esgbz/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 04 TG: @nodpai'
+  network: tcp
+  port: 443
+  security: tls
+  server: 87.120.93.240
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 05 TG: @nodpai'
+  port: 443
+  security: tls
+  server: 87.120.93.243
   servername: sub.sbrf-cdn342.ru
   tls: true
   type: vless
   uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 'A - 🇩🇪 DE 03 TG: @nodpai'
+  name: 'B - 🇩🇪 DE 06 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
-    public-key: JbVabf_OI9mnt7gzn9hIj_8h7yyDzAqDP6XfhvhULjU
-    short-id: '!!str f37fb7531c60780d'
+    public-key: z80bBs70MDH0AL9PiBaVh6YUSM-BdTfrwD_cHPODoUY
+    short-id: '!!str f0'
   security: reality
-  server: 2.26.54.52
-  servername: germanyplay.stardevs.top
+  server: 163.5.63.176
+  servername: www.cloudflare.com
+  spider-x: /wN20CdWw10Nglav
+  tls: true
+  type: vless
+  uuid: 288c6ccb-b9a0-4701-8d0f-5af9e740dfc6
+- client-fingerprint: random
+  encryption: none
+  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
+  network: ws
+  port: 8443
+  security: tls
+  server: bb2233.xfan1986.dpdns.org
+  servername: Bb2233.XfaN1986.DPdNS.orG
+  tls: true
+  type: vless
+  uuid: 5629eadf-ae86-4030-ab63-bd349c6c26fc
+  ws-opts:
+    headers:
+      Host: bb2233.xfan1986.dpdns.org
+    path: /txzfio6ZGLsQCy5J/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 08 TG: @nodpai'
+  network: tcp
+  port: 443
+  security: tls
+  server: 87.120.93.140
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇩🇪 DE 09 TG: @nodpai'
+  network: tcp
+  port: 28561
+  reality-opts:
+    public-key: Oeqvti84_ZY-qSA3sQv4F7mc7-9eOwxw3oXDVtSOaRg
+    short-id: '!!str 538dbb66ff'
+  security: reality
+  server: 138.124.115.134
+  servername: yahoo.com
   spider-x: /
   tls: true
   type: vless
-  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
+  uuid: 15d6e78b-b56d-4cef-9094-bdd6ae0e0458
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇩🇪 DE 10 TG: @nodpai'
+  network: tcp
+  port: 28561
+  reality-opts:
+    public-key: Oeqvti84_ZY-qSA3sQv4F7mc7-9eOwxw3oXDVtSOaRg
+    short-id: '!!str 538dbb66ff'
+  security: reality
+  server: 138.124.115.134
+  servername: yahoo.com
+  spider-x: /
+  tls: true
+  type: vless
+  uuid: 01583b55-7cd0-402b-bd13-c5f1d6e62213
+- encryption: none
+  name: 'B - 🇩🇪 DE 11 TG: @nodpai'
+  network: tcp
+  port: 666
+  server: 194.59.183.234
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- encryption: none
+  name: 'B - 🇩🇪 DE 12 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 199.232.57.91
+  type: vless
+  uuid: 3cbd560c-8063-4671-835b-47ba18a0f05f
+  ws-opts:
+    headers:
+      Host: jookeji.global.ssl.fastly.net
+    path: /?ed=80
+- name: 'B - 🇩🇪 DE 13 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-de-002.fastervpn.world
+  type: hysteria2
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
-  network: tcp
+  name: 'B - 🇩🇪 DE 14 TG: @nodpai'
   port: 443
   security: tls
   server: 87.120.126.205
@@ -47,41 +156,10 @@ proxies:
   tls: true
   type: vless
   uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
-  network: tcp
-  port: 443
-  security: tls
-  server: 87.120.93.25
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 06 TG: @nodpai'
-  network: tcp
-  port: 443
-  security: tls
-  server: 87.120.93.146
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
-  network: tcp
-  port: 443
-  security: tls
-  server: 87.120.93.147
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
 - client-fingerprint: chrome
+  encryption: none
   name: BG_speednode_0002
+  network: tcp
   port: 8443
   reality-opts:
     public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
@@ -93,36 +171,252 @@ proxies:
   type: vless
   udp: true
   uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 09 TG: @nodpai'
-  network: tcp
-  port: 443
-  security: tls
-  server: 5.178.101.149
-  servername: sub.sbrf-cdn342.ru
+  xudp: true
+- name: 🇩🇪33557 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 181.214.99.162
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_1|2.0MB/s
+  network: xhttp
+  port: '443'
+  server: 104.17.121.71
+  servername: p4r34m.hendevaneh.sbs
   tls: true
   type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 10 TG: @nodpai'
-  network: tcp
-  port: 443
-  security: tls
-  server: 87.120.93.244
-  servername: sub.sbrf-cdn342.ru
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: p4r34m.hendevaneh.sbs
+    mode: auto
+    path: /p4r34m
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|2.6MB/s
+  network: xhttp
+  port: '443'
+  server: 45.130.125.160
+  servername: p4r34m.hendevaneh.sbs
   tls: true
   type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- encryption: none
-  name: 'B - 🇩🇪 DE 11 TG: @nodpai'
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: p4r34m.hendevaneh.sbs
+    mode: auto
+    path: /p4r34m
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_4|1.7MB/s
   network: ws
-  port: 80
-  server: 199.232.57.91
+  port: '443'
+  server: 78.41.110.238
+  servername: s28315.cdn.ngenix.net
+  tls: true
   type: vless
-  uuid: 69ac30ba-c264-4350-87fe-62e132032e16
+  udp: true
+  uuid: 9ebab373-19fe-4535-aa95-4e348ea300f1
   ws-opts:
     headers:
-      Host: nleiyajji.global.ssl.fastly.net
+      Host: s28315.cdn.ngenix.net
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /ws
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_5|1.2MB/s
+  network: xhttp
+  port: '443'
+  server: dey.lnmarketplace.net
+  servername: dey.lnmarketplace.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  xhttp-opts:
+    host: dey.lnmarketplace.net
+    mode: stream-one
+    path: /kavir
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_6|2.7MB/s
+  network: xhttp
+  port: '443'
+  server: 45.130.125.76
+  servername: p4r34m.hendevaneh.sbs
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: p4r34m.hendevaneh.sbs
+    mode: auto
+    path: /p4r34m
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_7|2.7MB/s
+  network: xhttp
+  port: '443'
+  server: 45.130.125.69
+  servername: shabrang.anarcloud.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f20d784-6daf-4ed8-ae41-282aa1a1dcf7
+  xhttp-opts:
+    host: shabrang.anarcloud.ir
+    mode: auto
     path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_8|1.9MB/s
+  network: ws
+  port: '443'
+  server: 192.200.160.253
+  servername: tesdt.arvanabr.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 536d0d54-53a5-455a-ad7c-a525d8ff629f
+  ws-opts:
+    headers:
+      Host: tesdt.arvanabr.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_9|2.3MB/s
+  network: ws
+  port: '2096'
+  server: 104.26.5.134
+  servername: joey.freen1.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
+  ws-opts:
+    headers:
+      Host: joey.freen1.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2048
+  xudp: true
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇩🇪DE_10|2.1MB/s
+  port: 10066
+  protocol: udp
+  server: 62.210.29.98
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: '11'
+- client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - de1.globtele.app
+    path:
+    - /X4pe0P6Qv3RhOtrGsaQpoLntlkj
+  name: 🇩🇪DE_11|2.8MB/s
+  network: http
+  port: 80
+  server: de1.globtele.app
+  servername: de1.globtele.app
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: 03ba29c4-22f6-4458-a2da-5f90497b2660
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs
+  name: 🇩🇪DE_12|1.3MB/s
+  network: xhttp
+  port: 443
+  server: 66.81.247.104
+  servername: 1-cloudflare.lapis-lazuli.tech
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 58225ed2-9017-4204-8852-1b5cc1311fb8
+  xhttp-opts:
+    mode: auto
+    path: /c544c1d5248bf014e3a8
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_13|1.5MB/s
+  network: ws
+  port: 2096
+  server: npmjs.com
+  servername: 6956646388cdb23c971b4ec6.mmdbay.site
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6c3852b6-138f-4235-bc75-0ad96f82cca7
+  ws-opts:
+    headers:
+      Host: 6956646388cdb23c971b4ec6.mmdbay.site
+    path: /metrics
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_14|2.5MB/s
+  network: ws
+  password: shabrangvpn
+  port: '443'
+  server: 8.6.112.51
+  skip-cert-verify: false
+  sni: shabrangvpn.anarcloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /?ed=2048

@@ -1,39 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
-  port: 11137
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 03 TG: @nodpai'
-  port: 11135
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
-  port: 11138
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
-  port: 11136
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 08 TG: @nodpai'
+  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -41,14 +9,85 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'B - 🇸🇬 SG 11 TG: @nodpai'
-  password: d30ab83dbde4480082048fb315bedebd
-  port: 443
-  server: 5.180.78.22
-  skip-cert-verify: true
-  sni: 5.180.78.22
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_3|2.5MB/s
+  network: ws
+  password: mitivpn
+  port: '443'
+  server: 104.18.20.213
+  skip-cert-verify: false
+  sni: www.app-cloud.ir
   tls: true
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
+  port: 11138
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  port: 11137
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_6|3.3MB/s
+  network: ws
+  password: mitivpn
+  port: '443'
+  server: 45.130.125.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_5|2.1MB/s
+  network: ws
+  password: mitivpn
+  port: '443'
+  server: 14.102.228.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+  port: 11135
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -73,17 +112,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: aes-128-gcm
-  name: 🇸🇬SG_1|3.6MB/s
-  password: '!!str 666'
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: edcloudwasm.nellewizaijn.workers.dev
-    mode: websocket
-    mux: false
-    skip-cert-verify: false
-  port: 80
-  server: youxuan.cf.090227.xyz
-  skip-cert-verify: false
-  type: ss
-  udp: false

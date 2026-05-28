@@ -1,25 +1,18 @@
 proxies:
-- encryption: none
-  name: 'A - 🇨🇭 CH 01 TG: @nodpai'
-  network: ws
-  port: 2052
-  server: www.visa.com.sg
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-authority: colorlib.com
+    grpc-mode: gun
+    grpc-service-name: xyz
+  name: 'B - 🇨🇭 CH 01 TG: @nodpai'
+  network: grpc
+  port: 7443
+  reality-opts:
+    public-key: F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA
+  security: reality
+  server: a.l-itx.info
+  servername: colorlib.com
+  tls: true
   type: vless
-  uuid: cdec8542-a21f-4377-9da3-ea60bb6d3a30
-  ws-opts:
-    headers:
-      Host: chosenflyesqt-q3y28ipf-v2.chosen-fly-esqt.workers.dev
-    path: /?ed=2560
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 🇨🇭CH_1|1002KB/s
-  network: http
-  port: '22'
-  server: 172.65.111.43
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
+  uuid: 5da05cf7-9913-45a9-a7c6-71a41b1cd713
