@@ -1,46 +1,201 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- client-fingerprint: chrome
   name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  network: ws
+  port: 51055
+  security: tls
+  server: 45.12.89.124
+  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  port: 13102
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    short-id: '!!str a1b2c3d4'
+  security: reality
+  server: zzjp1.ainivp.com
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+- encryption: none
+  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+  network: ws
+  port: 8443
+  security: tls
+  server: 167.179.110.68
+  servername: cf.afrcloudnet1.dpdns.org
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 'A - 🇯🇵 JP 04 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 104.234.239.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime46.workers.dev
+    path: /
+- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
+  network: ws
+  port: 30006
+  security: tls
+  server: 114.204.40.185
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+    path: /@Marisa_kristifp=chromefp=chrome
+- name: 'A - 🇯🇵 JP 06 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 190.93.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime34.workers.dev
+- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  network: ws
+  port: 11019
+  security: tls
+  server: 165.246.171.218
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+    path: /@Marisa_kristifp=chrome
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 198.71.232.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    path: /
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  network: tcp
+  port: 11119
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 02 TG: @nodpai'
-  port: 11122
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  port: 11120
   server: dotu-jpv1.kunlun03dns.com
   type: vmess
+  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  network: ws
+  port: 4433
+  security: tls
+  server: 83.147.216.223
+  servername: oia8or7k8rs5.zrf.xx.kg
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: oia8or7k8rs5.zrf.xx.kg
+    path: /@Marisa_kristifp=chromefp=chrome
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+  network: ws
+  port: 36089
+  server: 83.147.254.4
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+    path: /@Marisa_kristifp=chromesecurity=tls
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 03 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
   network: ws
-  port: 31574
+  port: 45228
   server: 109.61.109.204
   servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 27104fae-f047-4993-902a-9368d8a3e9bc
+  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
   ws-opts:
     headers:
       Host: imafake.locker
     path: /speedtest
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
-  port: 30806
-  server: v6.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+  port: 39975
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  security: reality
+  server: 116.80.58.239
+  servername: cloudcircus.jp
+  tls: true
+  type: vless
+  uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
+- name: 'B - 🇯🇵 JP 16 TG: @nodpai'
+  network: ws
+  port: 49397
+  security: tls
+  server: 210.152.246.146
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+    path: /@Marisa_kristifp=chrome
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 17 TG: @nodpai'
   network: ws
-  port: 13677
+  port: 36587
   server: 109.61.109.204
   servername: imafake.locker
   tls: true
@@ -52,37 +207,28 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 18 TG: @nodpai'
   network: ws
-  port: 46793
-  server: 109.61.109.204
-  servername: imafake.locker
+  port: 33203
+  server: cu2.ainivp.com
   tls: true
   type: vmess
-  uuid: 9631096d-3032-4942-9446-bdf12665682b
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
   ws-opts:
     headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  port: 11121
-  server: dotu-jpv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+      Host: cu2.ainivp.com
+    path: /ray
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 'C - 🇯🇵 JP 08 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 19 TG: @nodpai'
   network: ws
-  port: 32818
+  port: 31182
   server: 109.61.109.204
   servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
+  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
   ws-opts:
     headers:
       Host: imafake.locker
@@ -90,14 +236,29 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 'C - 🇯🇵 JP 09 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 20 TG: @nodpai'
   network: ws
-  port: 20291
+  port: 33680
   server: 109.61.109.204
   servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 6d600864-32da-49fd-baf4-7df051762454
+  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  fp: edge
+  name: 'C - 🇯🇵 JP 21 TG: @nodpai'
+  network: ws
+  port: 57967
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
   ws-opts:
     headers:
       Host: imafake.locker
@@ -105,14 +266,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 'C - 🇯🇵 JP 10 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 22 TG: @nodpai'
   network: ws
-  port: 59696
+  port: 55885
   server: 109.61.109.204
   servername: imafake.locker
   tls: true
   type: vmess
-  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
+  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
   ws-opts:
     headers:
       Host: imafake.locker

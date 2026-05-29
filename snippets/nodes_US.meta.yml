@@ -1,13 +1,195 @@
 proxies:
+- name: 'A - 🇺🇸 US 01 TG: @nodpai'
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  type: vless
+  uuid: 20c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cvsoidswg.k3ckfz151a.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 'A - 🇺🇸 US 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 198.12.144.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    path: /?ed=2560
+- encryption: none
+  name: 'A - 🇺🇸 US 03 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 104.16.239.205
+  type: vless
+  uuid: 69d38faa-21a1-4d18-82cb-796a942c181b
+  ws-opts:
+    headers:
+      Host: sfsl.ardomains1.dpdns.org
+    path: /
+- name: 'A - 🇺🇸 US 04 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 104.19.238.22
+  type: vless
+  uuid: 69d38faa-21a1-4d18-82cb-796a942c181b
+  ws-opts:
+    headers:
+      Host: sfsl.ardomains1.dpdns.org
+    path: /?ed=2048
+- encryption: none
+  name: 'A - 🇺🇸 US 05 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.55
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 'A - 🇺🇸 US 06 TG: @nodpai'
+  network: ws
+  port: 2096
+  server: 208.103.161.143
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 'A - 🇺🇸 US 07 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.18
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 'A - 🇺🇸 US 08 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.255
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 'A - 🇺🇸 US 09 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.205
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 'A - 🇺🇸 US 10 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.142
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 'A - 🇺🇸 US 11 TG: @nodpai'
+  network: ws
+  port: 2096
+  server: 208.103.161.59
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 'A - 🇺🇸 US 12 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.240
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 'A - 🇺🇸 US 13 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.1
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 'A - 🇺🇸 US 14 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.209
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇺🇸 US 01 TG: @nodpai'
-  network: tcp
+  flow: xtls-rprx-vision-udp443
+  name: 'A - 🇺🇸 US 15 TG: @nodpai'
   port: 22231
   security: tls
   server: 72.56.59.177
@@ -16,108 +198,193 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇺🇸 US 02 TG: @nodpai'
-  port: 13405
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: '!!str a1b2c3d4'
-  security: reality
-  server: zzus5.ainivp.com
-  servername: www.microsoft.com
+- encryption: none
+  name: 'A - 🇺🇸 US 16 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.0
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 'A - 🇺🇸 US 17 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.141
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 'A - 🇺🇸 US 18 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.82
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 'A - 🇺🇸 US 19 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.76
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: 'A - 🇺🇸 US 20 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 104.18.237.216
+  type: vless
+  uuid: 69d38faa-21a1-4d18-82cb-796a942c181b
+  ws-opts:
+    headers:
+      Host: sfsl.ardomains1.dpdns.org
+    path: /
+- name: 'A - 🇺🇸 US 23 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 104.18.189.112
+  type: vless
+  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
+  ws-opts:
+    headers:
+      Host: us.xydcqd.workers.dev
+    path: /@WireXnet?ed=2048fp=chrome
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 03 TG: @nodpai'
+  name: 'A - 🇺🇸 US 24 TG: @nodpai'
   port: 13403
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: '!!str a1b2c3d4'
-  security: reality
+  security: tls
   server: zzjp1.ainivp.com
   servername: www.microsoft.com
   tls: true
   type: vless
   uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 04 TG: @nodpai'
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0036
-  port: 443
-  security: tls
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
+- name: 'A - 🇺🇸 US 25 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 173.245.49.30
   type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 07 TG: @nodpai'
-  port: 180
-  server: 82.198.246.214
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0038
-  port: 22231
-  security: tls
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: 'B - 🇺🇸 US 09 TG: @nodpai'
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /
+- encryption: none
+  name: 'B - 🇺🇸 US 26 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: www.visakorea.com
-  servername: pagescm.freen4.cc.cd
+  server: 104.27.30.20
+  servername: sfsl.ardomains1.dpdns.org
   tls: true
   type: vless
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  uuid: 69d38faa-21a1-4d18-82cb-796a942c181b
   ws-opts:
     headers:
-      Host: pagescm.freen4.cc.cd
-    path: /moviefp=chrome
+      Host: sfsl.ardomains1.dpdns.org
+    path: /?ed=2048security=tls
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 27 TG: @nodpai'
+  network: tcp
+  port: 22231
+  security: tls
+  server: 72.56.59.223
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: 'B - 🇺🇸 US 28 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 104.238.71.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0038
+  network: tcp
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇺🇸 US 30 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 8.35.211.87
+  servername: go.iranfree.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  ws-opts:
+    headers:
+      Host: go.iranfree.de5.net
+    path: /
 - multiplexing: MULTIPLEXING_LOW
-  name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  name: 'B - 🇺🇸 US 31 TG: @nodpai'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 11 TG: @nodpai'
-  network: tcp
-  port: 64394
-  reality-opts:
-    public-key: PmgSuKvpxj7MsWPHoXxqNQuw5hiNZqciuzjebWIHRjY
-  security: reality
-  server: 216.167.8.253
-  servername: dash.cloudflare.com
-  tls: true
+- name: 'B - 🇺🇸 US 32 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 103.133.1.30
   type: vless
-  uuid: 2ca2f309-1ba9-4d23-a1d4-9645dfc4a882
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0044
@@ -125,7 +392,6 @@ proxies:
   reality-opts:
     public-key: 50IjQtR9zJG_3pXrbQDalYy_D4c7C_A8EEwVx0EfOjM
     short-id: '!!str 5e8c37215982'
-  security: tls
   server: 89.117.94.111
   servername: yahoo.com
   skip-cert-verify: false
@@ -133,50 +399,94 @@ proxies:
   type: vless
   udp: true
   uuid: 2042c7c4-f0c8-48ec-926b-65112b064e2c
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 13 TG: @nodpai'
-  network: tcp
-  port: 29114
-  reality-opts:
-    public-key: wKYUtGeArhmBjEXGzTZKW3UxHMgJ2ETml0qIxv_ZERo
-  security: reality
-  server: 216.167.8.6
-  servername: dash.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 036f593f-98ea-4534-96b6-9e810982b9d2
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 14 TG: @nodpai'
-  port: 11128
-  server: dotu-usv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_3|2.5MB/s
-  network: tcp
-  port: '12443'
-  reality-opts:
-    public-key: D3bNJPmy4YJqhWQ3Xv1Fu3Z1danrTzswShytnkkG9Q4
-    short-id: '!!str ca4a1317e03791b3'
-  security: reality
-  server: 31.58.87.71
-  servername: sun6-21.userapi.com
+  name: RU_speednode_0036
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 16 TG: @nodpai'
-  port: 11130
-  server: dotu-usv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- encryption: none
+  name: 'B - 🇺🇸 US 35 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 104.27.30.20
+  type: vless
+  uuid: 69d38faa-21a1-4d18-82cb-796a942c181b
+  ws-opts:
+    headers:
+      Host: sfsl.ardomains1.dpdns.org
+    path: /
+- encryption: none
+  name: 'B - 🇺🇸 US 36 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.17.46.112
+  servername: sfsl.ardomains1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 69d38faa-21a1-4d18-82cb-796a942c181b
+  ws-opts:
+    headers:
+      Host: sfsl.ardomains1.dpdns.org
+    path: /?ed=2048
+- name: 'B - 🇺🇸 US 37 TG: @nodpai'
+  port: 47518
+  server: de-on-demand.not-a-projects.xyz
+  type: vless
+  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 38 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: rOUP7Zp95gDUa3jN1_Yx2aYovSLF5GiJiKfzwHK-jyE
+  security: reality
+  server: 64.188.124.119
+  servername: yandex.ru
+  tls: true
+  type: vless
+  uuid: 96fec558-76d9-40f5-8589-fe01afb6eaf6
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇺🇸 US 39 TG: @nodpai'
+  network: ws
+  port: 2053
+  security: tls
+  server: 8.35.211.43
+  servername: go.iranfree.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  ws-opts:
+    headers:
+      Host: go.iranfree.de5.net
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇺🇸 US 40 TG: @nodpai'
+  network: ws
+  port: 2083
+  security: tls
+  server: 8.35.211.101
+  servername: go.iranfree.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  ws-opts:
+    headers:
+      Host: go.iranfree.de5.net
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国4|@ripaojiedian
@@ -186,18 +496,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 18 TG: @nodpai'
-  network: ws
-  port: 16648
-  server: planb.mojcn.com
-  type: vmess
-  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
-  ws-opts:
-    headers:
-      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
-    path: /
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -215,107 +513,100 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  name: 'B - 🇺🇸 US 44 TG: @nodpai'
   port: 11127
   server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: farsnews.ir.mizanonline.com.eghtesadonline.com.tasnimnews.com.irdiplomacy.ir.sharghdaily.com.donya-e-eqtesad.com
-  name: 'B - 🇺🇸 US 21 TG: @nodpai'
-  network: grpc
-  port: 2096
-  security: tls
-  server: 104.18.32.47
-  servername: FAt-CORNEr1twsv3GlGF.WIndleR.Co.UK
-  tls: true
-  type: vless
-  uuid: 44036b76-ecd4-488b-83ce-108d94583cf3
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: alalamtv.net.entekhab.ir.donya-e-eqtesad.com.hamshahrionline.ir.alalamtv.net.irdiplomacy.ir.snn.ir
-  name: 'B - 🇺🇸 US 23 TG: @nodpai'
-  network: grpc
-  port: 2096
-  security: tls
-  server: 104.18.32.47
-  servername: MOOdY-facE1ob4n437nt.caRBonbLacKBMw.Ir
-  tls: true
-  type: vless
-  uuid: da703b27-62f2-451a-993f-99224c53f12b
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: khabaronline.ir.isna.ir.en.mehrnews.com.khabaronline.ir.en.mehrnews.com.asriran.com.jamejamonline.ir
-  name: 'B - 🇺🇸 US 25 TG: @nodpai'
-  network: grpc
-  port: 2096
-  security: tls
-  server: 104.18.32.47
-  servername: ImportAnt-CUPi24nv9Tm3Y.WInDLeR.CO.Uk
-  tls: true
-  type: vless
-  uuid: 99d38f43-0a5d-462a-8459-d6ab36dd7a64
-- name: 'B - 🇺🇸 US 26 TG: @nodpai'
+- encryption: none
+  name: 'B - 🇺🇸 US 45 TG: @nodpai'
   network: ws
   port: 443
-  server: cdn.veilvpn.fans
-  servername: cdn.veilvpn.fans
+  security: tls
+  server: 135.84.74.86
+  servername: cf.afrcloudnet1.dpdns.org
   skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: cdn.veilvpn.fans
-    path: /vpnhufp=chromesecurity=tls
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇺🇸 US 27 TG: @nodpai'
-  port: 30824
-  server: 70.153.148.135
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'C - 🇺🇸 US 28 TG: @nodpai'
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 32603
-  server: 220.86.228.109
-  sni: vpn.rnmcnm.com
-  tls: true
-  type: trojan
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - encryption: none
-  name: 'C - 🇺🇸 US 29 TG: @nodpai'
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 46 TG: @nodpai'
   network: tcp
-  port: 47518
-  server: de-on-demand.not-a-projects.xyz
+  port: 443
+  security: tls
+  server: 5.178.101.149
+  servername: sub.sbrf-cdn342.ru
+  tls: true
   type: vless
-  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇺🇸 US 30 TG: @nodpai'
-  port: 30829
-  server: v29.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇺🇸 US 31 TG: @nodpai'
-  port: 30804
-  server: v4.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- name: 'B - 🇺🇸 US 47 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 38.46.218.19
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇺🇸 US 48 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: A0cICW4ARACTtF1zEbWJqqzEHQbSeJN2jUu8uCj7_UE
+    short-id: '!!str e50b3d7a9f1c84'
+  security: reality
+  server: cdn9.cloud-vk.com
+  servername: rbc.ru
+  tls: true
+  type: vless
+  uuid: 4accc4fb-9ec3-41ae-ac3e-cc5d3dabe156
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇺🇸 US 50 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 8.35.211.185
+  servername: go.iranfree.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  ws-opts:
+    headers:
+      Host: go.iranfree.de5.net
+    path: /
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  name: 'C - 🇺🇸 US 51 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: cdn.7zz.cn
+  servername: 3-93f.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-93f.pages.dev
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -386,6 +677,22 @@ proxies:
   xhttp-opts:
     host: ads.x5.ru
     path: /api/v3/f29479507adb
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_3|2.5MB/s
+  network: tcp
+  port: '12443'
+  reality-opts:
+    public-key: D3bNJPmy4YJqhWQ3Xv1Fu3Z1danrTzswShytnkkG9Q4
+    short-id: '!!str ca4a1317e03791b3'
+  server: 31.58.87.71
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
   xudp: true
 - name: US_speednode_0042
   port: 7070

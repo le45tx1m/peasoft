@@ -1,31 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
-  port: 42444
-  server: s2.projectv.bond
-  type: vmess
-  uuid: 8521095b-5512-4589-9688-18750f3aa6b4
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 02 TG: @nodpai'
-  port: 443
-  security: tls
-  server: 87.120.93.140
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 03 TG: @nodpai'
-  port: 443
-  security: tls
-  server: 87.120.93.240
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
 - alpn:
   - h2
   - http/1.1
@@ -129,6 +102,24 @@ proxies:
   type: vless
   udp: true
   uuid: ac0517ac-af76-4436-bfa4-0a8b2b6bb433
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_7|2.5MB/s
+  network: ws
+  port: '443'
+  server: support.zoom.us.cyylr.eu.cc
+  servername: support.zoom.us.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /sg-melbi
   xudp: true
 - encryption: none
   name: 🇩🇪DE_8|2.6MB/s

@@ -41,3 +41,17 @@ proxies:
   type: vless
   udp: true
   uuid: 729d3d1e-ee1a-4c42-84bc-2ff331518221
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0026
+  port: 443
+  reality-opts:
+    public-key: Aak3FEVpJGzxzVz4wWkNpFA9dANDnvQg15X4eYNr_hw
+    short-id: '!!str 6ba8f65dee6e'
+  server: 2.26.160.79
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 729d3d1e-ee1a-4c42-84bc-2ff331518221

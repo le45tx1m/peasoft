@@ -1,14 +1,64 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 21 TG: @nodpai'
+  name: 'A - 🇸🇬 SG 13 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 22 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 24 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 45.130.125.76
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 27 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: cdn.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cdn.hitgram.ir
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 27 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 28 TG: @nodpai'
   network: ws
   port: 33402
   server: yd3.ainivp.com
@@ -19,33 +69,6 @@ proxies:
     headers:
       Host: yd3.ainivp.com
     path: /ray
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇸🇬 SG 35 TG: @nodpai'
-  port: 11135
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇸🇬 SG 37 TG: @nodpai'
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 39 TG: @nodpai'
-  port: 11137
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae

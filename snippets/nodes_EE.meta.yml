@@ -1,17 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: vless
-  name: 'B - 🇪🇪 EE 01 TG: @nodpai'
-  network: grpc
-  port: 443
-  security: tls
-  server: 194.156.101.115
-  servername: 0w7ymj.spectrum.vu
-  tls: true
-  type: vless
-  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: CZ_speednode_0016

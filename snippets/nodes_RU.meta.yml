@@ -1,22 +1,4 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇷🇺 RU 04 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: s1.ws.dvzh.net
-  servername: s1.ws.dvzh.net
-  tls: true
-  type: vless
-  uuid: 0505fbc7-9df1-0320-bfa8-320008d4d46b
-  ws-opts:
-    headers:
-      Host: s1.ws.dvzh.net
-    path: /upload/session
 - client-fingerprint: randomized
   encryption: none
   flow: xtls-rprx-vision
