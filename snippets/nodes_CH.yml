@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 'B - 🇨🇭 CH 01 TG: @nodpai'
+  password: f58cd113-a3b1-319d-a993-331481731e82
+  port: 53217
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: true
+  sni: 1.lossyesterday.xyz
+  tls: true
+  type: trojan

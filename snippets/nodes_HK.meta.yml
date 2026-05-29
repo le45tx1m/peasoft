@@ -1,69 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  port: 11104
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
-  port: 11103
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 207
-  h2-opts: {}
-  http-opts: {}
-  name: 'A - 🇭🇰 HK 03 TG: @nodpai'
-  network: tcp
-  port: 11101
-  server: dotu-hkv1.kunlun03dns.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 04 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 52225
-  server: a.twodnwnpoe.xyz
-  servername: i.comfortableyou.top
-  skip-cert-verify: true
-  sni: i.comfortableyou.top
-  tfo: false
-  type: trojan
-  udp: false
-- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 40017
-  server: a.twodnwnpoe.xyz
-  servername: water.waittomorrow.top
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
-  tfo: false
-  type: trojan
-  udp: false
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  port: 11122
-  server: dotu-jpv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
   network: ws
   port: 33414
   server: cu7.ainivp.com
@@ -75,31 +20,7 @@ proxies:
     headers:
       Host: cu7.ainivp.com
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  port: 11144
-  server: dotu-krv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 40015
-  server: a.twodnwnpoe.xyz
-  servername: 1.lossyesterday.xyz
-  skip-cert-verify: true
-  sni: 1.lossyesterday.xyz
-  tfo: false
-  type: trojan
-  udp: false
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
-  port: 11119
-  server: dotu-jpv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
   password: c1785de0-212f-11ef-92aa-f23c9164ca5d
   port: 5228
   server: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
@@ -107,61 +28,34 @@ proxies:
   tls: true
   type: http
   username: c1785de0-212f-11ef-92aa-f23c9164ca5d
-- name: 'B - 🇭🇰 HK 13 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
-  servername: gh.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  tfo: false
-  type: trojan
-  udp: false
-- name: 'B - 🇭🇰 HK 14 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 15 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 16 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
-  servername: fr.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tfo: false
-  type: trojan
-  udp: false
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 17 TG: @nodpai'
-  port: 11145
-  server: dotu-krv1.kunlun03dns.com
+  name: 'B - 🇭🇰 HK 05 TG: @nodpai'
+  port: 11137
+  server: dotu-sgv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 18 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
   network: ws
-  port: 10034
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
+  port: 33407
+  server: yd3.ainivp.com
+  servername: yd3.ainivp.com
+  tls: true
   type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
   ws-opts:
     headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
+      Host: yd3.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 07 TG: @nodpai'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian

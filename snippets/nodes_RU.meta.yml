@@ -14,51 +14,6 @@ proxies:
   tls: true
   type: vless
   uuid: 554d6a0c-d9b5-480b-ba28-a7ad189769d6
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇷🇺 RU 02 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: '!!str c1a7e9b4711d5f60'
-  security: reality
-  server: 193.168.46.180
-  servername: rruu.persik.host
-  tls: true
-  type: vless
-  uuid: 08c47303-afce-47ba-9b0e-64d9abc033b7
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇷🇺 RU 03 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: '!!str c1a7e9b4711d5f60'
-  security: reality
-  server: 193.168.46.180
-  servername: rruu.persik.host
-  tls: true
-  type: vless
-  uuid: 289e4e8b-bf0b-44ff-a06f-1c829c43d5f4
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇷🇺 RU 04 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: '!!str c1a7e9b4711d5f60'
-  security: reality
-  server: 193.168.46.180
-  servername: rruu.persik.host
-  tls: true
-  type: vless
-  uuid: b8990920-008d-4eb7-a02a-2751c47dc200
 - client-fingerprint: randomized
   encryption: none
   flow: xtls-rprx-vision

@@ -1,18 +1,26 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  name: 'B - 🇨🇭 CH 01 TG: @nodpai'
+- name: 'B - 🇨🇭 CH 01 TG: @nodpai'
+  password: f58cd113-a3b1-319d-a993-331481731e82
+  port: 53217
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: true
+  sni: 1.lossyesterday.xyz
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 'B - 🇨🇭 CH 02 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
-    public-key: naf6H9L1go-oR7-WnKoDoZJ87JEYhMHPqnrcttPXv1A
-    short-id: '!!str 7a3bc9'
+    public-key: PYX0lu3m0L_h28eW4186s63gRFHXoTc3K9wKeFewDUQ
+    short-id: '!!str e9a8'
   security: reality
-  server: B0Jfrw28EYEY.ch1.node.iranray.online
-  servername: icloud.com
+  server: 138.124.244.248
+  servername: yahoo.com
+  spider-x: /
   tls: true
   type: vless
-  uuid: 49882640-5877-4f73-a49e-86e209d080a9
+  uuid: 476caa1d-7c04-48ab-8de5-2c1af0d13a66
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision

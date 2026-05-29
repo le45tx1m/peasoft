@@ -6,26 +6,30 @@ proxies:
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'B - 🇯🇵 JP 02 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 32657
-  server: a.twodnwnpoe.xyz
-  servername: water.waittomorrow.top
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
-  tfo: false
-  type: trojan
-  udp: false
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  port: 13102
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    short-id: '!!str a1b2c3d4'
+  security: reality
+  server: zzjp2.ainivp.com
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 03 TG: @nodpai'
-  port: 11120
+  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  port: 11121
   server: dotu-jpv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
   network: ws
   port: 33203
   server: cu2.ainivp.com
@@ -35,6 +39,34 @@ proxies:
   ws-opts:
     headers:
       Host: cu2.ainivp.com
+    path: /ray
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  network: tcp
+  port: 16095
+  reality-opts:
+    public-key: 2ymLL-wvVJD_06Iq5nFW2WiOOc11vwdQG2YTpyXB_Ho
+    short-id: '!!str 036e33ea30e6f971'
+  security: reality
+  server: 161.33.3.84
+  servername: www.amd.com
+  spider-x: /PQYV5jqDoUnRier
+  tls: true
+  type: vless
+  uuid: 250c2a19-6957-48f1-9208-c6eb3324b8d5
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  network: ws
+  port: 33108
+  server: cu6.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: cu6.ainivp.com
     path: /ray
 - name: 日本|@ripaojiedian
   network: tcp

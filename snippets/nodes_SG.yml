@@ -6,29 +6,19 @@ proxies:
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'B - 🇸🇬 SG 03 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 33650
-  server: a.twodnwnpoe.xyz
-  servername: 1.lossyesterday.xyz
-  skip-cert-verify: true
-  sni: 1.lossyesterday.xyz
-  tfo: false
-  type: trojan
-  udp: false
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
-  port: 33402
-  server: 144.79.11.154
+  password: trojan
+  port: 12596
+  server: 213.35.108.135
+  skip-cert-verify: true
+  sni: store.timimi.dpdns.org
   tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  type: trojan
   ws-opts:
     headers:
-      Host: yd3.ainivp.com
-    path: /ray
+      Host: store.timimi.dpdns.org
+    path: /?ed=2560
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae

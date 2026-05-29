@@ -1,59 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 01 TG: @nodpai'
+  name: 'B - 🇺🇸 US 02 TG: @nodpai'
   port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  tfo: false
+  server: 82.198.246.214
   type: vmess
-  udp: false
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 08 TG: @nodpai'
-  port: 11128
+  name: 'B - 🇺🇸 US 09 TG: @nodpai'
+  port: 11129
   server: dotu-usv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_10|1.0MB/s
-  network: ws
-  port: 16648
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
-  ws-opts:
-    headers:
-      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- name: 'B - 🇺🇸 US 10 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 35147
-  server: a.twodnwnpoe.xyz
-  servername: i.comfortableyou.top
-  skip-cert-verify: true
-  sni: i.comfortableyou.top
-  tfo: false
-  type: trojan
-  udp: false
-- name: 'B - 🇺🇸 US 11 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 23655
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
-  tls: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  name: 'B - 🇺🇸 US 14 TG: @nodpai'
   network: ws
   port: 443
   server: cf.scpnb.top
@@ -65,7 +27,17 @@ proxies:
     headers:
       Host: vienna-bread-threats-amendment.trycloudflare.com
     path: /7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed-vm
-- name: 'B - 🇺🇸 US 14 TG: @nodpai'
+- name: 'B - 🇺🇸 US 15 TG: @nodpai'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18080
+  server: 175.192.103.88
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trojan
+- name: 'B - 🇺🇸 US 16 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
   server: 90081bb25c.node.tro.cac.cab
@@ -73,9 +45,49 @@ proxies:
   sni: az.01.naiun.bilibili.com
   tls: true
   type: trojan
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 18 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 21 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 18 TG: @nodpai'
+  name: 'C - 🇺🇸 US 25 TG: @nodpai'
   port: 30804
   server: v4.hdacd.com
   type: vmess
@@ -189,6 +201,22 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_10|1.0MB/s
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
+  ws-opts:
+    headers:
+      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - name: US_speednode_0045
   network: ws
   password: mitivpn

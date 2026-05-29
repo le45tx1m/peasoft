@@ -6,45 +6,8 @@ proxies:
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- insecure: '1'
-  mport: 20000-29999
-  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTd65A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 20000
-  server: sg.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- name: 'B - 🇸🇬 SG 03 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 33650
-  server: a.twodnwnpoe.xyz
-  servername: 1.lossyesterday.xyz
-  skip-cert-verify: true
-  sni: 1.lossyesterday.xyz
-  tfo: false
-  type: trojan
-  udp: false
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
-  network: ws
-  port: 33402
-  server: 144.79.11.154
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
 - encryption: none
-  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 02 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -58,47 +21,34 @@ proxies:
     headers:
       Host: juzi.qea.ccwu.cc
     path: /
-- insecure: '1'
-  mport: 50000-59999
-  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 04 TG: @nodpai'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTd65A==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   port: 50000
   server: sg.9966690.xyz
   skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
   type: hysteria2
-- insecure: '1'
-  mport: 40000-49999
-  name: 'C - 🇸🇬 SG 08 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTd65A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 40000
-  server: sg.9966690.xyz
+- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  network: ws
+  password: trojan
+  port: 12596
+  server: 213.35.108.135
   skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- insecure: '1'
-  mport: 10000-19999
-  name: 'C - 🇸🇬 SG 09 TG: @nodpai'
+  sni: store.timimi.dpdns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: /?ed=2560
+- name: 'C - 🇸🇬 SG 06 TG: @nodpai'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTd65A==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   port: 10000
   server: sg.9966690.xyz
   skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
   type: hysteria2
 - name: 新加坡|@ripaojiedian
   network: tcp

@@ -1,17 +1,30 @@
 proxies:
-- encryption: none
+- insecure: '1'
+  mport: 40000-49999
   name: 'A - 🇩🇪 DE 01 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 162.159.19.202
-  type: vless
-  uuid: e284098e-7ffd-4fce-a9d3-ea6bc98ce629
-  ws-opts:
-    headers:
-      Host: empty-sea-3392.amir-1385-poo.workers.dev
-    path: /?ed=2048
+  obfs: salamander
+  obfs-password: YzgyOTowNDk4ZTU2NTdiNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: de-by10fuo0kw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 02 TG: @nodpai'
+  port: 443
+  security: tls
+  server: 87.120.93.240
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 'B - 🇩🇪 DE 03 TG: @nodpai'
   port: 443
   security: tls
@@ -20,6 +33,15 @@ proxies:
   tls: true
   type: vless
   uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- client-fingerprint: chrome
+  name: 'B - 🇩🇪 DE 04 TG: @nodpai'
+  port: 8443
+  security: tls
+  server: 178.215.238.148
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
 - alpn:
   - http/1.1
   client-fingerprint: chrome

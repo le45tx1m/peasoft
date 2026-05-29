@@ -1,30 +1,55 @@
 proxies:
+- insecure: '1'
+  mport: 20000-29999
+  name: 'B - 🇺🇸 US 01 TG: @nodpai'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 20000
+  server: usp-hdl9n8ovau.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 01 TG: @nodpai'
+  name: 'B - 🇺🇸 US 02 TG: @nodpai'
   port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  tfo: false
+  server: 82.198.246.214
   type: vmess
-  udp: false
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   encryption: none
   name: 'B - 🇺🇸 US 03 TG: @nodpai'
   network: ws
-  port: 8443
+  port: 2096
   security: tls
-  server: 104.18.32.47
-  servername: neo.matrixprotocol.dpdns.org
-  skip-cert-verify: true
+  server: 173.245.59.233
+  servername: verus-1uy.pages.dev
   tls: true
   type: vless
-  uuid: b07f6d59-8ae7-4e7d-8043-98077acb88e8
+  uuid: a5240468-dffe-4581-8ce7-6e6604d299d6
   ws-opts:
     headers:
-      Host: neo.matrixprotocol.dpdns.org
-    path: /@Neo_MtxNet
+      Host: verus-1uy.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇺🇸 US 05 TG: @nodpai'
+  network: ws
+  port: 2087
+  security: tls
+  server: 104.18.41.178
+  servername: verus-1uy.pages.dev
+  tls: true
+  type: vless
+  uuid: a5240468-dffe-4581-8ce7-6e6604d299d6
+  ws-opts:
+    headers:
+      Host: verus-1uy.pages.dev
+    path: /
 - multiplexing: MULTIPLEXING_LOW
   name: 🇺🇸US_4|2.1MB/s
   password: dongtaiwang.com
@@ -33,75 +58,86 @@ proxies:
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: 'B - 🇺🇸 US 06 TG: @nodpai'
+- name: 'B - 🇺🇸 US 07 TG: @nodpai'
   network: ws
   port: 443
+  security: tls
   server: www.visakorea.com
   servername: pagescm.freen4.cc.cd
+  tls: true
   type: vless
   uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   ws-opts:
     headers:
       Host: pagescm.freen4.cc.cd
-    path: /moviefp=chromesecurity=tls
-- name: 'B - 🇺🇸 US 07 TG: @nodpai'
+    path: /moviefp=chrome
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 08 TG: @nodpai'
   network: tcp
-  port: 443
-  security: tls
-  server: 150.251.158.76
+  port: 12443
+  reality-opts:
+    public-key: D3bNJPmy4YJqhWQ3Xv1Fu3Z1danrTzswShytnkkG9Q4
+    short-id: '!!str ca4a1317e03791b3'
+  security: reality
+  server: 31.58.87.71
+  servername: sun6-21.userapi.com
   tls: true
   type: vless
-  uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 08 TG: @nodpai'
-  port: 11128
+  name: 'B - 🇺🇸 US 09 TG: @nodpai'
+  port: 11129
   server: dotu-usv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_10|1.0MB/s
-  network: ws
-  port: 16648
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
-  ws-opts:
-    headers:
-      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- name: 'B - 🇺🇸 US 10 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 35147
-  server: a.twodnwnpoe.xyz
-  servername: i.comfortableyou.top
-  skip-cert-verify: true
-  sni: i.comfortableyou.top
-  tfo: false
-  type: trojan
-  udp: false
-- name: 'B - 🇺🇸 US 11 TG: @nodpai'
-  password: f58cd113-a3b1-319d-a993-331481731e82
-  port: 23655
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
+- flow: xtls-rprx-vision
+  host: apple.com
+  name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  network: tcp
+  port: 54254
+  reality-opts:
+    public-key: HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4
+    short-id: '!!str db35ffdc'
+  security: reality
+  server: 134.33.73.249
+  servername: apple.com
   tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  port: 47518
-  server: de-on-demand.not-a-projects.xyz
   type: vless
-  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
+  uuid: acba684c-4098-4eca-f519-828b09f96464
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 11 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RCp37oAO4E30SKBraaFaeUXeqvLGS7yH40VHl5a_6RE
+    short-id: '!!str 87ab'
+  security: reality
+  server: 193.233.202.1
+  servername: yahoo.com
+  spider-x: /
+  tls: true
+  type: vless
+  uuid: 838e036b-f229-480b-b0ef-86b1dc711add
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
+    short-id: '!!str 428ef87fd47a3a32'
+  security: reality
+  server: chus.nodes.rocketnetwork.ru
+  servername: cyberdrift.ru
+  tls: true
+  type: vless
+  uuid: 1f678d60-48d7-4eb0-9f85-35ed154d1cd5
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  name: 'B - 🇺🇸 US 14 TG: @nodpai'
   network: ws
   port: 443
   server: cf.scpnb.top
@@ -113,7 +149,17 @@ proxies:
     headers:
       Host: vienna-bread-threats-amendment.trycloudflare.com
     path: /7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed-vm
-- name: 'B - 🇺🇸 US 14 TG: @nodpai'
+- name: 'B - 🇺🇸 US 15 TG: @nodpai'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18080
+  server: 175.192.103.88
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trojan
+- name: 'B - 🇺🇸 US 16 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
   server: 90081bb25c.node.tro.cac.cab
@@ -121,24 +167,69 @@ proxies:
   sni: az.01.naiun.bilibili.com
   tls: true
   type: trojan
-- client-fingerprint: randomized
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 16 TG: @nodpai'
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 18 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 21 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 23 TG: @nodpai'
   network: tcp
   port: 443
-  reality-opts:
-    public-key: j97RCvxVfMu5XWcXuAc4s8TnBTdl8PQrNFrZDQpAkng
-    short-id: '!!str 68abb912e89c95bd'
-  security: reality
-  server: 72.56.69.12
-  servername: nl-2.bexum.fun
+  security: tls
+  server: 23.166.40.27
+  servername: s881.ccgfw.top
   tls: true
   type: vless
-  uuid: e7902151-e2e1-4d29-a84b-86f0d5d91b65
+  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
+- name: 'C - 🇺🇸 US 24 TG: @nodpai'
+  port: 443
+  reality-opts:
+    public-key: ra-OyOGZwj9ZApabpTq2sZWIzub52UfzLvnfw1utsQg
+    short-id: '!!str 23637807'
+  security: reality
+  server: 72.56.4.94
+  tls: true
+  type: vless
+  uuid: 86e1cbab-329e-48ca-a213-71745655886f
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 18 TG: @nodpai'
+  name: 'C - 🇺🇸 US 25 TG: @nodpai'
   port: 30804
   server: v4.hdacd.com
   type: vmess
@@ -330,6 +421,22 @@ proxies:
   type: vless
   udp: true
   uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_10|1.0MB/s
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
+  ws-opts:
+    headers:
+      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
+    path: /
   xudp: true
 - name: US_speednode_0042
   port: 7070

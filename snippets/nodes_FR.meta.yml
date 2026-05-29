@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- insecure: '1'
+  mport: 40000-49999
+  name: 'B - 🇫🇷 FR 01 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk42TU23T365A==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: fr.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
