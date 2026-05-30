@@ -25,16 +25,3 @@ proxies:
   udp: true
   uuid: a1b19834-a5e3-4d49-9301-aaa3fb248f49
   xudp: true
-- client-fingerprint: chrome
-  name: RU_speednode_0039
-  port: 443
-  reality-opts:
-    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
-    short-id: '!!str b8aa'
-  server: 194.226.169.36
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
