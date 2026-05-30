@@ -32,6 +32,14 @@ proxies:
   tls: true
   type: vless
   uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
+- name: 🦄75@oneclickvpnkeys
+  password: dongtaiwang.com
+  port: 22000
+  server: 62.210.124.146
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h2
   - http/1.1
