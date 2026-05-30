@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 迁出代码
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
     - name: 设置时区
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: 安装 Python
