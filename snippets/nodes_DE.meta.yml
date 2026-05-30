@@ -71,69 +71,96 @@ proxies:
   tls: true
   type: vless
   uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.195.213.130
+  type: ss
+  udp: true
 - encryption: none
-  name: 🇩🇪DE_1|3.3MB/s
+  name: 🇩🇪DE_2|1.1MB/s
   network: ws
   port: '80'
-  server: 204.168.234.22
+  server: cdn.irandoc.info
   type: vless
   udp: true
-  uuid: 997b5119-c015-4203-b402-0eb0f60b77c3
+  uuid: fb206250-709c-44d7-b887-08f66dd7a974
   ws-opts:
     headers:
-      Host: nobody.fastspeed.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /ws
+      Host: cdn.irandoc.info
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /16475/mci
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_2|2.6MB/s
-  network: xhttp
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|1.0MB/s
+  network: tcp
   port: '443'
-  server: 45.130.125.5
-  servername: cd1.fix98.ir
+  reality-opts:
+    public-key: 04mVXhKLy-N0tzEghrxuMJTQaVdvBxVCtGaJq8qNcCk
+    short-id: '!!str 4f0a'
+  server: 1.lapis-lazuli.tech
+  servername: www.samsung.com
   tls: true
   type: vless
   udp: true
-  uuid: a2067e90-ca33-47ee-b55e-8ff7ce1e51f5
-  xhttp-opts:
-    mode: auto
-    path: /game
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|2.6MB/s
-  network: ws
-  port: '2083'
-  server: 63.141.128.3
-  servername: chan1.newappdominfastlogin4.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae065531-7a26-4c3f-82cf-7c2ee9effcde
-  ws-opts:
-    headers:
-      Host: chan1.newappdominfastlogin4.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
+  uuid: 0dd339d3-0b51-4582-94ec-ffd2397be1ab
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_4|2.5MB/s
-  network: raw
-  port: '8443'
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|2.0MB/s
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
-    short-id: '!!str 478dc6'
-  server: 178.215.238.148
-  servername: eh.vk.com
+    public-key: y3ZMu-ium5mBqE_h3xJ66vT0Z6HCIlTDti9emCQjDjw
+    short-id: '!!str bcb6b0217a1206b3'
+  server: ger-nnn.prostosetup.org
+  servername: github.com
   tls: true
   type: vless
   udp: true
-  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+  uuid: 1b43419a-b711-40d4-a0ee-eb5c73e60c92
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_5|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.159.110.250
+  type: ss
+- encryption: none
+  name: 🇩🇪DE_6|1.4MB/s
+  network: ws
+  port: 2096
+  server: 104.17.231.69
+  servername: FiLEMAnageR.thESTaYleR.iR
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af47392c-2a72-44da-bab4-545a3bce4958
+  ws-opts:
+    headers:
+      Host: filemanager.thestayler.ir
+    path: /e12JtBu9rVXrhCqy
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_7|1.1MB/s
+  network: grpc
+  port: '2053'
+  reality-opts:
+    public-key: sOTlswV3fg3MBJSiQek_a2fMs824tGNRFNRdQVYu1R8
+    short-id: '!!str ef96a8323b38a60e'
+  server: cdn-a9027cc2.glomedia-cdn.com
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0dc3fe97-73e3-4cc2-89a7-331e66540365
   xudp: true

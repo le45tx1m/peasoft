@@ -9,20 +9,3 @@ proxies:
     headers:
       Host: vms.lifetime51.workers.dev
     path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: CZ_speednode_0016
-  network: raw
-  port: 8443
-  reality-opts:
-    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
-    short-id: '!!str 92d0c4089b6c1da3'
-  server: 95.85.228.146
-  servername: io.ozone.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a67e3045-626c-42c9-8cc0-a5afa6b18b05
-  xudp: true

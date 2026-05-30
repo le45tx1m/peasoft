@@ -1,14 +1,18 @@
 proxies:
-- name: 'A - 🇺🇸 US 01 TG: @nodpai'
+- name: 🇺🇸US_16|1.4MB/s
   network: ws
-  port: 8880
+  port: '8880'
   server: 50.62.198.50
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: vms.lifetime39.workers.dev
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
     path: /?ed=2560
+  xudp: true
 - name: 'A - 🇺🇸 US 02 TG: @nodpai'
   network: ws
   port: 8880
@@ -49,16 +53,20 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: /
-- name: 'A - 🇺🇸 US 06 TG: @nodpai'
+- name: 🇺🇸US_11|1.3MB/s
   network: ws
-  port: 8880
+  port: '8880'
   server: 160.153.138.30
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: vms.lifetime04.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /
+  xudp: true
 - client-fingerprint: random
   encryption: none
   name: 'A - 🇺🇸 US 07 TG: @nodpai'
@@ -189,19 +197,23 @@ proxies:
   uuid: 5a20b5d0-3a98-4792-9559-95f4e24277ec
 - client-fingerprint: random
   encryption: none
-  name: 'B - 🇺🇸 US 17 TG: @nodpai'
+  name: 🇸🇬SG_2|3.1MB/s
   network: ws
-  port: 443
+  port: '443'
   security: tls
   server: www.udacity.com
   servername: misaka.cndyw.ggff.net
   tls: true
   type: vless
+  udp: true
   uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   ws-opts:
     headers:
       Host: misaka.cndyw.ggff.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /?ed=2560
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 'B - 🇺🇸 US 18 TG: @nodpai'
@@ -374,7 +386,6 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0037
-  network: tcp
   port: 22231
   security: tls
   server: r1.mizulina.top
@@ -384,7 +395,6 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  xudp: true
 - name: 'B - 🇺🇸 US 32 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45553
@@ -520,16 +530,23 @@ proxies:
     headers:
       Host: frejd.11258.workers.dev
     path: /telegram🇨🇳@wangcai2/
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 'C - 🇺🇸 US 46 TG: @nodpai'
+  name: 🇺🇸US_3|1.9MB/s
   network: ws
-  port: 52620
+  port: '52620'
   server: 38.60.176.80
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: true
   uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
   ws-opts:
+    headers: {}
     path: /8704a4ad
+  xudp: true
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -592,155 +609,9 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_1|2.6MB/s
-  network: ws
-  password: Mitivpn
-  port: '443'
-  server: 165.215.250.160
-  skip-cert-verify: true
-  sni: my.hitgram.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /?ed=mitivpn
 - client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇺🇸US_2|1.5MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: MchbHn3bpJaqAX-oqnNXYiXrbUTN0n-K203T8YGr8D4
-    short-id: '!!str 0ae20b3e5e2c0bc2'
-  server: stone.quietgrove.forum
-  servername: stone.quietgrove.forum
-  tls: true
-  type: vless
-  udp: true
-  uuid: 482757f6-9a0a-46ea-a8e4-9beaece46697
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_3|2.7MB/s
-  network: ws
-  password: Mitivpn
-  port: '443'
-  server: 104.17.121.37
-  skip-cert-verify: true
-  sni: my.hitgram.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /?ed=mitivpn
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_5|1.2MB/s
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: '2'
-  cipher: auto
-  name: 🇺🇸US_6|2.6MB/s
-  network: tcp
-  port: '30829'
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_7|2.6MB/s
-  network: ws
-  password: Mitivpn
-  port: '443'
-  server: 104.17.121.9
-  skip-cert-verify: true
-  sni: my.hitgram.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /?ed=mitivpn
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_8|2.6MB/s
-  network: ws
-  password: Mitivpn
-  port: '443'
-  server: 104.17.121.71
-  skip-cert-verify: true
-  sni: panel.hitgram.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /?ed=mitivpn
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_9|1.9MB/s
-  network: raw
-  port: '180'
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_10|2.4MB/s
-  network: ws
-  port: 443
-  server: cf.scpnb.top
-  servername: vienna-bread-threats-amendment.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed
-  ws-opts:
-    headers:
-      Host: vienna-bread-threats-amendment.trycloudflare.com
-    path: /7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed-vm
-- name: 🇺🇸US_11|2.6MB/s
-  network: tcp
-  password: 8f3a2b1c9d4e5f6a7b8c9d0e1f2a3b4c
-  port: 8443
-  server: link.honghongai.top
-  sni: link.honghongai.top
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_12|1.1MB/s
+  name: 🇺🇸US_1|1.2MB/s
   network: xhttp
   port: 443
   reality-opts:
@@ -757,33 +628,120 @@ proxies:
     host: ads.x5.ru
     path: /api/v3/f29479507adb
   xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_14|1.7MB/s
-  network: raw
-  password: 8f3a2b1c9d4e5f6a7b8c9d0e1f2a3b4c
-  port: '8443'
-  server: link.honghongai.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
 - alpn:
-  - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇺🇸US_15|2.4MB/s
+  encryption: none
+  name: 🇺🇸US_2|2.5MB/s
   network: ws
-  password: Mitivpn
   port: '443'
-  server: 165.215.250.160
-  skip-cert-verify: true
-  sni: panel.hitgram.ir
+  server: 129.6.29.253
+  servername: investors.spotify.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 41d480fd-1dcc-4766-8e01-a67e7faa5934
+  ws-opts:
+    headers:
+      Host: investors.spotify.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /id-amz
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_4|2.2MB/s
+  network: ws
+  port: '443'
+  server: 202.37.33.81
+  servername: m.udemy.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
+  ws-opts:
+    headers:
+      Host: m.udemy.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /id-tksi
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_5|1.5MB/s
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: '30303'
+  server: 121.191.33.84
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /?ed=mitivpn
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /trojan
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_6|2.5MB/s
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: '10000'
+  server: usp-hdl9n8ovau.9966690.xyz
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  name: 🇺🇸US_9|1.4MB/s
+  network: ws
+  port: '37811'
+  server: 154.17.237.73
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true
+- name: 🇺🇸US_14|1.2MB/s
+  network: ws
+  port: '8880'
+  server: 195.26.229.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime56.workers.dev
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_19|2.1MB/s
+  network: tcp
+  port: '13405'
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    short-id: '!!str a1b2c3d4'
+  server: zzus5.ainivp.com
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  xudp: true
 - name: US_speednode_0042
   port: 7070
   server: 20.83.154.79

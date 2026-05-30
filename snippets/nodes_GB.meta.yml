@@ -18,15 +18,20 @@ proxies:
     headers:
       Host: vms.lifetime36.workers.dev
     path: /?ed=2560
-- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
+- name: 🇺🇸US_15|1.1MB/s
   network: ws
-  port: 8880
+  port: '8880'
   server: 45.80.110.30
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: vms.lifetime51.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: ''
+  xudp: true
 - name: 'B - 🇬🇧 GB 04 TG: @nodpai'
   network: ws
   port: 8880
@@ -37,46 +42,35 @@ proxies:
     headers:
       Host: vms.lifetime59.workers.dev
     path: /
-- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
+- name: 🇺🇸US_17|1.3MB/s
   network: ws
-  port: 8880
+  port: '8880'
   server: 77.75.199.30
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: vms.lifetime59.workers.dev
-- encryption: none
-  name: 🇬🇧GB_1|2.0MB/s
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: ''
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|1.2MB/s
   network: tcp
-  port: '2052'
-  server: 82.40.62.106
+  port: '443'
+  reality-opts:
+    public-key: UJSYKOEr3a3V1P_obd9zNBq4Pr3Vbd_a2nHE7-rstRk
+    short-id: '!!str 6089640857a72237'
+  server: 217.179.6.84
+  servername: France1cxc.chickenkiller.com
+  tls: true
   type: vless
   udp: true
-  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
-  xudp: true
-- encryption: none
-  name: 🇬🇧GB_2|1.2MB/s
-  network: tcp
-  port: '2082'
-  server: 82.40.62.106
-  type: vless
-  udp: true
-  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇬🇧GB_3|2.2MB/s
-  network: tcp
-  port: '2080'
-  server: 82.40.62.106
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd682302-c9d7-4c0d-bada-52e7d652c22c
+  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
