@@ -1,50 +1,19 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.4MB/s
-  network: tcp
-  port: '12444'
-  reality-opts:
-    public-key: dYmNf0AA5qgV2ct3dPCYtxdS2iD3FEUnEs6J1GWe2wU
-    short-id: '!!str 9a79'
-  server: 157.22.241.46
-  servername: 2gis.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
-  xudp: true
-- client-fingerprint: random
+- alpn:
+  - h2
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|1.5MB/s
-  network: raw
-  port: '23346'
-  reality-opts:
-    public-key: SSVyNwsSA0BFp8HJWvqc-VQjwOtKrVnl6nDFJxpHU18
-    short-id: '!!str 4294bfc2'
-  server: ru-nl.omuvpn.tech
-  servername: zvuk.com
+  grpc-opts:
+    grpc-service-name: /sequre/grpc
+  name: 🇷🇺RU_1|1.2MB/s
+  network: grpc
+  port: '443'
+  server: 185.14.46.20.blanesik.space
+  servername: 185.14.46.20.blanesik.space
   tls: true
   type: vless
   udp: true
-  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|2.5MB/s
-  network: tcp
-  port: '23151'
-  reality-opts:
-    public-key: eP0MKUFOcNVSVFbHT8GgBLP4LIHZFq8JuVGlCAlH1HI
-    short-id: '!!str '
-  server: 217.26.24.101
-  servername: cms-res-web.online.sberbank.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9287f532-4150-48ff-a755-64b21e30e9c3
+  uuid: a1b19834-a5e3-4d49-9301-aaa3fb248f49
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -70,6 +39,17 @@ proxies:
   type: vless
   udp: true
   uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0022
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: RU_speednode_0025

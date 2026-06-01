@@ -42,22 +42,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK_1|2.0MB/s
-  password: <password>
-  port: 8443
-  server: bd00c917-ta1og0-tfpsin-1q3dm.hkt.cdnhuawei.com
-  sni: bd00c917-ta1og0-tfpsin-1q3dm.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
-- name: 🇭🇰HK_2|1.9MB/s
-  password: fcd39788-ca23-11ed-86e2-f23c913c8d2b
-  port: 5228
-  server: 03b39e52-t9zts0-tcr97d-2b2n.cm4.oshuawei.com
-  sni: 03b39e52-t9zts0-tcr97d-2b2n.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: fcd39788-ca23-11ed-86e2-f23c913c8d2b
 - name: HK_speednode_0007
   password: 65fQmPHHbPcBCfvSHt
   port: 443

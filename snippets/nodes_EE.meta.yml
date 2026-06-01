@@ -1,16 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇪🇪EE_1|2.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 0aGTmSxEW21dFVomobDSRjUWnPptI4yT_eL-0PCf-h0
-    short-id: '!!str 5a7216aec1371894'
-  server: 95.85.228.212
-  servername: est.hatvpn.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: f85f6c65-1b35-4c56-b766-80c5a4457b3e
-  xudp: true
+proxies: []

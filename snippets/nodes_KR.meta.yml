@@ -1,28 +1,35 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷KR_1|1.1MB/s
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 22386
-  server: 43.164.128.196
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR_2|3.9MB/s
-  network: tcp
-  port: 21796
-  reality-opts:
-    _spider-x: /
-    public-key: dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw
-    short-id: '!!str 804d6574da9180'
-  server: 43.203.252.196
-  servername: www.sony.com
-  skip-cert-verify: false
+- client-fingerprint: chrome
+  name: 🇰🇷KR_1|1.2MB/s
+  network: ws
+  port: '10891'
+  server: 165.246.171.218
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
   tls: true
   type: vless
   udp: true
-  uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_2|1.2MB/s
+  network: tcp
+  port: '8899'
+  reality-opts:
+    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
+    short-id: '!!str 11d27eb4'
+  server: 152.67.211.233
+  servername: www.lovelive-anime.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed285fbd-528e-4610-9a8d-2ad95767c00b
   xudp: true
 - name: KR_speednode_0009
   port: 1090
