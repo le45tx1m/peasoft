@@ -89,6 +89,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- name: t.me/FREECONFIGSPLUS کانفیگ ها...
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 444
+  server: 18.194.238.82
+  sni: qus.masir-sefid.shop
+  tls: false
+  type: hysteria2
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -109,12 +118,12 @@ proxies:
   sni: bts.com
   tls: false
   type: hysteria2
-- name: kurdconfig
+- name: Echo_Center
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
-  port: 1040
-  server: 18.196.180.90
+  port: 54040
+  server: 18.194.238.82
   skip-cert-verify: false
   sni: qus.masir-sefid.shop
   tls: false
@@ -155,16 +164,6 @@ proxies:
   server: hy2.123266.xyz
   skip-cert-verify: true
   sni: hy2.123266.xyz
-  tls: false
-  type: hysteria2
-- name: 🔊58@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: hH0l2Acqz3RtodoSCNCpNJqDSZtp4Qw
-  password: rstnnl2705
-  port: 443
-  server: musicclips.videolinks.ru
-  skip-cert-verify: true
-  sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
 - name: 4🔊@oneclickvpnkeys
