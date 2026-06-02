@@ -1,10 +1,1 @@
-proxies:
-- name: 🇩🇪DE_4|1.2MB/s
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
+proxies: []

@@ -1,8 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_3|1.0MB/s
-  password: 89NQRFg7Pcybkl9FrDxqj5
-  port: '443'
-  server: 193.17.57.155
-  type: ss
-  udp: true
+proxies: []

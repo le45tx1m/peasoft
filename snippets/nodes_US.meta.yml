@@ -1,5 +1,5 @@
 proxies:
-- name: 🇺🇸US_8|1.1MB/s
+- name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 5224
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
+- name: US_speednode_0054
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -15,6 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国4|@ripaojiedian
@@ -34,89 +35,184 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|1.1MB/s
+  network: ws
+  port: '443'
+  server: 208.103.161.170
+  servername: help.viu.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28f79470-c550-40b0-9e46-834a46ac8da8
+  ws-opts:
+    headers:
+      Host: help.viu.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /id-pusat
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_2|1.3MB/s
+  network: ws
+  port: '80'
+  server: 45.130.125.0
+  type: vless
+  udp: true
+  uuid: f5ccef9d-8ea8-424d-926b-36161aebe28f
+  ws-opts:
+    headers:
+      Host: api24-normal.tiktokv.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /ae-bo
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_3|2.4MB/s
+  network: ws
+  password: aa710f78-eddb-45b4-bd32-1f8692a754e5
+  port: '443'
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: s.blibli.com.cyylr.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /ae-bo
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: NZ_speednode_0033
+  encryption: none
+  name: 🇺🇸US_4|1.5MB/s
+  network: ws
+  port: '443'
+  server: 103.18.49.100
+  servername: dl.cvs.freefiremobile.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e593426-1a8e-4226-984f-0ea174e218c7
+  ws-opts:
+    headers:
+      Host: dl.cvs.freefiremobile.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /id-pusat
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_5|1.9MB/s
+  network: ws
+  port: '443'
+  server: 27.50.48.49
+  servername: investors.spotify.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 228639b0-48de-4162-a818-d5651ee297b3
+  ws-opts:
+    headers:
+      Host: investors.spotify.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /in-do
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_6|1.3MB/s
+  network: ws
+  port: '443'
+  server: 208.103.161.170
+  servername: ava.game.naver.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dc797c8-9588-48a6-bc4a-265c23d87cd6
+  ws-opts:
+    headers:
+      Host: ava.game.naver.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /id-pusat
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇺🇸US_7|1009KB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: Tb21e9Z3rtr5NoprXQQtcqLLRZOgIVyIbuZmqPJkGXM
+    short-id: '!!str a28e08feb9324fb0'
+  server: greblox.forum
+  servername: greblox.forum
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29f8120c-fa78-4b20-b5a5-5390d9cfbbc9
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_9|2.1MB/s
+  network: ws
+  port: 8443
+  server: yg7.ygkkk.dpdns.org
+  servername: marco-visibility-tops-estimate.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
+  ws-opts:
+    headers:
+      Host: marco-visibility-tops-estimate.trycloudflare.com
+    path: /c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d-vm
+- encryption: none
+  name: 🇺🇸US_10|1.9MB/s
   network: ws
   port: 443
-  server: 202.37.33.81
-  servername: m.udemy.com.cyylr.eu.cc
+  server: 141.193.213.30
+  servername: www.genflix.co.id.cyylr.eu.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
+  uuid: a6d5a889-2a4a-4b31-8892-e0820188e921
   ws-opts:
     headers:
-      Host: m.udemy.com.cyylr.eu.cc
-    path: /id-tksi
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_2|2.2MB/s
-  network: ws
-  port: '443'
-  server: 45.130.125.160
-  servername: partner.catchplay.com.cyylr.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ad2869d-1571-45cc-8d02-10aea6d600ac
-  ws-opts:
-    headers:
-      Host: partner.catchplay.com.cyylr.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /ae-bo
+      Host: www.genflix.co.id.cyylr.eu.cc
+    path: /my-wbv
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_3|2.0MB/s
-  network: ws
-  port: '443'
-  server: 45.130.125.160
-  servername: s.blibli.com.cyylr.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47422044-85e3-426b-b6c4-3588cb24a3e5
-  ws-opts:
-    headers:
-      Host: s.blibli.com.cyylr.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /ae-bo
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_4|2.2MB/s
-  network: ws
-  port: '443'
-  server: 45.130.125.0
-  servername: ads.ruangguru.com.cyylr.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: d08d180d-cb07-4d82-b1bd-1e42fa523cd7
-  ws-opts:
-    headers:
-      Host: ads.ruangguru.com.cyylr.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /sg-orcl
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_5|2.0MB/s
+  name: US_speednode_0052
   network: tcp
   password: BxceQaOe
-  port: '2520'
+  port: 2520
   server: 95.40.4.37
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: 95.40.4.37
   type: trojan
   udp: true
-- name: US_speednode_0053
-  network: tcp
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0049
+  port: 443
+  reality-opts:
+    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
+    short-id: '!!str e6d59aff03e5b0'
+  server: tw4.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51
+- name: US_speednode_0050
   password: BxceQaOe
   port: 2520
   server: 95.40.4.37
@@ -126,108 +222,8 @@ proxies:
   udp: true
 - alpn:
   - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_7|2.6MB/s
-  network: ws
-  port: '443'
-  server: 216.24.57.1
-  servername: dl.cvs.freefiremobile.com.cyylr.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e593426-1a8e-4226-984f-0ea174e218c7
-  ws-opts:
-    headers:
-      Host: dl.cvs.freefiremobile.com.cyylr.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /id-pusat
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_10|1.1MB/s
-  network: ws
-  port: 443
-  server: 172.67.195.79
-  servername: cdn.veilvpn.fans
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
-  ws-opts:
-    headers:
-      Host: cdn.veilvpn.fans
-    path: /vpnhu
-    v2ray-http-upgrade: true
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_11|1.5MB/s
-  network: ws
-  password: 5e40c007-9ea9-470f-8824-cdf4eaa6441f
-  port: '443'
-  server: 108.181.4.83
-  skip-cert-verify: false
-  sni: us6lh1fsyabizv5m.lovebaipiao.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /images
-- client-fingerprint: chrome
-  name: 🇺🇸US_12|1022KB/s
-  network: ws
-  password: 5e40c007-9ea9-470f-8824-cdf4eaa6441f
-  port: '443'
-  server: us6lh1fsyabizv5m.lovebaipiao.net
-  skip-cert-verify: false
-  sni: us6lh1fsyabizv5m.lovebaipiao.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /images
-- client-fingerprint: chrome
-  name: 🇺🇸US_13|1.4MB/s
-  network: ws
-  port: '16353'
-  server: 173.249.203.40
-  servername: r8wez3psbuhgs6lgju.sate.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: r8wez3psbuhgs6lgju.sate.qzz.io
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /@Marisa_kristifp=chrome
-  xudp: true
-- name: US_speednode_0051
-  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-  port: 443
-  server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: US_speednode_0052
-  password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 3443
-  server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
-  tls: true
-  type: http
-  udp: true
-  username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- alpn:
-  - http/1.1
   client-fingerprint: firefox
-  name: US_speednode_0054
+  name: US_speednode_0051
   network: ws
   port: 443
   server: kobe.ns.cloudflare.com
@@ -241,3 +237,20 @@ proxies:
     headers:
       Host: 35cdnws.frnstatic.info
     path: /35cdnws
+- name: US_speednode_0055
+  network: ws
+  port: 443
+  server: 172.67.195.79
+  servername: cdn.veilvpn.fans
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn.veilvpn.fans
+    path: /vpnhu
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true

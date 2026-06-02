@@ -1,39 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇰🇷KR_1|1.1MB/s
-  network: ws
-  port: '30001'
-  server: 114.204.40.185
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_2|1.4MB/s
-  network: ws
-  port: '30006'
-  server: 114.204.40.185
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /@Marisa_kristifp=chrome
-  xudp: true
-- name: KR_speednode_0026
+- name: KR_speednode_0025
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -42,3 +8,23 @@ proxies:
   type: http
   udp: true
   username: test
+- name: KR_speednode_0028
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+  username: Og%3D%3D
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: KR_speednode_0029
+  port: 8899
+  reality-opts:
+    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
+    short-id: '!!str 11d27eb4'
+  server: 152.67.211.233
+  servername: www.lovelive-anime.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed285fbd-528e-4610-9a8d-2ad95767c00b

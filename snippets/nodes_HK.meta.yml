@@ -1,4 +1,12 @@
 proxies:
+- name: 'Channel id: @internet_azad_202...'
+  password: IG9Sundefinedvx6RJ
+  port: 58771
+  server: 47.76.94.197
+  skip-cert-verify: true
+  sni: go.microsoft.com
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -24,7 +32,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇭🇰HK_1|1.3MB/s
+- name: 🇭🇰HK_1|2.7MB/s
   network: tcp
   password: BxceQaOe
   port: 50712
@@ -43,40 +51,21 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 🇭🇰HK_2|1.2MB/s
+  name: 🇭🇰HK_4|3.8MB/s
   network: tcp
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: '40015'
-  server: 85.211.198.109
-  skip-cert-verify: true
-  sni: 1.lossyesterday.xyz
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇭🇰HK_3|1.1MB/s
-  network: tcp
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: '52225'
-  server: 85.211.198.109
-  skip-cert-verify: true
-  sni: i.comfortableyou.top
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: GB_speednode_0020
-  network: raw
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40017
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
-  type: trojan
-  udp: true
-- name: HK_speednode_0023
   password: BxceQaOe
-  port: 47655
-  server: 43.199.61.178
+  port: '50712'
+  server: 18.183.163.141
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: t.me/ripaojiedian
   type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK_3|2.0MB/s
+  password: d720a490-d56b-11ef-a1cb-f23c9313b177
+  port: 8300
+  server: 1b30bbb8-t9wqo0-tb5ob4-64gc.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 1b30bbb8-t9wqo0-tb5ob4-64gc.hkt.east.wctype.com
+  type: anytls
   udp: true

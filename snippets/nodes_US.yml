@@ -1,5 +1,5 @@
 proxies:
-- name: 🇺🇸US_8|1.1MB/s
+- name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 5224
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 美国3|@ripaojiedian
+- name: US_speednode_0054
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -15,6 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国4|@ripaojiedian
@@ -35,17 +36,47 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
-  name: 🇺🇸US_5|2.0MB/s
-  network: tcp
-  password: BxceQaOe
-  port: '2520'
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  name: 🇺🇸US_3|2.4MB/s
+  network: ws
+  password: aa710f78-eddb-45b4-bd32-1f8692a754e5
+  port: '443'
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: s.blibli.com.cyylr.eu.cc
   type: trojan
   udp: true
-- name: US_speednode_0053
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /ae-bo
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_9|2.1MB/s
+  network: ws
+  port: 8443
+  server: yg7.ygkkk.dpdns.org
+  servername: marco-visibility-tops-estimate.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
+  ws-opts:
+    headers:
+      Host: marco-visibility-tops-estimate.trycloudflare.com
+    path: /c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d-vm
+- client-fingerprint: chrome
+  name: US_speednode_0052
   network: tcp
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: 95.40.4.37
+  type: trojan
+  udp: true
+- name: US_speednode_0050
   password: BxceQaOe
   port: 2520
   server: 95.40.4.37
@@ -53,33 +84,3 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_11|1.5MB/s
-  network: ws
-  password: 5e40c007-9ea9-470f-8824-cdf4eaa6441f
-  port: '443'
-  server: 108.181.4.83
-  skip-cert-verify: false
-  sni: us6lh1fsyabizv5m.lovebaipiao.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /images
-- client-fingerprint: chrome
-  name: 🇺🇸US_12|1022KB/s
-  network: ws
-  password: 5e40c007-9ea9-470f-8824-cdf4eaa6441f
-  port: '443'
-  server: us6lh1fsyabizv5m.lovebaipiao.net
-  skip-cert-verify: false
-  sni: us6lh1fsyabizv5m.lovebaipiao.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /images

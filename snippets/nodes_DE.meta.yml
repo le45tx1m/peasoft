@@ -9,68 +9,40 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- encryption: none
-  name: 🇩🇪DE_1|1.1MB/s
-  network: ws
-  port: '8880'
-  server: 188.137.230.245
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|2.2MB/s
+  port: 8443
+  reality-opts:
+    public-key: TNsQJHoX2M2u07a6oEPb3tY9U08Aph4Qvdk76dAZdio
+    short-id: '!!str 82ed5803a8047a3e'
+  server: de.corsair-web.space
+  servername: mozilla.org
+  tls: true
   type: vless
   udp: true
-  uuid: 762ca06a-daba-4510-8533-7ba0667fb1f1
+  uuid: a845ce7c-ea10-47b0-8de4-92810260eeab
+- encryption: none
+  name: 🇩🇪DE_4|1.8MB/s
+  network: ws
+  port: 443
+  server: 172.66.157.39
+  servername: blog.webex.com.cyylr.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15a8fadd-3a43-422f-8e63-a87ea7c13221
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /
+      Host: blog.webex.com.cyylr.eu.cc
+    path: /id-tksi
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|2.9MB/s
-  network: ws
-  port: '443'
-  server: cyylr.eu.cc
-  servername: ads.ruangguru.com.cyylr.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bbcfe26b-32a3-49b1-a357-d4b9d28ac919
-  ws-opts:
-    headers:
-      Host: ads.ruangguru.com.cyylr.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /id-tksi
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_3|3.5MB/s
-  network: ws
-  port: '80'
-  server: cyylr.eu.cc
-  type: vless
-  udp: true
-  uuid: bbcfe26b-32a3-49b1-a357-d4b9d28ac919
-  ws-opts:
-    headers:
-      Host: ads.ruangguru.com.cyylr.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /id-tksi
-  xudp: true
-- name: 🇩🇪DE_4|1.2MB/s
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
-- encryption: none
-  name: 🇩🇪DE_5|2.4MB/s
+  name: 🇩🇪DE_5|1.3MB/s
   network: xhttp
   port: 443
-  server: 185.207.198.99
+  server: 193.22.229.226
   servername: cloudflare.dns.xn--q9jyb4c
   skip-cert-verify: false
   tls: true
@@ -81,61 +53,18 @@ proxies:
     host: cloudflare.dns.xn--q9jyb4c
     mode: packet-up
     path: /xn--q9jyb4c
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_6|1.0MB/s
-  network: xhttp
-  port: 15530
+  flow: xtls-rprx-vision
+  name: DE_speednode_0006
+  port: 55152
   reality-opts:
-    public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
-    short-id: '!!str aa45df0f'
-  server: 178.18.147.163
-  servername: www.microsoft.com
+    public-key: fX2XkujtqhnkQDy-Lwgqm_OofDs1qO5ytvVNM6aV4C4
+    short-id: '!!str ddcac8ed'
+  server: 193.23.222.99
+  servername: cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ac121f97-544b-47b3-bf91-eca9c45db548
-  xhttp-opts:
-    path: /github.com/Alvin9999-newpac/fanqiang
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_7|2.6MB/s
-  network: xhttp
-  port: 443
-  server: 156.243.246.185
-  servername: cloudflare.dns.xn--q9jyb4c
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  xhttp-opts:
-    host: cloudflare.dns.xn--q9jyb4c
-    mode: packet-up
-    path: /xn--q9jyb4c
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_8|2.5MB/s
-  network: grpc
-  port: '2053'
-  reality-opts:
-    public-key: sOTlswV3fg3MBJSiQek_a2fMs824tGNRFNRdQVYu1R8
-    short-id: '!!str ef96a8323b38a60e'
-  server: 169.40.15.135
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0dc3fe97-73e3-4cc2-89a7-331e66540365
-  xudp: true
+  uuid: 827466ba-0910-4c48-b156-2f37fdbda362

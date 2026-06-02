@@ -1,5 +1,5 @@
 proxies:
-- name: 新加坡|@ripaojiedian
+- name: JP_speednode_0022
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 1180
@@ -7,6 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -15,7 +16,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡3|@ripaojiedian
+- name: 🇸🇬SG_3|1.3MB/s
   network: tcp
   password: BxceQaOe
   port: 10478
@@ -24,87 +25,22 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|1.3MB/s
+  name: 🇸🇬SG_5|2.0MB/s
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 5nvAsUrFIVynQK9nPwDLzhh8upfTz3VGAaBvPh0U-RY
-    short-id: '!!str ce41e5e590'
-  server: poland1.banovano.space
-  servername: www.icloud.com:443
-  tls: true
-  type: vless
+  password: BxceQaOe
+  port: '10478'
+  server: 43.206.130.64
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
   udp: true
-  uuid: ca219009-9b8e-4e97-8938-e53678d4aba1
-  xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_2|1.2MB/s
+  name: 🇸🇬SG_6|2.6MB/s
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
-    short-id: '!!str 226509f017e4c36d'
-  server: vsgch.mostserv.xyz
-  servername: vsgch.mostserv.xyz
-  tls: true
-  type: vless
+  password: BxceQaOe
+  port: '10478'
+  server: 43.206.130.64
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
-  uuid: 0ddc1b7c-ce23-4a30-8ede-8a9e19f02fb7
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|1.8MB/s
-  network: ws
-  port: '30003'
-  server: 140.235.10.14
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /@Marisa_kristifp=chrome
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_4|1.2MB/s
-  network: ws
-  port: '443'
-  server: mfa.gov.ua
-  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_5|1.3MB/s
-  network: ws
-  port: '443'
-  server: youxuan.cf.090227.xyz
-  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true

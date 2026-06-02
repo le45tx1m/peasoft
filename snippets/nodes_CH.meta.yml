@@ -4,7 +4,7 @@ proxies:
     headers: {}
     path:
     - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 🇨🇭CH_1|1.5MB/s
+  name: 🇨🇭CH_1|1.1MB/s
   network: http
   port: '22'
   server: 172.65.111.43
@@ -12,16 +12,3 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
-- client-fingerprint: chrome
-  name: CH_speednode_0003
-  port: 443
-  reality-opts:
-    public-key: PYX0lu3m0L_h28eW4186s63gRFHXoTc3K9wKeFewDUQ
-    short-id: '!!str e9a8'
-  server: 138.124.244.248
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 476caa1d-7c04-48ab-8de5-2c1af0d13a66
