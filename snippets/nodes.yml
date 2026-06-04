@@ -112,7 +112,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇭🇰HK_1|1.5MB/s
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11031
@@ -229,54 +229,89 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇭🇰HK_2|1003KB/s
+- cipher: aes-128-gcm
+  name: 🇨🇭CH_1|2.0MB/s
+  password: phizo046s4oqsm33sfvm
+  port: '13265'
+  server: 86.106.84.198
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_2|2.0MB/s
   network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: <nil>
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_4|1.9MB/s
+  port: 180
+  server: 82.198.246.37
+  servername: <nil>
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇭🇰HK_1|1.2MB/s
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 155.117.198.83
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
+  sni: gh.01.naiun.bilibili.com
+  tls: true
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 🇨🇦CA_1|1.2MB/s
   password: amazonskr05
   port: 443
-  server: 35.183.93.91
+  server: 15.223.63.40
   skip-cert-verify: false
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: 🇨🇦CA_2|1.0MB/s
+  name: 🇩🇪DE_3|2.7MB/s
   password: amazonskr05
   port: 443
-  server: 3.99.174.90
+  server: 18.159.210.129
   skip-cert-verify: false
   type: ss
   udp: false
-- name: 🇭🇰HK_3|1.2MB/s
+- cipher: aes-128-gcm
+  name: 🇺🇸US_10|2.1MB/s
+  password: 3px0wmx0e81145g568ga
+  port: '10880'
+  server: 69.164.240.86
+  type: ss
+  udp: true
+- name: 🇨🇿CZ_1|1.1MB/s
   network: tcp
-  password: BxceQaOe
-  port: '11031'
-  server: 95.40.80.85
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: randomized
-  name: 🇺🇸US_2|1.1MB/s
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: '443'
-  server: 104.19.174.68
+  server: ch-2.bexum.fun
   skip-cert-verify: false
-  sni: azadnet-5vk.pages.dev
+  sni: ch-2.bexum.fun
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan
+- name: 🇰🇿KZ_1|1.4MB/s
+  network: tcp
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: '5443'
+  server: kz-1.bexum.fun
+  skip-cert-verify: false
+  sni: kz-1.bexum.fun
+  type: trojan
+  udp: true
 - name: DE_speednode_0011
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443

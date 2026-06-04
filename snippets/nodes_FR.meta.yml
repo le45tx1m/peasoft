@@ -1,8 +1,16 @@
 proxies:
-- name: 🇫🇷FR_1|2.6MB/s
+- name: 🇫🇷FR_1|3.7MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
   server: 62.210.26.173
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- name: 🇫🇷FR_2|1.1MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 64772
+  server: 62.210.29.98
   skip-cert-verify: true
   sni: bing.com
   tfo: false

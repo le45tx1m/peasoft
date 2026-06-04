@@ -1,4 +1,68 @@
 proxies:
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: '!!str c1a7e9b4711d5f60'
+  server: 193.168.46.180
+  servername: rruu.persik.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1734c6b8-c608-45d5-a34b-051175f545b2
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|2.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: '!!str c1a7e9b4711d5f60'
+  server: 193.168.46.180
+  servername: rruu.persik.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e1a9b4c-fef6-499f-92bd-b800b39f07de
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_3|1.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: '!!str c1a7e9b4711d5f60'
+  server: 193.168.46.180
+  servername: rruu.persik.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e41b124-28dc-40e9-82eb-ab0139e5951b
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_4|2.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: '!!str c1a7e9b4711d5f60'
+  server: 193.168.46.180
+  servername: rruu.persik.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: 91d77752-10ef-447c-b1d9-8e41f1b140e9
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0039

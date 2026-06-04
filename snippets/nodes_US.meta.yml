@@ -42,31 +42,121 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|2.2MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: randomized
-  name: 🇺🇸US_2|1.1MB/s
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_1|1.4MB/s
+  network: xhttp
   port: '443'
-  server: 104.19.174.68
-  skip-cert-verify: false
-  sni: azadnet-5vk.pages.dev
-  type: trojan
+  server: 104.18.152.233
+  servername: www.middle.cc.cd
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan
+  uuid: bdd885ff-1b3b-40fd-93d5-ac2b29b90f8b
+  xhttp-opts:
+    host: www.middle.cc.cd
+    mode: stream-one
+    path: /settings----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_2|2.0MB/s
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: <nil>
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_4|1.9MB/s
+  port: 180
+  server: 82.198.246.37
+  servername: <nil>
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇺🇸US_5|1.4MB/s
+  password: mRmdkn1voV
+  port: 37749
+  server: vps-bwg-usa.maze-maker.com
+  skip-cert-verify: false
+  sni: vps-bwg-usa.maze-maker.com
+  tfo: false
+  type: hysteria2
+- name: 🇺🇸US_6|2.0MB/s
+  password: s12fFiUvpP8B
+  port: 37749
+  server: vps-vmiss-usa.maze-maker.com
+  skip-cert-verify: false
+  sni: vps-vmiss-usa.maze-maker.com
+  tfo: false
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_7|1.3MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 45.130.125.2
+  servername: www.middle.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bdd885ff-1b3b-40fd-93d5-ac2b29b90f8b
+  xhttp-opts:
+    host: www.middle.cc.cd
+    mode: stream-one
+    path: /settings----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
 - client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_8|1.0MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 48864
+  reality-opts:
+    _spider-x: /
+    public-key: Wl3kcNtyOL6k0YIZcRxIGsRcV3WfPsVfaRSFBD4P1Qo
+    short-id: '!!str cd083fd527f261a4'
+  server: vps-vmiss-usa.maze-maker.com
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13233743-204d-41d6-a5f9-d82f4d7d3c90
+  xhttp-opts:
+    host: www.microsoft.com
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+- cipher: aes-128-gcm
+  name: 🇺🇸US_10|2.1MB/s
+  password: 3px0wmx0e81145g568ga
+  port: '10880'
+  server: 69.164.240.86
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
   name: US_speednode_0045
+  network: raw
   port: 443
   reality-opts:
     public-key: HlxgAXuwwby0lujjT2LKBPF0udWK4SVjtMPyKtiNdEw
@@ -78,21 +168,23 @@ proxies:
   type: vless
   udp: true
   uuid: 6d088fbd-528d-4f2a-be26-317dcda3c6ee
+  xudp: true
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: US_speednode_0046
-  packet-encoding: xudp
-  port: 443
+  name: 🇺🇸US_12|2.0MB/s
+  network: raw
+  port: '8443'
   reality-opts:
-    public-key: M1a5zeQ6Ckoo1UybbRYD8696xaWb-fRcCY-7iaQ4wCA
-    short-id: '!!str fd3f0f2bce8083fe'
-  server: nld02.helpbot.click
-  servername: nld02.helpbot.click
-  skip-cert-verify: false
+    public-key: BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI
+    short-id: '!!str a987b6bd1781daa3'
+  server: 5.35.85.51
+  servername: www.kinopoisk.ru
   tls: true
   type: vless
   udp: true
-  uuid: b95e6017-d54e-4016-b651-91c86aeaa463
+  uuid: 888403d1-621b-481a-b5dc-7aca518a787b
+  xudp: true
 - name: US_speednode_0047
   password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
   port: 443

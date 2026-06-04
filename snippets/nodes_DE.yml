@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_3|2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.159.210.129
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - name: DE_speednode_0011
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443

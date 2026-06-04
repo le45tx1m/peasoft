@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  name: 🇨🇭CH_1|2.0MB/s
+  password: phizo046s4oqsm33sfvm
+  port: '13265'
+  server: 86.106.84.198
+  type: ss
+  udp: true
