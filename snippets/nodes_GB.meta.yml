@@ -1,141 +1,41 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: GB_speednode_0015
-  port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '!!str 7a3f9e2b1c8d4f6a'
-  server: 31.76.113.91
-  servername: it.s3-cloud.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|2.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '!!str 7a3f9e2b1c8d4f6a'
-  server: 31.76.113.111
-  servername: it.s3-cloud.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-  xudp: true
-- encryption: none
-  name: 🇬🇧GB_3|1.2MB/s
+  name: 🇬🇧GB_1|1.5MB/s
   network: ws
-  port: '80'
-  server: panel.dibaux.ir
+  port: '52014'
+  server: 57.129.130.211
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
+  tls: true
   type: vless
   udp: true
-  uuid: 62cb1273-d55e-4550-bc4f-1116fafe7f6b
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: panel.dibaux.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /stream
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /@Marisa_kristifp=chrome
   xudp: true
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_4|2.4MB/s
-  network: tcp
+  name: 🇬🇧GB_2|1.3MB/s
+  network: xhttp
   port: '443'
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '!!str 7a3f9e2b1c8d4f6a'
-  server: 31.76.113.51
-  servername: it.s3-cloud.xyz
+  server: 104.17.121.71
+  servername: sabkpo.tll-far.ir
   tls: true
   type: vless
   udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  uuid: d644824c-7f7c-4b48-87da-d988722082cb
+  xhttp-opts:
+    host: sabkpo.tll-far.ir
+    mode: auto
+    path: /Telegram-Zedmodeon
+    x-padding-bytes: 100-1000
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_5|1.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '!!str 7a3f9e2b1c8d4f6a'
-  server: 31.76.113.92
-  servername: it.s3-cloud.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-  xudp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_6|1.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '!!str 7a3f9e2b1c8d4f6a'
-  server: 31.76.113.36
-  servername: it.s3-cloud.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_7|2.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '!!str 7a3f9e2b1c8d4f6a'
-  server: 31.76.113.33
-  servername: it.s3-cloud.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_8|1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '!!str 7a3f9e2b1c8d4f6a'
-  server: 31.76.113.60
-  servername: it.s3-cloud.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_9|1018KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '!!str 7a3f9e2b1c8d4f6a'
-  server: 31.76.113.56
-  servername: it.s3-cloud.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0013
@@ -158,6 +58,20 @@ proxies:
     public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
     short-id: '!!str 7a3f9e2b1c8d4f6a'
   server: 31.76.113.26
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0015
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.91
   servername: it.s3-cloud.xyz
   skip-cert-verify: false
   tls: true

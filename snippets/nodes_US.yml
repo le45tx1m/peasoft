@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸US_4|1.9MB/s
+- name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2520

@@ -42,21 +42,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇭🇰HK_1|1.0MB/s
+- name: 🇭🇰HK_1|1.3MB/s
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: '47909'
+  port: 45619
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
+  sni: fr.01.naiun.bilibili.com
+  tls: false
   type: trojan
   udp: true
-- name: 🇭🇰HK_2|1.8MB/s
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  type: hysteria2
 - name: HK_speednode_0016
   password: <password>
   port: 8443
