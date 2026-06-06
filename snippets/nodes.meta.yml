@@ -153,6 +153,16 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: 🇩🇪DE-🚀@VPNine1
+  obfs: salamander
+  obfs-password: https://speed.cloudflare.com
+  password: 0xver2tkqad4kvr4
+  port: 443
+  server: 134.122.86.55
+  skip-cert-verify: false
+  sni: xuipanel.akgoldvip.shop
+  tls: false
+  type: hysteria2
 - name: 🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
@@ -163,7 +173,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 🇩🇪52748 | ⚡️Telegram = t.me/SO...
+- name: ✅  @vistav2ray  👈👈کانال ما ✅
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -173,7 +183,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: internet_azad_2026🇩🇪
+- name: 🇩🇪53026 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -183,7 +193,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '@internet_azad_2026 #2'
+- name: 🇩🇪53030 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -193,7 +203,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '@internet_azad_2026 #3'
+- name: 🇩🇪53027 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -203,7 +213,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 🇩🇪52761 | ⚡️Telegram = t.me/SO...
+- name: '⚡@V2ray_official #1'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -213,7 +223,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 'internet_azad_2026🇩🇪 #1'
+- name: 🇩🇪53029 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -223,7 +233,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '⚡@V2ray_official #2'
+- name: 🇩🇪53028 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -393,7 +403,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '@tootffarangi🍓hamrah'
+- name: '@internet_azad_2026⚡️'
   obfs: salamander
   obfs-password: masir_sefid
   password: masir_sefid
