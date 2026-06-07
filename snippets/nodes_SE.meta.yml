@@ -1,12 +1,4 @@
 proxies:
-- name: 🇸🇪54087 | ⚡️Telegram = t.me/SO...
-  password: b880e510-8196-44bb-b715-781a9461b4a0
-  port: 8443
-  server: aestheticperforator.ru
-  skip-cert-verify: false
-  sni: aestheticperforator.ru
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪SE_1|1.5MB/s
