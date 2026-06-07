@@ -108,9 +108,17 @@ proxies:
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
-  server: 43.198.226.205
+  server: 43.199.71.149
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 11031
+  server: 95.40.84.247
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
@@ -123,32 +131,16 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.176.57.129
+  port: 9731
+  server: 43.199.65.125
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 5701
-  server: 18.167.42.231
-  skip-cert-verify: true
-  sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 37973
-  server: 43.198.226.205
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 新加坡|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 12143
-  server: 95.40.35.52
+  server: 43.199.189.134
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -156,39 +148,31 @@ proxies:
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6357
-  server: 18.167.42.231
+  server: 18.167.51.169
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 16.163.138.24
+  port: 28111
+  server: 95.40.47.145
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 美国|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 6604
-  server: 95.40.35.52
-  skip-cert-verify: true
-  sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 17005
-  server: 18.167.42.231
+  port: 49277
+  server: 43.199.71.149
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 95.40.40.218
+  port: 17801
+  server: 95.40.47.145
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -221,103 +205,78 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇬🇭GH_1|1.2MB/s
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: '48697'
-  server: 155.117.198.87
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|3.5MB/s
+  password: qwerREWQ@@
+  port: '55104'
+  server: 221.150.109.20
+  type: ss
   udp: true
-- name: 🇺🇸US_4|1.1MB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 8443
-  server: 64.186.240.9
-  sni: dxy1h.twiladaphne.ndjp.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: dxy1h.twiladaphne.ndjp.net
-    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
-- cipher: aes-128-gcm
-  name: 🇺🇸US_5|1.1MB/s
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhyy.nn.kg
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 154.26.181.85
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: 🇺🇸US_6|1.8MB/s
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhyy.nn.kg
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 8443
-  server: 64.186.238.108
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: 🇺🇸US_7|1.3MB/s
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhyy.nn.kg
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 8443
-  server: 154.21.91.144
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_1|3.5MB/s
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhyy.nn.kg
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: cdn.9889888.xyz
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: 🇸🇬SG_1|1.2MB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_1|3.2MB/s
+  password: amazonskr05
   port: '443'
-  server: 13.250.131.37
+  server: 3.96.152.83
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_1|3.7MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: '50099'
+  server: r3mrcg001269pz2.cybervena.com
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇮🇪IE_1|1.1MB/s
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_2|1.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.60.99.199
   skip-cert-verify: false
-  sni: dxy1h.twiladaphne.ndjp.net
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_1|2.0MB/s
+  password: 32c0ea6e823341a2
+  port: 20129
+  server: 46.29.163.200
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_2|4.7MB/s
+  password: qwerREWQ@@
+  port: 3417
+  server: 221.150.109.19
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_5|3.1MB/s
+  password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
+  port: '51523'
+  server: ru.moktana.app
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_3|1.5MB/s
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: '45619'
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
 - name: DE_speednode_0011
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443

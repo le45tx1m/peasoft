@@ -27,21 +27,11 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 'https://t.me/v2rayNplus |🇩🇪 #1'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 44044
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
 - alpn:
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_1|1.1MB/s
+  name: 🇩🇪DE_1|1.8MB/s
   network: xhttp
   port: '443'
   server: core-shop.ir
@@ -55,6 +45,111 @@ proxies:
     mode: auto
     path: /download
     x-padding-bytes: 100-1000
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪DE_2|2.2MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|2.1MB/s
+  network: xhttp
+  port: '2087'
+  server: 172.66.213.38
+  servername: toshirpilafkani-torostamtahamtani.mgwarrior.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: b38d6372-5e65-427c-b7e0-414c0ccc9973
+  xhttp-opts:
+    host: toshirpilafkani-torostamtahamtani.mgwarrior.ir
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_4|2.2MB/s
+  network: xhttp
+  port: '8443'
+  server: 188.114.97.6
+  servername: s3.alivpn.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36796640-99ff-4834-a43e-5336b6afe450
+  xhttp-opts:
+    host: s3.alivpn.qzz.io
+    mode: auto
+    path: /take
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|2.4MB/s
+  network: tcp
+  port: '7443'
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: '!!str be0ce047'
+  server: 45.86.159.171
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|1.9MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    _spider-x: /
+    public-key: pJpaRasoceUeRDJTXEZNnKT3yW5IocPXudB_B7_rBR0
+    short-id: '!!str 4fa44664f6a566d3'
+  server: 176.97.210.14
+  servername: germany.milas.click
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 91427003-38cb-473e-95f2-a4b500c91f7b
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_7|2.7MB/s
+  network: xhttp
+  port: '443'
+  server: 188.114.98.0
+  servername: drive.speegy.club
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0dbad6ba-be87-46e1-ab90-30c53ef1878d
+  xhttp-opts:
+    mode: auto
+    path: /sreztjsterw4j
   xudp: true
 - name: DE_speednode_0011
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu

@@ -1,12 +1,34 @@
 proxies:
-- name: 🇰🇷KR_1|1.2MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|3.5MB/s
+  password: qwerREWQ@@
+  port: '55104'
+  server: 221.150.109.20
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_2|4.7MB/s
+  password: qwerREWQ@@
+  port: 3417
+  server: 221.150.109.19
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷KR_3|3.8MB/s
+  network: tcp
+  port: '8686'
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 43.201.28.206
+  servername: www.apple.com
   tls: true
-  type: http
-  username: test
+  type: vless
+  udp: true
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  xudp: true
 - name: KR_speednode_0018
   port: 1090
   server: 121.169.46.116

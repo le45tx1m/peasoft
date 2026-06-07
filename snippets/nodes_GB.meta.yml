@@ -1,5 +1,82 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|2.5MB/s
+  network: tcp
+  port: '7443'
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: '!!str be0ce047'
+  server: 31.76.113.249
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: gun
+  name: 🇬🇧GB_2|3.1MB/s
+  network: grpc
+  port: '603'
+  reality-opts:
+    public-key: M7Fbj4cpSewk46U6Z_lHubMsu3l_4U6_znKxDScDiRg
+    short-id: '!!str 88eab7318ac7'
+  server: gallery.superportret.ru
+  servername: gallery.superportret.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1ef7e301-42e9-47a7-bf57-b2e257ff995b
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_3|2.1MB/s
+  network: tcp
+  port: '8080'
+  reality-opts:
+    public-key: xFhpQSkW1CPOOkKMsMrshHGNi-Ap_wb0GxJmV0CoLVw
+    short-id: '!!str 5a'
+  server: sinavm.sinavm.sinavm.sinavm.sinavm.sinabigo.ir
+  servername: fonts.googleapis.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 22fc0199-0567-49aa-8184-c5ef5543d366
+  xudp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_4|2.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.56
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- client-fingerprint: chrome
+  name: 🇬🇧GB_5|1.4MB/s
+  network: xhttp
+  port: '443'
+  server: uk-xh-01.hpdata.click
+  servername: uk-xh-01.hpdata.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
+  xhttp-opts:
+    mode: packet-up
+    path: /vk
+  xudp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0013
   port: 443

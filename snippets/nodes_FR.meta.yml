@@ -1,1 +1,36 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|2.6MB/s
+  network: tcp
+  port: '44520'
+  reality-opts:
+    public-key: MrLRcU_2S2CpUc7VT3ajIavX5NYUiQdP6J5QTDFNGFU
+    short-id: '!!str 8897c56a495b26cc'
+  server: 51.44.25.250
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: acd726d3-0128-44d8-a575-21013ff7740a
+  xudp: true
+- name: 🇫🇷FR_2|1.0MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 64772
+  server: 62.210.29.98
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.5MB/s
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: '45619'
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+  udp: true

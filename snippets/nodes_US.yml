@@ -1,25 +1,17 @@
 proxies:
-- name: 美国|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 6604
-  server: 95.40.35.52
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 17005
-  server: 18.167.42.231
+  port: 49277
+  server: 43.199.71.149
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 95.40.40.218
+  port: 17801
+  server: 95.40.47.145
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -42,63 +34,10 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: 🇺🇸US_4|1.1MB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 8443
-  server: 64.186.240.9
-  sni: dxy1h.twiladaphne.ndjp.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: dxy1h.twiladaphne.ndjp.net
-    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
-- cipher: aes-128-gcm
-  name: 🇺🇸US_5|1.1MB/s
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhyy.nn.kg
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 154.26.181.85
-  skip-cert-verify: false
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_5|3.1MB/s
+  password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
+  port: '51523'
+  server: ru.moktana.app
   type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: 🇺🇸US_6|1.8MB/s
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhyy.nn.kg
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 8443
-  server: 64.186.238.108
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: 🇺🇸US_7|1.3MB/s
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhyy.nn.kg
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 8443
-  server: 154.21.91.144
-  skip-cert-verify: false
-  type: ss
-  udp: false
+  udp: true
