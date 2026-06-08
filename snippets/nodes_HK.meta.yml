@@ -64,19 +64,3 @@ proxies:
   tls: true
   type: http
   username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-- name: HK_speednode_0016
-  password: <password>
-  port: 8443
-  server: 88456c11-ta1og0-tnqudu-1mim2.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
-- name: HK_speednode_0017
-  password: <password>
-  port: 8443
-  server: 90d955b3-t9zts0-trg4wh-z65w.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
