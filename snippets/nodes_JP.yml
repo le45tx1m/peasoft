@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇯🇵JP_4|1.0MB/s
+- name: 日本2|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 5701
@@ -23,67 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_1|3.0MB/s
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhll.qqs.me
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 54.65.58.58
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_2|2.1MB/s
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhll.qqs.me
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 18.178.41.33
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_5|3.4MB/s
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhll.qqs.me
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 3.112.132.156
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_6|2.5MB/s
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhll.qqs.me
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 18.182.54.28
-  skip-cert-verify: false
-  type: ss
-  udp: false

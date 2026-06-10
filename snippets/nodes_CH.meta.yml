@@ -1,1 +1,43 @@
-proxies: []
+proxies:
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+  name: 🇨🇭CH_1|2.3MB/s
+  network: http
+  port: '22'
+  server: 172.65.111.43
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+  name: 🇨🇭CH_2|2.6MB/s
+  network: http
+  port: '22'
+  server: 172.65.111.43
+  type: vless
+  udp: true
+  uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_3|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: cc_O0Y2X8gIdbPzbp0CzRejf_LN1zOiuHD70GBs8e3M
+    short-id: '!!str 37919c8e74071571'
+  server: 138.124.72.97
+  servername: pol01.port-server.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: dbfa97b8-f4fb-4687-96dc-a5a2aebfae11
+  xudp: true

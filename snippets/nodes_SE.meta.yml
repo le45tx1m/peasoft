@@ -1,17 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|1.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: KKOrWG1KmQ38JdnVQXLxDM8P6SwlpF2Ljf1twkE5A1g
-    short-id: '!!str 7074061f168ffdf3'
-  server: 193.188.21.19
-  servername: swe.hatvpn.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9bc4a008-bc91-4ec2-aa3d-589584511965
-  xudp: true
+proxies: []
