@@ -6,7 +6,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 🇯🇵JP_3|1.8MB/s
+- name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 47655
@@ -22,18 +22,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵JP_2|1.2MB/s
-  network: ws
-  port: 2096
-  server: 108.162.198.11
-  servername: cfnode-1xg.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c135158e-5869-4397-8116-6695ca18cd48
-  ws-opts:
-    headers:
-      Host: cfnode-1xg.pages.dev
-    path: /

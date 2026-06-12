@@ -15,7 +15,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK_5|1.7MB/s
+- name: 香港3|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 53018
@@ -49,42 +49,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|1.5MB/s
-  network: tcp
-  port: '7443'
-  reality-opts:
-    public-key: _GHDETa6pflP7WjkBT-2jMYnb0xRs-e8LrCu93Z_CHo
-    short-id: '!!str d82fb387'
-  server: 103.112.71.172
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 89304de3-af59-4313-b18d-c93dadf54537
-  xudp: true
-- name: 🇭🇰HK_3|1.2MB/s
-  password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-  port: 5228
-  server: 19fdb0e3-t9zts0-tbck4p-mv7m.cm4.oshuawei.com
-  sni: 19fdb0e3-t9zts0-tbck4p-mv7m.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-- name: 🇭🇰HK_4|1.1MB/s
-  password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-  port: 5228
-  server: 2a162951-tetwg0-tga61j-mv7m.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-- name: 🇭🇰HK_6|1.1MB/s
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 103.177.136.45
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan

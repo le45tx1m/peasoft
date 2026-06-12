@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.8MB/s
-  network: ws
-  port: 8080
-  server: jd.103672.xyz
-  tls: false
-  type: vmess
-  uuid: c14a83db-f333-452e-acff-93b8f7160b10
-  ws-opts:
-    headers:
-      Host: dedasabo.103466.xyz
-    path: /
 - name: DE_speednode_0001
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443

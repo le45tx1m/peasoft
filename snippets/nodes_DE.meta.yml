@@ -17,53 +17,101 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- encryption: none
-  name: US_speednode_0049
-  network: ws
-  port: 80
-  server: 199.232.197.131
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-  xudp: true
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_2|2.6MB/s
+  name: 🇩🇪DE_1|1.6MB/s
   network: xhttp
-  port: '2053'
-  server: 45.85.119.181
-  servername: FREEchanell1.mobilezahra.com.
+  port: '8443'
+  server: xco.xonline.sbs
+  servername: xco.trevor.ir
   tls: true
   type: vless
   udp: true
-  uuid: 98731bd6-07ae-4fd0-b05c-26253eea43db
+  uuid: 08921b67-94f3-4bfd-9bb4-e3ec09bf3ed4
   xhttp-opts:
-    host: FREEchanell1.mobilezahra.com.
+    host: xco.trevor.ir
     mode: auto
-    sc-min-posts-interval-ms: 30
+    path: /cocjslfnr
     x-padding-bytes: 100-1000
   xudp: true
-- alterId: 0
-  cipher: auto
+- alpn:
+  - http/1.1
+  - h2
   client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.8MB/s
-  network: ws
-  port: 8080
-  server: jd.103672.xyz
-  tls: false
-  type: vmess
-  uuid: c14a83db-f333-452e-acff-93b8f7160b10
-  ws-opts:
-    headers:
-      Host: dedasabo.103466.xyz
-    path: /
+  encryption: none
+  name: 🇩🇪DE_2|2.3MB/s
+  network: xhttp
+  port: '443'
+  server: config3.yallda.org
+  servername: shop.yallda.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac006062-f051-43c6-bd4c-f409285c8635
+  xhttp-opts:
+    host: www.yallda.com
+    mode: auto
+    path: /v2raylink
+  xudp: true
+- alpn:
+  - http/1.1
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|2.3MB/s
+  network: xhttp
+  port: '443'
+  server: 192.200.160.120
+  servername: shop.yallda.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac006062-f051-43c6-bd4c-f409285c8635
+  xhttp-opts:
+    host: www.yallda.com
+    mode: auto
+    path: /v2raylink
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|2.2MB/s
+  network: tcp
+  port: '10883'
+  reality-opts:
+    public-key: -teC-ZXJjQ4v9nyjUKvzOd3FWj-A1QQrKd5FXgjul3s
+    short-id: '!!str '
+  server: 62.60.230.211
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f3fc72ac-da16-43f9-b4f5-d860f2497d53
+  xudp: true
+- alpn:
+  - http/1.1
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_5|2.4MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: 45.130.125.6
+  servername: shop.yallda.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac006062-f051-43c6-bd4c-f409285c8635
+  xhttp-opts:
+    host: www.yallda.com
+    mode: auto
+    path: /v2raylink
 - name: DE_speednode_0001
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443

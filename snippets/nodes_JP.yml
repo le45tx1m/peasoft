@@ -1,5 +1,5 @@
 proxies:
-- name: 🇯🇵JP_3|1.8MB/s
+- name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 47655

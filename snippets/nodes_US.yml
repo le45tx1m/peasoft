@@ -42,21 +42,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_8|1.9MB/s
-  network: ws
-  password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
-  port: '443'
-  server: h2.bnm.uw.to
-  skip-cert-verify: false
-  sni: h2.bnm.uw.to
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
