@@ -50,42 +50,28 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
+  name: 🇭🇰HK_1|2.0MB/s
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: '8443'
+  server: 83.229.121.78
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|2.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 186.246.9.168
-  servername: sellflow.org
+  name: HK_speednode_0002
+  port: 443
+  server: assets.trorays.com
+  servername: assets.trorays.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
-  xudp: true
-- encryption: none
-  headerType: none
-  name: 🇭🇰HK_2|3.5MB/s
-  network: tcp
-  port: 10000
-  security: none
-  server: 207.174.133.169
-  type: vless
-  uuid: d26598cf-2cdf-4219-80d0-94646dff160d
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇭🇰HK_3|2.3MB/s
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: 443
-  server: 103.74.192.228
-  sni: jy.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jy.hhllfly.kdns.fr
-    max-early-data: 2048
-    path: /
+  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606

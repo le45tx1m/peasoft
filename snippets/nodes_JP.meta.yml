@@ -30,76 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇯🇵JP_1|1.4MB/s
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: '443'
-  server: saas.sin.fan
-  skip-cert-verify: false
-  sni: jy.hhllfly.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇯🇵JP_2|1.3MB/s
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: '443'
-  server: 35.72.81.216
-  skip-cert-verify: false
-  sni: jy.hhllfly.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇯🇵JP_3|1.2MB/s
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: '443'
-  server: 154.83.95.129
-  skip-cert-verify: false
-  sni: jy.hhllfly.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /?ed=2048
-- allowInsecure: '1'
-  insecure: '1'
-  name: 🇯🇵JP_4|3.3MB/s
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: 443
-  security: tls
-  server: 57.182.89.177
-  servername: jy.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: jy.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jy.hhllfly.kdns.fr
-    max-early-data: 2048
-    path: /
-- name: 🇯🇵JP_5|1.8MB/s
+- name: 🇯🇵JP_1|2.0MB/s
   network: ws
   password: hV66LcSGyxUdHq2aAeqxmLfpBDQmRYxo8Wte43oZr8L379SS
   port: 443
@@ -110,3 +41,79 @@ proxies:
     headers:
       Host: node2.bw8848.org
     path: /node2-node2-gu7bfd
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_2|2.9MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: wangcai.cf.877774.xyz
+  servername: ex3r.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  ws-opts:
+    headers:
+      Host: ex3r.qzz.io
+    path: /sg-orcl
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇯🇵JP_3|1.1MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 108.160.132.178
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_4|1.3MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 45.192.242.10
+  servername: s5.868001.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+  ws-opts:
+    headers:
+      Host: s5.868001.xyz
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇯🇵JP_5|2.6MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 154.83.95.129
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /

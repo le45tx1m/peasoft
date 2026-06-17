@@ -40,41 +40,19 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 🇸🇬SG_1|3.6MB/s
+  name: 🇸🇬SG_1|3.5MB/s
   network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: '443'
-  server: store.ubi.com
-  skip-cert-verify: true
-  sni: jy.hhllfly.kdns.fr
-  type: trojan
+  port: '2083'
+  server: animal.nuaa.tech
+  servername: s.f.3.y.h.j.x.3.q.w.9.n.g.6.h.x.660696.xyz
+  tls: true
+  type: vless
   udp: true
+  uuid: 6e8f5055-1020-4a3e-8223-556818d18fde
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
+      Host: s.f.3.y.h.j.x.3.q.w.9.n.g.6.h.x.660696.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /
-- down: ''
-  fingerprint: ''
-  name: 🇸🇬SG_2|1.7MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-003.fastervpn.world
-  type: hysteria2
-  up: ''
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇸🇬SG_3|2.7MB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
