@@ -1,1 +1,35 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: vless-grpc
+  name: 🇪🇪EE_1|2.6MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: QGnGWzhnKWHNkpRXIm13T-2OFfZ8h7ch9pJhpqADzFU
+    short-id: '!!str '
+  server: 132.243.65.121
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: dd47f0f6-e503-44d5-8243-0f48c1c20c28
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: gun
+  name: 🇪🇪EE_2|1.3MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: dEdb0K8U-uTlYx8OAyuaFFbwiL0eS7ZuVsPAYdZUvyk
+    short-id: '!!str 3e0c736d79'
+  server: 186.246.13.22
+  servername: ubuntu.ubuntuhosting.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: ded3638e-ab7f-4ff8-bc60-9fc6666cff22
+  xudp: true

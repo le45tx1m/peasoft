@@ -1,10 +1,1 @@
-proxies:
-- encryption: none
-  name: 🇨🇳CN_1|1.6MB/s
-  network: tcp
-  port: '44058'
-  server: 103.118.255.19
-  type: vless
-  udp: true
-  uuid: 65498631-4e25-49ce-8789-b57547d8c261
-  xudp: true
+proxies: []

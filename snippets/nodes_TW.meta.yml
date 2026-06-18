@@ -7,24 +7,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇹🇼TW_1|1.5MB/s
-  network: ws
-  port: '443'
-  server: 188.253.6.249
-  servername: s5.868001.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-  ws-opts:
-    headers:
-      Host: s5.868001.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /proxyip=ProxyIP.CMLiussss.net
-  xudp: true
 - name: TW_speednode_0067
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
