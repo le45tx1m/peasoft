@@ -1,10 +1,1 @@
-proxies:
-- encryption: none
-  name: 🇫🇷FR_1|1.5MB/s
-  network: tcp
-  port: '6805'
-  server: faranse.duravex.net
-  type: vless
-  udp: true
-  uuid: 4c0c49ab-28f1-4411-bf90-5d073caf56ed
-  xudp: true
+proxies: []

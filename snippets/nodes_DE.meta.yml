@@ -17,30 +17,63 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|1.6MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|2.0MB/s
   network: tcp
+  port: '443'
+  server: 5.175.178.81
+  servername: esttk31.potatosubge20.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: d23a1ce1-b6a6-4a58-b56b-1be6a1cd7d39
+  xudp: true
+- insecure: '1'
+  mport: 40000-49999
+  name: 🇩🇪DE_2|1.0MB/s
+  obfs: salamander
+  obfs-password: YzgyOTowNDk4ZTU2NTdiNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: de-by10fuo0kw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|1.9MB/s
+  network: ws
   packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  server: 47.254.156.143
-  servername: api.company-target.com
+  server: g-de2-x9cr8bwsquaj.radshim.com
+  servername: g-de2-x9cr8bwsquaj.radshim.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  uuid: dc109a0f-04e7-4e27-8df0-4decdc4fc90c
+  ws-opts:
+    path: /ws
 - client-fingerprint: firefox
-  name: 🇩🇪DE_2|1.0MB/s
+  name: 🇩🇪DE_4|1.7MB/s
   network: xhttp
   packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: jI-HduKz_9UsArUUdbGFhqbB-73xllmGP1-yc_RGTFg
-    short-id: '!!str 72a9de7fe720652b'
-  server: 89.169.54.21
-  servername: ads.x5.ru
+    public-key: 33QqunoReeEg7c91wXRc29hGIEBfjQbajsg3-wcmX38
+    short-id: '!!str c4a3aac6dace3289'
+  server: 83.243.86.237
+  servername: www.microsoft.com
   skip-cert-verify: false
   tls: true
   type: vless
@@ -48,26 +81,26 @@ proxies:
   uuid: 1c7e2730-839d-4321-84f9-4e6b69ea4856
   xhttp-opts:
     mode: auto
-    path: /v4/manifest/de03
+    path: /cdn/segments/v2
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_3|1001KB/s
+  name: 🇩🇪DE_5|2.6MB/s
   network: ws
-  port: '8443'
-  server: 8.47.69.219
-  servername: vlam-3xiozxip02.wordpresscpanel.ir
+  port: '443'
+  server: client.jison.ir
+  servername: fty.jison.ir
   tls: true
   type: vless
   udp: true
-  uuid: cdfdf759-6e72-4766-88d4-6e7143f880b2
+  uuid: 06a368f4-e62e-4486-97a1-4c60bb7a0eed
   ws-opts:
     headers:
-      Host: vlam-3xiozxip02.wordpresscpanel.ir
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
-    path: /lpcaladdd
+      Host: sdt.jison.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /ws
   xudp: true

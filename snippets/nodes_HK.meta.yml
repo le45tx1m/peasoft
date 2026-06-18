@@ -49,22 +49,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_2|1.5MB/s
-  network: raw
-  port: '58712'
-  reality-opts:
-    public-key: en2L9xxQOv2w4eD0sxqu3eOFGnqOxZLWuR9sFqBDdAM
-    short-id: '!!str f266fd3d4e'
-  server: 1.sdwan.realm-sync.com
-  servername: swcdn.apple.com
-  tls: true
-  type: vless
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇭🇰HK_1|2.4MB/s
+  network: ws
+  password: bc2f8931-cb3d-4a13-8198-ad0d9d5ef06a
+  port: '443'
+  server: HKNTT1.mmm.uw.to
+  skip-cert-verify: false
+  sni: HKNTT1.mmm.uw.to
+  type: trojan
   udp: true
-  uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /bc2f8931-cb3d-4a13-8198-ad0d9d5ef06a-tr
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: HK_speednode_0002

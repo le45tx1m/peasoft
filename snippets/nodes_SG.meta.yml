@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_2|1.4MB/s
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -40,11 +40,60 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|1.8MB/s
-  password: BxceQaOe
-  port: '45744'
-  server: 16.162.87.106
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+  encryption: none
+  name: 🇸🇬SG_1|3.5MB/s
+  network: ws
+  port: '443'
+  server: youxuan.cf.090227.xyz
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
   udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_2|3.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22472
+  reality-opts:
+    _spider-x: /
+    public-key: DEvHMT3zhxUxnuqJxq88Z_8413kiseb7YtzU719D4kg
+    short-id: '!!str 45cb8dfc393d9191'
+  server: 18.143.177.226
+  servername: www.sony.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b79c2ed-528b-45e4-8997-e5d9de81e8e2
+  xudp: true
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: 🇸🇬SG_3|1.4MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 207.148.119.176
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /

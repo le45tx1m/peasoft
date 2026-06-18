@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- client-fingerprint: edge
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api
+  name: 🇷🇺RU_1|1.4MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 23356
+  reality-opts:
+    public-key: KtHJA0ZiW3VEPTjGQOlT3NlXZWlqAPHKHqki_IGX3Wk
+    short-id: '!!str 483d116ad48a4091'
+  server: us.mail-appstatus.net
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bfd6c195-e37e-40ed-b962-c3ea4ac0f5df

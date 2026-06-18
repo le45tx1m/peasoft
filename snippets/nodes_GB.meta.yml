@@ -1,1 +1,42 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|2.0MB/s
+  network: tcp
+  port: '18633'
+  reality-opts:
+    public-key: tpovASeNxNkqDfPZhr2raGUY6pis-9XSLCB6DrIEU1g
+    short-id: '!!str d9029b790f10b2e2'
+  server: 3.8.160.120
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5da5bc00-ea44-462e-bdb7-7687346ad039
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|2.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 4HjtN0YBEbiECAB-A-arFQUHlozgxpSEZx5g4436fF4
+    short-id: '!!str 99cf4c707e103c1e'
+  server: 2.26.81.78
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a9a91808-8e7a-4f8d-9658-ab1b94f199e8
+- encryption: none
+  name: 🇬🇧GB_3|2.7MB/s
+  network: tcp
+  port: '22263'
+  server: 104.194.148.56
+  type: vless
+  udp: true
+  uuid: 05671cd1-ab2f-4f64-a926-b655f199a23d
+  xudp: true
