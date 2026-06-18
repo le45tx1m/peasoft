@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡3|@ripaojiedian
+- name: 🇸🇬SG_2|1.4MB/s
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -39,22 +39,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 🇸🇬SG_1|2.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-003.fastervpn.world
+- client-fingerprint: chrome
+  name: 🇸🇬SG_3|1.8MB/s
+  password: BxceQaOe
+  port: '45744'
+  server: 16.162.87.106
   skip-cert-verify: true
-  sni: vpn-sg-003.fastervpn.world
-  type: hysteria2
-  up: ''
-- name: 🇸🇬SG_2|2.1MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-002.fastervpn.world
-  type: hysteria2
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true

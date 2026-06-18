@@ -1,11 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|1.1MB/s
-  network: tcp
-  password: SoftNetConnect
-  port: '42549'
-  server: 194.5.193.58
-  skip-cert-verify: true
-  sni: www.speedtest.net
-  type: trojan
-  udp: true
+proxies: []

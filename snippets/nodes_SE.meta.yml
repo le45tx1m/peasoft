@@ -1,35 +1,27 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|2.1MB/s
+  name: 🇸🇪SE_1|1.3MB/s
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: tSxNp48AuTUzqggANCWsR6v7bqlguCoVWk_YOUs36Ug
-    short-id: '!!str fe12'
-  server: 144.31.128.56
-  servername: 33432ews-topology-gslb-yccdn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8bf51de-efc9-42a4-be50-1a6bc3170c63
-  xudp: true
-- client-fingerprint: chrome
-  name: SE_speednode_0057
-  network: tcp
-  port: 8443
-  server: 45.159.12.9
+  port: '8443'
+  server: 45.159.12.162
   servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   xudp: true
 - client-fingerprint: chrome
+  name: SE_speednode_0055
+  port: 8443
+  server: 45.159.12.191
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- client-fingerprint: chrome
   name: SE_speednode_0056
-  network: tcp
   port: 8443
   server: 79.127.249.221
   servername: ams1.fromblancwithlove.com
@@ -38,18 +30,10 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇪SE_4|3.5MB/s
-  password: yu2XnSPWhmQjxn83iJA3DA
-  port: '3478'
-  server: 207.2.120.46
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: SE_speednode_0055
+  name: SE_speednode_0057
   port: 8443
-  server: 45.159.12.191
+  server: 45.159.12.9
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true

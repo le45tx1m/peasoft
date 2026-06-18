@@ -1,8 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇪SE_4|3.5MB/s
-  password: yu2XnSPWhmQjxn83iJA3DA
-  port: '3478'
-  server: 207.2.120.46
-  type: ss
-  udp: true
+proxies: []

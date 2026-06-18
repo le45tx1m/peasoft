@@ -18,65 +18,56 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 🇩🇪DE_1|1.1MB/s
+  name: 🇩🇪DE_1|1.6MB/s
   network: tcp
-  password: SoftNetConnect
-  port: '42549'
-  server: 194.5.193.58
-  skip-cert-verify: true
-  sni: www.speedtest.net
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|3.3MB/s
-  network: tcp
-  port: '443'
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: P5ceHLOW8Gmz45z-ozbm9T6xsdSsIGLB71-jMfSjCBQ
-    short-id: '!!str 04bc695105689674'
-  server: 159.195.46.178
-  servername: 4.oncloudnineservicestreang.com
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 47.254.156.143
+  servername: api.company-target.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|2.9MB/s
-  network: tcp
-  port: '2083'
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- client-fingerprint: firefox
+  name: 🇩🇪DE_2|1.0MB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
   reality-opts:
-    public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY
-    short-id: '!!str 4e590fdc'
-  server: 194.5.193.58
-  servername: www.yahoo.com
+    public-key: jI-HduKz_9UsArUUdbGFhqbB-73xllmGP1-yc_RGTFg
+    short-id: '!!str 72a9de7fe720652b'
+  server: 89.169.54.21
+  servername: ads.x5.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 89049f79-320b-48a0-b1cf-110165cae30c
-  xudp: true
+  uuid: 1c7e2730-839d-4321-84f9-4e6b69ea4856
+  xhttp-opts:
+    mode: auto
+    path: /v4/manifest/de03
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪DE_4|1.5MB/s
+  encryption: none
+  name: 🇩🇪DE_3|1001KB/s
   network: ws
-  port: '443'
-  server: client.jison.ir
-  servername: fty.jison.ir
+  port: '8443'
+  server: 8.47.69.219
+  servername: vlam-3xiozxip02.wordpresscpanel.ir
   tls: true
   type: vless
   udp: true
-  uuid: b65a3fa8-5d9a-433c-b77b-20db894be63d
+  uuid: cdfdf759-6e72-4766-88d4-6e7143f880b2
   ws-opts:
     headers:
-      Host: sdt.jison.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /ws
+      Host: vlam-3xiozxip02.wordpresscpanel.ir
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    path: /lpcaladdd
   xudp: true
