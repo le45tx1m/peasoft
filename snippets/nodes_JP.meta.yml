@@ -47,25 +47,30 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0131
+  name: 🇯🇵JP_2|3.3MB/s
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
     public-key: IOO3P6BDqBjUA0gB4tgpvxrXL6Fit88QgpJ1y6GYyz0
     short-id: '!!str 0f4dacf88202e05f'
   server: 142.91.108.139
   servername: jp.api-yandex.net
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 7e6d3393-bb84-45c7-9eef-35de95805b7e
   xudp: true
-- name: JP_speednode_0011
-  password: BxceQaOe
-  port: 5408
-  server: 54.65.32.119
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+- name: JP_speednode_0010
+  network: ws
+  port: 80
+  server: 151.101.109.223
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
