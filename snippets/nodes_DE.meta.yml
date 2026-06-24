@@ -27,6 +27,16 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
+- name: '🇩🇪@V2RayyNGvpn🇩🇪 #1'
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: ockdTdb3vU
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   auth-str: dongtaiwang.com
