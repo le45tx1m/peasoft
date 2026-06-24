@@ -30,6 +30,16 @@ proxies:
 - name: '🇩🇪@V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
+  password: Z7MFGgpuzh
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
+- name: '🇩🇪@V2RayyNGvpn🇩🇪 #2'
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
   password: ockdTdb3vU
   port: 443
   server: 185.250.41.245
@@ -103,18 +113,19 @@ proxies:
     x-padding-bytes: 100-1000
   xudp: true
 - encryption: none
-  name: 🇩🇪DE_5|2.6MB/s
+  name: US_speednode_0056
   network: ws
-  port: '80'
+  port: 80
   server: 151.101.171.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /?ed=2560
   xudp: true
 - alpn:
