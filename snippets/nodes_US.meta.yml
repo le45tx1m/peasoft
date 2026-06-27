@@ -10,7 +10,7 @@ proxies:
 - name: 🇺🇸US_@WangCai_8
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 34.220.246.198
+  server: 3.133.156.115
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -31,418 +31,98 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|1.1MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_2|1.1MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 199.181.197.176
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /MiTiVPN=fL
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_3|1.2MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 164.38.155.135
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /MiTiVPN=De
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_4|2.6MB/s
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 94.140.0.100
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.135 Safari/537.36
-    path: /MiTiVPN=Usa
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_5|2.6MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 45.131.4.118
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /MiTiVPN=Se
-- name: 🇺🇸US_6|1.1MB/s
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 🇺🇸US_7|1.5MB/s
-  network: grpc
-  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-  port: 10240
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    server-name: s0.awsstatic.com
-    short-id: '!!str 686c0ef0'
-  security: reality
-  server: us3-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  sid: 686c0ef0
-  tls: true
-  type: vless
-  uuid: 418DA912-0248-4762-8D21-5CB38467CA4D
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  mode: gun
-  name: 🇺🇸US_8|1.3MB/s
-  network: grpc
-  pbk: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-  port: 10239
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    server-name: s0.awsstatic.com
-    short-id: '!!str 686c0ef0'
-  security: reality
-  server: us2-r.link-t7.com
-  servername: s0.awsstatic.com
-  serviceName: movie
-  sid: 686c0ef0
-  tls: true
-  type: vless
-  uuid: 418DA912-0248-4762-8D21-5CB38467CA4D
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_9|3.1MB/s
-  network: tcp
-  port: '22335'
-  reality-opts:
-    public-key: zPM3iLhD0ppwxYWzwiXFhQd1PwXCjFN9u28DbXdy604
-    short-id: '!!str a2346cd0'
-  server: 216.167.28.246
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a3a8c354-a85c-477b-90f3-dbe08cadf31c
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_10|1.6MB/s
-  network: ws
-  port: '443'
-  server: a.shoma.qzz.io
-  servername: a.shoma.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22eca63b-d75b-46f9-a522-32f589454a2b
-  ws-opts:
-    headers:
-      Host: a.shoma.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /ws
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_11|1.2MB/s
-  network: ws
-  port: '80'
-  server: 104.18.131.112
-  type: vless
-  udp: true
-  uuid: 3087ca05-1a7c-45fa-aec9-805adeaedb1b
-  ws-opts:
-    headers:
-      Host: tianshu.kevqwkt451.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- name: 🇺🇸US_12|1.1MB/s
+- name: 🇺🇸US_1|1.0MB/s
   network: ws
   port: '8880'
-  server: 104.16.100.66
+  server: 172.64.88.251
   type: vless
   udp: true
-  uuid: 4e81922a-1c2e-41ee-bb4c-9095a0a363fe
+  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
   ws-opts:
     headers:
-      Host: gentle-cell-501a.273-d6b.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+      Host: patient-cake-39c7.44-e7a.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- client-fingerprint: randomized
-  name: US_speednode_0025
-  network: ws
-  port: 2095
-  server: blog.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US_speednode_0055
+  port: 14005
+  reality-opts:
+    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
+    short-id: '!!str 97a01dfaef'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0026
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US_speednode_0056
+  port: 443
+  reality-opts:
+    public-key: JlcNtRODuC4k8GhBFuXwjps9cRe3asq453_RLd3o9E8
+    short-id: '!!str e9e3098b62530266'
+  server: 38.244.20.69
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0027
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
+  uuid: 057f3c26-0fe7-4315-aabc-90c79d413d70
+- name: US_speednode_0058
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 443
+  server: e760451b-ta1og0-tan99f-1rdqg.jp.oshuawei.com
+  tls: true
+  type: http
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0028
-  network: ws
-  port: 2095
-  server: www.epicgames.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+- name: US_speednode_0059
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 443
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  tls: true
+  type: http
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0029
-  network: ws
-  port: 2095
-  server: ns.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: US_speednode_0060
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 443
+  server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+  tls: true
+  type: http
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0030
-  network: ws
-  port: 2095
-  server: cf.090227.xyz
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- name: US_speednode_0061
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 443
+  server: 786f666d-t9zts0-tatrrz-yjq0.sjc.oshuawei.com
+  tls: true
+  type: http
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0031
-  network: ws
-  port: 2095
-  server: cloudflare-dns.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- name: US_speednode_0062
+  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  port: 443
+  server: d6a15dd2-tegxs0-tejxhc-1rdqg.se.oshuawei.com
+  tls: true
+  type: http
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0032
+  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+- name: US_speednode_0063
   network: ws
-  port: 2095
-  server: docs.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
   skip-cert-verify: false
-  tls: false
-  type: vless
+  sni: www.gamingdll.ir
+  type: trojan
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0033
-  network: ws
-  port: 2095
-  server: www.wto.org
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0034
-  network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0035
-  network: ws
-  port: 2095
-  server: support.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0036
-  network: ws
-  port: 2095
-  server: cdnjs.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0037
-  network: ws
-  port: 2095
-  server: www.npmjs.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0038
-  network: ws
-  port: 2095
-  server: www.udemy.com
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0039
-  network: ws
-  port: 2095
-  server: www.whatismyip.net
-  servername: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-i.workers.dev
-    path: /
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn
