@@ -1,4 +1,12 @@
 proxies:
+- name: 🇰🇷KR_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 43.202.60.234
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - name: 🇰🇷KR_1|2.3MB/s
   password: test.+
   port: 30446
