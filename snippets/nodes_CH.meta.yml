@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: 🇨🇭CH_1|1.6MB/s
+  network: xhttp
+  port: '443'
+  server: 151.101.56.6
+  servername: speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: e76add86-320b-459c-a120-3af8b7e511d4
+  xhttp-opts:
+    host: mmdxiali.global.ssl.fastly.net
+    mode: packet-up
+    path: /mammadalifsx
+  xudp: true
