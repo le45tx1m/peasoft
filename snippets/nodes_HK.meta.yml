@@ -49,34 +49,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|1.0MB/s
-  port: 14001
-  reality-opts:
-    public-key: Iy9qptuQLY7JphySdvf09hOBj6Ym76Sxj1rIwS4Qmnk
-    short-id: '!!str 16'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK_2|1021KB/s
-  port: 14007
-  reality-opts:
-    public-key: wybFjQzLnkKIaaTEhwp_N9UXU8miqds9U__P971YHlU
-    short-id: '!!str 1d89ebb78c'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - name: HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443

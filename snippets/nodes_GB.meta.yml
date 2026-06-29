@@ -1,19 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_1|2.4MB/s
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: 4XxjInQuDp4SqaYF03yQ1VY61exkKi9e0RS5-kgyxAE
-    short-id: '!!str db04ce8bdb8900f1'
-  server: 31.77.161.2
-  servername: prod.de-node-01.security-sbrf.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6704fb4-4874-4e6b-98f4-571b048e3d90
-  xudp: true
 - name: GB_speednode_0005
   network: ws
   password: MITIVPN

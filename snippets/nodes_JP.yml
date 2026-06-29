@@ -23,20 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 🇯🇵JP_7|2.6MB/s
-  network: ws
-  password: Mitivpn
-  port: '443'
-  server: 151.101.1.242
-  skip-cert-verify: false
-  sni: cdn.gamingdll.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /de=mitivpn

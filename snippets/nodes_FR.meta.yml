@@ -1,20 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_2|1.6MB/s
-  network: tcp
-  port: 80
-  reality-opts:
-    public-key: mjkj2VuAfc9eoRfIVNaHgUV7fZR40XgnjeE31hVVR24
-    short-id: '!!str c1'
-  server: 45.67.139.162
-  servername: www.sony.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2c212fbb-08f9-4be0-a128-b10892111d6d
-  xudp: true
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443

@@ -1,18 +1,11 @@
 proxies:
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|1.9MB/s
-  network: tcp
-  packet-encoding: xudp
+- name: 🇸🇪Sweeden 🇸🇪2
+  obfs: salamander
+  obfs-password: t-me-v2rayyngvpn
+  password: V2rayyNGvpn
   port: 443
-  reality-opts:
-    public-key: I_h51HYy1GxghdjFod51Wv4xIAeRh1ezYN-7vubv5zQ
-    short-id: '!!str a1ab5a56bc11c2'
-  server: sw.cloudload.org
-  servername: sw.cloudload.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17550015-678f-43ad-b0d2-65c0a829bedb
+  server: 65.20.114.95
+  skip-cert-verify: true
+  sni: www.oracle.com
+  tls: false
+  type: hysteria2
