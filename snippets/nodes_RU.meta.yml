@@ -1,1 +1,51 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: gun
+  name: 🇷🇺RU_1|1.8MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: HHbMyxLRgywVoS_G5d35HW0bToENF0ihXHJ20iLAYRM
+    short-id: '!!str 707c8615b9'
+  server: ru.vpnburger.ru
+  servername: kaos.ubuntuhosting.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8aa07b45-5cce-432d-8cf8-52dcaa8b712b
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺RU_2|1.7MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
+    short-id: '!!str '
+  server: 88.218.44.4
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_4|2.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: dRPcJM7ZWihjiGNHuIJ4iaCpLxHAKoo59WE-vsTZASs
+    short-id: '!!str 41f6de54'
+  server: 91.243.86.196
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 34a1ada8-4a1a-434b-8583-7b68668f6e9d
+  xudp: true
