@@ -1,15 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: edge.sync.v1
-  name: 🇪🇪EE_1|1.4MB/s
-  network: grpc
-  port: '443'
-  server: eeb.webinarly.fun
-  servername: eeb.webinarly.fun
-  tls: true
+- name: 'A - 🇪🇪 EE 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.50
   type: vless
-  udp: true
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-  xudp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /?ed=2560
