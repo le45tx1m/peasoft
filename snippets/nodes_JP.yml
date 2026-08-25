@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -28,11 +19,13 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: 🇯🇵JP_1|2.8MB/s
+- client-fingerprint: chrome
+  name: 🇯🇵JP_3|1.7MB/s
+  network: raw
   password: 6519a715da174466
-  port: 101
+  port: '101'
   server: jcnp178.pacemakere.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: trojan
   udp: true
