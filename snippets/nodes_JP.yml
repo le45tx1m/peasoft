@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - name: 🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 9408
@@ -34,11 +25,4 @@ proxies:
   server: 18.163.115.126
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇯🇵JP_3|1.3MB/s
-  password: HOrViv
-  port: 28102
-  server: 209.248.32.117
-  skip-cert-verify: true
-  sni: ctldl.windowsupdate.com
   type: trojan
