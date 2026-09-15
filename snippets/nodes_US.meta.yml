@@ -17,6 +17,14 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- name: 🇺🇸172415 | ⚡️Telegram = t.me/S...
+  password: 18bd49994f2eea74ff62798bd75fb7d1
+  port: 443
+  server: 107.175.219.48
+  skip-cert-verify: true
+  sni: 107.175.219.48
+  tls: false
+  type: hysteria2
 - cipher: aes-256-gcm
   name: 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -37,177 +45,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|4.3MB/s
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-- name: 🇺🇸US_2|3.1MB/s
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_3|4.4MB/s
-  password: ''
-  port: '443'
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- client-fingerprint: chrome
-  name: 🇺🇸US_4|1.2MB/s
-  network: ws
-  port: 443
-  server: 43.174.195.1
-  servername: kkkk-8oc.pages.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  ws-opts:
-    headers:
-      Host: kkkk-8oc.pages.dev
-    path: /?ed=2048
-- name: 🇺🇸US_5|4.2MB/s
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_6|4.6MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_7|4.2MB/s
-  password: ''
-  port: 443
-  server: purposebydesig.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_8|4.3MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_9|2.4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_10|4.6MB/s
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_11|3.7MB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_12|1.9MB/s
+- name: 🇺🇸US_1|1.4MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
   server: anytls2.864106.xyz
   skip-cert-verify: true
   sni: anytls2.864106.xyz
   type: anytls
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_13|2.1MB/s
-  network: ws
-  port: '443'
-  server: ghosts-spasm.quick-cdn.net
-  servername: ghosts-spasm.quick-cdn.net
-  tls: true
-  type: vless
   udp: true
-  uuid: e262a993-a3be-4f36-95ba-81dc1e32d78c
-  ws-opts:
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸US_14|3.9MB/s
-  password: None
-  port: '9002'
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_15|1.1MB/s
-  network: ws
-  port: '8880'
-  server: 80.93.202.40
-  servername: vms.lifetime02.workers.dev
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_16|3.0MB/s
-  network: ws
-  port: '8880'
-  server: 63.141.128.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_17|1.3MB/s
-  network: ws
-  port: '8880'
-  server: 72.167.25.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: ''
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
