@@ -1,90 +1,5 @@
 proxies:
-- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 185.193.30.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.40.146.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /?ed=2560
-- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.110.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: 'B - 🇬🇧 GB 04 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 185.159.247.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-    path: /
-- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 77.75.199.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- http-opts:
-    headers:
-      Host:
-      - fr.khamenei.ir
-    method: GET
-    path:
-    - /
-  name: 🇬🇧GB_1|4.1MB/s
-  network: http
-  port: 443
-  server: 143.110.162.77
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_7|1.2MB/s
-  network: tcp
-  port: 22117
-  reality-opts:
-    public-key: Vqwhml0SG253PsBtx9xi3GJY-hhyA6sgGUJ_wVI7Q1g
-    short-id: '!!str c7994be0'
-  server: 178.79.149.80
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  xudp: true
-- name: 🇬🇧GB_3|1.1MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|1.1MB/s
+- name: 🇬🇧GB_1|2.1MB/s
   password: None
   port: 443
   server: 185.235.0.66
@@ -92,39 +7,11 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_5|1.3MB/s
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_6|1.1MB/s
+- name: 🇬🇧GB_2|2.1MB/s
   password: None
-  port: 443
-  server: 37.120.233.18
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_8|3.1MB/s
-  port: 443
-  server: 167.172.50.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_9|3.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: BdeR8uX-3h1abalwS7EkOnRkqf2dKz2zYTy7lIPBNzQ
-    short-id: '!!str f9a2e6c4b1d83570'
-  server: 213.193.252.99
-  servername: admin.greystart.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: a4f0558a-3601-42b5-be28-1341cb6877dc
-  xudp: true
