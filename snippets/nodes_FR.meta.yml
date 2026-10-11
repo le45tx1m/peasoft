@@ -1,15 +1,38 @@
 proxies:
-- name: 🇫🇷FR_1|1.6MB/s
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: fr5grpc
+  name: 🇫🇷FR_1|2.1MB/s
+  network: grpc
+  port: 8443
+  server: 37.49.230.85
+  servername: fr5.sodahub.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6db98c5-9959-425e-9340-300779fc4e4b
+- fingerprint: ''
+  name: 🇫🇷FR_5|2.5MB/s
   password: github.com/Alvin9999-newpac/fanqiang
-  port: 30099
+  port: '30099'
   server: ip5.934618.xyz
-  skip-cert-verify: true
-  sni: ip5.934618.xyz
+  skip-cert-verify: false
+  sni: ''
   type: anytls
   udp: true
-- name: 🇫🇷FR_2|1.6MB/s
+  username: github.com/Alvin9999-newpac/fanqiang
+- name: 🇫🇷FR_3|1.2MB/s
   port: 9443
   server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_4|4.4MB/s
+  port: 443
+  server: 82.66.235.221
   skip-cert-verify: true
   tls: true
   type: http
