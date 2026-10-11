@@ -1,7 +1,15 @@
 proxies:
-- name: 🇫🇷FR_1|2.9MB/s
+- name: 🇫🇷FR_1|1.6MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  skip-cert-verify: true
+  sni: ip5.934618.xyz
+  type: anytls
+  udp: true
+- name: 🇫🇷FR_2|1.6MB/s
   port: 9443
-  server: 138.199.47.247
+  server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
