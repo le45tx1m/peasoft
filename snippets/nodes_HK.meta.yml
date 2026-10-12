@@ -120,3 +120,8 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 🇭🇰HK_1|1.1MB/s
+  port: 5555
+  server: 49.0.245.175
+  skip-cert-verify: true
+  type: socks5

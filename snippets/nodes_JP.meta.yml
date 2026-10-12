@@ -52,3 +52,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1|5.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: UV7__YdzfWp-3GchdNfcEYBT4__lSrV1lTm4fas_EnQ
+    short-id: '!!str 4160be8d5de9b80f'
+  server: 47.74.25.186
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cbd9b987-5c4e-4e1e-98a7-c536a2ef9b4c
+  xudp: true
