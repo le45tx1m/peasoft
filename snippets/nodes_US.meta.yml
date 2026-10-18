@@ -55,10 +55,23 @@ proxies:
   type: trojan
 - name: 🇺🇸US_1|1.5MB/s
   port: 443
-  server: 149.22.88.65
+  server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_2|2.5MB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: aes-256-gcm
+  name: 🇺🇸US_3|1.2MB/s
+  password: bwLa2026x9KpQzRt7Nv
+  port: '443'
+  server: 104.36.66.212
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
