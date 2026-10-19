@@ -54,33 +54,6 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: 🇺🇸US_1|1.4MB/s
-  network: ws
-  port: 443
-  server: jjkkll.ccwu.cc
-  servername: jjkkll.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 49ef59c5-3491-4cba-824d-0fc76133f67c
-  ws-opts:
-    headers:
-      Host: jjkkll.ccwu.cc
-    path: /anime/travel/settings/proxyip=103.170.233.213,151.241.5.88,45.95.212.117,154.31.113.22,103.53.80.24,45.63.124.130,150.230.212.247?ed=2560
-- name: 🇺🇸US_2|1.9MB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.4MB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
   network: tcp

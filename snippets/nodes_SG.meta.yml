@@ -37,10 +37,39 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|4.6MB/s
+- name: 🇸🇬SG_1|1.4MB/s
+  password: 21b60363-271b-49f0-975b-dbe315215164
+  port: 18082
+  server: 1sw-olo.wjwhi90.com
+  skip-cert-verify: true
+  sni: hdzsg.wjwhi90.com
+  type: anytls
+  udp: true
+- name: 🇸🇬SG_2|1.8MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.212.55.110
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_3|4.6MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 52.221.234.145
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_4|1.2MB/s
+  password: ''
+  port: '7001'
+  server: 116.237.180.55
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇸🇬SG_5|4.8MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 18.143.176.211
+  server: 54.169.228.182
   skip-cert-verify: true
   type: http
   username: '1234'

@@ -1,7 +1,1 @@
-proxies:
-- name: 🇨🇦CA_1|1019KB/s
-  port: 9443
-  server: 198.44.157.27
-  skip-cert-verify: true
-  tls: true
-  type: http
+proxies: []
