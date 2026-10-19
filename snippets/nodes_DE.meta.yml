@@ -27,36 +27,24 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|3.2MB/s
+- name: 🇩🇪DE_1|1.3MB/s
   password: None
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|2.6MB/s
+  username: null
+- name: 🇩🇪DE_2|1.4MB/s
   port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|2.5MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|2.3MB/s
-  port: 9443
-  server: 79.127.156.177
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|3.0MB/s
+  name: 🇩🇪DE_3|2.2MB/s
   network: raw
   port: '443'
   reality-opts:
@@ -68,21 +56,4 @@ proxies:
   type: vless
   udp: true
   uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_7|3.5MB/s
-  network: ws
-  port: '2053'
-  server: 172.67.76.128
-  servername: kkkk-xcd.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /
   xudp: true
