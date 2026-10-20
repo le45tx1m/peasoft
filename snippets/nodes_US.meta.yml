@@ -61,113 +61,19 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- encryption: none
-  name: 🇺🇸US_1|1.7MB/s
-  network: ws
-  port: '8880'
-  server: 89.116.180.40
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_2|1.4MB/s
-  network: ws
-  port: '8880'
-  server: 23.227.39.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime17.workers.dev
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /
-  xudp: true
-- name: 🇺🇸US_3|2.0MB/s
-  network: ws
-  port: '8880'
-  server: 103.169.142.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /
-  xudp: true
-- name: 🇺🇸US_4|1.2MB/s
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|4.0MB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|2.0MB/s
+- name: 🇺🇸US_1|1.4MB/s
   port: 443
   server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_7|1.1MB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|2.2MB/s
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|1.8MB/s
+- name: 🇺🇸US_2|1.0MB/s
   password: ''
-  port: 9443
-  server: 38.95.111.226
+  port: '1080'
+  server: 52.128.241.107
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  type: socks5
   username: ''
-- name: 🇺🇸US_10|1.4MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|2.6MB/s
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_12|1.4MB/s
-  port: 8443
-  server: 18.206.28.143
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|2.8MB/s
-  port: 443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: US_speednode_0022
   network: ws
   port: 80
