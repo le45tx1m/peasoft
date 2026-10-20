@@ -1,38 +1,41 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.9MB/s
-  network: ws
-  port: 8443
-  server: speedtest.org
-  servername: pbsjv.megalionzone-vexina.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: c3571d81-38bd-44a8-9b75-5af8a125fc42
-  ws-opts:
-    headers:
-      Host: pbsjv.megalionzone-vexina.sbs
-    path: /bala
-- name: 🇫🇷FR_2|2.5MB/s
+- name: 🇫🇷FR_1|1.1MB/s
   port: 9443
-  server: 138.199.47.247
+  server: 213.139.9.142
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_3|3.0MB/s
+- name: 🇫🇷FR_2|1.4MB/s
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_4|2.4MB/s
-  port: 443
-  server: 82.66.235.221
+- name: 🇫🇷FR_3|1.3MB/s
+  port: 8090
+  server: 80.124.109.22
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇫🇷FR_4|1.6MB/s
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇫🇷FR_5|4.1MB/s
+  network: grpc
+  port: '443'
+  server: 88.218.42.101
+  servername: league-stats.russsport.life
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3dced3a1-6510-4c38-afce-df5fea5ba13a
+  xudp: true
 - name: FR_speednode_0005
   port: 443
   server: 82.65.162.76

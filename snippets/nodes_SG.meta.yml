@@ -38,30 +38,52 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: 🇸🇬SG_1|2.5MB/s
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 139.180.146.200
-  skip-cert-verify: true
-  type: trojan
+  encryption: none
+  name: 🇸🇬SG_1|1.2MB/s
+  network: ws
+  port: '443'
+  server: 8.35.211.185
+  servername: go.iranfree.de5.net
+  tls: true
+  type: vless
   udp: true
-- name: 🇸🇬SG_2|2.6MB/s
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  ws-opts:
+    headers:
+      Host: go.iranfree.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /
+  xudp: true
+- name: 🇸🇬SG_2|1.2MB/s
   port: 9443
-  server: 152.233.9.239
+  server: 149.88.99.209
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: rc4-md5
-  name: 🇸🇬SG_3|1.3MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: '8080'
-  server: 128.1.186.73
-  type: ss
   udp: true
-- name: 🇸🇬SG_4|1.0MB/s
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_3|1.3MB/s
+  network: ws
+  port: '8443'
+  server: 187.52.127.204
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  xudp: true
+- name: 🇸🇬SG_4|3.9MB/s
   password: '!!str 1234'
   port: '2080'
-  server: 13.212.190.30
+  server: 13.229.57.163
   skip-cert-verify: true
   type: http
   username: '1234'
