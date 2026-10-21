@@ -52,20 +52,6 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|4.9MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1ICcfKdmQI8EpyAD4xsyG8tYMQ-D2En-vUzD-GGM6Qc
-    short-id: '!!str 6c96'
-  server: 216.23.83.153
-  servername: www.oracle.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 982edbef-3c5b-486f-baf3-813a1f8ad660
 - name: JP_speednode_0011
   port: 343
   server: 133.18.200.207
@@ -73,3 +59,18 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_2|2.3MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Z7B8VKvjAiBH93XEkHFWCVBfK8Mu5HTLtAwfr5LuYlk
+    short-id: '!!str 67c9e7da12d2'
+  server: speedjapga1.xyy123.win
+  servername: amzn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9290643b-1a90-4357-b9b5-b47eacbffc0e
+  xudp: true
