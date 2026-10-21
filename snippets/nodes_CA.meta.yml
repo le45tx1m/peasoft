@@ -1,7 +1,1 @@
-proxies:
-- name: 🇨🇦CA_1|1.1MB/s
-  port: 443
-  server: 35.183.131.26
-  skip-cert-verify: true
-  tls: true
-  type: http
+proxies: []
