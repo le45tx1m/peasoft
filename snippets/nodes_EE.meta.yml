@@ -1,21 +1,15 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇪🇪EE_1|1.3MB/s
+- name: 'A - 🇪🇪 EE 01 TG: @nodpai'
   network: ws
-  port: 8443
-  server: est.luxes.network
-  servername: est.luxes.network
-  tls: true
+  port: 8880
+  server: 45.80.110.50
   type: vless
-  udp: true
-  uuid: a9e5d7ed-ce1a-48eb-9767-4de54fcfaba7
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: est.luxes.network
-    path: /assets
-- name: 🇪🇪EE_2|2.6MB/s
+      Host: vms.lifetime51.workers.dev
+    path: /?ed=2560
+- name: 🇪🇪EE_1|1.7MB/s
   password: None
   port: 9443
   server: 95.153.31.66
