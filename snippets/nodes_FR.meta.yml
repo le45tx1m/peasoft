@@ -1,9 +1,12 @@
 proxies:
-- name: 🇫🇷202290 | ⚡️Telegram = t.me/S...
-  password: 1953e43b-605c-4262-83eb-41a80646b801
-  port: 443
-  server: 31.185.105.12
-  sni: fr.song69.fun
+- name: 🇫🇷FR-🚀@VPNine1
+  obfs: salamander
+  obfs-password: ad7088dafb02115c
+  password: 418ddc75-aa9c-4e5d-a9a3-82c50a5a02b6
+  port: 20222
+  server: 51.75.118.5
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: FR_speednode_0008
