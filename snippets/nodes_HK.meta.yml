@@ -110,7 +110,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇭🇰HK_1|4.7MB/s
+- name: 🇭🇰HK_1|1.4MB/s
   password: None
   port: 31343
   server: 120.232.204.58
