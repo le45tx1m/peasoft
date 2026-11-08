@@ -128,12 +128,35 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- name: 🇸🇬SG_1|2.7MB/s|K001-260618
-  password: ''
-  port: 9090
-  server: 159.223.41.216
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  type: http
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|1.1MB/s
+  network: ws
+  port: 8443
+  server: cf.090227.xyz
+  servername: liusuyan.cc.cd
+  tls: true
+  type: vless
   udp: true
-  username: ''
+  uuid: 889fa37f-6bce-4674-8a49-1cc435e11de7
+  ws-opts:
+    headers:
+      Host: liusuyan.cc.cd
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_2|2.6MB/s
+  network: ws
+  port: '443'
+  server: 188.164.248.110
+  servername: imanvipreserved.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  ws-opts:
+    headers:
+      Host: imanvipreserved.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /
+  xudp: true

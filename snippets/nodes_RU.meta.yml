@@ -1,18 +1,18 @@
 proxies:
-- name: 🇷🇺RU_1|4.1MB/s
+- name: 🇷🇺RU_1|1.7MB/s
   password: None
   port: 1446
   server: 46.29.166.134
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇷🇺RU_2|1.1MB/s
-  port: 8443
-  server: 87.242.85.187
+- name: 🇷🇺RU_2|1.6MB/s
+  password: ''
+  port: '3128'
+  server: 156.59.9.65
   skip-cert-verify: true
-  tls: true
   type: http
+  username: ''
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU_speednode_0029
