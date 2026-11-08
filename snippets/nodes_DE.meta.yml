@@ -1,10 +1,12 @@
 proxies:
-- name: 🇩🇪209673 | ⚡️Telegram = t.me/L...
-  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  port: 443
-  server: 144.31.221.57
+- name: 'Telegram@vpnjey #5'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: vpnJey
+  port: 36264
+  server: 179.61.138.145
   skip-cert-verify: true
-  sni: player.wwwinternetvideo.click
+  sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
@@ -69,85 +71,19 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.gamsBJiUbGb-5RA4-tFL9_fkSCAAPnyduBmUDKIH_Fc
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇩🇪DE_1|1.4MB/s
-  network: xhttp
-  port: '443'
-  server: 146.75.57.111
-  servername: community.fastly.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc66f7b1-2ca2-4078-a520-4cab4f2f731e
-  xhttp-opts:
-    host: konokshwyeuueushsjskkknd.global.ssl.fastly.net
-    mode: auto
-    path: /configure/services/vzQ6lbMCPkOKGnZN5uJR3e/versions/2/domains
-  xudp: true
-- name: 🇩🇪DE_2|1.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_6|3.4MB/s
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_4|1.6MB/s
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|3.2MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_7|2.7MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_8|2.1MB/s
-  network: xhttp
-  port: '61374'
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|1.1MB/s
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-    short-id: '!!str '
-  server: pl-b1.golangwikito.cfd
-  servername: pl-b1.golangwikito.cfd
+    public-key: 5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8
+    short-id: '!!str 2c9a2790ad5900b2'
+  server: 64.188.66.181
+  servername: ge-s-1.pythonmakemigreat.wiki
   tls: true
   type: vless
-  udp: true
   uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  xhttp-opts:
-    host: pl-b1.golangwikito.cfd
-    mode: packet-up
-    path: /
-    reuse-settings:
-      max-connections: '3'
-    x-padding-bytes: 100-500
-  xudp: true
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

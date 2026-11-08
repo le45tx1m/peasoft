@@ -82,105 +82,28 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 99f2107b03f8
-  name: 🇺🇸US_1|1.6MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: '!!str bd8f712209a9c283'
-  server: 0592efg.us9.h1clayd.click
-  servername: 0592efg.us9.h1clayd.click
+- name: 🇺🇸US_1|3.1MB/s
+  port: 8443
+  server: 45.145.73.240
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-- client-fingerprint: firefox
-  name: 🇺🇸US_2|1013KB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: '!!str ba2a3dce62b99092'
-  server: 04535dt.us9.h1clayd.click
-  servername: 04535dt.us9.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  type: http
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_3|1.3MB/s
-  network: ws
-  port: '2083'
-  server: 172.66.47.45
-  servername: wk1.f1w.de5.net
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|4.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Njwb7fCl8PXKOs3owDB-gjzbmEyEewlL6JlMKwMTUQc
+    short-id: '!!str b46b142b'
+  server: 154.26.188.52
+  servername: www.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: wk1.f1w.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_4|2.1MB/s
-  password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
-  port: 1080
-  server: twichcom.plus-hit.ru
-  type: ss
-  udp: true
-- name: 🇺🇸US_5|3.5MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|3.5MB/s
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_7|1.9MB/s
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|2.8MB/s
-  password: None
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|2.9MB/s
-  password: None
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|1.8MB/s
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|2.0MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117
@@ -188,71 +111,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_13|2.3MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_14|1.8MB/s
-  password: None
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|3.5MB/s
-  password: None
-  port: 443
-  server: 23.133.176.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_16|1.1MB/s
-  password: None
-  port: 8090
-  server: 184.188.139.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_17|1.3MB/s
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇺🇸US_18|1.3MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: LsaTohbE6CqCH9UbYKwIybVXG3E5Wgz_X9czqas2LAI
-    short-id: '!!str 9acff4d98e2fbcc6'
-  server: 196.245.52.190
-  servername: 35295cx.us9.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  xhttp-opts:
-    path: /1812842934d4
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_19|4.1MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-  port: '443'
-  server: 7be5fe79-tmm5c0-ttx5yr-1j0y6.los.hyhuawei.com
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-  up: ''
 - name: US_speednode_0040
   port: 443
   server: 38.247.141.135
