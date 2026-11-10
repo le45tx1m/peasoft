@@ -44,14 +44,35 @@ proxies:
   tls: false
   type: vless
   uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
-- auth: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
-  name: 🇩🇪DE_1|2.0MB/s
-  password: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
+- name: 🇩🇪DE_1|3.3MB/s
+  password: None
   port: 443
-  server: 194.48.250.233
+  server: 152.233.20.206
   skip-cert-verify: true
-  sni: mol.ultimagamest.com
-  type: hysteria2
+  tls: true
+  type: http
+- name: 🇩🇪DE_2|3.4MB/s
+  password: 'null'
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇩🇪DE_3|1.5MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|2.4MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
@@ -59,3 +80,56 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: DK_speednode_0005
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DK_speednode_0006
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_8|1.2MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|3.8MB/s
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_10|1.8MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_11|3.2MB/s
+  network: xhttp
+  port: '443'
+  server: neeee.kpt99.uk
+  servername: neeee.kpt99.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38de3363-7945-402e-9a9b-6f2f9015a44e
+  xhttp-opts:
+    host: neeee.kpt99.uk
+    mode: stream-one
+    path: /static/js/chunk
+  xudp: true

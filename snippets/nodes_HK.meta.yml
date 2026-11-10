@@ -66,3 +66,17 @@ proxies:
   tls: false
   type: vless
   uuid: 206a8ff5-75a9-4191-8688-9e107d6f6c9d
+- name: 🇭🇰HK_1|4.7MB/s
+  password: None
+  port: 31343
+  server: 120.232.204.58
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇭🇰HK_2|4.7MB/s
+  password: '!!str 111'
+  port: '11408'
+  server: 47.76.186.28
+  skip-cert-verify: true
+  type: socks5
+  username: '111'

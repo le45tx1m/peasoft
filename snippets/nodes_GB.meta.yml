@@ -1,9 +1,42 @@
 proxies:
-- name: 🇬🇧GB_1|1.5MB/s
+- name: 🇬🇧GB_1|2.3MB/s
   password: None
-  port: 443
-  server: 185.164.138.156
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- name: 🇬🇧GB_2|2.6MB/s
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_3|3.0MB/s
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇬🇧GB_4|2.1MB/s
+  password: None
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 🇬🇧GB_5|1.5MB/s
+  network: tcp
+  password: 5t6i121em5lkmsmk
+  port: '29813'
+  server: en001.zestapp778.com
+  skip-cert-verify: true
+  sni: en001.zestapp778.com
+  type: trojan
+  udp: true
