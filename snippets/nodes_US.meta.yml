@@ -90,27 +90,19 @@ proxies:
   tls: false
   type: vless
   uuid: d8af34bf-d02f-4fe2-8063-386635d026ae
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|3.1MB/s
-  network: tcp
-  port: '34759'
-  reality-opts:
-    public-key: H0AETHQQIsu1c7ZHZ5RUgNaLYIVdMI6gJlMaBLBeX3o
-    short-id: '!!str 5e0eb283246c6911'
-  server: dddz-1-x.473221.xyz
-  servername: v1-dy.ixigua.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  xudp: true
+- auth: 64c05afc-ce81-4ba0-b697-afa04da1427e
+  name: 🇺🇸US_1|1.7MB/s
+  password: 64c05afc-ce81-4ba0-b697-afa04da1427e
+  port: 44443
+  server: 104.168.6.236
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
 - alpn:
   - h3
   auth-str: github.com/Alvin9999-newpac/fanqiang
   down: '55'
-  name: 🇺🇸US_2|1.2MB/s
+  name: 🇺🇸US_2|1.0MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 22335
   server: 198.200.57.142
@@ -120,66 +112,6 @@ proxies:
   tls: true
   type: hysteria
   up: '11'
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_3|3.1MB/s
-  port: 34759
-  reality-opts:
-    public-key: H0AETHQQIsu1c7ZHZ5RUgNaLYIVdMI6gJlMaBLBeX3o
-    short-id: '!!str 5e0eb283246c6911'
-  server: dddz-1-x.473221.xyz
-  servername: v1-dy.ixigua.com
-  skip-cert-verify: true
-  sni: v1-dy.ixigua.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-- name: 🇺🇸US_4|1.6MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_5|1.3MB/s
-  password: None
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_6|3.1MB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|1.2MB/s
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1.3MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 🇺🇸US_10|1.5MB/s
-  network: tcp
-  password: a75243d0f5c2e31bd6c8c118b4f6442f81ad
-  port: '443'
-  server: 176.122.173.224
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117
