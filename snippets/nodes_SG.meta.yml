@@ -1,4 +1,12 @@
 proxies:
+- name: 🇸🇬217490 | ⚡️Telegram = t.me/L...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.179.113.70
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls: false
+  type: hysteria2
 - name: 🇸🇬214601 | ⚡️Telegram = t.me/v...
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
@@ -39,18 +47,3 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|2.8MB/s
-  network: tcp
-  port: '30322'
-  reality-opts:
-    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
-    short-id: '!!str 6a60e7e382d6'
-  server: win2loxfde0202.gggrelay.org
-  servername: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  xudp: true

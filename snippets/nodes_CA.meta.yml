@@ -1,10 +1,1 @@
-proxies:
-- name: 🇨🇦CA_1|1.7MB/s|R002-260618
-  port: 443
-  server: 206.223.183.16
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
+proxies: []

@@ -1,15 +1,1 @@
-proxies:
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: 🇸🇪SE_1|1.3MB/s
-  obfs: salamander
-  obfs-password: vxvnmus9agdzduvz
-  password: Telegram--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X-
-  port: '26206'
-  server: m1.config7x.kz.ci
-  skip-cert-verify: false
-  sni: config7x.de5.net
-  type: hysteria2
-  up: ''
+proxies: []
