@@ -129,38 +129,42 @@ proxies:
   sni: ssl.fastly.com
   type: trojan
   udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_1|1.1MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.81
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_2|1.5MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.36
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_3|1.6MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.54
+  type: ss
+  udp: true
 - alpn:
   - ''
-  alterId: 0
+  alterId: '0'
   cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /3x
-  name: 🇨🇭CH_1|2.7MB/s
-  network: http
-  port: 42831
-  server: 179.43.140.24
-  skip-cert-verify: true
+  name: 🇺🇸US_2|1.4MB/s
+  network: ws
+  port: '80'
+  server: www.speedtest.net
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸US_1|1.5MB/s
-  network: ws
-  port: 30004
-  server: 192.74.236.148
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 6fa9def2-edcb-4348-b012-6622c959a620
   ws-opts:
     headers:
-      Host: www.91334565.xyz
-    path: /path/1733477783705
+      Host: prairie-formats-holland-bundle.trycloudflare.com
+    path: /@ferdolans7
+  xudp: true
