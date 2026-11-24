@@ -1,14 +1,5 @@
 proxies:
-- name: 🔰33@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: S4iBMpc3aIzLC1c-6fE6rU15ZzXyfjr0ciGdh0A3alI
-  password: 247802ca-0fbb-428a-b807-91a6e571b5c7
-  port: 443
-  server: 166.0.28.140
-  sni: static-de.snobmenu.xyz
-  tls: false
-  type: hysteria2
-- name: 🇩🇪DE_1|1.8MB/s|P002-260618
+- name: 🇩🇪DE_1|1.3MB/s|P002-260618
   password: None
   port: 443
   server: 172.64.68.89
@@ -33,3 +24,55 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: DK_speednode_0004
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DK_speednode_0005
+  password: None
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DK_speednode_0006
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- encryption: mlkem768x25519plus.native.0rtt.xVKXiaXMBl2LULWjDWyoduB5RcOKfKsqKauMhCo-Vj0
+  name: 🇩🇪DE_7|1.2MB/s
+  network: ws
+  port: 5080
+  server: vip.orbxnet.ru
+  tls: false
+  type: vless
+  udp: true
+  uuid: b51f6369-b2ab-4dd6-a2e8-d0748f3da1f2
+  ws-opts:
+    headers:
+      Host: vip.orbxnet.shop
+    path: /
+- name: 🇩🇪DE_8|3.0MB/s|P002-260618
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sni: 172.64.68.89
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇩🇪DE_9|3.5MB/s
+  password: ''
+  port: '3128'
+  server: 172.236.213.178
+  skip-cert-verify: true
+  type: http
+  username: ''

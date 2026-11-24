@@ -43,12 +43,14 @@ proxies:
     path: /
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: 🇭🇰 香港|@ripaojiedian
+  name: 🇭🇰HK_1|1.2MB/s
   password: 0324fbc29561
   port: 443
   server: 5641sdds.df6h451rh.xin
+  servername: images.ctfassets.net
   skip-cert-verify: true
   sni: images.ctfassets.net
+  tls: true
   type: anytls
   udp: true
 - client-fingerprint: chrome

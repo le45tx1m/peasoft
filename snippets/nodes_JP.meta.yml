@@ -1,11 +1,4 @@
 proxies:
-- name: ' 🇯🇵 20@exclavevpn'
-  password: gG1JyjbJgDmEMvdTgcD9wVOS
-  port: 443
-  server: 35.221.91.82
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: 日本|@ripaojiedian
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -151,3 +144,39 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
+- auth: 5dc783605a6829f831a21d86bb913c7a
+  name: 🇯🇵JP_1|1.3MB/s
+  password: 5dc783605a6829f831a21d86bb913c7a
+  port: 443
+  server: 64.204.49.143
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 🇯🇵JP_2|2.8MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo102-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 🇯🇵JP_3|3.3MB/s
+  password: J5rM2xL9
+  port: '42000'
+  server: 103.248.150.238
+  skip-cert-verify: true
+  type: socks5
+  username: tB4vN7qP
+- name: 🇯🇵JP_4|1.3MB/s
+  password: ''
+  port: '1080'
+  server: 218.52.200.62
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇯🇵JP_5|2.1MB/s
+  password: ''
+  port: '3001'
+  server: 43.133.21.24
+  skip-cert-verify: true
+  type: socks5
+  username: ''
