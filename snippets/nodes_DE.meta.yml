@@ -1,4 +1,66 @@
 proxies:
+- client-fingerprint: chrome
+  name: 🇩🇪 德国2|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 49.13.31.189
+  servername: senflarelink-node-c43.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-c43.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|1.7MB/s
+  network: ws
+  port: 8443
+  server: 178.104.77.229
+  servername: senflarelink-node-m3bfbn.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-m3bfbn.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  flow: ''
+  name: 德国2|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 49.13.31.189
+  servername: senflarelink-node-c43.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-c43.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  name: 德国|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 178.104.77.229
+  servername: senflarelink-node-m3bfbn.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-m3bfbn.pages.dev
+    path: '%2F'
 - name: 🇩🇪DE_1|1.3MB/s|P002-260618
   password: None
   port: 443
@@ -16,6 +78,32 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 🇩🇪DE_5|2.3MB/s
+  password: ''
+  port: '443'
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sni: 172.64.68.89
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- alpn:
+  - h3
+  down: ''
+  fingerprint: ''
+  name: 🇩🇪DE_4|2.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: '13337'
+  server: 128.254.186.190
+  skip-cert-verify: false
+  sni: mother-earth.fyi
+  type: hysteria2
+  up: ''
 - name: DE_speednode_0003
   password: None
   port: 443
@@ -24,55 +112,3 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: DK_speednode_0004
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DK_speednode_0005
-  password: None
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DK_speednode_0006
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: mlkem768x25519plus.native.0rtt.xVKXiaXMBl2LULWjDWyoduB5RcOKfKsqKauMhCo-Vj0
-  name: 🇩🇪DE_7|1.2MB/s
-  network: ws
-  port: 5080
-  server: vip.orbxnet.ru
-  tls: false
-  type: vless
-  udp: true
-  uuid: b51f6369-b2ab-4dd6-a2e8-d0748f3da1f2
-  ws-opts:
-    headers:
-      Host: vip.orbxnet.shop
-    path: /
-- name: 🇩🇪DE_8|3.0MB/s|P002-260618
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sni: 172.64.68.89
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_9|3.5MB/s
-  password: ''
-  port: '3128'
-  server: 172.236.213.178
-  skip-cert-verify: true
-  type: http
-  username: ''
